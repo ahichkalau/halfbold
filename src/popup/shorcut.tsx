@@ -19,15 +19,6 @@ export function useShortcut() {
 
 	return shortcut;
 }
-export function ShortcutGuide() {
-	const shortcutGuide = (
-		<a href="https://jiffyreader.com/api/destinations/readme_shortcut" target="_blank">
-			How to setup custom shortcut
-		</a>
-	);
-	const shortcut = useShortcut();
-	return shortcut ? <></> : shortcutGuide;
-}
 
 export default function Shortcut() {
 	const shortcut = useShortcut();

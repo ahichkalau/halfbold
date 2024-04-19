@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"ใช้การตั้งค่า","description":"ป้ายชื่อสําหรับ (ปุ่มการตั้งค่าส่วนกลางหรือไซต์สลับ"},"tipsPopupTriggerLabel":{"message":"เคล็ด ลับ","description":"ป้ายชื่อสําหรับ (ปุ่มการตั้งค่าส่วนกลางหรือไซต์สลับ"},"globalPreferenceToggleBtnText":{"message":"สากล","description":"ข้อความหลักสําหรับปุ่มสลับการตั้งค่าส่วนกลาง"},"globalPreferenceToggleBtnSubText":{"message":"เริ่ม ต้น","description":"ข้อความย่อยของปุ่มการตั้งค่าส่วนกลาง"},"sitePreferenceToggleBtnText":{"message":"สถานที่","description":"ข้อความหลักสําหรับปุ่มสลับการตั้งค่าไซต์"},"sitePreferenceToggleBtnSubText":{"message":"สําหรับเว็บไซต์นี้","description":"ข้อความย่อยของปุ่มการตั้งค่าส่วนกลาง"},"onOffToggleBtnTextDisable":{"message":"เก","description":"บนOffToggleBtnข้อความปุ่มที่เปิดเผยได้"},"onOffToggleBtnTextEnable":{"message":"เปิด","description":"บนOffToggleBtnข้อความข้อความปุ่มเปิดใช้งานได้"},"onOffToggleBtnSubText":{"message":"โหมดการอ่าน","description":"ข้อความสําหรับ onOffToggleBtnSubText"},"shortcutLabelText":{"message":"ทางลัดเริ่มต้น","description":"ข้อความสําหรับ onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"ทางลัดเริ่มต้นสําหรับ Chrome"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"ทางลัดเริ่มต้นสําหรับ Firefox"},"saccadesIntervalLabel":{"message":"ช่วงเวลา saccades","description":"ป้ายชื่อสําหรับแถบเลื่อนช่วง saccades"},"fixationsStrengthLabel":{"message":"ความแข็งแรงตรึง","description":"ฉลากสําหรับตัวเลื่อนความแข็งแรงตรึง"},"fixationsEdgeOpacityLabel":{"message":"การตรึงความทึบแสงขอบ","description":"ป้ายชื่อสําหรับการตรึงตัวเลื่อนความทึบของขอบ"},"saccadesColorLabel":{"message":"สีแซคเคดส์","description":"ป้ายชื่อสําหรับแบบหล่นลงสี saccade"},"saccadesStyleLabel":{"message":"รูปแบบ saccades","description":"ป้ายชื่อสําหรับแบบหล่นลงสไตล์ saccade"},"lineHeightTogglesLabel":{"message":"ความสูงของเส้น","description":"ป้ายชื่อสําหรับปุ่มความสูงของเส้นที่เล็กลงและใหญ่ขึ้น"},"smallerLineHeightBtnText":{"message":"aa-","description":"ข้อความสําหรับปุ่ม"},"smallerLineHeightBtnSubText":{"message":"ขนาด เล็ก","description":"ข้อความย่อยสําหรับปุ่ม"},"largerLineHeightBtnText":{"message":"เอเอ+","description":"ข้อความสําหรับปุ่ม"},"largerLineHeightBtnSubText":{"message":"ขนาด ใหญ่","description":"ข้อความย่อยสําหรับปุ่ม"},"defaultBionicModeToggleBtnOffText":{"message":"ปิดเสมอ","description":"ข้อความสําหรับปุ่ม"},"defaultBionicModeToggleBtnOnText":{"message":"เปิดเสมอ","description":"ข้อความสําหรับปุ่ม"},"defaultBionicModeToggleBtnSubText":{"message":"การตั้งค่าการสลับเริ่มต้น","description":"ข้อความย่อยสําหรับปุ่ม"},"resetBtnText":{"message":"รีเซ็ตเป็นการตั้งค่าที่เหมาะสมที่สุด","description":"ข้อความสําหรับปุ่ม"},"faqLinkText":{"message":"คำถามที่ถามบ่อย","description":"ข้อความลิงก์"},"reportIssueLinkText":{"message":"รายงานปัญหา","description":"ข้อความลิงก์"},"aboutUsLinkText":{"message":"เว็บไซต์","description":"ข้อความลิงก์"},"dataEntryMessage":{"message":"ปิดถ้าโปรแกรมอ่าน jiffy รบกวนการป้อนข้อมูล","description":"ข้อความ"},"googlePlayLinkSecondaryText":{"message":"รองรับการอ่าน","description":"ข้อความ"},"urlPromptText":{"message":"แท็บที่ไม่มี URL อาจทํางานไม่ถูกต้อง","description":"ข้อความ"},"reloadPromptText":{"message":"โหลดแท็บที่มี URL ที่ถูกต้องอีกครั้ง แล้วลองอีกครั้ง","description":"ข้อความ"},"translationHelpLinkText":{"message":"ช่วยเราในการแปล คลิกเพื่อเรียนรู้เพิ่มเติม","description":"ข้อความ"},"reloadText":{"message":"โหลด","description":"ข้อความ"},"openPermissionPageBtnText":{"message":"คลิกที่นี่เพื่อเปิดหน้าสิทธิ์","description":"ข้อความปุ่ม"},"missingPermissionHeaderText":{"message":"สิทธิ์ URL ของไฟล์หายไป","description":"ข้อความส่วนหัว"},"missingPermissionHeaderSubText":{"message":"ทําตามขั้นตอนด้านล่าง","description":"ข้อความย่อย"},"grantPermissionInstructionText":{"message":"ให้สิทธิ์ URL ของไฟล์","description":"ข้อความ"},"reloadPageAndExtensionInstructionText":{"message":"กลับมาแล้วลองเปิดส่วนขยายอีกครั้ง","description":"ข้อความ"},"pageNotSupportedHeaderText":{"message":"หน้านี้ไม่ได้รับการสนับสนุน","description":"ข้อความ"},"pageNotDetectedText":{"message":"ตรวจไม่พบหน้า","description":"ข้อความ"},"surveyPromptText":{"message":"ทําแบบสํารวจสั้น ๆ เพื่อช่วยเราปรับปรุง JR","description":"ข้อความ"}}
+{
+    "appDesc": {
+        "message": "Half Bold Chrome Extension: The ultimate ADHD reader with dyslexia fonts!"
+    },
+    "appName": {
+        "message": "Half Bold Chrome Extension"
+    },
+    "storeDesc": {
+        "message": "เปลี่ยนแปลงวิธีการใช้ชีวิตประจำวันด้วย half bold chrome extension - คำตอบที่ครอบคลุมทั้งหมดสำหรับการอ่านออนไลน์ของคุณ! กำลังของการแสดงผลตัวอักษรที่ชัดเจนและเข้าใจง่ายด้วยคุณสมบัติ half bold ที่นำมาใช้งานได้ง่ายด้วย Google Chrome extension นี้ \n\n\uD83D\uDEB0 มุมมองใหม่ด้วย Half Bold Extension\n\uD83D\uDCA1 สลับไปยัง half bold font ได้ง่ายด้วยการคลิกเพียงครั้งเดียว\n\uD83D\uDCA1 ปรับปรุงความสามารถในการอ่านด้วย half bold text\n\uD83D\uDCA1 ปรับปรุงประสบการณ์การอ่านออนไลน์ด้วย half bold extension chrome\n\n\uD83D\uDCDA ปรับปรุงการอ่านด้วย Dislexia Font\n1. ด้วย dislexia font ทำให้การอ่านง่ายขึ้นสำหรับผู้ที่มี Dyslexia\n2. สนุกกับการอ่านที่ไม่เครียดและสบายมากขึ้น\n3. ประสบการณ์ความชัดเจนของข้อความและลดความเครียดทางภาพด้วย dyslexic font\n\n\uD83D\uDD24 ปรับปรุงการอ่านด้วย Half Bold\n- คุณสมบัติ half bold จะทำให้ตัวอักษรแรกของแต่ละคำเป็นตัวหนา ทำให้การอ่านง่ายขึ้น\n- half bold extension chrome เหมาะสำหรับ adhd bold letter reading\n- ทำให้เนื้อหาดิจิตอลของคุณเข้าใจง่ายและเป็นมิตรต่อผู้ใช้ด้วยคุณสมบัติ half bold\n\n\uD83C\uDF10 ประสบการณ์การอ่านที่ไม่มีรอยต่อ\n▸ halfbold extension ให้ประสบการณ์การอ่านที่ไม่มีรอยต่อตามอุปกรณ์\n▸ รวมกับเครื่องมือและแอปที่มีอยู่แล้วของคุณเพื่อการจัดการที่เข้าใจง่าย\n▸ chrome extension half bold ทำให้คุณตระหนักรู้เสมอว่าคุณกำลังจะอ่านอะไรต่อไป\n\n\uD83D\uDC53 รับการอ่านที่ดีขึ้นด้วย ADHD Reading Font\n• การเตือนประจำวันสำหรับกิจกรรมที่เกี่ยวข้องกับสุขภาพ เช่น การออกกำลังกายและการพักผ่อน\n• ตัวอักษร adhd ทำให้การอ่านง่ายและสนุกมากขึ้น\n• adhd reading font ทำให้การอ่านของคุณมีความคาดหวังน้อยลง\n\n⏰ ทุกอย่างอยู่ในที่เดียว\n➤ เปลี่ยนเป็น half bold font ได้รวดเร็วสำหรับข้อความใด ๆ\n➤ ใช้คุณสมบัติ adhd reading bold letters เพื่อปรับปรุงความสามารถในการอ่าน\n➤ half bold extension ทำให้การอ่านง่ายขึ้น ทำให้คุณสามารถมุ่งเน้นไปที่เนื้อหา\n\nคุณสมบัติ halfbold ทำให้คุณสามารถจำงานที่สำคัญและกำหนดการที่กำลังจะมาถึงได้ง่ายขึ้น รักษาวันที่ส่วนตัวและวันครบรอบให้อยู่ในที่สูงสุด และยังสามารถสร้างแรงจูงใจในการทำงานให้ตัวเองด้วยฟังก์ชันการเตือนและจำของแอปของเรา\n\n\uD83C\uDF76 ทำให้ทุกวันมีความรับผิดชอบด้วย ADHD Reading App\n1. เริ่มต้นทุกวันด้วยงานอ่านและเป้าหมายใหม่\n2. ปรับแต่ง adhd reading extension ให้เหมาะสมกับสไตล์การอ่านของคุณ\n3. บรรลุผลมากขึ้นด้วยการวางแผนการอ่านและการเตือนที่มีโครงสร้าง\n4. เครื่องมือการวางแผนที่เข้าใจง่ายสำหรับการวางแผนวัน สัปดาห์ และเดือนของคุณ\n5. ตั้งค่าการเตือนเพื่อรวมเข้ากับปฏิทินส่วนบุคคลของคุณได้ง่าย\n6. ไม่พลาดวันที่สำคัญ การประชุม หรือเหตุการณ์ด้วยการแจ้งเตือนที่มีส่วนร่วม\n\n\uD83D\uDD70\uFE0F กลับมาครอบครองเวลาของคุณ\n➤ จัดลำดับงานอ่านของคุณด้วยการจัดเรียงและการเตือนที่ฉลาด\n➤ ให้เวลามากขึ้นกับสิ่งที่สำคัญจริง ๆ ด้วยการจัดการเวลาที่มีประสิทธิภาพ\n➤ สมดุลระหว่างการทำงาน สุขภาพ และชีวิตส่วนตัวด้วยการเตือนที่มีเวลาที่ถูกต้อง\n\n\uD83D\uDD11 เปิดประสบการณ์ที่สะดวกและมีประสิทธิภาพ\n❗\uFE0F เลือกจากหลากหลายโหมดการอ่าน: adhd reader, dyslexic friendly fonts และอื่น ๆ\n❗\uFE0F ปรับแต่งการแจ้งเตือนให้ตรงกับความชอบของคุณ\n❗\uFE0F สนุกกับส่วนต่อประสานที่ไม่มีความยุ่งเหยิงและออกแบบมาเพื่อการนำทางที่ตรงไปตรงมา\n\n\uD83C\uDFAF มุ่งหวังการปรับปรุงอย่างต่อเนื่อง\n① อัปเดตประจำตามคำติชมจากผู้ใช้\n② การปรับปรุงคุณสมบัติใหม่ เพื่อให้ตรงกับความต้องการที่เปลี่ยนแปลงของคุณ\n③ ความมุ่งมั่นที่เรามีในความเป็นเลิศทำให้ half bold chrome extension ยังคงเป็นตัวเลือกหลักของคุณ\n\n❤\uFE0F เริ่มต้นการเดินทางของคุณสู่การอ่านที่มีประสิทธิภาพมากขึ้น\nเข้าร่วมชุมชนของเราเพื่อปรับปรุงวิธีการอ่าน สุขภาพ และความสุขภาพทั่วไป ด้วย half bold extension คุณไม่ได้เพิ่มเครื่องมือเข้าไปในเบราว์เซอร์ของคุณเท่านั้น แต่คุณกำลังรับรู้วิถีชีวิตที่มีประสิทธิภาพและมีสติ ดาวน์โหลดทันทีสำหรับประสบการณ์การอ่านที่เปลี่ยนแปลง\n\n\uD83E\uDD14 คำถามที่พบบ่อยเกี่ยวกับ Chrome Extension ของเรา\n✨ ฉันสามารถซิงโครไนซ์โหมดการอ่านระหว่างอุปกรณ์ได้หรือไม่?\n\uD83D\uDD39 แน่นอน! ด้วย open dyslexic font chrome การตั้งค่าการอ่านของคุณจะซิงโครไนซ์ได้ราบรื่นเพื่อการแจ้งเตือนที่สอดคล้องกัน ไม่ว่าคุณจะอยู่ที่ไหน\n\n\uD83D\uDCF2 สิ่งที่ทำให้นี่แตกต่างจากเครื่องมือการอ่านอื่น ๆ คืออะไร?\n\uD83D\uDD39 แอปของเรารวมทุกส่วนของการอ่านของคุณ - dyslexic friendly fonts, adhd font extension และอื่น ๆ - ไว้ในแพลตฟอร์มเดียว ด้วยคุณสมบัติพิเศษเช่น adhd reading app นี่คือประสิทธิภาพที่เป็นส่วนตัวอย่างที่ไม่เคยมีมาก่อน\n\n\uD83C\uDF0D ฉันสามารถใช้แอปนี้สำหรับการเตือนในทุกๆเขตเวลาได้หรือไม่?\n\uD83D\uDD39 ใช่! แอปของเราถูกออกแบบเพื่อใช้งานระดับโลก ไม่ว่าคุณจะอยู่ที่ไหน ไม่ว่าเขตเวลาจะเป็นอย่างไร half bold extension จะคอยดูแลคุณ"
+    },
+    "preferenceLabel": {
+        "message": "ใช้การตั้งค่า",
+        "description": "ป้ายชื่อสําหรับ (ปุ่มการตั้งค่าส่วนกลางหรือไซต์สลับ"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "เคล็ด ลับ",
+        "description": "ป้ายชื่อสําหรับ (ปุ่มการตั้งค่าส่วนกลางหรือไซต์สลับ"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "สากล",
+        "description": "ข้อความหลักสําหรับปุ่มสลับการตั้งค่าส่วนกลาง"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "เริ่ม ต้น",
+        "description": "ข้อความย่อยของปุ่มการตั้งค่าส่วนกลาง"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "สถานที่",
+        "description": "ข้อความหลักสําหรับปุ่มสลับการตั้งค่าไซต์"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "สําหรับเว็บไซต์นี้",
+        "description": "ข้อความย่อยของปุ่มการตั้งค่าส่วนกลาง"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "เก",
+        "description": "บนOffToggleBtnข้อความปุ่มที่เปิดเผยได้"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "เปิด",
+        "description": "บนOffToggleBtnข้อความข้อความปุ่มเปิดใช้งานได้"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "โหมดการอ่าน",
+        "description": "ข้อความสําหรับ onOffToggleBtnSubText"
+    },
+    "shortcutLabelText": {
+        "message": "ทางลัดเริ่มต้น",
+        "description": "ข้อความสําหรับ onOffToggleBtnShortCutText"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "ทางลัดเริ่มต้นสําหรับ Chrome"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "ทางลัดเริ่มต้นสําหรับ Firefox"
+    },
+    "saccadesIntervalLabel": {
+        "message": "ช่วงเวลา saccades",
+        "description": "ป้ายชื่อสําหรับแถบเลื่อนช่วง saccades"
+    },
+    "fixationsStrengthLabel": {
+        "message": "ความแข็งแรงตรึง",
+        "description": "ฉลากสําหรับตัวเลื่อนความแข็งแรงตรึง"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "การตรึงความทึบแสงขอบ",
+        "description": "ป้ายชื่อสําหรับการตรึงตัวเลื่อนความทึบของขอบ"
+    },
+    "saccadesColorLabel": {
+        "message": "สีแซคเคดส์",
+        "description": "ป้ายชื่อสําหรับแบบหล่นลงสี saccade"
+    },
+    "saccadesStyleLabel": {
+        "message": "รูปแบบ saccades",
+        "description": "ป้ายชื่อสําหรับแบบหล่นลงสไตล์ saccade"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "ความสูงของเส้น",
+        "description": "ป้ายชื่อสําหรับปุ่มความสูงของเส้นที่เล็กลงและใหญ่ขึ้น"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "ข้อความสําหรับปุ่ม"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "ขนาด เล็ก",
+        "description": "ข้อความย่อยสําหรับปุ่ม"
+    },
+    "largerLineHeightBtnText": {
+        "message": "เอเอ+",
+        "description": "ข้อความสําหรับปุ่ม"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "ขนาด ใหญ่",
+        "description": "ข้อความย่อยสําหรับปุ่ม"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "ปิดเสมอ",
+        "description": "ข้อความสําหรับปุ่ม"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "เปิดเสมอ",
+        "description": "ข้อความสําหรับปุ่ม"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "การตั้งค่าการสลับเริ่มต้น",
+        "description": "ข้อความย่อยสําหรับปุ่ม"
+    },
+    "resetBtnText": {
+        "message": "รีเซ็ตเป็นการตั้งค่าที่เหมาะสมที่สุด",
+        "description": "ข้อความสําหรับปุ่ม"
+    },
+    "faqLinkText": {
+        "message": "คำถามที่ถามบ่อย",
+        "description": "ข้อความลิงก์"
+    },
+    "reportIssueLinkText": {
+        "message": "รายงานปัญหา",
+        "description": "ข้อความลิงก์"
+    },
+    "aboutUsLinkText": {
+        "message": "เว็บไซต์",
+        "description": "ข้อความลิงก์"
+    },
+    "dataEntryMessage": {
+        "message": "ปิดถ้าโปรแกรมอ่าน HalfBold รบกวนการป้อนข้อมูล",
+        "description": "ข้อความ"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "รองรับการอ่าน",
+        "description": "ข้อความ"
+    },
+    "urlPromptText": {
+        "message": "แท็บที่ไม่มี URL อาจทํางานไม่ถูกต้อง",
+        "description": "ข้อความ"
+    },
+    "reloadPromptText": {
+        "message": "โหลดแท็บที่มี URL ที่ถูกต้องอีกครั้ง แล้วลองอีกครั้ง",
+        "description": "ข้อความ"
+    },
+    "translationHelpLinkText": {
+        "message": "ช่วยเราในการแปล คลิกเพื่อเรียนรู้เพิ่มเติม",
+        "description": "ข้อความ"
+    },
+    "reloadText": {
+        "message": "โหลด",
+        "description": "ข้อความ"
+    },
+    "openPermissionPageBtnText": {
+        "message": "คลิกที่นี่เพื่อเปิดหน้าสิทธิ์",
+        "description": "ข้อความปุ่ม"
+    },
+    "missingPermissionHeaderText": {
+        "message": "สิทธิ์ URL ของไฟล์หายไป",
+        "description": "ข้อความส่วนหัว"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "ทําตามขั้นตอนด้านล่าง",
+        "description": "ข้อความย่อย"
+    },
+    "grantPermissionInstructionText": {
+        "message": "ให้สิทธิ์ URL ของไฟล์",
+        "description": "ข้อความ"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "กลับมาแล้วลองเปิดส่วนขยายอีกครั้ง",
+        "description": "ข้อความ"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "หน้านี้ไม่ได้รับการสนับสนุน",
+        "description": "ข้อความ"
+    },
+    "pageNotDetectedText": {
+        "message": "ตรวจไม่พบหน้า",
+        "description": "ข้อความ"
+    },
+    "surveyPromptText": {
+        "message": "ทําแบบสํารวจสั้น ๆ เพื่อช่วยเราปรับปรุง JR",
+        "description": "ข้อความ"
+    }
+}

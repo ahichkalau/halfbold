@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"brug præference","description":"etiket for (global knap eller knap til webstedspræferenceknap"},"tipsPopupTriggerLabel":{"message":"Tips","description":"etiket for (global knap eller knap til webstedspræferenceknap"},"globalPreferenceToggleBtnText":{"message":"global","description":"hovedtekst til global præferenceknap"},"globalPreferenceToggleBtnSubText":{"message":"standard","description":"undertekst til global præferenceknap"},"sitePreferenceToggleBtnText":{"message":"websted","description":"hovedtekst til til/fra-knap til webstedspræference"},"sitePreferenceToggleBtnSubText":{"message":"for dette websted","description":"undertekst til global præferenceknap"},"onOffToggleBtnTextDisable":{"message":"deaktivere","description":"onOffToggleBtnTextDebar knaptekst"},"onOffToggleBtnTextEnable":{"message":"muliggøre","description":"onOffToggleBtnTextEnable knaptekst"},"onOffToggleBtnSubText":{"message":"læsetilstand","description":"tekst til onOffToggleBtnSubText"},"shortcutLabelText":{"message":"standard genvej","description":"tekst til onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"standardgenvej til krom"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"standard genvej til firefox"},"saccadesIntervalLabel":{"message":"saccades interval","description":"etiket til saccader interval skyder"},"fixationsStrengthLabel":{"message":"fikseringer styrke","description":"etiket til skyderen til fikseringsstyrke"},"fixationsEdgeOpacityLabel":{"message":"fikseringer kant uigennemsigtighed","description":"etiket til fikseringer kant opacitet skyder"},"saccadesColorLabel":{"message":"saccades farve","description":"etiket til saccade farve dropdown"},"saccadesStyleLabel":{"message":"saccades stilarter","description":"etiket til rullemenuen saccade-stil"},"lineHeightTogglesLabel":{"message":"linjehøjde","description":"etiket til mindre og større knapper til linjehøjde"},"smallerLineHeightBtnText":{"message":"aa-","description":"tekst til knappen"},"smallerLineHeightBtnSubText":{"message":"Mindre","description":"undertekst til knappen"},"largerLineHeightBtnText":{"message":"aa+","description":"tekst til knappen"},"largerLineHeightBtnSubText":{"message":"Større","description":"undertekst til knappen"},"defaultBionicModeToggleBtnOffText":{"message":"sluk altid","description":"tekst til knappen"},"defaultBionicModeToggleBtnOnText":{"message":"tænd altid","description":"tekst til knappen"},"defaultBionicModeToggleBtnSubText":{"message":"standard skift præference","description":"undertekst til knappen"},"resetBtnText":{"message":"nulstil til optimale indstillinger","description":"tekst til knappen"},"faqLinkText":{"message":"ofte stillede spørgsmål","description":"link tekst"},"reportIssueLinkText":{"message":"rapport problem","description":"link tekst"},"aboutUsLinkText":{"message":"hjemmeside","description":"link tekst"},"dataEntryMessage":{"message":"Sluk, hvis en kortlæser forstyrrer dataindtastningen","description":"Tekst"},"googlePlayLinkSecondaryText":{"message":"læsning understøttet","description":"Tekst"},"urlPromptText":{"message":"Faner uden en webadresse fungerer muligvis ikke korrekt","description":"Tekst"},"reloadPromptText":{"message":"Genindlæs fanen med gyldig webadresse, og prøv igen","description":"Tekst"},"translationHelpLinkText":{"message":"hjælpe os med tranlationer. klik for at lære mere","description":"Tekst"},"reloadText":{"message":"Genindlæse","description":"Tekst"},"openPermissionPageBtnText":{"message":"Klik her for at åbne tilladelsessiden","description":"knap tekst"},"missingPermissionHeaderText":{"message":"Tilladelsen Fil-url mangler","description":"overskrift tekst"},"missingPermissionHeaderSubText":{"message":"udfyld nedenstående trin","description":"undertekst"},"grantPermissionInstructionText":{"message":"Giv tilladelse til webadresse til fil","description":"Tekst"},"reloadPageAndExtensionInstructionText":{"message":"Vend tilbage, og prøv at åbne udvidelsen igen","description":"Tekst"},"pageNotSupportedHeaderText":{"message":"Denne side understøttes ikke","description":"Tekst"},"pageNotDetectedText":{"message":"Siden blev ikke registreret","description":"Tekst"},"surveyPromptText":{"message":"tage en kort undersøgelse for at hjælpe os med at forbedre JR","description":"Tekst"}}
+{
+    "appDesc": {
+        "message": "Half Bold Chrome Extension: Din nøgle til forbedret Bionic Reading"
+    },
+    "appName": {
+        "message": "HalfBold Reader | Half Bold Chrome Extension"
+    },
+    "storeDesc" : {
+        "message": "Løft din online læseoplevelse med Half Bold Chrome Extension - din ultimative hjælp til en problemfri og dysleksi-venlig oplevelse! Denne halvfed udvidelse finjusterer digital tekst, hvilket gør den tilgængelig og læsbar. Den halvfede skrifttype og halvfede tekst sikrer et inkluderende læsemiljø, der imødekommer behovene hos dem med dysleksi og ADHD.\n\n\uD83D\uDD21 Opdag Brillancen af Half Bold\n➤ Læs ubesværet websider med vores halvfede skrifttype\n➤ Tilpas din læseoplevelse med halvfede tekst\n➤ Modtag mild vejledning, mens du læser kompleks tekst med halvfed\n\n\uD83D\uDCBB Bryd Barrierer med Half Bold Extension Chrome\n1\uFE0F⃣ Interaktivt design for smidig tilgængelighed\n2\uFE0F⃣ Forbedre læsepræcision med halvfede udvidelse\n3\uFE0F⃣ Forbedre læseforståelsen med halvfede chrome udvidelsesfunktioner\n\n\uD83D\uDCDA Oplev Halfbold Extension\n- Nyd at læse med den unikke halfbold skrifttype\n- Udforsk et inkluderende digitalt rum med halfbold udvidelse\n- Sikre en dysleksi-venlig læseoplevelse med halfbold funktioner\n\n\uD83D\uDD0D Forbedre Læsning med Dislexia font\n▸ Boost din læseeffektivitet med dislexia font\n▸ Forbedre læseflydigheden med vores dyslektiske skrifttype\n▸ Sig farvel til læsevanskeligheder med dyslektiske venlige skrifttyper\n\n\uD83C\uDF08 Udfold Magien af Open Dyslexic font Chrome\n• Nyd en inkluderende læseoplevelse med open dyslexic font chrome\n• Oplev forbedret læsepræcision med adhd skrifttype\n• Opdag glæden ved at læse med adhd læseskrifttype\n\n\uD83D\uDCA1 Oplys din læsning med Bionic Reading Du kan drage fordel af bionic reading, en tilstand, der letter en hurtigere læsehastighed uden at gå på kompromis med forståelsen. Denne innovative funktion nedbryder komplekse tekster, hvilket gør det muligt for dig at beholde mere information og læse hurtigere, øge din produktivitet. Uanset om du er en studerende, der forsker til en afhandling, en professionel, der indhenter de seneste nyheder, eller en person med dysleksi, giver denne funktion dig mulighed for at overvinde enhver læseudfordring med lethed.\n\n\uD83D\uDC41\uFE0F Styrk din læsning med ADHD skrifttype Extension\n➤ Forbedre læseflydigheden med adhd skrifttype udvidelse\n➤ Oplev kraften af adhd læsefede bogstaver\n➤ Transform din læseoplevelse med adhd læseudvidelse\n\n\uD83D\uDCD6 Omfavn ADHD Reader\n1. Lås op for en ny læseoplevelse med adhd læser\n2. Udforsk den digitale verden med adhd læseapp\n3. Oplev et dysleksi-venligt læsemiljø med fedt første bogstav i hvert ord adhd\n\n\uD83D\uDCBB Tag Styring over din læsning\n- Forbedre læsepræcision med adhd fedt bogstav læsning\n- Boost læseflydigheden med adhd læsefede bogstaver\n- Sikre en behagelig læseoplevelse med chrome udvidelsen halvfed\n\n\uD83D\uDDC2\uFE0F Alt i en læseløsning\n➤ Oplev halfbold funktionen\n➤ Nyd at læse med halvfede skrifttype\n➤ Engagere dig i en smidig læseoplevelse med halvfede tekst\n\n\uD83D\uDD0D Dyk Dybere ind i læsning Den unikke funktionalitet af dette værktøj gør det ikke kun muligt for enkeltpersoner at forblive fokuserede på deres læseopgaver, men gør også indholdet lettere at læse. For mennesker med dysleksi eller ADHD kan dette være en game changer. Det er ikke bare et værktøj; det er en bro til en verden af uendelig information og historier, en måde at engagere og kommunikere, at føle sig inkluderet og værdsat. Half Bold Chrome Extension sikrer, at ingen bliver efterladt i vores stadig mere digitale verden.\n\n\uD83D\uDD0E Redefiner din læseoplevelse\n1. Udforsk et inkluderende digitalt rum med halvfede udvidelse chrome\n2. Fordyb dig i et unikt læsemiljø med halfbold udvidelse\n3. Oplev glæden ved at læse med dislexia skrifttype\n\n\uD83D\uDD04 Nyd problemfri læsning\n➤ Boost din læseeffektivitet med dyslektiske venlige skrifttyper\n➤ Opdag et behageligt læsemiljø med open dyslexic font chrome\n➤ Oplev kraften af adhd skrifttype\n\n\uD83D\uDC96 Begynd din inkluderende læserejse\nBliv medlem af vores fællesskab og forbedre din digitale læseoplevelse. Med Half Bold Chrome Extension tilføjer du ikke bare et værktøj til din browser; du adopterer et mere inkluderende og tilgængeligt digitalt læsemiljø. Download nu for en transformerende læseoplevelse!\n\n\uD83E\uDD14 FAQs om vores Chrome Extension\n✨ Kan jeg tilpasse halvfede indstillinger?\n\uD83D\uDD39 Absolut! Du kan justere halvfede indstillinger baseret på dine læsepræferencer.\n\n\uD83D\uDCDA Hvordan understøtter denne udvidelse dysleksi-venlig læsning?\n\uD83D\uDD39 Vores udvidelse indeholder open dyslexic font, sammen med halvfede funktion, designet til at hjælpe dyslektiske læsere.\n\n\uD83C\uDF10 Kan jeg bruge denne udvidelse på ethvert website?\n\uD83D\uDD39 Ja! Vores udvidelse er designet til at fungere på tværs af alle websteder, hvilket giver en problemfri læseoplevelse."
+    },
+    "preferenceLabel": {
+        "message": "brug præference",
+        "description": "etiket for (global knap eller knap til webstedspræferenceknap"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "Tips",
+        "description": "etiket for (global knap eller knap til webstedspræferenceknap"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "global",
+        "description": "hovedtekst til global præferenceknap"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "standard",
+        "description": "undertekst til global præferenceknap"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "websted",
+        "description": "hovedtekst til til/fra-knap til webstedspræference"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "for dette websted",
+        "description": "undertekst til global præferenceknap"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "deaktivere",
+        "description": "onOffToggleBtnTextDebar knaptekst"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "muliggøre",
+        "description": "onOffToggleBtnTextEnable knaptekst"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "læsetilstand",
+        "description": "tekst til onOffToggleBtnSubText"
+    },
+    "shortcutLabelText": {
+        "message": "standard genvej",
+        "description": "tekst til onOffToggleBtnShortCutText"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "standardgenvej til krom"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "standard genvej til firefox"
+    },
+    "saccadesIntervalLabel": {
+        "message": "saccades interval",
+        "description": "etiket til saccader interval skyder"
+    },
+    "fixationsStrengthLabel": {
+        "message": "fikseringer styrke",
+        "description": "etiket til skyderen til fikseringsstyrke"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "fikseringer kant uigennemsigtighed",
+        "description": "etiket til fikseringer kant opacitet skyder"
+    },
+    "saccadesColorLabel": {
+        "message": "saccades farve",
+        "description": "etiket til saccade farve dropdown"
+    },
+    "saccadesStyleLabel": {
+        "message": "saccades stilarter",
+        "description": "etiket til rullemenuen saccade-stil"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "linjehøjde",
+        "description": "etiket til mindre og større knapper til linjehøjde"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "tekst til knappen"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "Mindre",
+        "description": "undertekst til knappen"
+    },
+    "largerLineHeightBtnText": {
+        "message": "aa+",
+        "description": "tekst til knappen"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "Større",
+        "description": "undertekst til knappen"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "sluk altid",
+        "description": "tekst til knappen"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "tænd altid",
+        "description": "tekst til knappen"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "standard skift præference",
+        "description": "undertekst til knappen"
+    },
+    "resetBtnText": {
+        "message": "nulstil til optimale indstillinger",
+        "description": "tekst til knappen"
+    },
+    "faqLinkText": {
+        "message": "ofte stillede spørgsmål",
+        "description": "link tekst"
+    },
+    "reportIssueLinkText": {
+        "message": "rapport problem",
+        "description": "link tekst"
+    },
+    "aboutUsLinkText": {
+        "message": "hjemmeside",
+        "description": "link tekst"
+    },
+    "dataEntryMessage": {
+        "message": "Sluk, hvis en kortlæser forstyrrer dataindtastningen",
+        "description": "Tekst"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "læsning understøttet",
+        "description": "Tekst"
+    },
+    "urlPromptText": {
+        "message": "Faner uden en webadresse fungerer muligvis ikke korrekt",
+        "description": "Tekst"
+    },
+    "reloadPromptText": {
+        "message": "Genindlæs fanen med gyldig webadresse, og prøv igen",
+        "description": "Tekst"
+    },
+    "translationHelpLinkText": {
+        "message": "hjælpe os med tranlationer. klik for at lære mere",
+        "description": "Tekst"
+    },
+    "reloadText": {
+        "message": "Genindlæse",
+        "description": "Tekst"
+    },
+    "openPermissionPageBtnText": {
+        "message": "Klik her for at åbne tilladelsessiden",
+        "description": "knap tekst"
+    },
+    "missingPermissionHeaderText": {
+        "message": "Tilladelsen Fil-url mangler",
+        "description": "overskrift tekst"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "udfyld nedenstående trin",
+        "description": "undertekst"
+    },
+    "grantPermissionInstructionText": {
+        "message": "Giv tilladelse til webadresse til fil",
+        "description": "Tekst"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "Vend tilbage, og prøv at åbne udvidelsen igen",
+        "description": "Tekst"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "Denne side understøttes ikke",
+        "description": "Tekst"
+    },
+    "pageNotDetectedText": {
+        "message": "Siden blev ikke registreret",
+        "description": "Tekst"
+    },
+    "surveyPromptText": {
+        "message": "tage en kort undersøgelse for at hjælpe os med at forbedre JR",
+        "description": "Tekst"
+    }
+}

@@ -1,0 +1,58 @@
+:root {
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: #1b8170;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 50px;
+}
+
+.toggle_label {
+  width: 50px;
+  height: 30px;
+  background-color: var(--dark);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.toggle_input {
+  position: absolute;
+  display: none;
+}
+
+.toggle_slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.toggle_input:checked~.slider {
+  background-color: var(--light);
+}
+
+.toggle_slider::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  box-shadow: inset 8px -4px 0px 0px var(--light);
+  background-color: var(--dark);
+  transition: 0.3s;
+}
+
+.toggle_input:checked~.toggle_slider::before {
+  transform: translateX(21px);
+  background-color: orange;
+  box-shadow: 0 0 10px orange, 0 0 20px orange;
+}
+
+.toggle_input:checked~.toggle_label {
+  background-color: white;
+}

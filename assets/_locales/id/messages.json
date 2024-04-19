@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"gunakan preferensi","description":"label untuk (sakelar tombol preferensi global atau situs"},"tipsPopupTriggerLabel":{"message":"Tips","description":"label untuk (sakelar tombol preferensi global atau situs"},"globalPreferenceToggleBtnText":{"message":"Global","description":"teks utama untuk tombol sakelar preferensi global"},"globalPreferenceToggleBtnSubText":{"message":"Default","description":"sub teks tombol preferensi global"},"sitePreferenceToggleBtnText":{"message":"Situs","description":"teks utama untuk tombol sakelar preferensi situs"},"sitePreferenceToggleBtnSubText":{"message":"untuk situs ini","description":"sub teks tombol preferensi global"},"onOffToggleBtnTextDisable":{"message":"menonaktifkan","description":"teks tombol onOffToggleBtnTextDisable"},"onOffToggleBtnTextEnable":{"message":"mengaktifkan","description":"teks tombol onOffToggleBtnTextEnable"},"onOffToggleBtnSubText":{"message":"mode membaca","description":"teks untuk onOffToggleBtnSubText"},"shortcutLabelText":{"message":"pintasan default","description":"teks untuk onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt +b","description":"pintasan default untuk chrome"},"defaultShortcutValueTextFirefox":{"message":"alt +w","description":"pintasan default untuk firefox"},"saccadesIntervalLabel":{"message":"interval saccades","description":"label untuk slider interval saccades"},"fixationsStrengthLabel":{"message":"kekuatan fiksasi","description":"label untuk penggeser kekuatan fiksasi"},"fixationsEdgeOpacityLabel":{"message":"fiksasi tepi opacity","description":"label untuk fiksasi tepi opacity slider"},"saccadesColorLabel":{"message":"warna saccades","description":"label untuk dropdown warna saccade"},"saccadesStyleLabel":{"message":"gaya saccades","description":"label untuk dropdown gaya saccade"},"lineHeightTogglesLabel":{"message":"tinggi garis","description":"label untuk tombol tinggi garis yang lebih kecil dan lebih besar"},"smallerLineHeightBtnText":{"message":"aa-","description":"teks untuk tombol"},"smallerLineHeightBtnSubText":{"message":"Kecil","description":"sub teks untuk tombol"},"largerLineHeightBtnText":{"message":"aa+","description":"teks untuk tombol"},"largerLineHeightBtnSubText":{"message":"Besar","description":"sub teks untuk tombol"},"defaultBionicModeToggleBtnOffText":{"message":"matikan selalu","description":"teks untuk tombol"},"defaultBionicModeToggleBtnOnText":{"message":"nyalakan selalu","description":"teks untuk tombol"},"defaultBionicModeToggleBtnSubText":{"message":"preferensi sakelar default","description":"sub teks untuk tombol"},"resetBtnText":{"message":"atur ulang ke pengaturan optimal","description":"teks untuk tombol"},"faqLinkText":{"message":"Faq","description":"teks link"},"reportIssueLinkText":{"message":"masalah laporan","description":"teks link"},"aboutUsLinkText":{"message":"situs web","description":"teks link"},"dataEntryMessage":{"message":"Menonaktifkan jika pembaca jiffy mengganggu entri data","description":"Teks"},"googlePlayLinkSecondaryText":{"message":"membaca didukung","description":"Teks"},"urlPromptText":{"message":"Tab tanpa url mungkin tidak berfungsi dengan baik","description":"Teks"},"reloadPromptText":{"message":"Muat ulang tab dengan url yang valid dan coba lagi","description":"Teks"},"translationHelpLinkText":{"message":"bantu kami dengan tranlasi. klik untuk mempelajari lebih lanjut","description":"Teks"},"reloadText":{"message":"Reload","description":"Teks"},"openPermissionPageBtnText":{"message":"klik di sini untuk membuka halaman izin","description":"teks tombol"},"missingPermissionHeaderText":{"message":"Izin Url File hilang","description":"teks header"},"missingPermissionHeaderSubText":{"message":"langkah-langkah lengkap di bawah ini","description":"sub teks"},"grantPermissionInstructionText":{"message":"Berikan izin url File","description":"Teks"},"reloadPageAndExtensionInstructionText":{"message":"Kembalikan dan coba buka ekstensi lagi","description":"Teks"},"pageNotSupportedHeaderText":{"message":"Halaman ini tidak didukung","description":"Teks"},"pageNotDetectedText":{"message":"Halaman tidak terdeteksi","description":"Teks"},"surveyPromptText":{"message":"ikuti survei singkat untuk membantu kami meningkatkan JR","description":"Teks"}}
+{
+    "appDesc": {
+        "message": "Half Bold Ekstensi Chrome: Kunci untuk Meningkatkan Bacaan Bionik"
+    },
+    "appName": {
+        "message": "Half Bold Ekstensi Chrome | Half Bold Chrome"
+    },
+    "storeDesc": {
+        "message": "Tingkatkan perjalanan membaca online Anda dengan Half Bold Ekstensi Chrome - bantuan utama Anda untuk pengalaman yang lancar dan ramah disleksia! Ekstensi setengah tebal ini menyempurnakan teks digital, menjadikannya mudah diakses dan mudah dibaca. Font setengah tebal dan teks setengah tebal memastikan lingkungan baca yang inklusif, memenuhi kebutuhan mereka yang mengalami disleksia dan ADHD.\n\n\uD83D\uDD21 Temukan Kehebatan Half Bold\n➤ Membaca halaman web dengan mudah dengan font setengah tebal kami\n➤ Sesuaikan pengalaman membaca Anda dengan teks setengah tebal\n➤ Terima panduan lembut saat membaca teks kompleks dengan setengah tebal\n\n\uD83D\uDCBB Hancurkan Batasan dengan Ekstensi Half Bold Chrome\n1\uFE0F⃣ Desain interaktif untuk aksesibilitas yang lancar\n2\uFE0F⃣ Tingkatkan akurasi membaca dengan ekstensi setengah tebal\n3\uFE0F⃣ Tingkatkan pemahaman membaca dengan fitur ekstensi chrome setengah tebal\n\n\uD83D\uDCDA Rasakan Halfbold Extension\n- Nikmati membaca dengan font setengah tebal yang unik\n- Jelajahi ruang digital inklusif dengan ekstensi halfbold\n- Pastikan pengalaman membaca yang ramah disleksia dengan fitur setengah tebal\n\n\uD83D\uDD0D Tingkatkan Membaca dengan Font Disleksia\n▸ Tingkatkan efisiensi membaca Anda dengan font disleksia\n▸ Tingkatkan kelancaran membaca dengan font disleksia kami\n▸ Ucapkan selamat tinggal pada kesulitan membaca dengan font yang ramah disleksia\n\n\uD83C\uDF08 Ungkap Sihir Font Open Dyslexic Chrome\n• Nikmati pengalaman membaca inklusif dengan font open dyslexic chrome\n• Alami peningkatan akurasi membaca dengan font adhd\n• Temukan kebahagiaan membaca dengan font membaca adhd\n\n\uD83D\uDCA1 Terangi Membaca Anda dengan Bionic Reading Anda dapat memanfaatkan manfaat membaca bionik, mode yang memfasilitasi kecepatan membaca lebih cepat tanpa mengorbankan pemahaman. Fitur inovatif ini memecah teks kompleks, memungkinkan Anda untuk menyimpan lebih banyak informasi dan membaca lebih cepat, sehingga meningkatkan produktivitas Anda. Baik Anda adalah seorang mahasiswa yang sedang meneliti makalah, seorang profesional yang mengejar berita terbaru, atau seseorang dengan disleksia, fitur ini memberdayakan Anda untuk mengatasi tantangan membaca apa pun dengan mudah.\n\n\uD83D\uDC41\uFE0F Membekali Membaca Anda dengan Ekstensi Font ADHD\n➤ Tingkatkan kelancaran membaca dengan ekstensi font adhd\n➤ Rasakan kekuatan huruf tebal membaca adhd\n➤ Ubah perjalanan membaca Anda dengan ekstensi membaca adhd\n\n\uD83D\uDCD6 Peluk Pembaca ADHD\n1. Buka pengalaman membaca baru dengan pembaca adhd\n2. Jelajahi dunia digital dengan aplikasi membaca adhd\n3. Alami lingkungan membaca yang ramah disleksia dengan huruf tebal pertama dari setiap kata adhd\n\n\uD83D\uDCBB Ambil Kendali atas Membaca Anda\n- Tingkatkan akurasi membaca dengan membaca huruf tebal adhd\n- Tingkatkan kelancaran membaca dengan huruf tebal membaca adhd\n- Pastikan pengalaman membaca yang nyaman dengan ekstensi chrome setengah tebal\n\n\uD83D\uDDC2\uFE0F Solusi Membaca All in One\n➤ Rasakan fitur setengah tebal\n➤ Nikmati membaca dengan font setengah tebal\n➤ Terlibat dalam perjalanan membaca yang lancar dengan teks setengah tebal\n\n\uD83D\uDD0D Mendalami Membaca Fungsi unik dari alat ini tidak hanya memungkinkan individu untuk tetap fokus pada tugas membaca mereka tetapi juga membuat konten lebih mudah dibaca. Bagi orang yang mengalami disleksia atau ADHD, ini bisa menjadi permainan yang berubah. Ini bukan hanya sebuah alat; ini adalah jembatan ke dunia informasi dan cerita yang tak terbatas, cara untuk terlibat dan berkomunikasi, untuk merasa inklusif dan dihargai. Ekstensi Half Bold Chrome memastikan bahwa tidak ada yang tertinggal di dunia digital yang semakin meningkat ini.\n\n\uD83D\uDD0E Redefinisikan Pengalaman Membaca Anda\n1. Jelajahi ruang digital inklusif dengan ekstensi half bold chrome\n2. Meresapi diri Anda dalam lingkungan membaca yang unik dengan ekstensi halfbold\n3. Rasakan kebahagiaan membaca dengan font disleksia\n\n\uD83D\uDD04 Nikmati Membaca yang Lancar\n➤ Tingkatkan efisiensi membaca Anda dengan font yang ramah disleksia\n➤ Temukan lingkungan membaca yang nyaman dengan font open dyslexic chrome\n➤ Rasakan kekuatan font adhd\n\n\uD83D\uDC96 Mulai Perjalanan Membaca Inklusif Anda Bergabunglah dengan komunitas kami dan tingkatkan perjalanan membaca digital Anda. Dengan Ekstensi Half Bold Chrome, Anda tidak hanya menambahkan alat ke browser Anda; Anda mengadopsi lingkungan membaca digital yang lebih inklusif dan dapat diakses. Unduh sekarang untuk pengalaman membaca yang transformatif!\n\n\uD83E\uDD14 Pertanyaan Umum Tentang Ekstensi Chrome Kami\n✨ Bisakah saya menyesuaikan pengaturan setengah tebal?\n\uD83D\uDD39 Tentu saja! Anda dapat menyesuaikan pengaturan setengah tebal berdasarkan preferensi membaca Anda.\n\n\uD83D\uDCDA Bagaimana ekstensi ini mendukung membaca yang ramah disleksia?\n\uD83D\uDD39 Ekstensi kami dilengkapi dengan font open dyslexic, bersama dengan fitur setengah tebal, yang dirancang untuk membantu pembaca disleksia.\n\n\uD83C\uDF10 Bisakah saya menggunakan ekstensi ini di semua situs web?\n\uD83D\uDD39 Ya! Ekstensi kami dirancang untuk bekerja di semua situs web, memberikan pengalaman membaca yang lancar."
+    },
+    "preferenceLabel": {
+        "message": "gunakan preferensi",
+        "description": "label untuk (sakelar tombol preferensi global atau situs"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "Tips",
+        "description": "label untuk (sakelar tombol preferensi global atau situs"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "Global",
+        "description": "teks utama untuk tombol sakelar preferensi global"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "Default",
+        "description": "sub teks tombol preferensi global"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "Situs",
+        "description": "teks utama untuk tombol sakelar preferensi situs"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "untuk situs ini",
+        "description": "sub teks tombol preferensi global"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "menonaktifkan",
+        "description": "teks tombol onOffToggleBtnTextDisable"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "mengaktifkan",
+        "description": "teks tombol onOffToggleBtnTextEnable"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "mode membaca",
+        "description": "teks untuk onOffToggleBtnSubText"
+    },
+    "shortcutLabelText": {
+        "message": "pintasan default",
+        "description": "teks untuk onOffToggleBtnShortCutText"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt +b",
+        "description": "pintasan default untuk chrome"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt +w",
+        "description": "pintasan default untuk firefox"
+    },
+    "saccadesIntervalLabel": {
+        "message": "interval saccades",
+        "description": "label untuk slider interval saccades"
+    },
+    "fixationsStrengthLabel": {
+        "message": "kekuatan fiksasi",
+        "description": "label untuk penggeser kekuatan fiksasi"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "fiksasi tepi opacity",
+        "description": "label untuk fiksasi tepi opacity slider"
+    },
+    "saccadesColorLabel": {
+        "message": "warna saccades",
+        "description": "label untuk dropdown warna saccade"
+    },
+    "saccadesStyleLabel": {
+        "message": "gaya saccades",
+        "description": "label untuk dropdown gaya saccade"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "tinggi garis",
+        "description": "label untuk tombol tinggi garis yang lebih kecil dan lebih besar"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "teks untuk tombol"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "Kecil",
+        "description": "sub teks untuk tombol"
+    },
+    "largerLineHeightBtnText": {
+        "message": "aa+",
+        "description": "teks untuk tombol"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "Besar",
+        "description": "sub teks untuk tombol"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "matikan selalu",
+        "description": "teks untuk tombol"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "nyalakan selalu",
+        "description": "teks untuk tombol"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "preferensi sakelar default",
+        "description": "sub teks untuk tombol"
+    },
+    "resetBtnText": {
+        "message": "atur ulang ke pengaturan optimal",
+        "description": "teks untuk tombol"
+    },
+    "faqLinkText": {
+        "message": "Faq",
+        "description": "teks link"
+    },
+    "reportIssueLinkText": {
+        "message": "masalah laporan",
+        "description": "teks link"
+    },
+    "aboutUsLinkText": {
+        "message": "situs web",
+        "description": "teks link"
+    },
+    "dataEntryMessage": {
+        "message": "Menonaktifkan jika pembaca HalfBold mengganggu entri data",
+        "description": "Teks"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "membaca didukung",
+        "description": "Teks"
+    },
+    "urlPromptText": {
+        "message": "Tab tanpa url mungkin tidak berfungsi dengan baik",
+        "description": "Teks"
+    },
+    "reloadPromptText": {
+        "message": "Muat ulang tab dengan url yang valid dan coba lagi",
+        "description": "Teks"
+    },
+    "translationHelpLinkText": {
+        "message": "bantu kami dengan tranlasi. klik untuk mempelajari lebih lanjut",
+        "description": "Teks"
+    },
+    "reloadText": {
+        "message": "Reload",
+        "description": "Teks"
+    },
+    "openPermissionPageBtnText": {
+        "message": "klik di sini untuk membuka halaman izin",
+        "description": "teks tombol"
+    },
+    "missingPermissionHeaderText": {
+        "message": "Izin Url File hilang",
+        "description": "teks header"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "langkah-langkah lengkap di bawah ini",
+        "description": "sub teks"
+    },
+    "grantPermissionInstructionText": {
+        "message": "Berikan izin url File",
+        "description": "Teks"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "Kembalikan dan coba buka ekstensi lagi",
+        "description": "Teks"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "Halaman ini tidak didukung",
+        "description": "Teks"
+    },
+    "pageNotDetectedText": {
+        "message": "Halaman tidak terdeteksi",
+        "description": "Teks"
+    },
+    "surveyPromptText": {
+        "message": "ikuti survei singkat untuk membantu kami meningkatkan JR",
+        "description": "Teks"
+    }
+}

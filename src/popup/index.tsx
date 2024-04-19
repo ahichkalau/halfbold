@@ -6,48 +6,36 @@ import usePrefs from '~services/usePrefs';
 
 import './../styles/style.css';
 
+
 import { useStorage } from '@plasmohq/storage';
 
 import TrackEventService, { EventCategory } from '~services/TrackEventService';
 import { APP_PREFS_STORE_KEY, COLOR_MODE_STATE_TRANSITIONS, DisplayColorMode, STORAGE_AREA } from '~services/config';
 import documentParser from '~services/documentParser';
-import defaultPrefs from '~services/preferences';
 import runTimeHandler from '~services/runTimeHandler';
 
 import PopupContextProvider from './context';
-import IndexPopupNew from './indexNew';
 import IndexPopupOld from './indexOld';
 import { useShowDebugSwitch } from './shorcut';
 
 const badCapScroll = /safari/i.test(process.env.TARGET) ? { overflowY: 'scroll', height: '600px' } : {};
 
-const DisplayVersion = ({ displayVersion }) => {
-	if (displayVersion === 'old') return <IndexPopupOld />;
-	else if (displayVersion === 'new') return <IndexPopupNew />;
-};
+const DisplayVersion = IndexPopupOld;
 
 const popupLogStyle = 'background:cyan;color:brown';
-
-const jiffyLogo = chrome.runtime.getURL('./assets/icon512.png');
-
-const { setAttribute, setProperty, getProperty, getAttribute, setSaccadesStyle } = documentParser.makeHandlers(document);
 
 const SHOW_FOOTER_MESSAGE_DURATION = 12_000;
 const FOOT_MESSAGAES_ANIMATION_DELAY = 300;
 const FIRST_FOOTER_MESSAGE_INDEX = 1;
 
 function IndexPopup() {
-	const [activeTab, setActiveTab] = useState(null as chrome.tabs.Tab);
+	const [activeTab, setActiveTab] = useState({} as chrome.tabs.Tab);
 	const [footerMessageIndex, setFooterMeessageIndex] = useState(null);
 	const [isDebugDataVisible, setIsDebugDataVisible] = useShowDebugSwitch();
 
-	const getTabOriginfn = useCallback(async () => await TabHelper.getTabOrigin(await TabHelper.getActiveTab(true)), [TabHelper]);
-
-	const [prefs, setPrefs] = usePrefs(getTabOriginfn, true, process.env.TARGET);
+	const getTabOrigin = useCallback(async () => await TabHelper.getTabOrigin(await TabHelper.getActiveTab(true)), [TabHelper]);
 
 	const [tabSession, setTabSession] = useState<TabSession>(null);
-
-	const [tipsVisibility, setTipsVisibility] = useState<boolean>(false);
 
 	const [appConfigPrefs, setAppConfigPrefs] = useStorage({
 		key: APP_PREFS_STORE_KEY,
@@ -66,7 +54,7 @@ function IndexPopup() {
 
 	useEffect(() => {
 		TrackEventService.trackEvent({ eventCategory: EventCategory.USER_EVENT, eventName: 'open-popup', eventType: 'click' });
-		
+
 		(async () => {
 			const _activeTab = await TabHelper.getActiveTab(true);
 			setActiveTab(_activeTab);
@@ -111,29 +99,10 @@ function IndexPopup() {
 		};
 	}, []);
 
-	const toggleShowBeta = (showBeta = !appConfigPrefs?.showBeta) => {
-		setAppConfigPrefs({ ...appConfigPrefs, showBeta });
-	};
-
 	return (
 		<>
 			<div className={`jr_wrapper_container ${appConfigPrefs?.displayColorMode}-mode text-capitalize`}>
 				<div className="popup-body || flex flex-column || text-alternate">
-					<div
-						className="toolbar || flex w-100 gap-2 || bg-primary"
-						style={{ boxShadow: '0 0 0 10px var(--bg-secondary)', position: 'sticky', top: '10px', zIndex: '1' }}>
-						<span className="icon">
-							<img src={jiffyLogo} alt="logo" height={25} width={25} />
-						</span>
-						<div className="flex text-capitalize" style={{ color: 'white' }}>
-							JiffyReader.
-						</div>
-					</div>
-					<div className="flex p-1">
-						<label htmlFor="showBetaCheckbox">Enable beta</label>
-						<input id="showBetaCheckbox" type="checkbox" checked={appConfigPrefs?.showBeta} onChange={(e) => toggleShowBeta(e.target.checked)} />
-					</div>
-
 					{/* display goes here */}
 					<div style={badCapScroll}>
 						<DisplayVersion displayVersion={!appConfigPrefs?.showBeta ? 'old' : 'new'} />

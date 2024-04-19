@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"gunakan keutamaan","description":"label untuk (togol butang keutamaan global atau tapak"},"tipsPopupTriggerLabel":{"message":"Tips","description":"label untuk (togol butang keutamaan global atau tapak"},"globalPreferenceToggleBtnText":{"message":"Global","description":"teks utama untuk butang togol keutamaan global"},"globalPreferenceToggleBtnSubText":{"message":"Lalai","description":"sub teks butang keutamaan global"},"sitePreferenceToggleBtnText":{"message":"Laman","description":"teks utama untuk butang togol keutamaan tapak"},"sitePreferenceToggleBtnSubText":{"message":"untuk laman web ini","description":"sub teks butang keutamaan global"},"onOffToggleBtnTextDisable":{"message":"Menyahdayakan","description":"onOffToggleBtnTextDisable teks butang"},"onOffToggleBtnTextEnable":{"message":"Mengaktifkan","description":"onOffToggleBtnTextEnable teks butang"},"onOffToggleBtnSubText":{"message":"mod membaca","description":"teks untuk onOffToggleBtnSubText"},"shortcutLabelText":{"message":"pintasan lalai","description":"teks untuk onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"pintasan lalai untuk krom"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"pintasan lalai untuk firefox"},"saccadesIntervalLabel":{"message":"selang saccades","description":"label untuk gelangsar selang saccades"},"fixationsStrengthLabel":{"message":"kekuatan penetapan","description":"label untuk gelangsar kekuatan penetapan"},"fixationsEdgeOpacityLabel":{"message":"penetapan kelegapan tepi","description":"label untuk penetapan gelangsar kelegapan tepi"},"saccadesColorLabel":{"message":"warna saccades","description":"label untuk dropdown warna saccade"},"saccadesStyleLabel":{"message":"gaya saccades","description":"label untuk dropdown gaya saccade"},"lineHeightTogglesLabel":{"message":"ketinggian garisan","description":"label untuk butang ketinggian baris yang lebih kecil dan lebih besar"},"smallerLineHeightBtnText":{"message":"aa-","description":"teks untuk butang"},"smallerLineHeightBtnSubText":{"message":"Kecil","description":"sub teks untuk butang"},"largerLineHeightBtnText":{"message":"aa+","description":"teks untuk butang"},"largerLineHeightBtnSubText":{"message":"Besar","description":"sub teks untuk butang"},"defaultBionicModeToggleBtnOffText":{"message":"matikan sentiasa","description":"teks untuk butang"},"defaultBionicModeToggleBtnOnText":{"message":"hidupkan sentiasa","description":"teks untuk butang"},"defaultBionicModeToggleBtnSubText":{"message":"keutamaan togol lalai","description":"sub teks untuk butang"},"resetBtnText":{"message":"set semula ke tetapan optimum","description":"teks untuk butang"},"faqLinkText":{"message":"Soalan lazim","description":"teks pautan"},"reportIssueLinkText":{"message":"isu laporan","description":"teks pautan"},"aboutUsLinkText":{"message":"Laman web","description":"teks pautan"},"dataEntryMessage":{"message":"Matikan jika pembaca jiffy mengganggu entri data","description":"Teks"},"googlePlayLinkSecondaryText":{"message":"membaca disokong","description":"Teks"},"urlPromptText":{"message":"Tab tanpa url mungkin tidak berfungsi dengan betul","description":"Teks"},"reloadPromptText":{"message":"Muat semula tab dengan url yang sah dan cuba lagi","description":"Teks"},"translationHelpLinkText":{"message":"membantu kami dengan tranlasi. klik untuk mengetahui lebih lanjut","description":"Teks"},"reloadText":{"message":"muat semula","description":"Teks"},"openPermissionPageBtnText":{"message":"klik di sini untuk membuka halaman keizinan","description":"teks butang"},"missingPermissionHeaderText":{"message":"Kebenaran Url fail hilang","description":"teks pengepala"},"missingPermissionHeaderSubText":{"message":"lengkapkan langkah di bawah","description":"sub teks"},"grantPermissionInstructionText":{"message":"Berikan keizinan url Fail","description":"Teks"},"reloadPageAndExtensionInstructionText":{"message":"Kembali dan cuba buka sambungan sekali lagi","description":"Teks"},"pageNotSupportedHeaderText":{"message":"Halaman ini tidak disokong","description":"Teks"},"pageNotDetectedText":{"message":"Halaman tidak dikesan","description":"Teks"},"surveyPromptText":{"message":"mengambil tinjauan ringkas untuk membantu kami memperbaiki JR","description":"Teks"}}
+{
+    "appDesc": {
+        "message": "Extension Krom Half Bold: Kunci Anda untuk Membaca Bionik yang Ditingkatkan"
+    },
+    "appName": {
+        "message": "Extension Krom Half Bold"
+    },
+    "storeDesc": {
+        "message": "Tingkatkan perjalanan membaca online Anda dengan Extension Krom Half Bold - bantuan utama Anda untuk pengalaman yang lancar dan ramah disleksia! Ekstensi setengah tebal ini menyempurnakan teks digital, membuatnya dapat diakses dan mudah dibaca. Huruf setengah tebal dan teks setengah tebal memastikan lingkungan membaca yang inklusif, memenuhi kebutuhan mereka yang memiliki disleksia dan ADHD.\n\n\uD83D\uDD21 Temukan Kebrilian dari Half Bold\n➤ Baca halaman web dengan mudah dengan huruf setengah tebal kami\n➤ Sesuaikan pengalaman membaca Anda dengan teks setengah tebal\n➤ Terima bimbingan lembut saat membaca teks kompleks dengan setengah tebal\n\n\uD83D\uDCBB Tembus Batasan dengan Extension Krom Half Bold\n1\uFE0F⃣ Desain interaktif untuk aksesibilitas yang lancar\n2\uFE0F⃣ Tingkatkan akurasi membaca dengan ekstensi setengah tebal\n3\uFE0F⃣ Tingkatkan pemahaman membaca dengan fitur extension krom setengah tebal\n\n\uD83D\uDCDA Rasakan Extension Halfbold\n- Nikmati membaca dengan font halfbold yang unik\n- Jelajahi ruang digital inklusif dengan extension halfbold\n- Pastikan pengalaman membaca yang ramah disleksia dengan fitur halfbold\n\n\uD83D\uDD0D Tingkatkan Membaca dengan Font Disleksia\n▸ Tingkatkan efisiensi membaca Anda dengan font disleksia\n▸ Tingkatkan kelancaran membaca dengan font disleksia kami\n▸ Ucapkan selamat tinggal pada kesulitan membaca dengan font yang ramah disleksia\n\n\uD83C\uDF08 Ungkap Keajaiban dari Font Open Dyslexic di Krom\n• Nikmati pengalaman membaca inklusif dengan font open dyslexic di krom\n• Rasakan peningkatan akurasi membaca dengan font adhd\n• Temukan kegembiraan membaca dengan font membaca adhd\n\n\uD83D\uDCA1 Terangi Membaca Anda dengan Membaca Bionik Anda dapat memanfaatkan manfaat membaca bionik, mode yang memfasilitasi kecepatan membaca yang lebih cepat tanpa mengorbankan pemahaman. Fitur inovatif ini memecah teks kompleks, memungkinkan Anda untuk menyimpan lebih banyak informasi dan membaca lebih cepat, sehingga meningkatkan produktivitas Anda. Baik Anda adalah seorang siswa yang melakukan penelitian untuk sebuah makalah, seorang profesional yang mengikuti berita terbaru, atau seseorang dengan disleksia, fitur ini memberdayakan Anda untuk menaklukkan setiap tantangan membaca dengan mudah.\n\n\uD83D\uDC41\uFE0F Membangkitkan Membaca Anda dengan Extension Font ADHD\n➤ Tingkatkan kelancaran membaca dengan ekstensi font adhd\n➤ Rasakan kekuatan huruf tebal membaca adhd\n➤ Ubah perjalanan membaca Anda dengan extension membaca adhd\n\n\uD83D\uDCD6 Peluk Pembaca ADHD\n1. Buka pengalaman membaca baru dengan pembaca adhd\n2. Jelajahi dunia digital dengan aplikasi membaca adhd\n3. Rasakan lingkungan membaca yang ramah disleksia dengan huruf pertama tebal dari setiap kata adhd\n\n\uD83D\uDCBB Ambil Alih Membaca Anda\n- Tingkatkan akurasi membaca dengan huruf tebal membaca adhd\n- Tingkatkan kelancaran membaca dengan huruf tebal membaca adhd\n- Pastikan pengalaman membaca yang nyaman dengan extension krom setengah tebal\n\n\uD83D\uDDC2\uFE0F Solusi Membaca All in One\n➤ Rasakan fitur halfbold\n➤ Nikmati membaca dengan font setengah tebal\n➤ Terlibat dalam perjalanan membaca yang lancar dengan teks setengah tebal\n\n\uD83D\uDD0D Telusuri Lebih Dalam Membaca Fungsionalitas unik dari alat ini tidak hanya memungkinkan individu untuk tetap fokus pada tugas membaca mereka tetapi juga membuat konten lebih mudah dibaca. Bagi orang dengan disleksia atau ADHD, ini bisa menjadi perubahan permainan. Ini bukan hanya alat; ini adalah jembatan ke dunia informasi dan cerita yang tak ada habisnya, cara untuk terlibat dan berkomunikasi, untuk merasa terlibat dan dihargai. Extension Krom Half Bold memastikan bahwa tidak ada yang tertinggal dalam dunia digital kita yang semakin meningkat.\n\n\uD83D\uDD0E Redefinisikan Pengalaman Membaca Anda\n1. Jelajahi ruang digital inklusif dengan extension krom half bold\n2. Terjunlah ke lingkungan membaca yang unik dengan extension halfbold\n3. Rasakan kegembiraan membaca dengan font disleksia\n\n\uD83D\uDD04 Nikmati Membaca Tanpa Sambungan\n➤ Tingkatkan efisiensi membaca Anda dengan font yang ramah disleksia\n➤ Temukan lingkungan membaca yang nyaman dengan font open dyslexic di krom\n➤ Rasakan kekuatan font adhd\n\n\uD83D\uDC96 Mulailah Perjalanan Membaca Inklusif Anda Bergabunglah dengan komunitas kami dan tingkatkan perjalanan membaca digital Anda. Dengan Extension Krom Half Bold, Anda tidak hanya menambahkan alat ke browser Anda; Anda mengadopsi lingkungan membaca digital yang lebih inklusif dan dapat diakses. Unduh sekarang untuk pengalaman membaca yang transformatif!\n\n\uD83E\uDD14 Pertanyaan Umum Tentang Extension Krom Kami\n✨ Bisakah saya menyesuaikan pengaturan half bold?\n\uD83D\uDD39 Tentu saja! Anda dapat menyesuaikan pengaturan half bold berdasarkan preferensi membaca Anda.\n\n\uD83D\uDCDA Bagaimana extension ini mendukung membaca yang ramah disleksia?\n\uD83D\uDD39 Extension kami menampilkan font open dyslexic, bersama dengan fitur half bold, yang dirancang untuk membantu pembaca disleksia.\n\n\uD83C\uDF10 Bisakah saya menggunakan extension ini di semua situs web?\n\uD83D\uDD39 Ya! Extension kami dirancang untuk bekerja di semua situs web, memberikan pengalaman membaca yang lancar."
+    },
+    "preferenceLabel": {
+        "message": "gunakan keutamaan",
+        "description": "label untuk (togol butang keutamaan global atau tapak"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "Tips",
+        "description": "label untuk (togol butang keutamaan global atau tapak"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "Global",
+        "description": "teks utama untuk butang togol keutamaan global"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "Lalai",
+        "description": "sub teks butang keutamaan global"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "Laman",
+        "description": "teks utama untuk butang togol keutamaan tapak"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "untuk laman web ini",
+        "description": "sub teks butang keutamaan global"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "Menyahdayakan",
+        "description": "onOffToggleBtnTextDisable teks butang"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "Mengaktifkan",
+        "description": "onOffToggleBtnTextEnable teks butang"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "mod membaca",
+        "description": "teks untuk onOffToggleBtnSubText"
+    },
+    "shortcutLabelText": {
+        "message": "pintasan lalai",
+        "description": "teks untuk onOffToggleBtnShortCutText"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "pintasan lalai untuk krom"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "pintasan lalai untuk firefox"
+    },
+    "saccadesIntervalLabel": {
+        "message": "selang saccades",
+        "description": "label untuk gelangsar selang saccades"
+    },
+    "fixationsStrengthLabel": {
+        "message": "kekuatan penetapan",
+        "description": "label untuk gelangsar kekuatan penetapan"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "penetapan kelegapan tepi",
+        "description": "label untuk penetapan gelangsar kelegapan tepi"
+    },
+    "saccadesColorLabel": {
+        "message": "warna saccades",
+        "description": "label untuk dropdown warna saccade"
+    },
+    "saccadesStyleLabel": {
+        "message": "gaya saccades",
+        "description": "label untuk dropdown gaya saccade"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "ketinggian garisan",
+        "description": "label untuk butang ketinggian baris yang lebih kecil dan lebih besar"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "teks untuk butang"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "Kecil",
+        "description": "sub teks untuk butang"
+    },
+    "largerLineHeightBtnText": {
+        "message": "aa+",
+        "description": "teks untuk butang"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "Besar",
+        "description": "sub teks untuk butang"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "matikan sentiasa",
+        "description": "teks untuk butang"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "hidupkan sentiasa",
+        "description": "teks untuk butang"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "keutamaan togol lalai",
+        "description": "sub teks untuk butang"
+    },
+    "resetBtnText": {
+        "message": "set semula ke tetapan optimum",
+        "description": "teks untuk butang"
+    },
+    "faqLinkText": {
+        "message": "Soalan lazim",
+        "description": "teks pautan"
+    },
+    "reportIssueLinkText": {
+        "message": "isu laporan",
+        "description": "teks pautan"
+    },
+    "aboutUsLinkText": {
+        "message": "Laman web",
+        "description": "teks pautan"
+    },
+    "dataEntryMessage": {
+        "message": "Matikan jika pembaca HalfBold mengganggu entri data",
+        "description": "Teks"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "membaca disokong",
+        "description": "Teks"
+    },
+    "urlPromptText": {
+        "message": "Tab tanpa url mungkin tidak berfungsi dengan betul",
+        "description": "Teks"
+    },
+    "reloadPromptText": {
+        "message": "Muat semula tab dengan url yang sah dan cuba lagi",
+        "description": "Teks"
+    },
+    "translationHelpLinkText": {
+        "message": "membantu kami dengan tranlasi. klik untuk mengetahui lebih lanjut",
+        "description": "Teks"
+    },
+    "reloadText": {
+        "message": "muat semula",
+        "description": "Teks"
+    },
+    "openPermissionPageBtnText": {
+        "message": "klik di sini untuk membuka halaman keizinan",
+        "description": "teks butang"
+    },
+    "missingPermissionHeaderText": {
+        "message": "Kebenaran Url fail hilang",
+        "description": "teks pengepala"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "lengkapkan langkah di bawah",
+        "description": "sub teks"
+    },
+    "grantPermissionInstructionText": {
+        "message": "Berikan keizinan url Fail",
+        "description": "Teks"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "Kembali dan cuba buka sambungan sekali lagi",
+        "description": "Teks"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "Halaman ini tidak disokong",
+        "description": "Teks"
+    },
+    "pageNotDetectedText": {
+        "message": "Halaman tidak dikesan",
+        "description": "Teks"
+    },
+    "surveyPromptText": {
+        "message": "mengambil tinjauan ringkas untuk membantu kami memperbaiki JR",
+        "description": "Teks"
+    }
+}

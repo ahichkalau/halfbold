@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"वरीयता का उपयोग करें","description":"के लिए लेबल (वैश्विक या साइट वरीयता बटन टॉगल करता है)"},"tipsPopupTriggerLabel":{"message":"युक्तियाँ","description":"के लिए लेबल (वैश्विक या साइट वरीयता बटन टॉगल करता है)"},"globalPreferenceToggleBtnText":{"message":"वैश्विक","description":"वैश्विक वरीयता टॉगल बटन के लिए मुख्य पाठ"},"globalPreferenceToggleBtnSubText":{"message":"चूक","description":"वैश्विक वरीयता बटन उप पाठ"},"sitePreferenceToggleBtnText":{"message":"साइट","description":"साइट वरीयता टॉगल बटन के लिए मुख्य पाठ"},"sitePreferenceToggleBtnSubText":{"message":"इस साइट के लिए","description":"वैश्विक वरीयता बटन उप पाठ"},"onOffToggleBtnTextDisable":{"message":"अक्षम","description":"onOffToggleBtnTextDisable बटन पाठ"},"onOffToggleBtnTextEnable":{"message":"योग्य बनाना","description":"onOffToggleBtnTextEnable बटन पाठ"},"onOffToggleBtnSubText":{"message":"पठन-पाठन मोड","description":"onOffToggleBtnSubText के लिए पाठ"},"shortcutLabelText":{"message":"डिफ़ॉल्ट शॉर्टकट","description":"onOffToggleBtnShortCutText के लिए पाठ"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"क्रोम के लिए डिफ़ॉल्ट शॉर्टकट"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"फ़ायरफ़ॉक्स के लिए डिफ़ॉल्ट शॉर्टकट"},"saccadesIntervalLabel":{"message":"saccades अंतराल","description":"सैकडों अंतराल स्लाइडर के लिए लेबल"},"fixationsStrengthLabel":{"message":"निर्धारण की ताकत","description":"निर्धारण शक्ति स्लाइडर के लिए लेबल"},"fixationsEdgeOpacityLabel":{"message":"फिक्सेशन एज अस्पष्टता","description":"निर्धारण बढ़त अस्पष्टता स्लाइडर के लिए लेबल"},"saccadesColorLabel":{"message":"सैकडों का रंग","description":"सैकड रंग ड्रॉपडाउन के लिए लेबल"},"saccadesStyleLabel":{"message":"saccades शैलियों","description":"सैकड शैली ड्रॉपडाउन के लिए लेबल"},"lineHeightTogglesLabel":{"message":"रेखा ऊँचाई","description":"छोटे और बड़े लाइन ऊँचाई बटन के लिए लेबल"},"smallerLineHeightBtnText":{"message":"एए-","description":"बटन के लिए पाठ"},"smallerLineHeightBtnSubText":{"message":"छोटा","description":"बटन के लिए उप पाठ"},"largerLineHeightBtnText":{"message":"एए +","description":"बटन के लिए पाठ"},"largerLineHeightBtnSubText":{"message":"बड़ा","description":"बटन के लिए उप पाठ"},"defaultBionicModeToggleBtnOffText":{"message":"हमेशा बंद करें","description":"बटन के लिए पाठ"},"defaultBionicModeToggleBtnOnText":{"message":"हमेशा चालू रखें","description":"बटन के लिए पाठ"},"defaultBionicModeToggleBtnSubText":{"message":"डिफ़ॉल्ट टॉगल वरीयता","description":"बटन के लिए उप पाठ"},"resetBtnText":{"message":"इष्टतम सेटिंग्स पर रीसेट करें","description":"बटन के लिए पाठ"},"faqLinkText":{"message":"अक्सर पूछे जाने वाले प्रश्न","description":"पाठ लिंक करें"},"reportIssueLinkText":{"message":"रिपोर्ट जारी","description":"पाठ लिंक करें"},"aboutUsLinkText":{"message":"वेबसाइट","description":"पाठ लिंक करें"},"dataEntryMessage":{"message":"यदि jiffy रीडर डेटा प्रविष्टि के साथ हस्तक्षेप करता है तो बंद करें","description":"टेक्स्ट"},"googlePlayLinkSecondaryText":{"message":"पढ़ने का समर्थन किया","description":"टेक्स्ट"},"urlPromptText":{"message":"यूआरएल के बिना टैब ठीक से काम नहीं कर सकते हैं","description":"टेक्स्ट"},"reloadPromptText":{"message":"टैब को मान्य URL के साथ पुनः लोड करें और पुन: प्रयास करें","description":"टेक्स्ट"},"translationHelpLinkText":{"message":"हमें अनुवाद के साथ मदद करें। अधिक जानने के लिए क्लिक करें","description":"टेक्स्ट"},"reloadText":{"message":"फिर से भरना","description":"टेक्स्ट"},"openPermissionPageBtnText":{"message":"अनुमतियाँ पृष्ठ खोलने के लिए यहाँ क्लिक करें","description":"बटन पाठ"},"missingPermissionHeaderText":{"message":"फ़ाइल URL अनुमति अनुपलब्ध है","description":"शीर्ष लेख पाठ"},"missingPermissionHeaderSubText":{"message":"नीचे दिए गए चरणों को पूरा करें","description":"उप-पाठ"},"grantPermissionInstructionText":{"message":"फ़ाइल URL अनुमति दें","description":"टेक्स्ट"},"reloadPageAndExtensionInstructionText":{"message":"वापसी करें और एक्सटेंशन को फिर से खोलने का प्रयास करें","description":"टेक्स्ट"},"pageNotSupportedHeaderText":{"message":"यह पृष्ठ समर्थित नहीं है","description":"टेक्स्ट"},"pageNotDetectedText":{"message":"पृष्ठ का पता नहीं चला","description":"टेक्स्ट"},"surveyPromptText":{"message":"जेआर को बेहतर बनाने में हमारी मदद करने के लिए लघु सर्वेक्षण करें","description":"टेक्स्ट"}}
+{
+    "appDesc": {
+        "message": "Half Bold Chrome Extension: बायोनिक पठन को बढ़ावा देने की आपकी कुंजी"
+    },
+    "appName": {
+        "message": "Half Bold Chrome Extension"
+    },
+    "storeDesc": {
+        "message": "आपका ऑनलाइन पठन सफ़र को उच्च श्रेणीय बनाएं Half Bold Chrome Extension के साथ - आपका अंतिम सहायक एक सरल और डिस्लेक्सिक मित्रवत् अनुभव के लिए! यह पोलो बोल्ड एक्सटेंशन डिजिटल पाठ को शुद्ध करता है, इसे पहुँचने और पढ़ने में सुगम और सुलभ बनाता है। पोलो बोल्ड फ़ॉन्ट और पोलो बोल्ड पाठ सुनिश्चित करते हैं एक समावेशी पठन पर्यावरण, जो डिस्लेक्सिया और एडीएचडी वालों की आवश्यकताओं को पूरा करता है।\n\n\uD83D\uDD21 पोलो बोल्ड की शानदारता का खोजें\n➤ हमारे पोलो बोल्ड फ़ॉन्ट के साथ वेब पेजों को सहज रूप से पढ़ें\n➤ पोलो बोल्ड पाठ के साथ अपने पठन अनुभव को अनुकूलित करें\n➤ पोलो बोल्ड के साथ जटिल पाठ पढ़ते समय हल्के निर्देश प्राप्त करें\n\n\uD83D\uDCBB पोलो बोल्ड एक्सटेंशन क्रोम के साथ बाधाओं को तोड़ें\n1\uFE0F⃣ चिपचिपा डिज़ाइन सुगम पहुँच के लिए\n2\uFE0F⃣ पोलो बोल्ड एक्सटेंशन के साथ पढ़ाई की सटीकता को सुधारें\n3\uFE0F⃣ पोलो बोल्ड क्रोम एक्सटेंशन के फ़ीचर्स के साथ पढ़ने की समझ को बढ़ाएं\n\n\uD83D\uDCDA पोलो बोल्ड एक्सटेंशन का अनुभव करें\n- अद्वितीय हैंफ़ोल्ड फ़ॉन्ट के साथ पढ़ाई का आनंद लें\n- हैंफ़ोल्ड एक्सटेंशन के साथ एक समावेशी डिजिटल अंतरिक्ष का अन्वेषण करें\n- हैंफ़ोल्ड विशेषताओं के साथ डिस्लेक्सिक मित्रवत् पठन अनुभव सुनिश्चित करें\n\n\uD83D\uDD0D डिस्लेक्सिया फ़ॉन्ट के साथ पठन को बढ़ाएं\n▸ डिस्लेक्सिया फ़ॉन्ट के साथ अपनी पठन दक्षता को बढ़ाएं\n▸ हमारे डिस्लेक्सिया फ़ॉन्ट के साथ पठन धारावाहिकता को सुधारें\n▸ डिस्लेक्सिक मित्रवत् फ़ॉन्ट के साथ पठन संघर्षों का अलविदा कहें\n\n\uD83C\uDF08 ओपन डिस्लेक्सिक फ़ॉन्ट क्रोम की जादू को खोलें\n• ओपन डिस्लेक्सिक फ़ॉन्ट क्रोम के साथ एक समावेशी पठन अनुभव का आनंद लें\n• एडीएचडी फ़ॉन्ट के साथ सुधारित पठन सटीकता का अनुभव करें\n• एडीएचडी पठन फ़ॉन्ट\n\n के साथ पठन का आनंद खोजें\n\n\uD83D\uDCA1 बायोनिक पठन के साथ अपने पठन को प्रकाशित करें आप बायोनिक पठन के लाभों का उपयोग कर सकते हैं, जो एक तेज़ पठन दर को सुनिश्चित करने के लिए बनाया गया है, बिना समझ गुणता को कम किये। यह नवाचारी विशेषता जटिल पाठों को विश्लेषित करती है, जिससे आप अधिक जानकारी को धारण कर सकते हैं और अधिक तेज़ी से पढ़ सकते हैं, इस प्रकार, अपनी उत्पादकता को बढ़ाते हुए। चाहे आप कोई विद्यार्थी हों जो किसी पेपर के लिए अनुसंधान कर रहे हैं, एक पेशेवर जो नवीनतम समाचार पर अपडेट रहने की कोशिश कर रहे हैं, या कोई डिस्लेक्सिया वाला हो, यह सुविधा आपको किसी भी पठन की चुनौती को आसानी से विजयी बनाती है।\n\n\uD83D\uDC41\uFE0F अपने पठन को एडीएचडी फ़ॉन्ट एक्सटेंशन के साथ सशक्त करें\n➤ एडीएचडी फ़ॉन्ट एक्सटेंशन के साथ पठन की धारावाहिकता को बढ़ाएं\n➤ एडीएचडी पठन बोल्ड अक्षरों के साथ शक्ति का अनुभव करें\n➤ एडीएचडी पठन एक्सटेंशन के साथ अपने पठन सफर को बदलें\n\n\uD83D\uDCD6 एडीएचडी रीडर को गले लगाएं\n1. एडीएचडी रीडर के साथ एक नया पठन अनुभव खोलें\n2. एडीएचडी पठन ऐप के साथ डिजिटल विश्व का अन्वेषण करें\n3. हर शब्द के पहले अक्षर के एडीएचडी रीडर के साथ एक डिस्लेक्सिक मित्रवत् पठन पर्यावरण का अनुभव करें\n\n\uD83D\uDCBB अपने पठन पर काबू पाएं\n- एडीएचडी बोल्ड अक्षर पठन के साथ पठन की सटीकता को सुधारें\n- एडीएचडी पठन बोल्ड अक्षरों के साथ पठन की धारावाहिकता को बढ़ाएं\n- क्रोम एक्सटेंशन हाफ बोल्ड के साथ एक सुखद पठन अनुभव सुनिश्चित करें\n\n\uD83D\uDDC2\uFE0F सभी में एक पठन समाधान\n➤ हाफबोल्ड विशेषता का अनुभव करें\n➤ हाफ बोल्ड फ़ॉन्ट के साथ पढ़ाई का आनंद लें\n➤ हाफ बोल्ड पाठ के साथ एक सुखद पठन सफर में शामिल हों\n\n\uD83D\uDD0D पठन में गहराई में डूबें इस टूल की अनोखी कार्यक्षमता न केवल व्यक्तियों को उनके पठन कार्यों पर केंद्रित रहने\n\n की अनुमति देती है, बल्कि सामग्री को पढ़ना भी आसान बनाती है। डिस्लेक्सिया या एडीएचडीडी वाले लोगों के लिए, यह एक खेल बदलने वाला हो सकता है। यह सिर्फ एक टूल नहीं है; यह एक अंतहीन जानकारी और कथाओं के एक दुनिया की ओर एक पुल है, एक तरीका है संलग्न और संवाद करने का, शामिल और मूल्यांकित महसूस करने का। हैफ़ बोल्ड क्रोम एक्सटेंशन सुनिश्चित करता है कि हमारी बढ़ती हुई डिजिटल दुनिया में कोई भी पीछे नहीं रह जाता है।\n\n\uD83D\uDD0E अपने पठन अनुभव को पुनः परिभाषित करें\n1. हाफ बोल्ड एक्सटेंशन क्रोम के साथ एक समावेशी डिजिटल अंतरिक्ष का अन्वेषण करें\n2. हाफबोल्ड एक्सटेंशन के साथ एक अद्वितीय पठन पर्यावरण में खुद को डुबोएं\n3. डिस्लेक्सिया फ़ॉन्ट के साथ पठन का आनंद लें\n\n\uD83D\uDD04 सुखद पठन का आनंद लें\n➤ डिस्लेक्सिया मित्रवत् फ़ॉन्ट के साथ अपनी पठन क्षमता को बढ़ाएं\n➤ ओपन डिस्लेक्सिक फ़ॉन्ट क्रोम के साथ एक सुखद पठन पर्यावरण खोजें\n➤ एडीएचडी फ़ॉन्ट की शक्ति का अनुभव करें\n\n\uD83D\uDC96 आपके समावेशी पठन सफर की शुरुआत करें\nहमारी समुदाय में शामिल हों और अपने डिजिटल पठन सफर को अद्यतन करें। Half Bold Chrome Extension के साथ, आप अपने ब्राउज़र में एक उपकरण ही नहीं जोड़ रहे हैं; आप एक और समावेशी और पहुँचने वाले डिजिटल पठन पर्यावरण अपना रहे हैं। अब डाउनलोड करें और एक बदलावकारी पठन अनुभव के लिए।\n\n\uD83E\uDD14 हमारे क्रोम एक्सटेंशन के बारे में FAQ\n✨ क्या मैं पोलो बोल्ड सेटिंग्स को अनुकूलित कर सकता हूँ?\n\uD83D\uDD39 बिल्कुल! आप अपनी पठन पसंदों के आधार पर पोलो बोल्ड सेटिंग्स को समायोजित कर सकते हैं।\n\n\uD83D\uDCDA यह एक्सटेंशन किस प्रकार से डिस्लेक्सिक मित्रवत् पठन का समर्थन करता है?\n\uD83D\uDD39 हमारा एक्सटेंशन ओपन डिस्लेक्सिक फ़ॉन्ट के साथ है, साथ ही पोलो बोल्ड फ़ीचर भी, जो डिस्लेक्सिया वालों को सहायता करने के लिए डिज़ाइन किया गया है।\n\n\uD83C\uDF10 क्या मैं इस एक्स\n\nटेंशन को किसी भी वेबसाइट पर उपयोग कर सकता हूँ?\n\uD83D\uDD39 हां! हमारा एक्सटेंशन सभी वेबसाइटों पर काम करने के लिए डिज़ाइन किया गया है, जिससे एक समान पठन अनुभव मिलता है।"
+    },
+    "preferenceLabel": {
+        "message": "वरीयता का उपयोग करें",
+        "description": "के लिए लेबल (वैश्विक या साइट वरीयता बटन टॉगल करता है)"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "युक्तियाँ",
+        "description": "के लिए लेबल (वैश्विक या साइट वरीयता बटन टॉगल करता है)"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "वैश्विक",
+        "description": "वैश्विक वरीयता टॉगल बटन के लिए मुख्य पाठ"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "चूक",
+        "description": "वैश्विक वरीयता बटन उप पाठ"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "साइट",
+        "description": "साइट वरीयता टॉगल बटन के लिए मुख्य पाठ"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "इस साइट के लिए",
+        "description": "वैश्विक वरीयता बटन उप पाठ"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "अक्षम",
+        "description": "onOffToggleBtnTextDisable बटन पाठ"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "योग्य बनाना",
+        "description": "onOffToggleBtnTextEnable बटन पाठ"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "पठन-पाठन मोड",
+        "description": "onOffToggleBtnSubText के लिए पाठ"
+    },
+    "shortcutLabelText": {
+        "message": "डिफ़ॉल्ट शॉर्टकट",
+        "description": "onOffToggleBtnShortCutText के लिए पाठ"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "क्रोम के लिए डिफ़ॉल्ट शॉर्टकट"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "फ़ायरफ़ॉक्स के लिए डिफ़ॉल्ट शॉर्टकट"
+    },
+    "saccadesIntervalLabel": {
+        "message": "saccades अंतराल",
+        "description": "सैकडों अंतराल स्लाइडर के लिए लेबल"
+    },
+    "fixationsStrengthLabel": {
+        "message": "निर्धारण की ताकत",
+        "description": "निर्धारण शक्ति स्लाइडर के लिए लेबल"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "फिक्सेशन एज अस्पष्टता",
+        "description": "निर्धारण बढ़त अस्पष्टता स्लाइडर के लिए लेबल"
+    },
+    "saccadesColorLabel": {
+        "message": "सैकडों का रंग",
+        "description": "सैकड रंग ड्रॉपडाउन के लिए लेबल"
+    },
+    "saccadesStyleLabel": {
+        "message": "saccades शैलियों",
+        "description": "सैकड शैली ड्रॉपडाउन के लिए लेबल"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "रेखा ऊँचाई",
+        "description": "छोटे और बड़े लाइन ऊँचाई बटन के लिए लेबल"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "एए-",
+        "description": "बटन के लिए पाठ"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "छोटा",
+        "description": "बटन के लिए उप पाठ"
+    },
+    "largerLineHeightBtnText": {
+        "message": "एए +",
+        "description": "बटन के लिए पाठ"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "बड़ा",
+        "description": "बटन के लिए उप पाठ"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "हमेशा बंद करें",
+        "description": "बटन के लिए पाठ"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "हमेशा चालू रखें",
+        "description": "बटन के लिए पाठ"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "डिफ़ॉल्ट टॉगल वरीयता",
+        "description": "बटन के लिए उप पाठ"
+    },
+    "resetBtnText": {
+        "message": "इष्टतम सेटिंग्स पर रीसेट करें",
+        "description": "बटन के लिए पाठ"
+    },
+    "faqLinkText": {
+        "message": "अक्सर पूछे जाने वाले प्रश्न",
+        "description": "पाठ लिंक करें"
+    },
+    "reportIssueLinkText": {
+        "message": "रिपोर्ट जारी",
+        "description": "पाठ लिंक करें"
+    },
+    "aboutUsLinkText": {
+        "message": "वेबसाइट",
+        "description": "पाठ लिंक करें"
+    },
+    "dataEntryMessage": {
+        "message": "यदि HalfBold रीडर डेटा प्रविष्टि के साथ हस्तक्षेप करता है तो बंद करें",
+        "description": "टेक्स्ट"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "पढ़ने का समर्थन किया",
+        "description": "टेक्स्ट"
+    },
+    "urlPromptText": {
+        "message": "यूआरएल के बिना टैब ठीक से काम नहीं कर सकते हैं",
+        "description": "टेक्स्ट"
+    },
+    "reloadPromptText": {
+        "message": "टैब को मान्य URL के साथ पुनः लोड करें और पुन: प्रयास करें",
+        "description": "टेक्स्ट"
+    },
+    "translationHelpLinkText": {
+        "message": "हमें अनुवाद के साथ मदद करें। अधिक जानने के लिए क्लिक करें",
+        "description": "टेक्स्ट"
+    },
+    "reloadText": {
+        "message": "फिर से भरना",
+        "description": "टेक्स्ट"
+    },
+    "openPermissionPageBtnText": {
+        "message": "अनुमतियाँ पृष्ठ खोलने के लिए यहाँ क्लिक करें",
+        "description": "बटन पाठ"
+    },
+    "missingPermissionHeaderText": {
+        "message": "फ़ाइल URL अनुमति अनुपलब्ध है",
+        "description": "शीर्ष लेख पाठ"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "नीचे दिए गए चरणों को पूरा करें",
+        "description": "उप-पाठ"
+    },
+    "grantPermissionInstructionText": {
+        "message": "फ़ाइल URL अनुमति दें",
+        "description": "टेक्स्ट"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "वापसी करें और एक्सटेंशन को फिर से खोलने का प्रयास करें",
+        "description": "टेक्स्ट"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "यह पृष्ठ समर्थित नहीं है",
+        "description": "टेक्स्ट"
+    },
+    "pageNotDetectedText": {
+        "message": "पृष्ठ का पता नहीं चला",
+        "description": "टेक्स्ट"
+    },
+    "surveyPromptText": {
+        "message": "जेआर को बेहतर बनाने में हमारी मदद करने के लिए लघु सर्वेक्षण करें",
+        "description": "टेक्स्ट"
+    }
+}

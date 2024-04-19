@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"ترجیح استعمال کرنا","description":"لیبل برائے (عالمی یا سائٹ ترجیحبٹن ٹوگل"},"tipsPopupTriggerLabel":{"message":"تجاویز","description":"لیبل برائے (عالمی یا سائٹ ترجیحبٹن ٹوگل"},"globalPreferenceToggleBtnText":{"message":"عالمی","description":"عالمی ترجیح ٹوگل بٹن کے لئے مرکزی متن"},"globalPreferenceToggleBtnSubText":{"message":"طے شدہ","description":"عالمی ترجیحبٹن ذیلی متن"},"sitePreferenceToggleBtnText":{"message":"سائٹ","description":"سائٹ ترجیح ٹوگل بٹن کے لیے مرکزی متن"},"sitePreferenceToggleBtnSubText":{"message":"اس سائٹ کے لیے","description":"عالمی ترجیحبٹن ذیلی متن"},"onOffToggleBtnTextDisable":{"message":"نااہل","description":"آف ٹوگل بٹن متن متن پر نااہل کریں"},"onOffToggleBtnTextEnable":{"message":"اہل","description":"آف ٹوگل بٹن متن متن پر"},"onOffToggleBtnSubText":{"message":"مطالعہ موڈ","description":"متن برائے آن آف ٹوگل بی ٹی این ذیلی متن"},"shortcutLabelText":{"message":"طے شدہ تیز راہ","description":"متن برائے آن آف ٹوگل بی ٹی این شارٹ کٹ متن"},"defaultShortcutValueTextChrome":{"message":"الٹ+ب","description":"کروم کے لیے طے شدہ شارٹ کٹ"},"defaultShortcutValueTextFirefox":{"message":"الٹ+ڈبلیو","description":"فائر فاکس کے لیے طے شدہ شارٹ کٹ"},"saccadesIntervalLabel":{"message":"سکیڈز وقفہ","description":"سیکاڈز وقفہ سلائیڈر کے لئے لیبل"},"fixationsStrengthLabel":{"message":"تعین طاقت","description":"تعین طاقت سلائیڈر کے لئے لیبل"},"fixationsEdgeOpacityLabel":{"message":"تعین کنارے کی بے پرواہی","description":"فکسیشن زایج اوپیسٹی سلائیڈر کے لئے لیبل"},"saccadesColorLabel":{"message":"رنگت","description":"سیکڈ رنگ ڈراپ ڈاؤن کے لیے لیبل"},"saccadesStyleLabel":{"message":"سکیڈز طرزیں","description":"سکیڈ طرز ڈراپ ڈاؤن کے لیے لیبل"},"lineHeightTogglesLabel":{"message":"لکیر اونچائی","description":"چھوٹے اور بڑی لائن اونچائی بٹن کے لئے لیبل"},"smallerLineHeightBtnText":{"message":"آ-","description":"بٹن کے لیے متن"},"smallerLineHeightBtnSubText":{"message":"چھوٹے","description":"بٹن کے لیے ذیلی متن"},"largerLineHeightBtnText":{"message":"آ+","description":"بٹن کے لیے متن"},"largerLineHeightBtnSubText":{"message":"بڑے","description":"بٹن کے لیے ذیلی متن"},"defaultBionicModeToggleBtnOffText":{"message":"ہمیشہ بند کرنا","description":"بٹن کے لیے متن"},"defaultBionicModeToggleBtnOnText":{"message":"ہمیشہ آن کریں","description":"بٹن کے لیے متن"},"defaultBionicModeToggleBtnSubText":{"message":"طے شدہ ٹوگل ترجیح","description":"بٹن کے لیے ذیلی متن"},"resetBtnText":{"message":"بہترین سیٹنگوں پر پھر سیٹ کریں","description":"بٹن کے لیے متن"},"faqLinkText":{"message":"سوالات","description":"متن ربط کریں"},"reportIssueLinkText":{"message":"رپورٹ کا مسئلہ","description":"متن ربط کریں"},"aboutUsLinkText":{"message":"ویب سائٹ","description":"متن ربط کریں"},"dataEntryMessage":{"message":"اگر جی ایف آئی ریڈر ڈیٹا انٹری میں مداخلت کرتا ہے تو بند کر دیں","description":"متن"},"googlePlayLinkSecondaryText":{"message":"مطالعہ معاون","description":"متن"},"urlPromptText":{"message":"بغیر یو آر ایل کے جدول ٹھیک سے کام نہیں کر سکتے","description":"متن"},"reloadPromptText":{"message":"درست یو آر ایل کے ساتھ جدول کو دوبارہ لوڈ کریں اور دوبارہ کوشش کریں","description":"متن"},"translationHelpLinkText":{"message":"ٹرانلیشن کے ساتھ ہماری مدد کریں. مزید جاننے کے لیے کلک کریں","description":"متن"},"reloadText":{"message":"پھر لوڈ","description":"متن"},"openPermissionPageBtnText":{"message":"اجازت صفحہ کھولنے کے لیے یہاں کلک کریں","description":"بٹن متن"},"missingPermissionHeaderText":{"message":"مسل یو آر ایل اجازت غائب","description":"سرتحریر متن"},"missingPermissionHeaderSubText":{"message":"نیچے مکمل مراحل","description":"ذیلی متن"},"grantPermissionInstructionText":{"message":"مسل یو آر ایل اجازت دیں","description":"متن"},"reloadPageAndExtensionInstructionText":{"message":"واپس آئیں اور توسیع دوبارہ کھولنے کی کوشش کریں","description":"متن"},"pageNotSupportedHeaderText":{"message":"یہ صفحہ معاونت یافتہ نہیں","description":"متن"},"pageNotDetectedText":{"message":"صفحہ کا پتہ نہیں چلا","description":"متن"},"surveyPromptText":{"message":"جے آر کو بہتر بنانے میں ہماری مدد کے لئے مختصر سروے کریں","description":"متن"}}
+{
+  "appDesc": {
+    "message": "ہیف بولڈ کروم ایکسٹینشن: بایونک پڑھائی کو بہتر بنانے کا آپ کا کلیدی ذریعہ"
+  },
+  "appName": {
+    "message": "Half Bold Chrome Extension"
+  },
+  "storeDesc": {
+    "message": "اپنے آن لائن پڑھنے کے سفر کو ہیف بولڈ کروم ایکسٹینشن کے ساتھ بلند کریں - آپ کی آخری مددگار برائے بہتر بایونک پڑھائی کیلئے! یہ ہیف بولڈ ایکسٹینشن ڈیجیٹل متن کو بہتر اور پڑھنے کے قابل بناتا ہے۔ ہیف بولڈ فونٹ اور ہیف بولڈ متن ایک مشمول پڑھنے کی ماحول فراہم کرتے ہیں، جو دسلیکسیا اور ای ڈی ایچ ڈی کے احتیاجات کو پورا کرتے ہیں۔\n\n\uD83D\uDD21 ہیف بولڈ کی شانداری کا دریافت کریں\n➤ ہمارے ہیف بولڈ فونٹ کے ساتھ بغیر کسی محنت کے ویب صفحات پڑھیں\n➤ ہیف بولڈ متن کے ساتھ اپنے پڑھنے کے تجربے کو شخصیت دیں\n➤ ہیف بولڈ کے ساتھ پڑھنے کے دوران پیچیدہ متن کے ساتھ نرم رہنمائی حاصل کریں\n\n\uD83D\uDCBB ہیف بولڈ ایکسٹینشن کے ساتھ باریئرز کو توڑیں\n1\uFE0F⃣ چسپ پسپ دستیابی کے لیے انٹرایکٹو ڈیزائن\n2\uFE0F⃣ ہیف بولڈ ایکسٹینشن کے ساتھ پڑھائی کی دقت بڑھائیں\n3\uFE0F⃣ ہیف بولڈ کروم ایکسٹینشن خصوصیات کے ساتھ پڑھائی کی فہم کو بڑھائیں\n\n\uD83D\uDCDA ہیف بولڈ ایکسٹینشن کے ساتھ تجربہ کریں\n- یکتا ہیف بولڈ فونٹ کے ساتھ پڑھائی کا لطف اٹھائیں\n- ہیف بولڈ ایکسٹینشن کے ساتھ ایک انکلوسیو ڈیجیٹل خلا پیدا کریں\n- ہیف بولڈ خصوصیات کے ساتھ ایک دسلیکسیا دوست پڑھنے کا تجربہ مضمون کریں\n\n\uD83D\uDD0D دسلیکسیا فونٹ کے ساتھ پڑھائی کو بہتر بنائیں\n▸ اپنی پڑھائی کی کارکردگی کو دسلیکسیا فونٹ کے ساتھ بڑھائیں\n▸ ہمارے دسلیکسیا فونٹ کے ساتھ پڑھائی کی روانی میں اضافہ کریں\n▸ دسلیکسیا دوست فونٹ کے ساتھ پڑھنے کی مشکلات کو ختم کریں\n\n\uD83C\uDF08 اوپن ڈسلیک فونٹ کروم کی جادو کو کھولیں\n• اوپن ڈسلیک فونٹ کروم کے ساتھ ایک انکلوسیو پڑھائی کا تجربہ کریں\n• ایڈی ایچ ڈی فونٹ کے ساتھ بہترین پڑھائی کی دقت کا تجربہ کریں\n• ایڈی ایچ ڈی پڑھنے کی فونٹ کے ساتھ پڑھائی کی خوشی کا دریافت کریں\n\n\uD83D\uDCA1 اپنی پڑھائی کو روشن کریں بایونک پڑھائی کے ساتھ\n➤ ایڈی ایچ ڈی فونٹ ایکسٹینشن کے ساتھ پڑھائی کی روانی ک\n\nو بڑھائیں\n➤ ایڈی ایچ ڈی پڑھائی کے بولڈ حروف کی طاقت کا تجربہ کریں\n➤ اپنے پڑھنے کے سفر کو ایڈی ایچ ڈی پڑھائی ایکسٹینشن کے ساتھ تبدیل کریں\n\n\uD83D\uDCD6 ایڈی ایچ ڈی ریڈر کو قبول کریں\n1. ایڈی ایچ ڈی ریڈر کے ساتھ ایک نیا پڑھنے کا تجربہ کھولیں\n2. ایڈی ایچ ڈی ریڈنگ ایپ کے ساتھ ڈیجیٹل دنیا کا کھوج کریں\n3. بولڈ پہلے ہر حرف ایڈی ایچ ڈی کے ساتھ ایک دسلیکسیا دوست پڑھنے کی ماحول کا تجربہ کریں\n\n\uD83D\uDCBB اپنی پڑھائی پر کنٹرول لیں\n- ایڈی ایچ ڈی بولڈ حروف پڑھائی کی دقت کو بہتر بنائیں\n- ایڈی ایچ ڈی بولڈ حروف پڑھنے کی روانی کو بڑھائیں\n- کروم ایکسٹینشن ہیف بولڈ کے ساتھ ایک مریم خوش پڑھنے کی تجربہ مضمون کریں\n\n\uD83D\uDDC2\uFE0F سب میں ایک پڑھنے کا حل\n➤ ہیف بولڈ خصوصیت کا تجربہ کریں\n➤ پولے بولڈ فونٹ کے ساتھ پڑھنے کا لطف اٹھائیں\n➤ ہیف بولڈ متن کے ساتھ ایک ہموار پڑھائی کا سفر شامل کریں\n\n\uD83D\uDD0D پڑھائی میں گہرائی میں ڈوبیں\nاس ٹول کی یونیک فعالیت نے صرف افراد کو ان کی پڑھائی کے کاموں پر توجہ مبین کی ہی ہے بلکہ مواد کو پڑھنے کو بھی آسان بنایا ہے۔ ان لوگوں کے لیے جن کو دسلیکسیا یا ای ڈی ایچ ڈی ہے، یہ ایک کھیل کرنے والے کا مقام ہو سکتا ہے۔ یہ صرف ایک اوزار نہیں ہے؛ یہ ایک دنیا کی انتہائی معلومات اور کہانیوں کے ایک دنیا کی طرف سے ایک پل ہے، ایک طریقہ ہے کہ انگیزہ حاصل کرنے اور مواصلات کرنے کے لیے، شامل ہونے کا اور قدرتی طور پر شامل ہونے کا، احساس شامل ہونے کا اور قیمت دی جانے کا۔ ہیف بولڈ کروم ایکسٹینشن یہ یقینی بناتا ہے کہ ہماری بڑھتی ہوئی ڈیجیٹل دنیا میں کوئی بھی پیچھے نہیں رہتا۔\n\n\uD83D\uDD0E اپنے پڑھنے کے تجربے کو دوبارہ تعریف کریں\n1. ہموار اکنڈجٹل انکلوسیو ڈیجیٹل خلا کا تجربہ کریں ہیف بولڈ ایکسٹینشن کروم کے ساتھ\n2. اپنے خود کے ایک مخصوص پڑھنے کے ماحول میں غرق ہوں\n3. دسلیکسیا فونٹ کے ساتھ پڑھنے کی خوشی کا تجربہ کریں\n\n\uD83D\uDD04 پر سیملیس پڑھائی کا لطف اٹھائیں\n➤ اپ\n\nنی پڑھائی کی کارکردگی کو دسلیکسیا دوست فونٹس کے ساتھ بڑھائیں\n➤ اوپن ڈسلیک فونٹ کروم کے ساتھ ایک مریم پڑھنے کا موفق تجربہ کریں\n➤ ایڈی ایچ ڈی فونٹ کی طاقت کا تجربہ کریں\n\n\uD83D\uDC96 اپنا انکلوسیو پڑھنے کا سفر شروع کریں\nہمارے کمیونٹی کا حصہ بنیں اور اپنے ڈیجیٹل پڑھنے کے سفر کو بہتر بنائیں۔ ہیف بولڈ کروم ایکسٹینشن کے ساتھ، آپ صرف اپنے براؤزر میں ایک اوزار شامل نہیں کر رہے ہیں؛ بلکہ ایک مزید اور دسترس پذیر ڈیجیٹل پڑھنے کے ماحول کو قبول کر رہے ہیں۔ ابھی ڈاؤن لوڈ کریں اور ایک تحفہ کے متبادل پڑھنے کا تجربہ حاصل کریں!\n\n\uD83E\uDD14 ہماری کروم ایکسٹینشن کے بارے میں آئی ایم ایکس\n✨ کیا میں ہیف بولڈ ترتیبات کو تخصیص کرسکتا ہوں؟\n\uD83D\uDD39 بالکل! آپ اپنی پڑھائی کی ترجیحات کے مطابق ہیف بولڈ ترتیبات کو ترتیب دے سکتے ہیں۔\n\n\uD83D\uDCDA اس ایکسٹینشن نے دسلیکسیا دوست پڑھنے کی حمایت کیسے کرتا ہے؟\n\uD83D\uDD39 ہمارا ایکسٹینشن اوپن ڈسلیک فونٹ شامل ہے، ساتھ ہیف بولڈ فیچر کے ساتھ، جو دسلیکسیا کے قارئین کی مدد کے لیے بنایا گیا ہے۔\n\n\uD83C\uDF10 کیا میں اس ایکسٹینشن کو کسی بھی ویب سائٹ پر استعمال کرسکتا ہوں؟\n\uD83D\uDD39 جی ہاں! ہمارا ایکسٹینشن تمام ویب سائٹس پر کام کرنے کے لیے ڈیزائن کیا گیا ہے، ایک ہموار پڑھائی کے تجربے فراہم کرتا ہوا۔"
+  },
+  "preferenceLabel": {
+    "message": "ترجیح استعمال کرنا",
+    "description": "لیبل برائے (عالمی یا سائٹ ترجیحبٹن ٹوگل"
+  },
+  "tipsPopupTriggerLabel": {
+    "message": "تجاویز",
+    "description": "لیبل برائے (عالمی یا سائٹ ترجیحبٹن ٹوگل"
+  },
+  "globalPreferenceToggleBtnText": {
+    "message": "عالمی",
+    "description": "عالمی ترجیح ٹوگل بٹن کے لئے مرکزی متن"
+  },
+  "globalPreferenceToggleBtnSubText": {
+    "message": "طے شدہ",
+    "description": "عالمی ترجیحبٹن ذیلی متن"
+  },
+  "sitePreferenceToggleBtnText": {
+    "message": "سائٹ",
+    "description": "سائٹ ترجیح ٹوگل بٹن کے لیے مرکزی متن"
+  },
+  "sitePreferenceToggleBtnSubText": {
+    "message": "اس سائٹ کے لیے",
+    "description": "عالمی ترجیحبٹن ذیلی متن"
+  },
+  "onOffToggleBtnTextDisable": {
+    "message": "نااہل",
+    "description": "آف ٹوگل بٹن متن متن پر نااہل کریں"
+  },
+  "onOffToggleBtnTextEnable": {
+    "message": "اہل",
+    "description": "آف ٹوگل بٹن متن متن پر"
+  },
+  "onOffToggleBtnSubText": {
+    "message": "مطالعہ موڈ",
+    "description": "متن برائے آن آف ٹوگل بی ٹی این ذیلی متن"
+  },
+  "shortcutLabelText": {
+    "message": "طے شدہ تیز راہ",
+    "description": "متن برائے آن آف ٹوگل بی ٹی این شارٹ کٹ متن"
+  },
+  "defaultShortcutValueTextChrome": {
+    "message": "الٹ+ب",
+    "description": "کروم کے لیے طے شدہ شارٹ کٹ"
+  },
+  "defaultShortcutValueTextFirefox": {
+    "message": "الٹ+ڈبلیو",
+    "description": "فائر فاکس کے لیے طے شدہ شارٹ کٹ"
+  },
+  "saccadesIntervalLabel": {
+    "message": "سکیڈز وقفہ",
+    "description": "سیکاڈز وقفہ سلائیڈر کے لئے لیبل"
+  },
+  "fixationsStrengthLabel": {
+    "message": "تعین طاقت",
+    "description": "تعین طاقت سلائیڈر کے لئے لیبل"
+  },
+  "fixationsEdgeOpacityLabel": {
+    "message": "تعین کنارے کی بے پرواہی",
+    "description": "فکسیشن زایج اوپیسٹی سلائیڈر کے لئے لیبل"
+  },
+  "saccadesColorLabel": {
+    "message": "رنگت",
+    "description": "سیکڈ رنگ ڈراپ ڈاؤن کے لیے لیبل"
+  },
+  "saccadesStyleLabel": {
+    "message": "سکیڈز طرزیں",
+    "description": "سکیڈ طرز ڈراپ ڈاؤن کے لیے لیبل"
+  },
+  "lineHeightTogglesLabel": {
+    "message": "لکیر اونچائی",
+    "description": "چھوٹے اور بڑی لائن اونچائی بٹن کے لئے لیبل"
+  },
+  "smallerLineHeightBtnText": {
+    "message": "آ-",
+    "description": "بٹن کے لیے متن"
+  },
+  "smallerLineHeightBtnSubText": {
+    "message": "چھوٹے",
+    "description": "بٹن کے لیے ذیلی متن"
+  },
+  "largerLineHeightBtnText": {
+    "message": "آ+",
+    "description": "بٹن کے لیے متن"
+  },
+  "largerLineHeightBtnSubText": {
+    "message": "بڑے",
+    "description": "بٹن کے لیے ذیلی متن"
+  },
+  "defaultBionicModeToggleBtnOffText": {
+    "message": "ہمیشہ بند کرنا",
+    "description": "بٹن کے لیے متن"
+  },
+  "defaultBionicModeToggleBtnOnText": {
+    "message": "ہمیشہ آن کریں",
+    "description": "بٹن کے لیے متن"
+  },
+  "defaultBionicModeToggleBtnSubText": {
+    "message": "طے شدہ ٹوگل ترجیح",
+    "description": "بٹن کے لیے ذیلی متن"
+  },
+  "resetBtnText": {
+    "message": "بہترین سیٹنگوں پر پھر سیٹ کریں",
+    "description": "بٹن کے لیے متن"
+  },
+  "faqLinkText": {
+    "message": "سوالات",
+    "description": "متن ربط کریں"
+  },
+  "reportIssueLinkText": {
+    "message": "رپورٹ کا مسئلہ",
+    "description": "متن ربط کریں"
+  },
+  "aboutUsLinkText": {
+    "message": "ویب سائٹ",
+    "description": "متن ربط کریں"
+  },
+  "dataEntryMessage": {
+    "message": "اگر جی ایف آئی ریڈر ڈیٹا انٹری میں مداخلت کرتا ہے تو بند کر دیں",
+    "description": "متن"
+  },
+  "googlePlayLinkSecondaryText": {
+    "message": "مطالعہ معاون",
+    "description": "متن"
+  },
+  "urlPromptText": {
+    "message": "بغیر یو آر ایل کے جدول ٹھیک سے کام نہیں کر سکتے",
+    "description": "متن"
+  },
+  "reloadPromptText": {
+    "message": "درست یو آر ایل کے ساتھ جدول کو دوبارہ لوڈ کریں اور دوبارہ کوشش کریں",
+    "description": "متن"
+  },
+  "translationHelpLinkText": {
+    "message": "ٹرانلیشن کے ساتھ ہماری مدد کریں. مزید جاننے کے لیے کلک کریں",
+    "description": "متن"
+  },
+  "reloadText": {
+    "message": "پھر لوڈ",
+    "description": "متن"
+  },
+  "openPermissionPageBtnText": {
+    "message": "اجازت صفحہ کھولنے کے لیے یہاں کلک کریں",
+    "description": "بٹن متن"
+  },
+  "missingPermissionHeaderText": {
+    "message": "مسل یو آر ایل اجازت غائب",
+    "description": "سرتحریر متن"
+  },
+  "missingPermissionHeaderSubText": {
+    "message": "نیچے مکمل مراحل",
+    "description": "ذیلی متن"
+  },
+  "grantPermissionInstructionText": {
+    "message": "مسل یو آر ایل اجازت دیں",
+    "description": "متن"
+  },
+  "reloadPageAndExtensionInstructionText": {
+    "message": "واپس آئیں اور توسیع دوبارہ کھولنے کی کوشش کریں",
+    "description": "متن"
+  },
+  "pageNotSupportedHeaderText": {
+    "message": "یہ صفحہ معاونت یافتہ نہیں",
+    "description": "متن"
+  },
+  "pageNotDetectedText": {
+    "message": "صفحہ کا پتہ نہیں چلا",
+    "description": "متن"
+  },
+  "surveyPromptText": {
+    "message": "جے آر کو بہتر بنانے میں ہماری مدد کے لئے مختصر سروے کریں",
+    "description": "متن"
+  }
+}

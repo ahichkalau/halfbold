@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"사용 기본 설정","description":"레이블(전역 또는 사이트 기본 설정 단추 토글)"},"tipsPopupTriggerLabel":{"message":"팁","description":"레이블(전역 또는 사이트 기본 설정 단추 토글)"},"globalPreferenceToggleBtnText":{"message":"글로벌","description":"전역 기본 설정 토글 단추의 기본 텍스트"},"globalPreferenceToggleBtnSubText":{"message":"기본값","description":"전역 기본 설정 단추 하위 텍스트"},"sitePreferenceToggleBtnText":{"message":"사이트","description":"사이트 기본 설정 토글 단추의 기본 텍스트"},"sitePreferenceToggleBtnSubText":{"message":"이 사이트의 경우","description":"전역 기본 설정 단추 하위 텍스트"},"onOffToggleBtnTextDisable":{"message":"비활성화","description":"onOffToggleBtnTextDisable 단추 텍스트"},"onOffToggleBtnTextEnable":{"message":"사용","description":"onOffToggleBtnTextEnable 단추 텍스트"},"onOffToggleBtnSubText":{"message":"읽기 모드","description":"onOffToggleBtnSubText 용 텍스트"},"shortcutLabelText":{"message":"기본 바로 가기","description":"onOffToggleBtnShortCutText 에 대한 텍스트"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"크롬의 기본 바로 가기"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"파이어 폭스의 기본 바로 가기"},"saccadesIntervalLabel":{"message":"saccades 간격","description":"saccades 간격 슬라이더의 레이블"},"fixationsStrengthLabel":{"message":"고정 강도","description":"고정 강도 슬라이더에 대한 레이블"},"fixationsEdgeOpacityLabel":{"message":"고정 가장자리 불투명도","description":"고정 가장자리 불투명도 슬라이더에 대한 레이블"},"saccadesColorLabel":{"message":"saccades 색상","description":"saccade 색상 드롭다운의 레이블"},"saccadesStyleLabel":{"message":"saccades 스타일","description":"saccade 스타일 드롭다운의 레이블"},"lineHeightTogglesLabel":{"message":"선 높이","description":"더 작고 큰 선 높이 단추에 대한 레이블"},"smallerLineHeightBtnText":{"message":"aa-","description":"단추의 텍스트"},"smallerLineHeightBtnSubText":{"message":"작은","description":"단추의 하위 텍스트"},"largerLineHeightBtnText":{"message":"aa+","description":"단추의 텍스트"},"largerLineHeightBtnSubText":{"message":"큰","description":"단추의 하위 텍스트"},"defaultBionicModeToggleBtnOffText":{"message":"항상 끄기","description":"단추의 텍스트"},"defaultBionicModeToggleBtnOnText":{"message":"항상 켜기","description":"단추의 텍스트"},"defaultBionicModeToggleBtnSubText":{"message":"기본 토글 기본 설정","description":"단추의 하위 텍스트"},"resetBtnText":{"message":"최적의 설정으로 재설정","description":"단추의 텍스트"},"faqLinkText":{"message":"자주 묻는 질문(FAQ)","description":"링크 텍스트"},"reportIssueLinkText":{"message":"보고서 문제","description":"링크 텍스트"},"aboutUsLinkText":{"message":"웹사이트","description":"링크 텍스트"},"dataEntryMessage":{"message":"jiffy reader가 데이터 입력을 방해하는 경우 끄기","description":"문자 메시지"},"googlePlayLinkSecondaryText":{"message":"읽기 지원","description":"문자 메시지"},"urlPromptText":{"message":"URL이 없는 탭이 제대로 작동하지 않을 수 있습니다.","description":"문자 메시지"},"reloadPromptText":{"message":"유효한 URL로 탭을 다시로드하고 다시 시도하십시오.","description":"문자 메시지"},"translationHelpLinkText":{"message":"트래블레이션으로 우리를 도와주세요. 자세한 내용을 보려면 클릭하십시오.","description":"문자 메시지"},"reloadText":{"message":"새로고침","description":"문자 메시지"},"openPermissionPageBtnText":{"message":"사용 권한 페이지를 열려면 여기를 클릭하십시오.","description":"단추 텍스트"},"missingPermissionHeaderText":{"message":"파일 URL 권한이 누락되었습니다.","description":"머리글 텍스트"},"missingPermissionHeaderSubText":{"message":"아래 단계를 완료합니다.","description":"하위 텍스트"},"grantPermissionInstructionText":{"message":"파일 URL 권한 부여","description":"문자 메시지"},"reloadPageAndExtensionInstructionText":{"message":"돌아가서 확장 프로그램을 다시 열어 보십시오.","description":"문자 메시지"},"pageNotSupportedHeaderText":{"message":"이 페이지는 지원되지 않습니다.","description":"문자 메시지"},"pageNotDetectedText":{"message":"페이지가 검색되지 않음","description":"문자 메시지"},"surveyPromptText":{"message":"JR을 개선하는 데 도움이되는 간단한 설문 조사를하십시오.","description":"문자 메시지"}}
+{
+    "appDesc": {
+        "message": "반 굵은 크롬 확장 기능: 향상된 바이오닉 읽기의 열쇠"
+    },
+    "appName": {
+        "message": "반 굵은 크롬 확장 기능 | Half Bold Reader"
+    },
+    "storeDesc": {
+        "message": "반 굵은 크롬 확장 기능과 함께 온라인 읽기 여정을 높이세요 - 원활하고 난독증 친화적인 경험을 위한 최고의 도구! 이 반 굵은 확장 기능은 디지털 텍스트를 정제하여 접근 가능하고 읽기 쉽게 만듭니다. 반 굵은 글꼴과 반 굵은 텍스트는 난독증과 ADHD를 가진 사람들의 필요를 충족시키는 포괄적인 읽기 환경을 보장합니다.\n\n\uD83D\uDD21 반 굵은의 빛나는 점을 발견하세요\n➤ 우리의 반 굵은 글꼴로 웹 페이지를 쉽게 읽으세요\n➤ 반 굵은 텍스트로 읽기 경험을 사용자 정의하세요\n➤ 반 굵은으로 복잡한 텍스트를 읽는 동안 부드러운 지침을 받으세요\n\n\uD83D\uDCBB 반 굵은 크롬 확장 기능으로 장벽을 무너뜨리세요\n1\uFE0F⃣ 원활한 접근성을 위한 인터랙티브 디자인\n2\uFE0F⃣ 반 굵은 확장 기능으로 읽기 정확성 향상\n3\uFE0F⃣ 반 굵은 크롬 확장 기능의 특징으로 읽기 이해력 향상\n\n\uD83D\uDCDA 반 굵은 확장 기능을 경험하다\n- 독특한 반 굵은 글꼴로 읽기를 즐기세요\n- 반 굵은 확장 기능으로 포괄적인 디지털 공간을 탐험하세요\n- 반 굵은 기능으로 난독증 친화적인 읽기 경험을 보장하세요\n\n\uD83D\uDD0D 난독증 글꼴로 읽기 향상\n▸ 난독증 글꼴로 읽기 효율성 향상\n▸ 우리의 난독증 글꼴로 읽기 유창성 향상\n▸ 난독증 친화적인 글꼴로 읽기 어려움을 잊으세요\n\n\uD83C\uDF08 열린 난독증 글꼴 크롬의 마법 펼치기\n• 열린 난독증 글꼴 크롬으로 포괄적인 읽기 경험을 즐기세요\n• ADHD 글꼴로 읽기 정확성 향상 경험\n• ADHD 읽기 글꼴로 읽기의 즐거움을 발견하세요\n\n\uD83D\uDCA1 바이오닉 읽기로 읽기를 밝혀내세요 바이오닉 읽기의 혜택을 활용할 수 있습니다. 이 혁신적인 기능은 복잡한 텍스트를 분해하여 더 많은 정보를 유지하고 더 빨리 읽을 수 있게 해주므로 생산성을 증가시킵니다. 논문을 위해 연구하는 학생이든, 최신 뉴스를 따라잡는 전문가이든, 난독증이 있는 사람이든, 이 기능은 어떤 읽기 도전에도 쉽게 대처할 수 있게 돕습니다.\n\n\uD83D\uDC41\uFE0F ADHD 글꼴 확장 기능으로 읽기 힘을 높이세요\n➤ ADHD 글꼴 확장 기능으로 읽기 유창성 향상\n➤ ADHD 읽기 굵은 글자의 힘을 경험하세요\n➤ ADHD 읽기 확장 기능으로 읽기 여정을 변화시키세요\n\n\uD83D\uDCD6 ADHD 리더를 받아들이세요\n1. ADHD 리더로 새로운 읽기 경험을 해제하세요\n2. ADHD 읽기 앱으로 디지털 세계를 탐험하세요\n3. 각 단어의 첫 글자가 굵은 ADHD로 난독증 친화적인 읽기 환경을 경험하세요\n\n\uD83D\uDCBB 읽기를 주도하세요\n- ADHD 굵은 글자 읽기로 읽기 정확성 향상\n- ADHD 읽기 굵은 글자로 읽기 유창성 향상\n- 크롬 확장 반 굵은으로 편안한 읽기 경험 보장\n\n\uD83D\uDDC2\uFE0F 모든 것이 하나의 읽기 솔루션\n➤ 반 굵은 기능을 경험하세요\n➤ 반 굵은 글꼴로 읽기를 즐기세요\n➤ 반 굵은 텍스트로 원활한 읽기 여정에 참여하세요\n\n\uD83D\uDD0D 읽기에 더 깊이 들어가세요 이 도구의 독특한 기능은 개인이 읽기 작업에 집중하는 것을 가능하게 할 뿐만 아니라 콘텐츠를 더 쉽게 읽을 수 있게 만듭니다. 난독증이나 ADHD가 있는 사람들에게는 게임 체인저가 될 수 있습니다. 이것은 그저 도구가 아니라 끝없는 정보와 이야기의 세계로의 다리, 참여하고 소통하고, 포함되고 소중하게 여기는 방법입니다. 반 굵은 크롬 확장 기능은 우리의 점점 디지털화되는 세계에서 아무도 뒤처지지 않도록 보장합니다.\n\n\uD83D\uDD0E 읽기 경험을 재정의하세요\n1. 반 굵은 크롬 확장 기능으로 포괄적인 디지털 공간을 탐험하세요\n2. 반 굵은 확장 기능으로 독특한 읽기 환경에 몰입하세요\n3. 난독증 글꼴로 읽기의 즐거움을 경험하세요\n\n\uD83D\uDD04 원활한 읽기를 즐기세요\n➤ 난독증 친화적인 글꼴로 읽기 효율성 향상\n➤ 열린 난독증 글꼴 크롬으로 편안한 읽기 환경을 발견하세요\n➤ ADHD 글꼴의 힘을 경험하세요\n\n\uD83D\uDC96 포괄적인 읽기 여정을 시작하세요\n우리의 커뮤니티에 가입하고 디지털 읽기 여정을 향상시키세요. 반 굵은 크롬 확장 기능을 사용하면 브라우저에 도구를 추가하는 것이 아니라 더 포괄적이고 접근 가능한 디지털 읽기 환경을 채택하게 됩니다. 변화하는 읽기 경험을 위해 지금 다운로드하세요!\n\n\uD83E\uDD14 우리의 크롬 확장 기능에 대한 자주 묻는 질문\n✨ 반 굵은 설정을 사용자 정의할 수 있나요?\n\uD83D\uDD39 당연히! 읽기 선호도에 따라 반 굵은 설정을 조정할 수 있습니다.\n\n\uD83D\uDCDA 이 확장 기능은 어떻게 난독증 친화적인 읽기를 지원하나요?\n\uD83D\uDD39 우리의 확장 기능은 난독증 독자를 돕기 위해 설계된 열린 난독증 글꼴과 반 굵은 기능을 특징으로 합니다.\n\n\uD83C\uDF10 이 확장 기능을 모든 웹사이트에서 사용할 수 있나요?\n\uD83D\uDD39 네! 우리의 확장 기능은 모든 웹사이트에서 작동하도록 설계되어 원활한 읽기 경험을 제공합니다."
+    },
+    "preferenceLabel": {
+        "message": "사용 기본 설정",
+        "description": "레이블(전역 또는 사이트 기본 설정 단추 토글)"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "팁",
+        "description": "레이블(전역 또는 사이트 기본 설정 단추 토글)"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "글로벌",
+        "description": "전역 기본 설정 토글 단추의 기본 텍스트"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "기본값",
+        "description": "전역 기본 설정 단추 하위 텍스트"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "사이트",
+        "description": "사이트 기본 설정 토글 단추의 기본 텍스트"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "이 사이트의 경우",
+        "description": "전역 기본 설정 단추 하위 텍스트"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "비활성화",
+        "description": "onOffToggleBtnTextDisable 단추 텍스트"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "사용",
+        "description": "onOffToggleBtnTextEnable 단추 텍스트"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "읽기 모드",
+        "description": "onOffToggleBtnSubText 용 텍스트"
+    },
+    "shortcutLabelText": {
+        "message": "기본 바로 가기",
+        "description": "onOffToggleBtnShortCutText 에 대한 텍스트"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "크롬의 기본 바로 가기"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "파이어 폭스의 기본 바로 가기"
+    },
+    "saccadesIntervalLabel": {
+        "message": "saccades 간격",
+        "description": "saccades 간격 슬라이더의 레이블"
+    },
+    "fixationsStrengthLabel": {
+        "message": "고정 강도",
+        "description": "고정 강도 슬라이더에 대한 레이블"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "고정 가장자리 불투명도",
+        "description": "고정 가장자리 불투명도 슬라이더에 대한 레이블"
+    },
+    "saccadesColorLabel": {
+        "message": "saccades 색상",
+        "description": "saccade 색상 드롭다운의 레이블"
+    },
+    "saccadesStyleLabel": {
+        "message": "saccades 스타일",
+        "description": "saccade 스타일 드롭다운의 레이블"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "선 높이",
+        "description": "더 작고 큰 선 높이 단추에 대한 레이블"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "단추의 텍스트"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "작은",
+        "description": "단추의 하위 텍스트"
+    },
+    "largerLineHeightBtnText": {
+        "message": "aa+",
+        "description": "단추의 텍스트"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "큰",
+        "description": "단추의 하위 텍스트"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "항상 끄기",
+        "description": "단추의 텍스트"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "항상 켜기",
+        "description": "단추의 텍스트"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "기본 토글 기본 설정",
+        "description": "단추의 하위 텍스트"
+    },
+    "resetBtnText": {
+        "message": "최적의 설정으로 재설정",
+        "description": "단추의 텍스트"
+    },
+    "faqLinkText": {
+        "message": "자주 묻는 질문(FAQ)",
+        "description": "링크 텍스트"
+    },
+    "reportIssueLinkText": {
+        "message": "보고서 문제",
+        "description": "링크 텍스트"
+    },
+    "aboutUsLinkText": {
+        "message": "웹사이트",
+        "description": "링크 텍스트"
+    },
+    "dataEntryMessage": {
+        "message": "HalfBold reader가 데이터 입력을 방해하는 경우 끄기",
+        "description": "문자 메시지"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "읽기 지원",
+        "description": "문자 메시지"
+    },
+    "urlPromptText": {
+        "message": "URL이 없는 탭이 제대로 작동하지 않을 수 있습니다.",
+        "description": "문자 메시지"
+    },
+    "reloadPromptText": {
+        "message": "유효한 URL로 탭을 다시로드하고 다시 시도하십시오.",
+        "description": "문자 메시지"
+    },
+    "translationHelpLinkText": {
+        "message": "트래블레이션으로 우리를 도와주세요. 자세한 내용을 보려면 클릭하십시오.",
+        "description": "문자 메시지"
+    },
+    "reloadText": {
+        "message": "새로고침",
+        "description": "문자 메시지"
+    },
+    "openPermissionPageBtnText": {
+        "message": "사용 권한 페이지를 열려면 여기를 클릭하십시오.",
+        "description": "단추 텍스트"
+    },
+    "missingPermissionHeaderText": {
+        "message": "파일 URL 권한이 누락되었습니다.",
+        "description": "머리글 텍스트"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "아래 단계를 완료합니다.",
+        "description": "하위 텍스트"
+    },
+    "grantPermissionInstructionText": {
+        "message": "파일 URL 권한 부여",
+        "description": "문자 메시지"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "돌아가서 확장 프로그램을 다시 열어 보십시오.",
+        "description": "문자 메시지"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "이 페이지는 지원되지 않습니다.",
+        "description": "문자 메시지"
+    },
+    "pageNotDetectedText": {
+        "message": "페이지가 검색되지 않음",
+        "description": "문자 메시지"
+    },
+    "surveyPromptText": {
+        "message": "JR을 개선하는 데 도움이되는 간단한 설문 조사를하십시오.",
+        "description": "문자 메시지"
+    }
+}

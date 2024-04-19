@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"használja a beállításokat","description":"címke (globális vagy webhelybeállítási gomb kapcsolók)"},"tipsPopupTriggerLabel":{"message":"Tippek","description":"címke (globális vagy webhelybeállítási gomb kapcsolók)"},"globalPreferenceToggleBtnText":{"message":"globális","description":"főszöveg a globális preferencia-váltógombhoz"},"globalPreferenceToggleBtnSubText":{"message":"alapértelmezett","description":"globális preferencia gomb alszöveg"},"sitePreferenceToggleBtnText":{"message":"telephely","description":"a webhely preferencia-váltógombjának fő szövege"},"sitePreferenceToggleBtnSubText":{"message":"ehhez az oldalhoz","description":"globális preferencia gomb alszöveg"},"onOffToggleBtnTextDisable":{"message":"letilt","description":"onOffToggleBtnTextDisable gomb szövege"},"onOffToggleBtnTextEnable":{"message":"engedélyez","description":"onOffToggleBtnTextEnable gomb szövege"},"onOffToggleBtnSubText":{"message":"olvasási mód","description":"szöveg aoffToggleBtnSubText-hez"},"shortcutLabelText":{"message":"alapértelmezett parancsikon","description":"szöveg a következőhöz:OffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"alapértelmezett parancsikon a chrome-hoz"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"alapértelmezett parancsikon a firefoxhoz"},"saccadesIntervalLabel":{"message":"saccades intervallum","description":"címke a saccades intervallum csúszkához"},"fixationsStrengthLabel":{"message":"rögzítési erősség","description":"a rögzítési erősség csúszkájának címkéje"},"fixationsEdgeOpacityLabel":{"message":"rögzítések élek átlátszatlansága","description":"címke a rögzítésekhez élek átlátszatlansági csúszkája csúszka"},"saccadesColorLabel":{"message":"saccades szín","description":"címke a saccade szín legördülő menühöz"},"saccadesStyleLabel":{"message":"saccades stílusok","description":"címke a saccade stílus legördülő menühöz"},"lineHeightTogglesLabel":{"message":"vonalmagasság","description":"címke a kisebb és nagyobb sormagasság gombokhoz"},"smallerLineHeightBtnText":{"message":"aa-","description":"szöveg a gombhoz"},"smallerLineHeightBtnSubText":{"message":"Kisebb","description":"a gomb alszövege"},"largerLineHeightBtnText":{"message":"aa+","description":"szöveg a gombhoz"},"largerLineHeightBtnSubText":{"message":"Nagyobb","description":"a gomb alszövege"},"defaultBionicModeToggleBtnOffText":{"message":"mindig kapcsolja ki","description":"szöveg a gombhoz"},"defaultBionicModeToggleBtnOnText":{"message":"mindig kapcsold be","description":"szöveg a gombhoz"},"defaultBionicModeToggleBtnSubText":{"message":"alapértelmezett kapcsolási beállítás","description":"a gomb alszövege"},"resetBtnText":{"message":"állítsa vissza az optimális beállításokat","description":"szöveg a gombhoz"},"faqLinkText":{"message":"GYIK","description":"hivatkozás szövege"},"reportIssueLinkText":{"message":"jelentési probléma","description":"hivatkozás szövege"},"aboutUsLinkText":{"message":"weboldal","description":"hivatkozás szövege"},"dataEntryMessage":{"message":"Kapcsolja ki, ha a jiffy olvasó zavarja az adatbevitelt","description":"SMS"},"googlePlayLinkSecondaryText":{"message":"olvasás támogatott","description":"SMS"},"urlPromptText":{"message":"Előfordulhat, hogy az URL-cím nélküli lapok nem működnek megfelelően","description":"SMS"},"reloadPromptText":{"message":"Töltse be újra a lapot érvényes URL-címmel, és próbálkozzon újra","description":"SMS"},"translationHelpLinkText":{"message":"segítsen nekünk a fordításokban. kattintson, ha többet szeretne megtudni","description":"SMS"},"reloadText":{"message":"Újratöltés","description":"SMS"},"openPermissionPageBtnText":{"message":"kattintson ide az engedélyek oldal megnyitásához","description":"gomb szövege"},"missingPermissionHeaderText":{"message":"A fájl URL-engedélye hiányzik","description":"fejléc szövege"},"missingPermissionHeaderSubText":{"message":"az alábbi lépések végrehajtása","description":"alszöveg"},"grantPermissionInstructionText":{"message":"Engedély megadása a Fájl URL-címéhez","description":"SMS"},"reloadPageAndExtensionInstructionText":{"message":"Térjen vissza, és próbálja meg újra megnyitni a bővítményt","description":"SMS"},"pageNotSupportedHeaderText":{"message":"Ez az oldal nem támogatott","description":"SMS"},"pageNotDetectedText":{"message":"Az oldal nem észlelhető","description":"SMS"},"surveyPromptText":{"message":"készítsen rövid felmérést, hogy segítsen nekünk a JR fejlesztésében","description":"SMS"}}
+{
+    "appDesc": {
+        "message": "Félkövér Chrome bővítmény: Az Ön kulcsa a fejlett Bionic olvasáshoz"
+    },
+    "appName": {
+        "message": "Félkövér Chrome bővítmény | Half Bold Reader"
+    },
+    "storeDesc": {
+        "message": "Emelje fel online olvasási élményét a Félkövér Chrome bővítménnyel - a zökkenőmentes és diszlexiabarát élményért! Ez a félkövér bővítmény finomítja a digitális szöveget, olvashatóvá és hozzáférhetővé téve azt. A félkövér betűtípus és a félkövér szöveg egy befogadó olvasási környezetet biztosít, kielégítve a diszlexiás és az ADHD-val élők igényeit.\n\n\uD83D\uDD21 Fedezze fel a Félkövér Brilliance-t\n➤ Olvassa el könnyedén a weboldalakat félkövér betűtípusunkkal\n➤ Testreszabhatja olvasási élményét félkövér szöveggel\n➤ Fogadjon finom útmutatást a bonyolult szöveg olvasása közben félkövérrel\n\n\uD83D\uDCBB Törje le a korlátokat a Félkövér bővítménnyel\n1\uFE0F⃣ Interaktív design a sima hozzáférhetőségért\n2\uFE0F⃣ Javítsa olvasási pontosságát a félkövér bővítménnyel\n3\uFE0F⃣ Fokozza az olvasásértést a félkövér chrome bővítmény funkcióival\n\n\uD83D\uDCDA Tapasztalja meg a Félkövér bővítményt\n- Élvezze az olvasást az egyedi félkövér betűtípussal\n- Fedezze fel a befogadó digitális teret a félkövér bővítménnyel\n- Biztosítson diszlexiabarát olvasási élményt a félkövér funkciókkal\n\n\uD83D\uDD0D Fokozza az olvasást a Diszlexia betűtípussal\n▸ Fokozza olvasási hatékonyságát a diszlexia betűtípussal\n▸ Javítsa olvasási folyékonyságát diszlexiás betűtípusunkkal\n▸ Búcsúzzon el az olvasási nehézségektől a diszlexiabarát betűtípusokkal\n\n\uD83C\uDF08 Fedezze fel az Open Dyslexic betűtípus Chrome varázslatát\n• Élvezze a befogadó olvasási élményt az open dyslexic betűtípus chrome-mal\n• Tapasztalja meg a javított olvasási pontosságot az ADHD betűtípussal\n• Fedezze fel az olvasás örömét az ADHD olvasási betűtípussal\n\n\uD83D\uDCA1 Világosítsa meg olvasását a Bionic olvasással\nHasználhatja a bionic olvasás előnyeit, amely gyorsabb olvasási tempót tesz lehetővé anélkül, hogy veszélyeztetné az értést. Ez az innovatív funkció lebontja a bonyolult szövegeket, lehetővé téve, hogy több információt őrizzen meg és gyorsabban olvasson, így növelve termelékenységét. Akár diák, akár szakember, aki a legújabb híreket olvassa, vagy diszlexiás, ez a funkció lehetővé teszi, hogy könnyedén legyőzze az olvasási kihívásokat.\n\n\uD83D\uDC41\uFE0F Erősítse meg olvasását az ADHD betűtípus bővítménnyel\n➤ Fokozza olvasási folyékonyságát az ADHD betűtípus bővítménnyel\n➤ Tapasztalja meg az ADHD olvasási félkövér betűk erejét\n➤ Alakítsa át olvasási útját az ADHD olvasási bővítménnyel\n\n\uD83D\uDCD6 Fogadja el az ADHD olvasót\n1. Nyisson új olvasási élményt az ADHD olvasóval\n2. Fedezze fel a digitális világot az ADHD olvasó alkalmazással\n3. Tapasztalja meg a diszlexiabarát olvasási környezetet a félkövér első betűvel az ADHD szóban\n\n\uD83D\uDCBB Vegye kézbe olvasását\n- Javítsa olvasási pontosságát az ADHD félkövér betű olvasással\n- Fokozza olvasási folyékonyságát az ADHD félkövér betű olvasással\n- Biztosítson kényelmes olvasási élményt a chrome bővítmény félkövérrel\n\n\uD83D\uDDC2\uFE0F Minden egyben olvasási megoldás\n➤ Tapasztalja meg a félkövér funkciót\n➤ Élvezze az olvasást a félkövér betűtípussal\n➤ Vegyen részt egy sima olvasási útban a félkövér szöveggel\n\n\uD83D\uDD0D Merüljön bele az olvasásba\nEszközünk egyedülálló funkcionalitása nem csak lehetővé teszi az embereknek, hogy fókuszáltak maradjanak olvasási feladataikon, hanem olvashatóbbá is teszi a tartalmat. A diszlexiás vagy ADHD-val élő emberek számára ez lehet a játék megváltoztatója. Ez nem csak egy eszköz; ez egy híd az végtelen információk és történetek világába, egy módja a kapcsolattartásnak és a kommunikációnak, hogy értékelve és bevonva érezzék magukat. A Félkövér Chrome bővítmény garantálja, hogy senki sem marad le a fokozatosan digitális világunkban.\n\n\uD83D\uDD0E Újradefiniálja olvasási élményét\n1. Fedezze fel a befogadó digitális teret a félkövér chrome bővítménnyel\n2. Merüljön el egy egyedi olvasási környezetben a félkövér bővítménnyel\n3. Tapasztalja meg az olvasás örömét a diszlexia betűtípussal\n\n\uD83D\uDD04 Élvezze a zökkenőmentes olvasást\n➤ Fokozza olvasási hatékonyságát diszlexiabarát betűtípusokkal\n➤ Fedezzen fel egy kényelmes olvasási környezetet az open dyslexic betűtípus chrome-mal\n➤ Tapasztalja meg az ADHD betűtípus erejét\n\n\uD83D\uDC96 Kezdje el befogadó olvasási útját\nCsatlakozzon közösségünkhöz és javítsa digitális olvasási útját. A Félkövér Chrome bővítménnyel nem csak egy eszközt ad hozzá böngészőjéhez; befogadóbb és hozzáférhetőbb digitális olvasási környezetet fogad el. Töltse le most a transzformatív olvasási élményért!\n\n\uD83E\uDD14 GYIK a Chrome bővítményünkről\n✨ Testreszabhatom a félkövér beállításokat?\n\uD83D\uDD39 Abszolút! Testreszabhatja a félkövér beállításokat olvasási preferenciái alapján.\n\n\uD83D\uDCDA Hogyan támogatja ez a bővítmény a diszlexiabarát olvasást?\n\uD83D\uDD39 Bővítményünkben megtalálható az open dyslexic betűtípus, valamint a félkövér funkció, amelyek a diszlexiás olvasók segítségére vannak.\n\n\uD83C\uDF10 Használhatom ezt a bővítményt bármely webhelyen?\n\uD83D\uDD39 Igen! Bővítményünk minden webhelyen működik, zökkenőmentes olvasási élményt biztosítva."
+    },
+    "preferenceLabel": {
+        "message": "használja a beállításokat",
+        "description": "címke (globális vagy webhelybeállítási gomb kapcsolók)"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "Tippek",
+        "description": "címke (globális vagy webhelybeállítási gomb kapcsolók)"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "globális",
+        "description": "főszöveg a globális preferencia-váltógombhoz"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "alapértelmezett",
+        "description": "globális preferencia gomb alszöveg"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "telephely",
+        "description": "a webhely preferencia-váltógombjának fő szövege"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "ehhez az oldalhoz",
+        "description": "globális preferencia gomb alszöveg"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "letilt",
+        "description": "onOffToggleBtnTextDisable gomb szövege"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "engedélyez",
+        "description": "onOffToggleBtnTextEnable gomb szövege"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "olvasási mód",
+        "description": "szöveg aoffToggleBtnSubText-hez"
+    },
+    "shortcutLabelText": {
+        "message": "alapértelmezett parancsikon",
+        "description": "szöveg a következőhöz:OffToggleBtnShortCutText"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "alapértelmezett parancsikon a chrome-hoz"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "alapértelmezett parancsikon a firefoxhoz"
+    },
+    "saccadesIntervalLabel": {
+        "message": "saccades intervallum",
+        "description": "címke a saccades intervallum csúszkához"
+    },
+    "fixationsStrengthLabel": {
+        "message": "rögzítési erősség",
+        "description": "a rögzítési erősség csúszkájának címkéje"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "rögzítések élek átlátszatlansága",
+        "description": "címke a rögzítésekhez élek átlátszatlansági csúszkája csúszka"
+    },
+    "saccadesColorLabel": {
+        "message": "saccades szín",
+        "description": "címke a saccade szín legördülő menühöz"
+    },
+    "saccadesStyleLabel": {
+        "message": "saccades stílusok",
+        "description": "címke a saccade stílus legördülő menühöz"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "vonalmagasság",
+        "description": "címke a kisebb és nagyobb sormagasság gombokhoz"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "szöveg a gombhoz"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "Kisebb",
+        "description": "a gomb alszövege"
+    },
+    "largerLineHeightBtnText": {
+        "message": "aa+",
+        "description": "szöveg a gombhoz"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "Nagyobb",
+        "description": "a gomb alszövege"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "mindig kapcsolja ki",
+        "description": "szöveg a gombhoz"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "mindig kapcsold be",
+        "description": "szöveg a gombhoz"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "alapértelmezett kapcsolási beállítás",
+        "description": "a gomb alszövege"
+    },
+    "resetBtnText": {
+        "message": "állítsa vissza az optimális beállításokat",
+        "description": "szöveg a gombhoz"
+    },
+    "faqLinkText": {
+        "message": "GYIK",
+        "description": "hivatkozás szövege"
+    },
+    "reportIssueLinkText": {
+        "message": "jelentési probléma",
+        "description": "hivatkozás szövege"
+    },
+    "aboutUsLinkText": {
+        "message": "weboldal",
+        "description": "hivatkozás szövege"
+    },
+    "dataEntryMessage": {
+        "message": "Kapcsolja ki, ha a HalfBold olvasó zavarja az adatbevitelt",
+        "description": "SMS"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "olvasás támogatott",
+        "description": "SMS"
+    },
+    "urlPromptText": {
+        "message": "Előfordulhat, hogy az URL-cím nélküli lapok nem működnek megfelelően",
+        "description": "SMS"
+    },
+    "reloadPromptText": {
+        "message": "Töltse be újra a lapot érvényes URL-címmel, és próbálkozzon újra",
+        "description": "SMS"
+    },
+    "translationHelpLinkText": {
+        "message": "segítsen nekünk a fordításokban. kattintson, ha többet szeretne megtudni",
+        "description": "SMS"
+    },
+    "reloadText": {
+        "message": "Újratöltés",
+        "description": "SMS"
+    },
+    "openPermissionPageBtnText": {
+        "message": "kattintson ide az engedélyek oldal megnyitásához",
+        "description": "gomb szövege"
+    },
+    "missingPermissionHeaderText": {
+        "message": "A fájl URL-engedélye hiányzik",
+        "description": "fejléc szövege"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "az alábbi lépések végrehajtása",
+        "description": "alszöveg"
+    },
+    "grantPermissionInstructionText": {
+        "message": "Engedély megadása a Fájl URL-címéhez",
+        "description": "SMS"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "Térjen vissza, és próbálja meg újra megnyitni a bővítményt",
+        "description": "SMS"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "Ez az oldal nem támogatott",
+        "description": "SMS"
+    },
+    "pageNotDetectedText": {
+        "message": "Az oldal nem észlelhető",
+        "description": "SMS"
+    },
+    "surveyPromptText": {
+        "message": "készítsen rövid felmérést, hogy segítsen nekünk a JR fejlesztésében",
+        "description": "SMS"
+    }
+}

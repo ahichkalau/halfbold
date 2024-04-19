@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"προτίμηση χρήσης","description":"ετικέτα για (καθολικές εναλλαγές κουμπιών προτιμήσεων ή προτιμήσεων τοποθεσίας"},"tipsPopupTriggerLabel":{"message":"Συμβουλές","description":"ετικέτα για (καθολικές εναλλαγές κουμπιών προτιμήσεων ή προτιμήσεων τοποθεσίας"},"globalPreferenceToggleBtnText":{"message":"καθολικός","description":"Κύριο κείμενο για το κουμπί εναλλαγής καθολικών προτιμήσεων"},"globalPreferenceToggleBtnSubText":{"message":"προεπιλογή","description":"Δευτερεύον κείμενο κουμπιού καθολικής προτίμησης"},"sitePreferenceToggleBtnText":{"message":"τοποθεσία","description":"Κύριο κείμενο για το κουμπί εναλλαγής προτιμήσεων τοποθεσίας"},"sitePreferenceToggleBtnSubText":{"message":"για αυτόν τον ιστότοπο","description":"Δευτερεύον κείμενο κουμπιού καθολικής προτίμησης"},"onOffToggleBtnTextDisable":{"message":"απενεργοποιώ","description":"onOffToggleBtnΚείμενοκείμενο κείμενο κουμπιού"},"onOffToggleBtnTextEnable":{"message":"ενεργοποιώ","description":"onOffToggleBtnΚείμενοΕνεργοποιήσιμο κείμενο κουμπιού"},"onOffToggleBtnSubText":{"message":"λειτουργία ανάγνωσης","description":"κείμενο για onOffToggleBtnΥπόγειοΚείμενο"},"shortcutLabelText":{"message":"Προεπιλεγμένη συντόμευση","description":"κείμενο για onOffToggleBtnShortCutΚείμενοΚείμενο"},"defaultShortcutValueTextChrome":{"message":"ALT+Β","description":"Προεπιλεγμένη συντόμευση για το Chrome"},"defaultShortcutValueTextFirefox":{"message":"ALT+w","description":"Προεπιλεγμένη συντόμευση για το Firefox"},"saccadesIntervalLabel":{"message":"διάστημα σακκάδες","description":"ετικέτα για ρυθμιστικό διαστήματος σακκάδες"},"fixationsStrengthLabel":{"message":"αντοχή στερεώσεων","description":"ετικέτα για ολισθητήρα αντοχής στερεώσεων"},"fixationsEdgeOpacityLabel":{"message":"ομαδοποιήσεις αδιαφάνεια άκρων","description":"ετικέτα για το ρυθμιστικό αδιαφάνειας άκρων στερέωσης"},"saccadesColorLabel":{"message":"σακκάδες χρώμα","description":"ετικέτα για αναπτυσσόμενο μενού χρώματος saccade"},"saccadesStyleLabel":{"message":"στυλ σακκάδες","description":"αναπτυσσόμενο μενού ετικέτας για στυλ saccade"},"lineHeightTogglesLabel":{"message":"ύψος γραμμής","description":"ετικέτα για κουμπιά μικρότερου και μεγαλύτερου ύψους γραμμής"},"smallerLineHeightBtnText":{"message":"αα-","description":"Κείμενο για το κουμπί"},"smallerLineHeightBtnSubText":{"message":"Μικρότερο","description":"δευτερεύον κείμενο για το κουμπί"},"largerLineHeightBtnText":{"message":"αα+","description":"Κείμενο για το κουμπί"},"largerLineHeightBtnSubText":{"message":"μεγαλύτερου","description":"δευτερεύον κείμενο για το κουμπί"},"defaultBionicModeToggleBtnOffText":{"message":"Απενεργοποίηση πάντα","description":"Κείμενο για το κουμπί"},"defaultBionicModeToggleBtnOnText":{"message":"Ενεργοποίηση πάντα","description":"Κείμενο για το κουμπί"},"defaultBionicModeToggleBtnSubText":{"message":"Προεπιλεγμένη προτίμηση εναλλαγής","description":"δευτερεύον κείμενο για το κουμπί"},"resetBtnText":{"message":"επαναφορά στις βέλτιστες ρυθμίσεις","description":"Κείμενο για το κουμπί"},"faqLinkText":{"message":"Συχνές ερωτήσεις","description":"κείμενο σύνδεσης"},"reportIssueLinkText":{"message":"αναφορά ζητήματος","description":"κείμενο σύνδεσης"},"aboutUsLinkText":{"message":"ιστοσελίδα","description":"κείμενο σύνδεσης"},"dataEntryMessage":{"message":"Απενεργοποίηση εάν το πρόγραμμα ανάγνωσης jiffy παρεμβαίνει στην εισαγωγή δεδομένων","description":"Κείμενο"},"googlePlayLinkSecondaryText":{"message":"υποστηρίζεται ανάγνωση","description":"Κείμενο"},"urlPromptText":{"message":"Οι καρτέλες χωρίς url ενδέχεται να μην λειτουργούν σωστά","description":"Κείμενο"},"reloadPromptText":{"message":"Φορτώστε ξανά την καρτέλα με έγκυρη διεύθυνση URL και προσπαθήστε ξανά","description":"Κείμενο"},"translationHelpLinkText":{"message":"βοηθήστε μας με τις μεταφράσεις. κάντε κλικ για να μάθετε περισσότερα","description":"Κείμενο"},"reloadText":{"message":"Φορτώσετε εκ νέου","description":"Κείμενο"},"openPermissionPageBtnText":{"message":"Κάντε κλικ εδώ για να ανοίξετε τη σελίδα δικαιωμάτων","description":"Κείμενο κουμπιού"},"missingPermissionHeaderText":{"message":"Λείπει το δικαίωμα διεύθυνσης URL αρχείου","description":"Κείμενο κεφαλίδας"},"missingPermissionHeaderSubText":{"message":"Ολοκληρώστε τα παρακάτω βήματα","description":"υπο-κείμενο"},"grantPermissionInstructionText":{"message":"Εκχώρηση δικαιώματος url αρχείου","description":"Κείμενο"},"reloadPageAndExtensionInstructionText":{"message":"Επιστρέψτε και δοκιμάστε να ανοίξετε ξανά την επέκταση","description":"Κείμενο"},"pageNotSupportedHeaderText":{"message":"Αυτή η σελίδα δεν υποστηρίζεται","description":"Κείμενο"},"pageNotDetectedText":{"message":"Η σελίδα δεν εντοπίστηκε","description":"Κείμενο"},"surveyPromptText":{"message":"κάντε μια σύντομη έρευνα για να μας βοηθήσετε να βελτιώσουμε το JR","description":"Κείμενο"}}
+{
+  "appDesc": {
+    "message": "Half Bold Chrome Extension: Tu clave para una lectura Bionic mejorada"
+  },
+  "appName": {
+    "message": "Half Bold Chrome Extension"
+  },
+  "storeDesc": {
+    "message": "Eleva tu experiencia de lectura en línea con la extensión Half Bold para Chrome: tu ayuda definitiva para una experiencia fluida y amigable para disléxicos. Esta extensión de medio negrita perfecciona el texto digital, haciéndolo accesible y legible. La fuente y el texto en medio negrita aseguran un entorno de lectura inclusivo, atendiendo a las necesidades de aquellos con dislexia y TDAH.\n\n\uD83D\uDD21 Descubre la brillantez de Half Bold\n➤ Lee páginas web sin esfuerzo con nuestra fuente en medio negrita\n➤ Personaliza tu experiencia de lectura con texto en medio negrita\n➤ Recibe una guía suave mientras lees texto complejo con medio negrita\n\n\uD83D\uDCBB Rompe barreras con la extensión Half Bold para Chrome\n1\uFE0F⃣ Diseño interactivo para una accesibilidad fluida\n2\uFE0F⃣ Mejora la precisión de lectura con la extensión en medio negrita\n3\uFE0F⃣ Mejora la comprensión lectora con las características de la extensión Half Bold para Chrome\n\n\uD83D\uDCDA Experimenta la extensión Halfbold\n- Disfruta de la lectura con la fuente única Halfbold\n- Explora un espacio digital inclusivo con la extensión Halfbold\n- Asegura una experiencia de lectura amigable para disléxicos con las características de Halfbold\n\n\uD83D\uDD0D Mejora la lectura con la fuente Dislexia\n▸ Aumenta tu eficiencia de lectura con la fuente Dislexia\n▸ Mejora la fluidez de lectura con nuestra fuente para disléxicos\n▸ Di adiós a las dificultades de lectura con fuentes amigables para disléxicos\n\n\uD83C\uDF08 Despliega la magia de la fuente Open Dyslexic para Chrome\n• Disfruta de una experiencia de lectura inclusiva con la fuente Open Dyslexic para Chrome\n• Experimenta una mejora en la precisión de lectura con la fuente para TDAH\n• Descubre la alegría de leer con la fuente de lectura para TDAH\n\n\uD83D\uDCA1 Ilumina tu lectura con Bionic Reading Puedes aprovechar los beneficios de la lectura biónica, un modo que facilita un ritmo de lectura más rápido sin comprometer la comprensión. Esta característica innovadora desglosa textos complejos, permitiéndote retener más información y leer más rápido, aumentando así tu productividad. Ya seas un estudiante investigando para un trabajo, un profesional poniéndote al día con las últimas noticias, o alguien con dislexia, esta característica te permite conquistar cualquier desafío de lectura con facilidad.\n\n\uD83D\uDC41\uFE0F Potencia tu lectura con la extensión de fuente para TDAH\n➤ Mejora la fluidez de lectura con la extensión de fuente para TDAH\n➤ Experimenta el poder de las letras en negrita para la lectura con TDAH\n➤ Transforma tu viaje de lectura con la extensión de lectura para TDAH\n\n\uD83D\uDCD6 Acepta el lector para TDAH\n1. Desbloquea una nueva experiencia de lectura con el lector para TDAH\n2. Explora el mundo digital con la aplicación de lectura para TDAH\n3. Experimenta un entorno de lectura amigable para disléxicos con la primera letra en negrita de cada palabra para TDAH\n\n\uD83D\uDCBB Toma el control de tu lectura\n- Mejora la precisión de lectura con la lectura en negrita para TDAH\n- Aumenta la fluidez de lectura con la lectura en negrita para TDAH\n- Asegura una experiencia de lectura cómoda con la extensión de Chrome en medio negrita\n\n\uD83D\uDDC2\uFE0F Solución de lectura todo en uno\n➤ Experimenta la característica Halfbold\n➤ Disfruta de la lectura con la fuente en medio negrita\n➤ Participa en un viaje de lectura fluido con el texto en medio negrita\n\n\uD83D\uDD0D Profundiza en la lectura La funcionalidad única de esta herramienta no sólo permite a las personas mantenerse enfocadas en sus tareas de lectura, sino que también hace que el contenido sea más fácil de leer. Para las personas con dislexia o TDAH, esto puede ser un cambio de juego. No es sólo una herramienta; es un puente hacia un mundo de información y historias infinitas, una forma de participar y comunicarse, de sentirse incluido y valorado. La extensión Half Bold para Chrome asegura que nadie se quede atrás en nuestro mundo digital cada vez más creciente.\n\n\uD83D\uDD0E Redefine tu experiencia de lectura\n1. Explora un espacio digital inclusivo con la extensión Half Bold para Chrome\n2. Sumérgete en un entorno de lectura único con la extensión Halfbold\n3. Experimenta la alegría de leer con la fuente Dislexia\n\n\uD83D\uDD04 Disfruta de una lectura fluida\n➤ Aumenta tu eficiencia de lectura con fuentes amigables para disléxicos\n➤ Descubre un entorno de lectura cómodo con la fuente Open Dyslexic para Chrome\n➤ Experimenta el poder de la fuente para TDAH\n\n\uD83D\uDC96 Comienza tu viaje de lectura inclusiva\nÚnete a nuestra comunidad y mejora tu viaje de lectura digital. Con la extensión Half Bold para Chrome, no sólo estás añadiendo una herramienta a tu navegador; estás adoptando un entorno de lectura digital más inclusivo y accesible. ¡Descarga ahora para una experiencia de lectura transformadora!\n\n\uD83E\uDD14 Preguntas frecuentes sobre nuestra extensión para Chrome\n✨ ¿Puedo personalizar la configuración de medio negrita?\n\uD83D\uDD39 ¡Absolutamente! Puedes ajustar la configuración de medio negrita según tus preferencias de lectura.\n\n\uD83D\uDCDA ¿Cómo apoya esta extensión la lectura amigable para disléxicos?\n\uD83D\uDD39 Nuestra extensión presenta la fuente Open Dyslexic, junto con la característica de medio negrita, diseñada para ayudar a los lectores disléxicos.\n\n\uD83C\uDF10 ¿Puedo usar esta extensión en cualquier sitio web?\n\uD83D\uDD39 ¡Sí! Nuestra extensión está diseñada para funcionar en todos los sitios web, proporcionando una experiencia de lectura fluida."
+  },
+  "preferenceLabel": {
+    "message": "προτίμηση χρήσης",
+    "description": "ετικέτα για (καθολικές εναλλαγές κουμπιών προτιμήσεων ή προτιμήσεων τοποθεσίας"
+  },
+  "tipsPopupTriggerLabel": {
+    "message": "Συμβουλές",
+    "description": "ετικέτα για (καθολικές εναλλαγές κουμπιών προτιμήσεων ή προτιμήσεων τοποθεσίας"
+  },
+  "globalPreferenceToggleBtnText": {
+    "message": "καθολικός",
+    "description": "Κύριο κείμενο για το κουμπί εναλλαγής καθολικών προτιμήσεων"
+  },
+  "globalPreferenceToggleBtnSubText": {
+    "message": "προεπιλογή",
+    "description": "Δευτερεύον κείμενο κουμπιού καθολικής προτίμησης"
+  },
+  "sitePreferenceToggleBtnText": {
+    "message": "τοποθεσία",
+    "description": "Κύριο κείμενο για το κουμπί εναλλαγής προτιμήσεων τοποθεσίας"
+  },
+  "sitePreferenceToggleBtnSubText": {
+    "message": "για αυτόν τον ιστότοπο",
+    "description": "Δευτερεύον κείμενο κουμπιού καθολικής προτίμησης"
+  },
+  "onOffToggleBtnTextDisable": {
+    "message": "απενεργοποιώ",
+    "description": "onOffToggleBtnΚείμενοκείμενο κείμενο κουμπιού"
+  },
+  "onOffToggleBtnTextEnable": {
+    "message": "ενεργοποιώ",
+    "description": "onOffToggleBtnΚείμενοΕνεργοποιήσιμο κείμενο κουμπιού"
+  },
+  "onOffToggleBtnSubText": {
+    "message": "λειτουργία ανάγνωσης",
+    "description": "κείμενο για onOffToggleBtnΥπόγειοΚείμενο"
+  },
+  "shortcutLabelText": {
+    "message": "Προεπιλεγμένη συντόμευση",
+    "description": "κείμενο για onOffToggleBtnShortCutΚείμενοΚείμενο"
+  },
+  "defaultShortcutValueTextChrome": {
+    "message": "ALT+Β",
+    "description": "Προεπιλεγμένη συντόμευση για το Chrome"
+  },
+  "defaultShortcutValueTextFirefox": {
+    "message": "ALT+w",
+    "description": "Προεπιλεγμένη συντόμευση για το Firefox"
+  },
+  "saccadesIntervalLabel": {
+    "message": "διάστημα σακκάδες",
+    "description": "ετικέτα για ρυθμιστικό διαστήματος σακκάδες"
+  },
+  "fixationsStrengthLabel": {
+    "message": "αντοχή στερεώσεων",
+    "description": "ετικέτα για ολισθητήρα αντοχής στερεώσεων"
+  },
+  "fixationsEdgeOpacityLabel": {
+    "message": "ομαδοποιήσεις αδιαφάνεια άκρων",
+    "description": "ετικέτα για το ρυθμιστικό αδιαφάνειας άκρων στερέωσης"
+  },
+  "saccadesColorLabel": {
+    "message": "σακκάδες χρώμα",
+    "description": "ετικέτα για αναπτυσσόμενο μενού χρώματος saccade"
+  },
+  "saccadesStyleLabel": {
+    "message": "στυλ σακκάδες",
+    "description": "αναπτυσσόμενο μενού ετικέτας για στυλ saccade"
+  },
+  "lineHeightTogglesLabel": {
+    "message": "ύψος γραμμής",
+    "description": "ετικέτα για κουμπιά μικρότερου και μεγαλύτερου ύψους γραμμής"
+  },
+  "smallerLineHeightBtnText": {
+    "message": "αα-",
+    "description": "Κείμενο για το κουμπί"
+  },
+  "smallerLineHeightBtnSubText": {
+    "message": "Μικρότερο",
+    "description": "δευτερεύον κείμενο για το κουμπί"
+  },
+  "largerLineHeightBtnText": {
+    "message": "αα+",
+    "description": "Κείμενο για το κουμπί"
+  },
+  "largerLineHeightBtnSubText": {
+    "message": "μεγαλύτερου",
+    "description": "δευτερεύον κείμενο για το κουμπί"
+  },
+  "defaultBionicModeToggleBtnOffText": {
+    "message": "Απενεργοποίηση πάντα",
+    "description": "Κείμενο για το κουμπί"
+  },
+  "defaultBionicModeToggleBtnOnText": {
+    "message": "Ενεργοποίηση πάντα",
+    "description": "Κείμενο για το κουμπί"
+  },
+  "defaultBionicModeToggleBtnSubText": {
+    "message": "Προεπιλεγμένη προτίμηση εναλλαγής",
+    "description": "δευτερεύον κείμενο για το κουμπί"
+  },
+  "resetBtnText": {
+    "message": "επαναφορά στις βέλτιστες ρυθμίσεις",
+    "description": "Κείμενο για το κουμπί"
+  },
+  "faqLinkText": {
+    "message": "Συχνές ερωτήσεις",
+    "description": "κείμενο σύνδεσης"
+  },
+  "reportIssueLinkText": {
+    "message": "αναφορά ζητήματος",
+    "description": "κείμενο σύνδεσης"
+  },
+  "aboutUsLinkText": {
+    "message": "ιστοσελίδα",
+    "description": "κείμενο σύνδεσης"
+  },
+  "dataEntryMessage": {
+    "message": "Απενεργοποίηση εάν το πρόγραμμα ανάγνωσης HalfBold παρεμβαίνει στην εισαγωγή δεδομένων",
+    "description": "Κείμενο"
+  },
+  "googlePlayLinkSecondaryText": {
+    "message": "υποστηρίζεται ανάγνωση",
+    "description": "Κείμενο"
+  },
+  "urlPromptText": {
+    "message": "Οι καρτέλες χωρίς url ενδέχεται να μην λειτουργούν σωστά",
+    "description": "Κείμενο"
+  },
+  "reloadPromptText": {
+    "message": "Φορτώστε ξανά την καρτέλα με έγκυρη διεύθυνση URL και προσπαθήστε ξανά",
+    "description": "Κείμενο"
+  },
+  "translationHelpLinkText": {
+    "message": "βοηθήστε μας με τις μεταφράσεις. κάντε κλικ για να μάθετε περισσότερα",
+    "description": "Κείμενο"
+  },
+  "reloadText": {
+    "message": "Φορτώσετε εκ νέου",
+    "description": "Κείμενο"
+  },
+  "openPermissionPageBtnText": {
+    "message": "Κάντε κλικ εδώ για να ανοίξετε τη σελίδα δικαιωμάτων",
+    "description": "Κείμενο κουμπιού"
+  },
+  "missingPermissionHeaderText": {
+    "message": "Λείπει το δικαίωμα διεύθυνσης URL αρχείου",
+    "description": "Κείμενο κεφαλίδας"
+  },
+  "missingPermissionHeaderSubText": {
+    "message": "Ολοκληρώστε τα παρακάτω βήματα",
+    "description": "υπο-κείμενο"
+  },
+  "grantPermissionInstructionText": {
+    "message": "Εκχώρηση δικαιώματος url αρχείου",
+    "description": "Κείμενο"
+  },
+  "reloadPageAndExtensionInstructionText": {
+    "message": "Επιστρέψτε και δοκιμάστε να ανοίξετε ξανά την επέκταση",
+    "description": "Κείμενο"
+  },
+  "pageNotSupportedHeaderText": {
+    "message": "Αυτή η σελίδα δεν υποστηρίζεται",
+    "description": "Κείμενο"
+  },
+  "pageNotDetectedText": {
+    "message": "Η σελίδα δεν εντοπίστηκε",
+    "description": "Κείμενο"
+  },
+  "surveyPromptText": {
+    "message": "κάντε μια σύντομη έρευνα για να μας βοηθήσετε να βελτιώσουμε το JR",
+    "description": "Κείμενο"
+  }
+}

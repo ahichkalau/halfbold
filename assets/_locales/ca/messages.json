@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"preferència d'ús","description":"etiqueta per a (ulleres de botó de preferència global o de lloc"},"tipsPopupTriggerLabel":{"message":"Consells","description":"etiqueta per a (ulleres de botó de preferència global o de lloc"},"globalPreferenceToggleBtnText":{"message":"global","description":"text principal per al botó de commutació de preferències globals"},"globalPreferenceToggleBtnSubText":{"message":"Omissió","description":"sub text del botó de preferència global"},"sitePreferenceToggleBtnText":{"message":"jaciment","description":"text principal per al botó de commutació de preferències del lloc"},"sitePreferenceToggleBtnSubText":{"message":"per a aquest lloc","description":"sub text del botó de preferència global"},"onOffToggleBtnTextDisable":{"message":"inutilitzar","description":"onOffToggleBtnTextDisable text del botó"},"onOffToggleBtnTextEnable":{"message":"habilitar","description":"onOffToggleBtnTextEnable text del botó"},"onOffToggleBtnSubText":{"message":"mode de lectura","description":"text for onOffToggleBtnSubText"},"shortcutLabelText":{"message":"drecera per defecte","description":"text for onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"drecera predeterminada per a Chrome"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"drecera per defecte per a firefox"},"saccadesIntervalLabel":{"message":"interval de saccades","description":"etiqueta per al control lliscant d'intervals saccades"},"fixationsStrengthLabel":{"message":"força de fixacions","description":"etiqueta per a fixacions lliscant de força"},"fixationsEdgeOpacityLabel":{"message":"fixacions vora l'opacitat","description":"etiqueta per a fixacions lliscant d'opacitat de la vora"},"saccadesColorLabel":{"message":"color saccades","description":"etiqueta per al menú desplegable de color saccade"},"saccadesStyleLabel":{"message":"estils saccades","description":"etiqueta per al desplegable d'estil saccade"},"lineHeightTogglesLabel":{"message":"alçada de la línia","description":"etiqueta per a botons d'alçada de línia més petits i grans"},"smallerLineHeightBtnText":{"message":"aa-","description":"text per al botó"},"smallerLineHeightBtnSubText":{"message":"Petits","description":"sub text del botó"},"largerLineHeightBtnText":{"message":"aa+","description":"text per al botó"},"largerLineHeightBtnSubText":{"message":"major","description":"sub text del botó"},"defaultBionicModeToggleBtnOffText":{"message":"apaga sempre","description":"text per al botó"},"defaultBionicModeToggleBtnOnText":{"message":"encén sempre","description":"text per al botó"},"defaultBionicModeToggleBtnSubText":{"message":"commuta per defecte la preferència","description":"sub text del botó"},"resetBtnText":{"message":"restablir a la configuració òptima","description":"text per al botó"},"faqLinkText":{"message":"PMF","description":"text de l'enllaç"},"reportIssueLinkText":{"message":"emissió d'informe","description":"text de l'enllaç"},"aboutUsLinkText":{"message":"lloc web","description":"text de l'enllaç"},"dataEntryMessage":{"message":"Desactiveu si el lector jiffy interfereix amb l'entrada de dades","description":"SMS"},"googlePlayLinkSecondaryText":{"message":"lectura suportada","description":"SMS"},"urlPromptText":{"message":"És possible que les pestanyes sense url no funcionin correctament","description":"SMS"},"reloadPromptText":{"message":"Torneu a carregar la pestanya amb url vàlida i torneu-ho a provar","description":"SMS"},"translationHelpLinkText":{"message":"ajudeu-nos amb translacions. feu clic per obtenir més informació","description":"SMS"},"reloadText":{"message":"Recarregar","description":"SMS"},"openPermissionPageBtnText":{"message":"feu clic aquí per obrir la pàgina de permisos","description":"text del botó"},"missingPermissionHeaderText":{"message":"Falta el permís d'URL de fitxer","description":"text de capçalera"},"missingPermissionHeaderSubText":{"message":"completa els passos a continuació","description":"sub text"},"grantPermissionInstructionText":{"message":"Concediu el permís d'URL del fitxer","description":"SMS"},"reloadPageAndExtensionInstructionText":{"message":"Torneu i torneu a provar d'obrir l'extensió","description":"SMS"},"pageNotSupportedHeaderText":{"message":"Aquesta pàgina no és compatible","description":"SMS"},"pageNotDetectedText":{"message":"Pàgina no detectada","description":"SMS"},"surveyPromptText":{"message":"feu una breu enquesta per ajudar-nos a millorar JR","description":"SMS"}}
+{
+    "appDesc": {
+        "message": "Extensió Half Bold per a Chrome: La teva clau per a una Lectura Bionica Millorada"
+    },
+    "appName": {
+        "message": "Extensió Half Bold per a Chrome | HalfBold Reader"
+    },
+    "storeDesc" : {
+        "message": "Eleva la teva experiència de lectura en línia amb l'Extensió Half Bold per a Chrome: la teva ajuda definitiva per a una experiència sense problemes i amigable per a dislèxics! Aquesta extensió mig negreta perfecciona el text digital, fent-lo accessible i llegible. La font mig negreta i el text mig negreta garanteixen un entorn de lectura inclusiu, atenent les necessitats de les persones amb dislèxia i TDAH.\n\n\uD83D\uDD21 Descobreix la Brillantor de Half Bold\n➤ Llegeix pàgines web sense esforç amb la nostra font mig negreta\n➤ Personalitza la teva experiència de lectura amb el text mig negreta\n➤ Rep guiatge suau mentre llegeixes textos complexos amb mig negreta\n\n\uD83D\uDCBB Trencant Barreres amb l'Extensió Half Bold per a Chrome\n1\uFE0F⃣ Disseny interactiu per a una accessibilitat suau\n2\uFE0F⃣ Millora la precisió de lectura amb l'extensió mig negreta\n3\uFE0F⃣ Augmenta la comprensió lectora amb les funcionalitats de l'extensió mig negreta de Chrome\n\n\uD83D\uDCDA Experimenta l'Extensió Halfbold\n\nGaudeix llegint amb la font migbold única\nExplora un espai digital inclusiu amb l'extensió halfbold\nAssegura una experiència de lectura amigable per a dislèxics amb funcions halfbold\n\uD83D\uDD0D Millora la Lectura amb la font Dislexia\n▸ Augmenta la teva eficiència lectora amb la font dislèxia\n▸ Millora la fluïdesa lectora amb la nostra font dislèxia\n▸ Diga adeu a les dificultats de lectura amb fonts amigables per a dislèxics\n\n\uD83C\uDF08 Desplega la Màgia de la Font Oberta Dyslexic per a Chrome\n• Gaudeix d'una experiència de lectura inclusiva amb la font dyslexic oberta per a Chrome\n• Experimenta una millora en la precisió de lectura amb la font adhd\n• Descobreix la joia de llegir amb la font de lectura adhd\n\n\uD83D\uDCA1 Il·lumina la teva Lectura amb la Lectura Bionica\nPots aprofitar els beneficis de la lectura bionica, un mode que facilita una lectura més ràpida sense comprometre la comprensió. Aquesta funcionalitat innovadora desglossa textos complexos, permetent-te retenir més informació i llegir més ràpid, augmentant així la teva productivitat. Ja siguis un estudiant investigant per a un treball, un professional posant-se al dia amb les últimes notícies o algú amb dislèxia, aquesta funcionalitat et capacita per a superar qualsevol desafiament de lectura amb facilitat.\n\n\uD83D\uDC41\uFE0F Capacita la teva Lectura amb l'Extensió de Font ADHD\n➤ Millora la fluïdesa lectora amb l'extensió de font adhd\n➤ Experimenta el poder de les lletres gruixudes de la lectura adhd\n➤ Transforma el teu viatge de lectura amb l'extensió de lectura adhd\n\n\uD83D\uDCD6 Abraça el Lector ADHD\n\nDesbloqueja una nova experiència de lectura amb el lector adhd\nExplora el món digital amb l'aplicació de lectura adhd\nExperimenta un entorn de lectura amigable per a dislèxics amb la primera lletra en negreta de cada paraula adhd\n\uD83D\uDCBB Prengui el Control de la seva Lectura\n\nMillora la precisió de lectura amb la lectura de lletres gruixudes adhd\nAugmenta la fluïdesa lectora amb les lletres gruixudes de la lectura adhd\nAssegura una experiència de lectura còmoda amb l'extensió de chrome mig negreta\n\uD83D\uDDC2\uFE0F Solució de Lectura Tot en Un\n➤ Experimenta la funcionalitat migbold\n➤ Gaudeix llegint amb la font mig negreta\n➤ Participa en un viatge de lectura suau amb el text mig negreta\n\n\uD83D\uDD0D Endinsa't Més en la Lectura La funcionalitat única d'aquesta eina no només permet a les persones mantenir-se centrades en les seves tasques de lectura sinó que també fa que el contingut sigui més fàcil de llegir. Per a les persones amb dislèxia o TDAH, això pot ser un punt d'inflexió. No és només una eina; és un pont cap a un món d'informació i històries sense fi, una manera d'interactuar i comunicar-se, de sentir-se inclosos i valorats. L'Extensió Half Bold per a Chrome garanteix que ningú es quedi enrere en el nostre món digital cada vegada més avançat.\n\n\uD83D\uDD0E Redefineix la Teva Experiència de Lectura\n\nExplora un espai digital inclusiu amb l'extensió mig negreta per a chrome\nImmergiu-vos en un entorn de lectura únic amb l'extensió halfbold\nExperimenta la joia de llegir amb la font dislèxia\n\uD83D\uDD04 Gaudeix d'una Lectura Sense Costures\n➤ Augmenta la teva eficiència lectora amb fonts amigables per a dislèxics\n➤ Descobreix un entorn de lectura còmode amb la font dyslexic oberta per a chrome\n➤ Experimenta el poder de la font adhd\n\n\uD83D\uDC96 Comença el Teu Viatge de Lectura Inclusiu\nUneix-te a la nostra comunitat i millora el teu viatge de lectura digital. Amb l'Extensió Half Bold per a Chrome, no només estàs afegint una eina al teu navegador; estàs adoptant un entorn de lectura digital més inclusiu i accessible. Descarrega ara per a una experiència de lectura transformadora!\n\n\uD83E\uDD14 Preguntes Freqüents Sobre la Nostra Extensió de Chrome\n✨ Puc personalitzar els ajustos mig negreta?\n\uD83D\uDD39 Absolutament! Pots ajustar els ajustos mig negreta segons les teves preferències de lectura.\n\n\uD83D\uDCDA Com aquesta extensió suporta la lectura amigable per a dislèxics?\n\uD83D\uDD39 La nostra extensió ofereix la font dislèxia oberta, juntament amb la funció mig negreta, dissenyada per a ajudar els lectors dislèxics.\n\n\uD83C\uDF10 Puc utilitzar aquesta extensió en qualsevol lloc web?\n\uD83D\uDD39 Sí! La nostra extensió està dissenyada per a funcionar en tots els llocs web, proporcionant una experiència de lectura sense costures."
+    },
+    "preferenceLabel": {
+        "message": "preferència d'ús",
+        "description": "etiqueta per a (ulleres de botó de preferència global o de lloc"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "Consells",
+        "description": "etiqueta per a (ulleres de botó de preferència global o de lloc"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "global",
+        "description": "text principal per al botó de commutació de preferències globals"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "Omissió",
+        "description": "sub text del botó de preferència global"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "jaciment",
+        "description": "text principal per al botó de commutació de preferències del lloc"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "per a aquest lloc",
+        "description": "sub text del botó de preferència global"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "inutilitzar",
+        "description": "onOffToggleBtnTextDisable text del botó"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "habilitar",
+        "description": "onOffToggleBtnTextEnable text del botó"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "mode de lectura",
+        "description": "text for onOffToggleBtnSubText"
+    },
+    "shortcutLabelText": {
+        "message": "drecera per defecte",
+        "description": "text for onOffToggleBtnShortCutText"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "drecera predeterminada per a Chrome"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "drecera per defecte per a firefox"
+    },
+    "saccadesIntervalLabel": {
+        "message": "interval de saccades",
+        "description": "etiqueta per al control lliscant d'intervals saccades"
+    },
+    "fixationsStrengthLabel": {
+        "message": "força de fixacions",
+        "description": "etiqueta per a fixacions lliscant de força"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "fixacions vora l'opacitat",
+        "description": "etiqueta per a fixacions lliscant d'opacitat de la vora"
+    },
+    "saccadesColorLabel": {
+        "message": "color saccades",
+        "description": "etiqueta per al menú desplegable de color saccade"
+    },
+    "saccadesStyleLabel": {
+        "message": "estils saccades",
+        "description": "etiqueta per al desplegable d'estil saccade"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "alçada de la línia",
+        "description": "etiqueta per a botons d'alçada de línia més petits i grans"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "text per al botó"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "Petits",
+        "description": "sub text del botó"
+    },
+    "largerLineHeightBtnText": {
+        "message": "aa+",
+        "description": "text per al botó"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "major",
+        "description": "sub text del botó"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "apaga sempre",
+        "description": "text per al botó"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "encén sempre",
+        "description": "text per al botó"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "commuta per defecte la preferència",
+        "description": "sub text del botó"
+    },
+    "resetBtnText": {
+        "message": "restablir a la configuració òptima",
+        "description": "text per al botó"
+    },
+    "faqLinkText": {
+        "message": "PMF",
+        "description": "text de l'enllaç"
+    },
+    "reportIssueLinkText": {
+        "message": "emissió d'informe",
+        "description": "text de l'enllaç"
+    },
+    "aboutUsLinkText": {
+        "message": "lloc web",
+        "description": "text de l'enllaç"
+    },
+    "dataEntryMessage": {
+        "message": "Desactiveu si el lector HalfBold interfereix amb l'entrada de dades",
+        "description": "SMS"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "lectura suportada",
+        "description": "SMS"
+    },
+    "urlPromptText": {
+        "message": "És possible que les pestanyes sense url no funcionin correctament",
+        "description": "SMS"
+    },
+    "reloadPromptText": {
+        "message": "Torneu a carregar la pestanya amb url vàlida i torneu-ho a provar",
+        "description": "SMS"
+    },
+    "translationHelpLinkText": {
+        "message": "ajudeu-nos amb translacions. feu clic per obtenir més informació",
+        "description": "SMS"
+    },
+    "reloadText": {
+        "message": "Recarregar",
+        "description": "SMS"
+    },
+    "openPermissionPageBtnText": {
+        "message": "feu clic aquí per obrir la pàgina de permisos",
+        "description": "text del botó"
+    },
+    "missingPermissionHeaderText": {
+        "message": "Falta el permís d'URL de fitxer",
+        "description": "text de capçalera"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "completa els passos a continuació",
+        "description": "sub text"
+    },
+    "grantPermissionInstructionText": {
+        "message": "Concediu el permís d'URL del fitxer",
+        "description": "SMS"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "Torneu i torneu a provar d'obrir l'extensió",
+        "description": "SMS"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "Aquesta pàgina no és compatible",
+        "description": "SMS"
+    },
+    "pageNotDetectedText": {
+        "message": "Pàgina no detectada",
+        "description": "SMS"
+    },
+    "surveyPromptText": {
+        "message": "feu una breu enquesta per ajudar-nos a millorar JR",
+        "description": "SMS"
+    }
+}

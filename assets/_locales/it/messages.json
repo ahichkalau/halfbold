@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"usa preferenza","description":"etichetta per (interruttori del pulsante di preferenza globale o del sito"},"tipsPopupTriggerLabel":{"message":"Suggerimenti","description":"etichetta per (interruttori del pulsante di preferenza globale o del sito"},"globalPreferenceToggleBtnText":{"message":"globale","description":"Testo principale per il pulsante di commutazione delle preferenze globali"},"globalPreferenceToggleBtnSubText":{"message":"default","description":"sottotesto del pulsante di preferenza globale"},"sitePreferenceToggleBtnText":{"message":"sito","description":"Testo principale per il pulsante di commutazione delle preferenze del sito"},"sitePreferenceToggleBtnSubText":{"message":"per questo sito","description":"sottotesto del pulsante di preferenza globale"},"onOffToggleBtnTextDisable":{"message":"disabilitare","description":"onOffToggleBtnTextTesttesto pulsante di ripristino"},"onOffToggleBtnTextEnable":{"message":"abilitare","description":"onOffToggleBtnTextEnable testo pulsante"},"onOffToggleBtnSubText":{"message":"modalità di lettura","description":"testo per onOffToggleBtnSubText"},"shortcutLabelText":{"message":"collegamento predefinito","description":"testo per onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"scorciatoia predefinita per Chrome"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"scorciatoia predefinita per firefox"},"saccadesIntervalLabel":{"message":"intervallo saccadi","description":"etichetta per il cursore dell'intervallo delle saccadi"},"fixationsStrengthLabel":{"message":"forza delle fissazioni","description":"etichetta per il cursore di resistenza delle fissazioni"},"fixationsEdgeOpacityLabel":{"message":"fissazioni opacità dei bordi","description":"etichetta per fissaggio bordo opacità slider"},"saccadesColorLabel":{"message":"colore saccadi","description":"etichetta per il menu a discesa del colore saccade"},"saccadesStyleLabel":{"message":"stili di saccadi","description":"etichetta per il menu a discesa stile saccade"},"lineHeightTogglesLabel":{"message":"altezza della linea","description":"etichetta per pulsanti di altezza della linea più piccoli e più grandi"},"smallerLineHeightBtnText":{"message":"aa-","description":"testo per il pulsante"},"smallerLineHeightBtnSubText":{"message":"Piccoli","description":"testo secondario per il pulsante"},"largerLineHeightBtnText":{"message":"aa+","description":"testo per il pulsante"},"largerLineHeightBtnSubText":{"message":"maggiore","description":"testo secondario per il pulsante"},"defaultBionicModeToggleBtnOffText":{"message":"spegni sempre","description":"testo per il pulsante"},"defaultBionicModeToggleBtnOnText":{"message":"accendi sempre","description":"testo per il pulsante"},"defaultBionicModeToggleBtnSubText":{"message":"preferenza di commutazione predefinita","description":"testo secondario per il pulsante"},"resetBtnText":{"message":"ripristinare le impostazioni ottimali","description":"testo per il pulsante"},"faqLinkText":{"message":"Domande frequenti","description":"testo del collegamento"},"reportIssueLinkText":{"message":"segnala problema","description":"testo del collegamento"},"aboutUsLinkText":{"message":"sito web","description":"testo del collegamento"},"dataEntryMessage":{"message":"Disattiva se il lettore jiffy interferisce con l'immissione dei dati","description":"Testo"},"googlePlayLinkSecondaryText":{"message":"lettura supportata","description":"Testo"},"urlPromptText":{"message":"Le schede senza un URL potrebbero non funzionare correttamente","description":"Testo"},"reloadPromptText":{"message":"Ricaricare la scheda con URL valido e riprovare","description":"Testo"},"translationHelpLinkText":{"message":"aiutaci con le traduzioni. clicca per saperne di più","description":"Testo"},"reloadText":{"message":"ricaricare","description":"Testo"},"openPermissionPageBtnText":{"message":"clicca qui per aprire la pagina delle autorizzazioni","description":"testo pulsante"},"missingPermissionHeaderText":{"message":"Autorizzazione URL file mancante","description":"testo dell'intestazione"},"missingPermissionHeaderSubText":{"message":"completa i passaggi seguenti","description":"sottotesto"},"grantPermissionInstructionText":{"message":"Concedi autorizzazione URL file","description":"Testo"},"reloadPageAndExtensionInstructionText":{"message":"Torna indietro e prova ad aprire di nuovo l'estensione","description":"Testo"},"pageNotSupportedHeaderText":{"message":"Questa pagina non è supportata","description":"Testo"},"pageNotDetectedText":{"message":"Pagina non rilevata","description":"Testo"},"surveyPromptText":{"message":"fai un breve sondaggio per aiutarci a migliorare JR","description":"Testo"}}
+{
+  "appDesc": {
+    "message": "Half Bold Chrome Extension: The ultimate ADHD reader with dyslexia fonts!"
+  },
+  "appName": {
+    "message": "Half Bold Chrome Extension"
+  },
+  "storeDesc": {
+    "message": "Cambia le tue abitudini quotidiane con l'ultima estensione di Google Chrome - La tua soluzione all-in-one per rimanere al passo con i tuoi compiti e la tua salute! Sfrutta il potere dei promemoria intelligenti e prendi il controllo della tua giornata con questa innovativa estensione. Progettata per l'efficienza e la facilità, l'estensione Half Bold Chrome integra senza sforzo nel tuo stile di vita, aiutandoti a rimanere organizzato, sano e avanti con il tuo programma senza sforzo.\n\n\uD83D\uDCDA Aiuto per la dislessia con l'ADHD Reader\n\n1. Migliora la tua lettura con la nostra funzione di lettura per la dislessia.\n2. Personalizza i tuoi obiettivi di lettura in base alle tue esigenze personali.\n3. Ricevi promemoria delicati per assicurarti di leggere regolarmente.\n\n\n\uD83D\uDDA5\uFE0F Apri la dislessia con Open Dyslexic\n\n- Leggi con facilità con il nostro font per la dislessia.\n- Personalizza il tuo font dislessico in base alle tue preferenze.\n- Assicurati di avere sempre il font giusto per te con i nostri promemoria.\n\n\n\uD83D\uDCDD Scrittura di un dislessico con il font per dislessici\n\n▸ Migliora la tua scrittura con il nostro font per la dislessia.\n▸ Integra con i tuoi strumenti ed app esistenti per una migliore organizzazione.\n▸ I promemoria personalizzati assicurano che tu sia sempre preparato per il tuo prossimo compito o scadenza.\n\n\n\uD83C\uDFAF Strumenti compensativi per la dislessia con Font Dislessia\n\n• Promemoria giornalieri per attività legate alla dislessia, come esercizi di lettura e scrittura.\n• Programma appuntamenti e controlli senza conflitti.\n• Il promemoria per la dislessia mantiene il tuo percorso verso il miglioramento con il minimo sforzo.\n\n\n⏰ Tutto in un unico posto\n\n➤ Imposta un promemoria rapidamente per qualsiasi compito o evento.\n➤ Crea un set di promemoria per le attività ricorrenti o le abitudini che stai costruendo.\n➤ L'estensione semplifica la pianificazione, così puoi investire tempo dove conta di più.\n\n\n\uD83D\uDCDA Libri per dislessici con l'opzione Leggere come un dislessico\n\n1. Inizia con un nuovo set di libri e obiettivi di lettura ogni mattina.\n2. Personalizza i promemoria giornalieri in base al tuo stile di vita e alle tue esigenze uniche.\n3. Raggiungi di più con la pianificazione strutturata del giorno e i promemoria.\n4. Strumenti di pianificazione intuitivi per pianificare i tuoi giorni, settimane e mesi.\n5. Programma un promemoria per l'integrazione senza problemi nel tuo calendario personale.\n6. Non perdere mai un appuntamento importante, un incontro o un evento con gli avvisi proattivi.\n\n\n\uD83D\uDCDD Esercizi di dislessia con Dislessia Aid\n\n➤ Priorizza i tuoi compiti con il triage intelligente e i promemoria.\n➤ Dedica più tempo a ciò che conta veramente con una gestione del tempo efficiente.\n➤ Bilancia lavoro, salute e vita personale con promemoria perfettamente temporizzati.\n\n\n\uD83D\uDD11 Sblocca comodità ed efficienza\n\n❗\uFE0F Scegli tra vari tipi di promemoria: promemoria per la dislessia, promemoria per la lettura, e altro ancora.\n❗\uFE0F Personalizza ogni promemoria in base alle tue preferenze.\n❗\uFE0F Goditi un'interfaccia priva di ingombro progettata per una navigazione semplice.\n\n\n\uD83C\uDFAF Puntare al miglioramento continuo\n\n① Aggiornamenti regolari basati sui feedback degli utenti.\n② Rilascio di nuove funzionalità per soddisfare le tue esigenze in evoluzione.\n③ Il nostro impegno per l'eccellenza assicura che l'estensione rimanga la tua scelta preferita.\n\n❤\uFE0F Inizia il tuo viaggio verso una vita più organizzata\n\nUnisciti alla nostra comunità per migliorare le tue routine quotidiane, la salute e il benessere generale. Con l'estensione, non stai solo aggiungendo uno strumento al tuo browser; stai adottando uno stile di vita di produttività e consapevolezza. Scarica ora per un'esperienza trasformativa!\n\n\uD83E\uDD14 Domande frequenti sulla nostra estensione Chrome\n\n✨ Posso sincronizzare i promemoria su diversi dispositivi?\n\uD83D\uDD39 Assolutamente! Con l'estensione per Mac e l'estensione per Windows, i tuoi compiti si sincronizzano senza problemi per avvisi coerenti, ovunque tu sia.\n\n\uD83D\uDCF2 Cosa rende questa estensione diversa da altri strumenti di promemoria?\n\n\uD83D\uDD39 La nostra estensione combina tutti gli aspetti della tua vita - salute, compiti, lettura - in una sola piattaforma. Con funzionalità specializzate come il promemoria per la dislessia e il promemoria per la lettura, è un'efficienza personalizzata come non mai.\n\n\uD83C\uDF0D Posso usare questa estensione per promemoria in qualsiasi fuso orario?\n\n\uD83D\uDD39 Sì! La nostra estensione è progettata per l'uso globale. Ovunque tu sia, qualunque sia il fuso orario, l'estensione ti copre."
+  },
+  "preferenceLabel": {
+    "message": "usa preferenza",
+    "description": "etichetta per (interruttori del pulsante di preferenza globale o del sito"
+  },
+  "tipsPopupTriggerLabel": {
+    "message": "Suggerimenti",
+    "description": "etichetta per (interruttori del pulsante di preferenza globale o del sito"
+  },
+  "globalPreferenceToggleBtnText": {
+    "message": "globale",
+    "description": "Testo principale per il pulsante di commutazione delle preferenze globali"
+  },
+  "globalPreferenceToggleBtnSubText": {
+    "message": "default",
+    "description": "sottotesto del pulsante di preferenza globale"
+  },
+  "sitePreferenceToggleBtnText": {
+    "message": "sito",
+    "description": "Testo principale per il pulsante di commutazione delle preferenze del sito"
+  },
+  "sitePreferenceToggleBtnSubText": {
+    "message": "per questo sito",
+    "description": "sottotesto del pulsante di preferenza globale"
+  },
+  "onOffToggleBtnTextDisable": {
+    "message": "disabilitare",
+    "description": "onOffToggleBtnTextTesttesto pulsante di ripristino"
+  },
+  "onOffToggleBtnTextEnable": {
+    "message": "abilitare",
+    "description": "onOffToggleBtnTextEnable testo pulsante"
+  },
+  "onOffToggleBtnSubText": {
+    "message": "modalità di lettura",
+    "description": "testo per onOffToggleBtnSubText"
+  },
+  "shortcutLabelText": {
+    "message": "collegamento predefinito",
+    "description": "testo per onOffToggleBtnShortCutText"
+  },
+  "defaultShortcutValueTextChrome": {
+    "message": "alt+b",
+    "description": "scorciatoia predefinita per Chrome"
+  },
+  "defaultShortcutValueTextFirefox": {
+    "message": "alt+w",
+    "description": "scorciatoia predefinita per firefox"
+  },
+  "saccadesIntervalLabel": {
+    "message": "intervallo saccadi",
+    "description": "etichetta per il cursore dell'intervallo delle saccadi"
+  },
+  "fixationsStrengthLabel": {
+    "message": "forza delle fissazioni",
+    "description": "etichetta per il cursore di resistenza delle fissazioni"
+  },
+  "fixationsEdgeOpacityLabel": {
+    "message": "fissazioni opacità dei bordi",
+    "description": "etichetta per fissaggio bordo opacità slider"
+  },
+  "saccadesColorLabel": {
+    "message": "colore saccadi",
+    "description": "etichetta per il menu a discesa del colore saccade"
+  },
+  "saccadesStyleLabel": {
+    "message": "stili di saccadi",
+    "description": "etichetta per il menu a discesa stile saccade"
+  },
+  "lineHeightTogglesLabel": {
+    "message": "altezza della linea",
+    "description": "etichetta per pulsanti di altezza della linea più piccoli e più grandi"
+  },
+  "smallerLineHeightBtnText": {
+    "message": "aa-",
+    "description": "testo per il pulsante"
+  },
+  "smallerLineHeightBtnSubText": {
+    "message": "Piccoli",
+    "description": "testo secondario per il pulsante"
+  },
+  "largerLineHeightBtnText": {
+    "message": "aa+",
+    "description": "testo per il pulsante"
+  },
+  "largerLineHeightBtnSubText": {
+    "message": "maggiore",
+    "description": "testo secondario per il pulsante"
+  },
+  "defaultBionicModeToggleBtnOffText": {
+    "message": "spegni sempre",
+    "description": "testo per il pulsante"
+  },
+  "defaultBionicModeToggleBtnOnText": {
+    "message": "accendi sempre",
+    "description": "testo per il pulsante"
+  },
+  "defaultBionicModeToggleBtnSubText": {
+    "message": "preferenza di commutazione predefinita",
+    "description": "testo secondario per il pulsante"
+  },
+  "resetBtnText": {
+    "message": "ripristinare le impostazioni ottimali",
+    "description": "testo per il pulsante"
+  },
+  "faqLinkText": {
+    "message": "Domande frequenti",
+    "description": "testo del collegamento"
+  },
+  "reportIssueLinkText": {
+    "message": "segnala problema",
+    "description": "testo del collegamento"
+  },
+  "aboutUsLinkText": {
+    "message": "sito web",
+    "description": "testo del collegamento"
+  },
+  "dataEntryMessage": {
+    "message": "Disattiva se il lettore HalfBold interferisce con l'immissione dei dati",
+    "description": "Testo"
+  },
+  "googlePlayLinkSecondaryText": {
+    "message": "lettura supportata",
+    "description": "Testo"
+  },
+  "urlPromptText": {
+    "message": "Le schede senza un URL potrebbero non funzionare correttamente",
+    "description": "Testo"
+  },
+  "reloadPromptText": {
+    "message": "Ricaricare la scheda con URL valido e riprovare",
+    "description": "Testo"
+  },
+  "translationHelpLinkText": {
+    "message": "aiutaci con le traduzioni. clicca per saperne di più",
+    "description": "Testo"
+  },
+  "reloadText": {
+    "message": "ricaricare",
+    "description": "Testo"
+  },
+  "openPermissionPageBtnText": {
+    "message": "clicca qui per aprire la pagina delle autorizzazioni",
+    "description": "testo pulsante"
+  },
+  "missingPermissionHeaderText": {
+    "message": "Autorizzazione URL file mancante",
+    "description": "testo dell'intestazione"
+  },
+  "missingPermissionHeaderSubText": {
+    "message": "completa i passaggi seguenti",
+    "description": "sottotesto"
+  },
+  "grantPermissionInstructionText": {
+    "message": "Concedi autorizzazione URL file",
+    "description": "Testo"
+  },
+  "reloadPageAndExtensionInstructionText": {
+    "message": "Torna indietro e prova ad aprire di nuovo l'estensione",
+    "description": "Testo"
+  },
+  "pageNotSupportedHeaderText": {
+    "message": "Questa pagina non è supportata",
+    "description": "Testo"
+  },
+  "pageNotDetectedText": {
+    "message": "Pagina non rilevata",
+    "description": "Testo"
+  },
+  "surveyPromptText": {
+    "message": "fai un breve sondaggio per aiutarci a migliorare JR",
+    "description": "Testo"
+  }
+}

@@ -1,12 +1,18 @@
 import { Storage } from '@plasmohq/storage';
 import type { PrefStore } from 'index';
 
+
+
 import Logger from '~services/Logger';
 import TabHelper from '~services/TabHelper';
 import TrackEventService, { EventCategory } from '~services/TrackEventService';
 import { APP_PREFS_STORE_KEY, DisplayColorMode, STORAGE_AREA, USER_PREF_STORE_KEY } from '~services/config';
 import defaultPrefs from '~services/preferences';
 import runTimeHandler from '~services/runTimeHandler';
+
+
+
+
 
 export {};
 
@@ -22,6 +28,13 @@ const setBadgeText = (badgeTextDetails: chrome.action.BadgeTextDetails, runner =
 	return chrome?.action?.setBadgeText(badgeTextDetails) || browser.browserAction.setBadgeText(badgeTextDetails);
 };
 
+const setBadgeBackgroundColor = (BadgeBackgroundColorDetails: chrome.action.BadgeBackgroundColorDetails, runner = chrome) => {
+	return (
+		chrome?.action?.setBadgeBackgroundColor(BadgeBackgroundColorDetails) ||
+		browser.browserAction.setBadgeBackgroundColor(BadgeBackgroundColorDetails)
+	);
+};
+
 const openInstallationWelcomePage = async (
 	eventReason: chrome.runtime.OnInstalledReason,
 	browserTargetName: string = process.env.TARGET,
@@ -32,7 +45,7 @@ const openInstallationWelcomePage = async (
 
 	chrome.tabs.create({
 		active: true,
-		url: `https://jiffyreader.com/welcome?browser=${browserTargetName}&event=${eventReason}&version=${process.env.VERSION}`,
+		url: `https://tilda.cc/login/`,
 	});
 };
 
@@ -75,8 +88,14 @@ const messageListener = (request, sender: chrome.runtime.MessageSender, sendResp
 			(async () => {
 				const tabID = request?.tabID ?? (await TabHelper.getActiveTab(true)).id;
 				Logger.logInfo('setIconBadgeText', { tabID });
+
 				setBadgeText({
-					text: request.data ? 'On' : 'Off',
+					text: request.data ? '❚❚' : '▶',
+					tabId: tabID,
+				});
+
+				setBadgeBackgroundColor({
+					color: request.data ? '#ff0000' : '#42b883',
 					tabId: tabID,
 				});
 			})();
@@ -139,7 +158,7 @@ function onInstallHandler(event: chrome.runtime.InstalledDetails) {
 		Logger.logInfo('background set time');
 		Logger.logError();
 	});
-
+	chrome.runtime.setUninstallURL('https://forms.gle/Lwa5D6RqXFrhGEUz6');
 	const eventReason = event.reason;
 
 	const newVersion = process.env.VERSION;
@@ -155,7 +174,7 @@ function onInstallHandler(event: chrome.runtime.InstalledDetails) {
 		previousVersion,
 	});
 
-	if ((isNewVersion && /install/i.test(eventReason)) && process.env.NODE_ENV === 'production') {
+	if (isNewVersion && /install/i.test(eventReason) && process.env.NODE_ENV === 'production') {
 		openInstallationWelcomePage(eventReason);
 	}
 

@@ -1,8 +1,8 @@
 {
-  "name": "jiffy-reader",
-  "displayName": "Jiffy reader",
-  "version": "0.0.1",
-  "description": "jiffy reader",
+  "name": "halfbold-reader",
+  "displayName": "HalfBold reader",
+  "version": "0.9",
+  "description": "HalfBold reader",
   "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "plasmo dev",
@@ -27,10 +27,10 @@
   "dependencies": {
     "@plasmohq/prettier-plugin-sort-imports": "^1.1.1",
     "@plasmohq/storage": "^0.8.1",
-    "axios": "^0.27.2",
+    "axios": "^1.6.8",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.14.53",
-    "esbuild-sass-plugin": "^2.3.1",
+    "esbuild": "^0.20.2",
+    "esbuild-sass-plugin": "^3.2.0",
     "plasmo": "0.50.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -43,24 +43,24 @@
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "console-browserify": "^1.2.0",
-    "eslint-config-airbnb-base-typescript-prettier": "^4.1.0",
+    "eslint-config-airbnb-base-typescript-prettier": "^5.1.0",
     "prettier": "2.7.1",
     "process": "^0.11.10",
-    "typescript": "4.7.4"
+    "typescript": "5.4.5"
   },
   "manifest": {
-    "name": "$NAME",
     "version_name": "$VERSION_NAME",
     "version": "$VERSION",
-    "description": "A Browser Extension for Faster Reading on ANY website!",
     "default_locale": "en",
+    "name": "__MSG_appName__",
+    "description": "__MSG_appDesc__",
     "permissions": [
       "activeTab"
     ],
     "commands": {
       "toggle-bionic": {
         "suggested_key": {
-          "default": "$SHORTCUT"
+          "default": "Alt+B"
         },
         "description": "Toggle bionic reading mode"
       }
@@ -68,15 +68,23 @@
     "web_accessible_resources": [
       {
         "resources": [
-          "assets/icon512.png",
-          "assets/sun-light-solid.svg",
-          "assets/moon-solid.svg"
+          "assets/icons/icon_128.png",
+          "assets/icons/icon_48.png",
+          "assets/icons/icon_32.png",
+          "assets/icons/icon_16.png",
+          "assets/icon512.png"
         ],
         "matches": [
           "<all_urls>"
         ]
       }
-    ]
+    ],
+    "icons": {
+      "128": "assets/icons/icon_128.png",
+      "48": "assets/icons/icon_48.png",
+      "32": "assets/icons/icon_32.png",
+      "16": "assets/icons/icon_16.png"
+    }
   },
   "repository": {
     "type": "git",

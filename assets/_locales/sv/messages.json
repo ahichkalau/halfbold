@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"använd inställningar","description":"etikett för (inställningsknapp för global eller webbplatsinställning"},"tipsPopupTriggerLabel":{"message":"Tips","description":"etikett för (inställningsknapp för global eller webbplatsinställning"},"globalPreferenceToggleBtnText":{"message":"global","description":"huvudtext för växlingsknappen global inställning"},"globalPreferenceToggleBtnSubText":{"message":"standard","description":"undertext för knappen global inställning"},"sitePreferenceToggleBtnText":{"message":"plats","description":"huvudtext för växlingsknappen för webbplatsinställningar"},"sitePreferenceToggleBtnSubText":{"message":"för den här webbplatsen","description":"undertext för knappen global inställning"},"onOffToggleBtnTextDisable":{"message":"inaktivera","description":"onOffToggleBtnTextDisable knapptext"},"onOffToggleBtnTextEnable":{"message":"möjliggöra","description":"onOffToggleBtnTextAktivera knapptext"},"onOffToggleBtnSubText":{"message":"läsläge","description":"text för onOffToggleBtnSubText"},"shortcutLabelText":{"message":"standardgenväg","description":"text för onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"standardgenväg för krom"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"standardgenväg för Firefox"},"saccadesIntervalLabel":{"message":"sackader intervall","description":"etikett för reglaget för sackadeintervall"},"fixationsStrengthLabel":{"message":"fixeringar styrka","description":"etikett för fixeringar styrka skjutreglage"},"fixationsEdgeOpacityLabel":{"message":"fixeringar kant opacitet","description":"etikett för reglaget för fixeringars kantopacitet"},"saccadesColorLabel":{"message":"sackader färg","description":"etikett för rullgardinsmenyn saccadefärg"},"saccadesStyleLabel":{"message":"sackader stilar","description":"etikett för rullgardinsmenyn saccade style"},"lineHeightTogglesLabel":{"message":"linjens höjd","description":"etikett för knappar för mindre och större linjehöjd"},"smallerLineHeightBtnText":{"message":"aa-","description":"text för knappen"},"smallerLineHeightBtnSubText":{"message":"mindre","description":"undertext för knappen"},"largerLineHeightBtnText":{"message":"aa+","description":"text för knappen"},"largerLineHeightBtnSubText":{"message":"Större","description":"undertext för knappen"},"defaultBionicModeToggleBtnOffText":{"message":"stäng av alltid","description":"text för knappen"},"defaultBionicModeToggleBtnOnText":{"message":"slå på alltid","description":"text för knappen"},"defaultBionicModeToggleBtnSubText":{"message":"standardinställning för växling","description":"undertext för knappen"},"resetBtnText":{"message":"återställ till optimala inställningar","description":"text för knappen"},"faqLinkText":{"message":"FAQ","description":"länka text"},"reportIssueLinkText":{"message":"rapportera problem","description":"länka text"},"aboutUsLinkText":{"message":"webbplats","description":"länka text"},"dataEntryMessage":{"message":"Stäng av om jiffy-läsaren stör datainmatningen","description":"SMS"},"googlePlayLinkSecondaryText":{"message":"läsning stöds","description":"SMS"},"urlPromptText":{"message":"Flikar utan url kanske inte fungerar korrekt","description":"SMS"},"reloadPromptText":{"message":"Ladda om fliken med giltig url och försök igen","description":"SMS"},"translationHelpLinkText":{"message":"hjälpa oss med tranlationer. klicka för att läsa mer","description":"SMS"},"reloadText":{"message":"Reload","description":"SMS"},"openPermissionPageBtnText":{"message":"Klicka här för att öppna behörighetssidan","description":"knapptext"},"missingPermissionHeaderText":{"message":"Fil-URL-behörighet saknas","description":"rubrik text"},"missingPermissionHeaderSubText":{"message":"slutför stegen nedan","description":"undertext"},"grantPermissionInstructionText":{"message":"Bevilja fil-URL-behörighet","description":"SMS"},"reloadPageAndExtensionInstructionText":{"message":"Gå tillbaka och försök öppna tillägget igen","description":"SMS"},"pageNotSupportedHeaderText":{"message":"Den här sidan stöds inte","description":"SMS"},"pageNotDetectedText":{"message":"Sidan hittades inte","description":"SMS"},"surveyPromptText":{"message":"ta en kort undersökning för att hjälpa oss att förbättra JR","description":"SMS"}}
+{
+    "appDesc": {
+        "message": "Half Bold Chrome-tillägg: Din nyckel till förbättrad Bionic Reading"
+    },
+    "appName": {
+        "message": "Half Bold Chrome-tillägg | Half Bold Reader"
+    },
+    "storeDeesc": {
+        "message": "Höj din online-läsupplevelse med Half Bold Chrome-tillägget - ditt ultimata hjälpmedel för en sömlös och dyslexi-vänlig upplevelse! Detta halvfeta tillägg förfinar digital text, vilket gör den tillgänglig och läsbar. Halvfet typsnitt och halvfet text säkerställer en inkluderande läsmiljö, anpassad till behoven hos dem med dyslexi och ADHD.\n\n\uD83D\uDD21 Upptäck lyskraften i Half Bold\n➤ Läs webbsidor utan ansträngning med vårt halvfeta typsnitt\n➤ Anpassa din läsupplevelse med halvfet text\n➤ Få mild vägledning vid läsning av komplex text med halvfet\n\n\uD83D\uDCBB Bryt barriärer med Half Bold-tillägget för Chrome\n1\uFE0F⃣ Interaktiv design för smidig tillgänglighet\n2\uFE0F⃣ Förbättra läsnoggrannheten med halvfeta tillägget\n3\uFE0F⃣ Förbättra läsförståelsen med funktioner i halvfet chrome-tillägget\n\n\uD83D\uDCDA Upplev Halfbold-tillägget\n- Njut av att läsa med det unika halfbold-typsnittet\n- Utforska ett inkluderande digitalt utrymme med halfbold-tillägget\n- Säkerställ en dyslexi-vänlig läsupplevelse med halfbold-funktioner\n\n\uD83D\uDD0D Förbättra läsningen med Dislexia-typsnittet\n▸ Öka din läseffektivitet med Dislexia-typsnittet\n▸ Förbättra läsflödet med vårt dyslexiska typsnitt\n▸ Säg adjö till läsproblem med dyslexi-vänliga typsnitt\n\n\uD83C\uDF08 Veckla ut magin med Open Dyslexic-typsnittet för Chrome\n• Njut av en inkluderande läsupplevelse med Open Dyslexic-typsnittet för Chrome\n• Upplev förbättrad läsnoggrannhet med ADHD-typsnittet\n• Upptäck glädjen i läsning med ADHD-lästypsnittet\n\n\uD83D\uDCA1 Upplys din läsning med Bionic Reading Du kan dra nytta av fördelarna med bionic reading, ett läge som möjliggör en snabbare läshastighet utan att äventyra förståelsen. Denna innovativa funktion bryter ner komplexa texter, vilket gör att du kan behålla mer information och läsa snabbare, vilket ökar din produktivitet. Oavsett om du är en student som forskar för ett papper, en professionell som försöker hänga med i de senaste nyheterna, eller någon med dyslexi, ger denna funktion dig möjlighet att enkelt övervinna alla läsutmaningar.\n\n\uD83D\uDC41\uFE0F Stärk din läsning med ADHD-typsnittstillägget\n➤ Förbättra läsflödet med ADHD-typsnittstillägget\n➤ Upplev kraften i ADHD-läsning med fetstil\n➤ Transformera din läsresa med ADHD-lästillägget\n\n\uD83D\uDCD6 Omfamna ADHD-läsaren\n1. Lås upp en ny läsupplevelse med ADHD-läsaren\n2. Utforska den digitala världen med ADHD-läsappen\n3. Upplev en dyslexi-vänlig läsmiljö med fetstil på det första ordet i varje ord ADHD\n\n\uD83D\uDCBB Ta kontroll över din läsning\n- Förbättra läsnoggrannheten med ADHD-fetstilsläsning\n- Öka läsflödet med ADHD-läsning med fetstil\n- Säkerställ en bekväm läsupplevelse med chrome-tillägget halvfet\n\n\uD83D\uDDC2\uFE0F Allt i ett-lösningslösning\n➤ Upplev halfbold-funktionen\n➤ Njut av att läsa med halvfet typsnitt\n➤ Delta i en smidig läsresa med halvfet text\n\n\uD83D\uDD0D Dyk djupare in i läsning Den unika funktionaliteten i detta verktyg gör det inte bara möjligt för individer att förbli fokuserade på sina läsuppgifter utan också gör innehållet lättare att läsa. För människor med dyslexi eller ADHD kan detta vara en vändpunkt. Det är inte bara ett verktyg; det är en bro till en värld av oändlig information och berättelser, ett sätt att engagera och kommunicera, att känna sig inkluderad och värderad. Half Bold Chrome-tillägget säkerställer att ingen lämnas kvar i vår alltmer digitala värld.\n\n\uD83D\uDD0E Omdefiniera din läsupplevelse\n1. Utforska ett inkluderande digitalt utrymme med halvfet tillägg för Chrome\n2. Fördjupa dig i en unik läsmiljö med halfbold-tillägget\n3. Upplev glädjen i läsning med Dislexia-typsnittet\n\n\uD83D\uDD04 Njut av sömlös läsning\n➤ Öka din läseffektivitet med dyslexi-vänliga typsnitt\n➤ Upptäck en bekväm läsmiljö med Open Dyslexic-typsnittet för Chrome\n➤ Upplev kraften i ADHD-typsnittet\n\n\uD83D\uDC96 Börja din inkluderande läsresa\nGå med i vår gemenskap och förbättra din digitala läsresa. Med Half Bold Chrome-tillägget lägger du inte bara till ett verktyg i din webbläsare; du antar en mer inkluderande och tillgänglig digital läsmiljö. Ladda ner nu för en transformerande läsupplevelse!\n\n\uD83E\uDD14 Vanliga frågor om vårt Chrome-tillägg\n✨ Kan jag anpassa halvfeta inställningar?\n\uD83D\uDD39 Absolut! Du kan justera halvfeta inställningar baserat på dina läspreferenser.\n\n\uD83D\uDCDA Hur stöder detta tillägg dyslexi-vänlig läsning?\n\uD83D\uDD39 Vårt tillägg har Open Dyslexic-typsnittet, tillsammans med halvfet funktion, designad för att hjälpa dyslexiska läsare.\n\n\uD83C\uDF10 Kan jag använda detta tillägg på någon webbplats?\n\uD83D\uDD39 Ja! Vårt tillägg är utformat för att fungera på alla webbplatser, vilket ger en sömlös läsupplevelse."
+    },
+    "preferenceLabel": {
+        "message": "använd inställningar",
+        "description": "etikett för (inställningsknapp för global eller webbplatsinställning"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "Tips",
+        "description": "etikett för (inställningsknapp för global eller webbplatsinställning"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "global",
+        "description": "huvudtext för växlingsknappen global inställning"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "standard",
+        "description": "undertext för knappen global inställning"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "plats",
+        "description": "huvudtext för växlingsknappen för webbplatsinställningar"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "för den här webbplatsen",
+        "description": "undertext för knappen global inställning"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "inaktivera",
+        "description": "onOffToggleBtnTextDisable knapptext"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "möjliggöra",
+        "description": "onOffToggleBtnTextAktivera knapptext"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "läsläge",
+        "description": "text för onOffToggleBtnSubText"
+    },
+    "shortcutLabelText": {
+        "message": "standardgenväg",
+        "description": "text för onOffToggleBtnShortCutText"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "standardgenväg för krom"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "standardgenväg för Firefox"
+    },
+    "saccadesIntervalLabel": {
+        "message": "sackader intervall",
+        "description": "etikett för reglaget för sackadeintervall"
+    },
+    "fixationsStrengthLabel": {
+        "message": "fixeringar styrka",
+        "description": "etikett för fixeringar styrka skjutreglage"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "fixeringar kant opacitet",
+        "description": "etikett för reglaget för fixeringars kantopacitet"
+    },
+    "saccadesColorLabel": {
+        "message": "sackader färg",
+        "description": "etikett för rullgardinsmenyn saccadefärg"
+    },
+    "saccadesStyleLabel": {
+        "message": "sackader stilar",
+        "description": "etikett för rullgardinsmenyn saccade style"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "linjens höjd",
+        "description": "etikett för knappar för mindre och större linjehöjd"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "text för knappen"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "mindre",
+        "description": "undertext för knappen"
+    },
+    "largerLineHeightBtnText": {
+        "message": "aa+",
+        "description": "text för knappen"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "Större",
+        "description": "undertext för knappen"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "stäng av alltid",
+        "description": "text för knappen"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "slå på alltid",
+        "description": "text för knappen"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "standardinställning för växling",
+        "description": "undertext för knappen"
+    },
+    "resetBtnText": {
+        "message": "återställ till optimala inställningar",
+        "description": "text för knappen"
+    },
+    "faqLinkText": {
+        "message": "FAQ",
+        "description": "länka text"
+    },
+    "reportIssueLinkText": {
+        "message": "rapportera problem",
+        "description": "länka text"
+    },
+    "aboutUsLinkText": {
+        "message": "webbplats",
+        "description": "länka text"
+    },
+    "dataEntryMessage": {
+        "message": "Stäng av om HalfBold-läsaren stör datainmatningen",
+        "description": "SMS"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "läsning stöds",
+        "description": "SMS"
+    },
+    "urlPromptText": {
+        "message": "Flikar utan url kanske inte fungerar korrekt",
+        "description": "SMS"
+    },
+    "reloadPromptText": {
+        "message": "Ladda om fliken med giltig url och försök igen",
+        "description": "SMS"
+    },
+    "translationHelpLinkText": {
+        "message": "hjälpa oss med tranlationer. klicka för att läsa mer",
+        "description": "SMS"
+    },
+    "reloadText": {
+        "message": "Reload",
+        "description": "SMS"
+    },
+    "openPermissionPageBtnText": {
+        "message": "Klicka här för att öppna behörighetssidan",
+        "description": "knapptext"
+    },
+    "missingPermissionHeaderText": {
+        "message": "Fil-URL-behörighet saknas",
+        "description": "rubrik text"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "slutför stegen nedan",
+        "description": "undertext"
+    },
+    "grantPermissionInstructionText": {
+        "message": "Bevilja fil-URL-behörighet",
+        "description": "SMS"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "Gå tillbaka och försök öppna tillägget igen",
+        "description": "SMS"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "Den här sidan stöds inte",
+        "description": "SMS"
+    },
+    "pageNotDetectedText": {
+        "message": "Sidan hittades inte",
+        "description": "SMS"
+    },
+    "surveyPromptText": {
+        "message": "ta en kort undersökning för att hjälpa oss att förbättra JR",
+        "description": "SMS"
+    }
+}

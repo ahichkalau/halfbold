@@ -1,174 +1,183 @@
 {
-	"preferenceLabel": {
-		"message": "Anwedungsbereich",
-		"description": "label for (global or site preference button toggles"
-	},
-	"tipsPopupTriggerLabel": {
-		"message": "Hinweise",
-		"description": "label for (global or site preference button toggles"
-	},
-	"globalPreferenceToggleBtnText": {
-		"message": "Überall",
-		"description": "main text for global preference toggle button"
-	},
-	"globalPreferenceToggleBtnSubText": {
-		"message": "Für jede Seite",
-		"description": "global preference button sub text"
-	},
-	"sitePreferenceToggleBtnText": {
-		"message": "Lokal",
-		"description": "main text for site preference toggle button"
-	},
-	"sitePreferenceToggleBtnSubText": {
-		"message": "Nur diese Seite",
-		"description": "global preference button sub text"
-	},
-	"onOffToggleBtnTextDisable": {
-		"message": "Beenden des",
-		"description": "onOffToggleBtnTextDisable button text"
-	},
-	"onOffToggleBtnTextEnable": {
-		"message": "Starten des",
-		"description": "onOffToggleBtnTextEnable button text"
-	},
-	"onOffToggleBtnSubText": {
-		"message": "Lesemodus",
-		"description": "text for onOffToggleBtnSubText"
-	},
-	"shortcutLabelText": {
-		"message": "Tastenkürzel",
-		"description": "text for onOffToggleBtnShortCutText"
-	},
-	"defaultShortcutValueTextChrome": {
-		"message": "alt+b",
-		"description": "default shortcut for chrome"
-	},
-	"defaultShortcutValueTextFirefox": {
-		"message": "alt+w",
-		"description": "default shortcut for firefox"
-	},
-	"saccadesIntervalLabel": {
-		"message": "Sakkadenabstand",
-		"description": "label for saccades interval slider"
-	},
-	"fixationsStrengthLabel": {
-		"message": "Fixationsstärke",
-		"description": "label for fixations strength slider"
-	},
-	"fixationsEdgeOpacityLabel": {
-		"message": "Opacity outside saccades",
-		"description": "label for fixations edge opacity slider"
-	},
-	"saccadesColorLabel": {
-		"message": "Farbliche Darstellung",
-		"description": "label for saccade color dropdown"
-	},
-	"saccadesStyleLabel": {
-		"message": "Stil der Sakkaden ",
-		"description": "label for saccade style dropdown"
-	},
-	"lineHeightTogglesLabel": {
-		"message": "Zeilenabstand ",
-		"description": "label for smaller and larger line height buttons"
-	},
-	"smallerLineHeightBtnText": {
-		"message": "aa-",
-		"description": "text for the button"
-	},
-	"smallerLineHeightBtnSubText": {
-		"message": "Geringer",
-		"description": "sub text for the button"
-	},
-	"largerLineHeightBtnText": {
-		"message": "aa+",
-		"description": "text for the button"
-	},
-	"largerLineHeightBtnSubText": {
-		"message": "Größer",
-		"description": "sub text for the button"
-	},
-	"defaultBionicModeToggleBtnOffText": {
-		"message": "Dauerhaft deaktiviert",
-		"description": "text for the button"
-	},
-	"defaultBionicModeToggleBtnOnText": {
-		"message": "Dauerhaft aktiviert",
-		"description": "text for the button"
-	},
-	"defaultBionicModeToggleBtnSubText": {
-		"message": "Ausgewählte Einstellung umschalten",
-		"description": "sub text for the button"
-	},
-	"resetBtnText": {
-		"message": "Einstellugen auf Standard zurücksetzen",
-		"description": "text for the button"
-	},
-	"faqLinkText": {
-		"message": "Häufig gestellte Fragen",
-		"description": "link text"
-	},
-	"reportIssueLinkText": {
-		"message": "Ein Problem melden",
-		"description": "link text"
-	},
-	"aboutUsLinkText": {
-		"message": "Webseite",
-		"description": "link text"
-	},
-	"dataEntryMessage": {
-		"message": "Deaktivieren Sie Jiffy,if it interferes with entering data in text fields",
-		"description": "Text"
-	},
-	"googlePlayLinkSecondaryText": {
-		"message": "Lesen unterstützt",
-		"description": "Text"
-	},
-	"urlPromptText": {
-		"message": "Registerkarten ohne URL funktionieren möglicherweise nicht ordnungsgemäß",
-		"description": "Text"
-	},
-	"reloadPromptText": {
-		"message": "Laden Sie die Registerkarte mit der gültigen URL neu und versuchen Sie es erneut.",
-		"description": "Text"
-	},
-	"translationHelpLinkText": {
-		"message": "Helfen Sie uns mit Übersetzungen. Klicken Sie hier, um mehr zu erfahren",
-		"description": "Text"
-	},
-	"reloadText": {
-		"message": "nachladen",
-		"description": "Text"
-	},
-	"openPermissionPageBtnText": {
-		"message": "Klicken Sie hier, um die Berechtigungsseite zu öffnen",
-		"description": "Schaltflächentext"
-	},
-	"missingPermissionHeaderText": {
-		"message": "Datei-URL-Berechtigung fehlt",
-		"description": "Kopfzeilentext"
-	},
-	"missingPermissionHeaderSubText": {
-		"message": "Führen Sie die folgenden Schritte aus",
-		"description": "Subtext"
-	},
-	"grantPermissionInstructionText": {
-		"message": "Erteilen der Datei-URL-Berechtigung",
-		"description": "Text"
-	},
-	"reloadPageAndExtensionInstructionText": {
-		"message": "Kehren Sie zurück und versuchen Sie, die Erweiterung erneut zu öffnen.",
-		"description": "Text"
-	},
-	"pageNotSupportedHeaderText": {
-		"message": "Diese Seite wird nicht unterstützt",
-		"description": "Text"
-	},
-	"pageNotDetectedText": {
-		"message": "Seite nicht erkannt",
-		"description": "Text"
-	},
-	"surveyPromptText": {
-		"message": "Nehmen Sie an einer kurzen Umfrage teil, um JR zu verbessern",
-		"description": "Text"
-	}
+  "appDesc": {
+    "message": "Bionic Reading und Schriftbild Legastheniker: Verbessern Sie Ihre Lesefähigkeiten!"
+  },
+  "appName": {
+    "message": "Schriftbild Legastheniker - HalfBold Reader"
+  },
+  "storeDesc": {
+    "message": "Verwandeln Sie Ihre täglichen Gewohnheiten mit der ultimativen Erinnerungs-App - Ihrer Komplettlösung, um Ihren Aufgaben und Ihrer Gesundheit gerecht zu werden! Nutzen Sie die Kraft intelligenter Erinnerungen und übernehmen Sie mit dieser innovativen Google Chrome-Erweiterung die Kontrolle über Ihren Tag. Die Erinnerungs-App ist auf Effizienz und Benutzerfreundlichkeit ausgelegt und integriert sich nahtlos in Ihren Lebensstil, um Ihnen dabei zu helfen, organisiert, gesund und immer einen Schritt voraus zu bleiben.\n\n\uD83D\uDEB0 Bleiben Sie mit der Wassererinnerungs-App hydratisiert\n\uD83D\uDCA7 Verfolgen Sie Ihre tägliche Wasseraufnahme mühelos.\n\uD83D\uDCA7 Anpassbare Wasseraufnahmeziele basierend auf Ihren persönlichen Bedürfnissen.\n\uD83D\uDCA7 Erhalten Sie sanfte Hinweise, um sicherzustellen, dass Sie den ganzen Tag über gut hydratisiert sind.\n\n\uD83D\uDC8A Verpassen Sie nie eine Dosis mit der Pillenerinnerungs-App\n1. Verwalten Sie Ihren Medikamentenplan mit Leichtigkeit.\n2. Erhalten Sie rechtzeitig Alarme, um Ihre Medikamente ohne Ausfall einzunehmen.\n3. Verfolgen Sie Ihre Medikamentengeschichte für ein besseres Gesundheitsmanagement.\n\n\uD83D\uDCBC Organisieren Sie Ihre Ausgaben mit der Rechnungserinnerungs-App\n- Vermeiden Sie verspätete Gebühren mit proaktiven Rechnungserinnerungen.\n- Planen Sie Zahlungen und behalten Sie Fälligkeitstermine im Auge.\n- Stellen Sie sicher, dass Ihre Finanzen mit Erinnerungen für jeden Rechnungstyp immer in Ordnung sind.\n\n\uD83D\uDDA5\uFE0F Übernehmen Sie die Kontrolle über Ihren digitalen Raum\n▸ Erinnerungs-App für Windows und Erinnerungs-App für Mac bieten ein nahtloses Erlebnis auf verschiedenen Geräten.\n▸ Integrieren Sie Ihre vorhandenen Tools und Apps für eine optimierte Organisation.\n▸ Benutzerdefinierte Erinnerungen stellen sicher, dass Sie immer auf Ihr nächstes Meeting oder Ihre nächste Frist vorbereitet sind.\n\n\uD83C\uDFE5 Setzen Sie auf Ihr Wohlbefinden mit der Gesundheitserinnerung\n• Tägliche Aufforderungen zu gesundheitsbezogenen Aktivitäten, wie z.B. Bewegung und Pausen.\n• Planen Sie Termine und Gesundheitschecks ohne Konflikte.\n• Gesundheitserinnerung hält Ihre Wellness-Reise mit minimalem Aufwand auf Kurs.\n\n⏰ Alles an einem Ort\n➤ Stellen Sie schnell eine Erinnerung für jede Aufgabe oder Veranstaltung ein.\n➤ Erstellen Sie einen Erinnerungssatz für wiederkehrende Aktivitäten oder Gewohnheiten, die Sie aufbauen.\n➤ Erinnerungs-App vereinfacht die Terminplanung, so dass Sie Zeit dort investieren können, wo es am wichtigsten ist.\n\nErinnern Sie sich mühelos an wichtige Aufgaben und bevorstehende Fristen, behalten Sie persönliche Termine und Jubiläen im Vordergrund und bleiben Sie motiviert, indem Sie sich an Ihre Ziele und Ambitionen erinnern - mit den intuitiven Erinnerungs- und Merkfunktionen unserer App.\n\n\uD83C\uDF76 Machen Sie jeden Tag verantwortungsbewusst mit der täglichen Erinnerungs-App\n1. Starten Sie jeden Morgen mit einem frischen Satz von Aufgaben und Zielen.\n2. Passen Sie tägliche Erinnerungen an Ihren einzigartigen Lebensstil und Ihre Bedürfnisse an.\n3. Erreichen Sie mehr mit strukturierter Tagesplanung und Erinnerungen.\n4. Intuitive Planungstools zur Planung Ihrer Tage, Wochen und Monate.\n5. Planen Sie eine Erinnerung für eine nahtlose Integration in Ihren persönlichen Kalender.\n6. Verpassen Sie nie ein wichtiges Datum, ein Meeting oder eine Veranstaltung mit proaktiven Alarmen.\n\n\uD83D\uDD70\uFE0F Reclaim Your Time\n➤ Priorisieren Sie Ihre Aufgaben mit intelligentem Sortieren und Erinnerungen.\n➤ Widmen Sie mehr Zeit dem, was wirklich zählt, mit effizientem Zeitmanagement.\n➤ Balance Arbeit, Gesundheit und persönliches Leben mit perfekt getimten Erinnerungen.\n\n\uD83D\uDD11 Unlock Convenience and Efficiency\n❗\uFE0F Wählen Sie aus verschiedenen Erinnerungstypen: Medikamentenerinnerungs-App, Rechnungserinnerungs-App und mehr.\n❗\uFE0F Passen Sie jeden Erinnerungsalarm an Ihre Vorlieben an.\n❗\uFE0F Genießen Sie eine übersichtliche Benutzeroberfläche, die für eine einfache Navigation entwickelt wurde.\n\n\uD83C\uDFAF Ziel kontinuierliche Verbesserung\n① Regelmäßige Updates basierend auf Benutzerfeedback.\n② Neue Funktionen, die Ihren sich entwickelnden Bedürfnissen entsprechen.\n③ Unser Engagement für Exzellenz stellt sicher, dass die Erinnerungs-App Ihre erste Wahl bleibt.\n\n❤\uFE0F Starten Sie Ihre Reise zu einem organisierten Leben\nWerden Sie Teil unserer Community, um Ihre täglichen Routinen, Ihre Gesundheit und Ihr allgemeines Wohlbefinden zu verbessern. Mit der Erinnerungs-App fügen Sie nicht nur ein Tool zu Ihrem Browser hinzu, sondern adoptieren einen Lebensstil von Produktivität und Achtsamkeit. Laden Sie jetzt herunter für ein transformierendes Erinnerungserlebnis!\n\n\uD83E\uDD14 FAQs Über unsere Chrome-Erweiterung\n✨ Kann ich Erinnerungen über Geräte hinweg synchronisieren?\n\uD83D\uDD39 Absolut! Mit einer Erinnerungs-App für Mac und einer Erinnerungs-App für Windows synchronisieren sich Ihre Aufgaben nahtlos für konsistente Alarme, egal wo Sie sind.\n\n\uD83D\uDCF2 Was macht diese App anders als andere Erinnerungstools?\n\uD83D\uDD39 Unsere App kombiniert alle Aspekte Ihres Lebens - Gesundheit, Aufgaben, Rechnungen - auf einer Plattform. Mit spezialisierten Funktionen wie der Wassererinnerungs-App und der Medikamentenerinnerungs-App ist es personalisierte Effizienz wie nie zuvor.\n\n\uD83C\uDF0D Kann ich diese App für Erinnerungen in jeder Zeitzone verwenden?\n\uD83D\uDD39 Ja! Unsere App ist für den weltweiten Einsatz konzipiert. Wo immer Sie sind, egal in welcher Zeitzone, die Erinnerungs-App hat Sie abgedeckt.\n\n"
+  },
+  "preferenceLabel": {
+    "message": "Anwedungsbereich",
+    "description": "label for (global or site preference button toggles"
+  },
+  "tipsPopupTriggerLabel": {
+    "message": "Hinweise",
+    "description": "label for (global or site preference button toggles"
+  },
+  "globalPreferenceToggleBtnText": {
+    "message": "Überall",
+    "description": "main text for global preference toggle button"
+  },
+  "globalPreferenceToggleBtnSubText": {
+    "message": "Für jede Seite",
+    "description": "global preference button sub text"
+  },
+  "sitePreferenceToggleBtnText": {
+    "message": "Lokal",
+    "description": "main text for site preference toggle button"
+  },
+  "sitePreferenceToggleBtnSubText": {
+    "message": "Nur diese Seite",
+    "description": "global preference button sub text"
+  },
+  "onOffToggleBtnTextDisable": {
+    "message": "Beenden des",
+    "description": "onOffToggleBtnTextDisable button text"
+  },
+  "onOffToggleBtnTextEnable": {
+    "message": "Starten des",
+    "description": "onOffToggleBtnTextEnable button text"
+  },
+  "onOffToggleBtnSubText": {
+    "message": "Lesemodus",
+    "description": "text for onOffToggleBtnSubText"
+  },
+  "shortcutLabelText": {
+    "message": "Tastenkürzel",
+    "description": "text for onOffToggleBtnShortCutText"
+  },
+  "defaultShortcutValueTextChrome": {
+    "message": "alt+b",
+    "description": "default shortcut for chrome"
+  },
+  "defaultShortcutValueTextFirefox": {
+    "message": "alt+w",
+    "description": "default shortcut for firefox"
+  },
+  "saccadesIntervalLabel": {
+    "message": "Sakkadenabstand",
+    "description": "label for saccades interval slider"
+  },
+  "fixationsStrengthLabel": {
+    "message": "Fixationsstärke",
+    "description": "label for fixations strength slider"
+  },
+  "fixationsEdgeOpacityLabel": {
+    "message": "Opacity outside saccades",
+    "description": "label for fixations edge opacity slider"
+  },
+  "saccadesColorLabel": {
+    "message": "Farbliche Darstellung",
+    "description": "label for saccade color dropdown"
+  },
+  "saccadesStyleLabel": {
+    "message": "Stil der Sakkaden ",
+    "description": "label for saccade style dropdown"
+  },
+  "lineHeightTogglesLabel": {
+    "message": "Zeilenabstand ",
+    "description": "label for smaller and larger line height buttons"
+  },
+  "smallerLineHeightBtnText": {
+    "message": "aa-",
+    "description": "text for the button"
+  },
+  "smallerLineHeightBtnSubText": {
+    "message": "Geringer",
+    "description": "sub text for the button"
+  },
+  "largerLineHeightBtnText": {
+    "message": "aa+",
+    "description": "text for the button"
+  },
+  "largerLineHeightBtnSubText": {
+    "message": "Größer",
+    "description": "sub text for the button"
+  },
+  "defaultBionicModeToggleBtnOffText": {
+    "message": "Dauerhaft deaktiviert",
+    "description": "text for the button"
+  },
+  "defaultBionicModeToggleBtnOnText": {
+    "message": "Dauerhaft aktiviert",
+    "description": "text for the button"
+  },
+  "defaultBionicModeToggleBtnSubText": {
+    "message": "Ausgewählte Einstellung umschalten",
+    "description": "sub text for the button"
+  },
+  "resetBtnText": {
+    "message": "Einstellugen auf Standard zurücksetzen",
+    "description": "text for the button"
+  },
+  "faqLinkText": {
+    "message": "Häufig gestellte Fragen",
+    "description": "link text"
+  },
+  "reportIssueLinkText": {
+    "message": "Ein Problem melden",
+    "description": "link text"
+  },
+  "aboutUsLinkText": {
+    "message": "Webseite",
+    "description": "link text"
+  },
+  "dataEntryMessage": {
+    "message": "Deaktivieren Sie HalfBold,if it interferes with entering data in text fields",
+    "description": "Text"
+  },
+  "googlePlayLinkSecondaryText": {
+    "message": "Lesen unterstützt",
+    "description": "Text"
+  },
+  "urlPromptText": {
+    "message": "Registerkarten ohne URL funktionieren möglicherweise nicht ordnungsgemäß",
+    "description": "Text"
+  },
+  "reloadPromptText": {
+    "message": "Laden Sie die Registerkarte mit der gültigen URL neu und versuchen Sie es erneut.",
+    "description": "Text"
+  },
+  "translationHelpLinkText": {
+    "message": "Helfen Sie uns mit Übersetzungen. Klicken Sie hier, um mehr zu erfahren",
+    "description": "Text"
+  },
+  "reloadText": {
+    "message": "nachladen",
+    "description": "Text"
+  },
+  "openPermissionPageBtnText": {
+    "message": "Klicken Sie hier, um die Berechtigungsseite zu öffnen",
+    "description": "Schaltflächentext"
+  },
+  "missingPermissionHeaderText": {
+    "message": "Datei-URL-Berechtigung fehlt",
+    "description": "Kopfzeilentext"
+  },
+  "missingPermissionHeaderSubText": {
+    "message": "Führen Sie die folgenden Schritte aus",
+    "description": "Subtext"
+  },
+  "grantPermissionInstructionText": {
+    "message": "Erteilen der Datei-URL-Berechtigung",
+    "description": "Text"
+  },
+  "reloadPageAndExtensionInstructionText": {
+    "message": "Kehren Sie zurück und versuchen Sie, die Erweiterung erneut zu öffnen.",
+    "description": "Text"
+  },
+  "pageNotSupportedHeaderText": {
+    "message": "Diese Seite wird nicht unterstützt",
+    "description": "Text"
+  },
+  "pageNotDetectedText": {
+    "message": "Seite nicht erkannt",
+    "description": "Text"
+  },
+  "surveyPromptText": {
+    "message": "Nehmen Sie an einer kurzen Umfrage teil, um JR zu verbessern",
+    "description": "Text"
+  }
 }

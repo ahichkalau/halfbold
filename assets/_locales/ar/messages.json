@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"استخدام التفضيل","description":"تسمية ل (تبديل زر التفضيلات العمومية أو الموقع"},"tipsPopupTriggerLabel":{"message":"النصائح","description":"تسمية ل (تبديل زر التفضيلات العمومية أو الموقع"},"globalPreferenceToggleBtnText":{"message":"عالمي","description":"زر تبديل النص الرئيسي للتفضيلات العمومية"},"globalPreferenceToggleBtnSubText":{"message":"افتراضي","description":"النص الفرعي لزر التفضيلات العمومية"},"sitePreferenceToggleBtnText":{"message":"موقع","description":"زر تبديل النص الرئيسي لتفضيلات الموقع"},"sitePreferenceToggleBtnSubText":{"message":"لهذا الموقع","description":"النص الفرعي لزر التفضيلات العمومية"},"onOffToggleBtnTextDisable":{"message":"تعطيل","description":"onOffToggleBtnTextتعطيل نص الزر"},"onOffToggleBtnTextEnable":{"message":"تمكين","description":"onOffToggleBtnTextتمكين نص الزر"},"onOffToggleBtnSubText":{"message":"وضع القراءة","description":"نص ل onOffToggleBtnSubText"},"shortcutLabelText":{"message":"الاختصار الافتراضي","description":"text for onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"بديل+ب","description":"الاختصار الافتراضي للكروم"},"defaultShortcutValueTextFirefox":{"message":"بديل+ث","description":"الاختصار الافتراضي لفايرفوكس"},"saccadesIntervalLabel":{"message":"الفاصل الزمني للسكاديس","description":"تسمية لشريط تمرير الفاصل الزمني saccades"},"fixationsStrengthLabel":{"message":"قوة التثبيت","description":"تسمية لتثبيت قوة شريط التمرير"},"fixationsEdgeOpacityLabel":{"message":"تثبيتات حافة عتامة","description":"تسمية للتثبيتات حافة عتامة المنزلق"},"saccadesColorLabel":{"message":"لون السكاديس","description":"تسمية القائمة المنسدلة للون الساكيد"},"saccadesStyleLabel":{"message":"أنماط السكاديس","description":"تسمية للقائمة المنسدلة لنمط saccade"},"lineHeightTogglesLabel":{"message":"ارتفاع الخط","description":"تسمية لأزرار ارتفاع الخط الأصغر والأكبر حجما"},"smallerLineHeightBtnText":{"message":"أ-","description":"نص للزر"},"smallerLineHeightBtnSubText":{"message":"أصغر","description":"نص فرعي للزر"},"largerLineHeightBtnText":{"message":"إيه إيه +","description":"نص للزر"},"largerLineHeightBtnSubText":{"message":"أكبر","description":"نص فرعي للزر"},"defaultBionicModeToggleBtnOffText":{"message":"إيقاف التشغيل دائما","description":"نص للزر"},"defaultBionicModeToggleBtnOnText":{"message":"قم بالتشغيل دائما","description":"نص للزر"},"defaultBionicModeToggleBtnSubText":{"message":"تفضيل التبديل الافتراضي","description":"نص فرعي للزر"},"resetBtnText":{"message":"إعادة التعيين إلى الإعدادات المثلى","description":"نص للزر"},"faqLinkText":{"message":"الأسئلة المتداولة","description":"نص الرابط"},"reportIssueLinkText":{"message":"مشكلة في التقرير","description":"نص الرابط"},"aboutUsLinkText":{"message":"الموقع الالكترونى","description":"نص الرابط"},"dataEntryMessage":{"message":"إيقاف التشغيل إذا تداخل القارئ المبتكر مع إدخال البيانات","description":"نص"},"googlePlayLinkSecondaryText":{"message":"القراءة المدعومة","description":"نص"},"urlPromptText":{"message":"قد لا تعمل علامات التبويب التي لا تحتوي على عنوان URL بشكل صحيح","description":"نص"},"reloadPromptText":{"message":"أعد تحميل علامة التبويب بعنوان URL صالح وحاول مرة أخرى","description":"نص"},"translationHelpLinkText":{"message":"ساعدنا في التنقلات. انقر لمعرفة المزيد","description":"نص"},"reloadText":{"message":"تحديث","description":"نص"},"openPermissionPageBtnText":{"message":"انقر هنا لفتح صفحة الأذونات","description":"نص الزر"},"missingPermissionHeaderText":{"message":"إذن عنوان URL للملف مفقود","description":"نص الرأس"},"missingPermissionHeaderSubText":{"message":"أكمل الخطوات أدناه","description":"نص فرعي"},"grantPermissionInstructionText":{"message":"منح إذن عنوان URL للملف","description":"نص"},"reloadPageAndExtensionInstructionText":{"message":"ارجع وحاول فتح الإضافة مرة أخرى","description":"نص"},"pageNotSupportedHeaderText":{"message":"هذه الصفحة غير مدعومة","description":"نص"},"pageNotDetectedText":{"message":"لم يتم اكتشاف الصفحة","description":"نص"},"surveyPromptText":{"message":"إجراء مسح قصير لمساعدتنا على تحسين JR","description":"نص"}}
+{
+  "appDesc": {
+    "message": "نصف الخط المتوسط \u200B\u200Bتمديد Chrome: مفتاحك للقراءة البيونية المحسنة"
+  },
+  "appName": {
+    "message": "HalfBold Reader"
+  },
+  "storeDesc": {
+    "message": "ارتقِ برحلتك في القراءة عبر الإنترنت مع تمديد Chrome نصف الخط المتوسط \u200B\u200B- مساعدك النهائي لتجربة سلسة وصديقة لمرضى القراءة البيونية! يقوم هذا التمديد بتنقيح النصوص الرقمية، مما يجعلها سهلة الوصول وقابلة للقراءة. الخط النصف متوسط \u200B\u200Bوالنصوص النصفية تضمن بيئة قراءة شاملة، تلبي احتياجات أولئك الذين يعانون من مرض القراءة واضطراب فرط النشاط وفرط النشاط وتشتت الانتباه.\n\n\uD83D\uDD21 اكتشف روعة النصف الخط\n➤ اقرأ صفحات الويب بسهولة مع خطنا النصف متوسط\n➤ قم بتخصيص تجربتك في القراءة باستخدام النصوص النصفية متوسطة\n➤ تلقى التوجيه اللطيف أثناء قراءة النصوص المعقدة باستخدام النصوص النصفية متوسطة الخط\n\n\uD83D\uDCBB كسر الحواجز مع تمديد Chrome نصف الخط\n1\uFE0F⃣ تصميم تفاعلي لسهولة الوصول السلس\n2\uFE0F⃣ تحسين دقة القراءة مع تمديد النصف الجريء\n3\uFE0F⃣ تعزيز فهم القراءة مع ميزات تمديد نصف الخط Chrome\n\n\uD83D\uDCDA تجربة تمديد نصف الخط\n\nاستمتع بالقراءة بالخط النصف متوسط \u200B\u200Bالفريد\nاستكشف مساحة رقمية شاملة مع تمديد النصف الجريء\nضمان تجربة قراءة صديقة لمرض القراءة مع ميزات نصف الخط\n\uD83D\uDD0D تعزيز القراءة مع خط القراءة بالدسلكسيا\n▸ زيادة كفاءة قراءتك مع خط القراءة بالدسلكسيا\n▸ تحسين الطلاقة في القراءة باستخدام خطنا الخاص بمرض القراءة\n▸ وداعاً لصعوبات القراءة مع الخطوط الصديقة لمرض القراءة\n\n\uD83C\uDF08 اكتشف سحر خط القراءة بالدسلكسيا المفتوح Chrome\n• استمتع بتجربة قراءة شاملة مع خط القراءة بالدسلكسيا المفتوح Chrome\n• تجربة تحسين دقة القراءة مع خط مرض فرط النشاط\n• اكتشف فرحة القراءة بخط القراءة لمرض فرط النشاط\n\n\uD83D\uDCA1 إنارة قراءتك مع القراءة البيونية يمكنك الاستفادة من فوائد القراءة البيونية، وهي وضع يسهل قراءة أسرع دون المساس بالفهم. يقوم هذا الميزة الابتكارية بتقسيم النصوص المعقدة، مما يتيح لك الاحتفاظ بمزيد من المعلومات والقراءة بشكل أسرع، مما يزيد من إنتاجيتك. سواء كنت طالبًا يبحث عن ورقة بحث، أو محترفًا يلتقط آخر الأخبار، أو شخصًا يعاني من مرض القراءة، تمكنك هذه الميزة من التغلب على أي تحدي في القراءة بسهولة.\n\n\uD83D\uDC41\uFE0F قم بتمكين قراءتك مع تمديد خط القراءة بالتشتت الانتباهي\n➤ زيادة طلاقة القراءة باستخدام تمديد خط القراءة بالتشتت الانتباهي\n➤ تجربة قوة حروف القراءة بالتشتت الانتباهي\n➤ قم بتحويل رحلتك في القراءة مع تمديد القراءة بالتشتت الانتباهي\n\n\uD83D\uDCD6 اعتنق القارئ بالتشتت الانتباهي\n\nفتح تجربة قراءة جديدة مع القارئ بالتشتت الانتباهي\nاستكشف العالم الرقمي مع تطبيق القراءة بالتشتت الانتباهي\nتجربة بيئة قراءة صديقة لمرض القراءة مع حروف البداية الجريئة لكل كلمة بالتشتت الانتباهي\n\uD83D\uDCBB تولي السيطرة على قراءتك\n\nتحسين دقة القراءة بالحروف الجريئة لمرض القراءة\nزيادة طلاقة القراءة بالحروف الجريئة لمرض القراءة\nضمان تجربة قراءة مريحة مع تمديد Chrome نصف الخط\n\uD83D\uDDC2\uFE0F كل في حل القراءة واحد\n➤ تجربة ميزة النصف الجريء\n➤ استمتع بالقراءة بالخط النصف متوسط\n➤ اشترك في رحلة قراءة سلسة مع النص النصف الجريء\n\n\uD83D\uDD0D غوص أعمق في القراءة\nالوظيفة الفريدة لهذه الأداة لا تسمح فقط للأفراد بالتركيز على مهام قراءتهم ولكنها تجعل النصوص أسهل قراءة. بالنسبة للأشخاص الذين يعانون من القراءة أو فرط النشاط وتشتت الانتباه، يمكن أن تكون هذه الأداة محول اللعبة. إنها ليست مجرد أداة. إنها جسر إلى عالم من المعلومات والقصص لا حصر له، وسيلة للمشاركة والتواصل، للشعور بالانتماء والقيمة. يضمن تمديد Chrome نصف الخط أن لا يترك أحد وراءه في عالمنا الرقمي المتزايد.\n\n\uD83D\uDD0E إعادة تعريف تجربة القراءة الخاصة بك\n\nاستكشاف مساحة رقمية شاملة مع تمديد نصف الخط Chrome\nانغمس في بيئة قراءة فريدة مع تمديد النص النصف متوسط \u200B\u200B\nتجربة فرحة القراءة مع خط القراءة بالدسلكسيا\n\uD83D\uDD04 استمتع بقراءة سلسة\n➤ زيادة كفاءة القراءة مع الخطوط الصديقة لمرض القراءة\n➤ اكتشاف بيئة قراءة مريحة مع خط القراءة بالدسلكسيا المفتوح Chrome\n➤ تجربة قوة الخط لمرض فرط النشاط\n\n\uD83D\uDC96 ابدأ رحلتك القراءة شاملة\nانضم إلى مجتمعنا وعزز رحلتك الرقمية في القراءة. مع تمديد Chrome نصف الخط، لا تقوم فقط بإضافة أداة إلى متصفحك؛ بل تتبنى بيئة قراءة رقمية أكثر شمولًا وسهولة الوصول. قم بالتنزيل الآن لتجربة قراءة محولة!\n\n\uD83E\uDD14 الأسئلة الشائعة حول تمديدنا لـ Chrome\n✨ هل يمكنني تخصيص إعدادات النصف الخط؟\n\uD83D\uDD39 بالتأكيد! يمكنك ضبط إعدادات النصف الخط استنادًا إلى تفضيلات قراءتك.\n\n\uD83D\uDCDA كيف يدعم هذا التمديد قراءة صديقة لمرض القراءة؟\n\uD83D\uDD39 يتميز تمديدنا بخط القراءة بالدسلكسيا المفتوح، بالإضافة إلى ميزة النصف الجريء، التي صممت لمساعدة القراء المصابين بمرض القراءة.\n\n\uD83C\uDF10 هل يمكنني استخدام هذا التمديد على أي موقع؟\n\uD83D\uDD39 نعم! تم تصميم تمديدنا للعمل عبر جميع المواقع، مما يوفر تجربة قراءة سلسة."
+  },
+  "preferenceLabel": {
+    "message": "استخدام التفضيل",
+    "description": "تسمية ل (تبديل زر التفضيلات العمومية أو الموقع"
+  },
+  "tipsPopupTriggerLabel": {
+    "message": "النصائح",
+    "description": "تسمية ل (تبديل زر التفضيلات العمومية أو الموقع"
+  },
+  "globalPreferenceToggleBtnText": {
+    "message": "عالمي",
+    "description": "زر تبديل النص الرئيسي للتفضيلات العمومية"
+  },
+  "globalPreferenceToggleBtnSubText": {
+    "message": "افتراضي",
+    "description": "النص الفرعي لزر التفضيلات العمومية"
+  },
+  "sitePreferenceToggleBtnText": {
+    "message": "موقع",
+    "description": "زر تبديل النص الرئيسي لتفضيلات الموقع"
+  },
+  "sitePreferenceToggleBtnSubText": {
+    "message": "لهذا الموقع",
+    "description": "النص الفرعي لزر التفضيلات العمومية"
+  },
+  "onOffToggleBtnTextDisable": {
+    "message": "تعطيل",
+    "description": "onOffToggleBtnTextتعطيل نص الزر"
+  },
+  "onOffToggleBtnTextEnable": {
+    "message": "تمكين",
+    "description": "onOffToggleBtnTextتمكين نص الزر"
+  },
+  "onOffToggleBtnSubText": {
+    "message": "وضع القراءة",
+    "description": "نص ل onOffToggleBtnSubText"
+  },
+  "shortcutLabelText": {
+    "message": "الاختصار الافتراضي",
+    "description": "text for onOffToggleBtnShortCutText"
+  },
+  "defaultShortcutValueTextChrome": {
+    "message": "بديل+ب",
+    "description": "الاختصار الافتراضي للكروم"
+  },
+  "defaultShortcutValueTextFirefox": {
+    "message": "بديل+ث",
+    "description": "الاختصار الافتراضي لفايرفوكس"
+  },
+  "saccadesIntervalLabel": {
+    "message": "الفاصل الزمني للسكاديس",
+    "description": "تسمية لشريط تمرير الفاصل الزمني saccades"
+  },
+  "fixationsStrengthLabel": {
+    "message": "قوة التثبيت",
+    "description": "تسمية لتثبيت قوة شريط التمرير"
+  },
+  "fixationsEdgeOpacityLabel": {
+    "message": "تثبيتات حافة عتامة",
+    "description": "تسمية للتثبيتات حافة عتامة المنزلق"
+  },
+  "saccadesColorLabel": {
+    "message": "لون السكاديس",
+    "description": "تسمية القائمة المنسدلة للون الساكيد"
+  },
+  "saccadesStyleLabel": {
+    "message": "أنماط السكاديس",
+    "description": "تسمية للقائمة المنسدلة لنمط saccade"
+  },
+  "lineHeightTogglesLabel": {
+    "message": "ارتفاع الخط",
+    "description": "تسمية لأزرار ارتفاع الخط الأصغر والأكبر حجما"
+  },
+  "smallerLineHeightBtnText": {
+    "message": "أ-",
+    "description": "نص للزر"
+  },
+  "smallerLineHeightBtnSubText": {
+    "message": "أصغر",
+    "description": "نص فرعي للزر"
+  },
+  "largerLineHeightBtnText": {
+    "message": "إيه إيه +",
+    "description": "نص للزر"
+  },
+  "largerLineHeightBtnSubText": {
+    "message": "أكبر",
+    "description": "نص فرعي للزر"
+  },
+  "defaultBionicModeToggleBtnOffText": {
+    "message": "إيقاف التشغيل دائما",
+    "description": "نص للزر"
+  },
+  "defaultBionicModeToggleBtnOnText": {
+    "message": "قم بالتشغيل دائما",
+    "description": "نص للزر"
+  },
+  "defaultBionicModeToggleBtnSubText": {
+    "message": "تفضيل التبديل الافتراضي",
+    "description": "نص فرعي للزر"
+  },
+  "resetBtnText": {
+    "message": "إعادة التعيين إلى الإعدادات المثلى",
+    "description": "نص للزر"
+  },
+  "faqLinkText": {
+    "message": "الأسئلة المتداولة",
+    "description": "نص الرابط"
+  },
+  "reportIssueLinkText": {
+    "message": "مشكلة في التقرير",
+    "description": "نص الرابط"
+  },
+  "aboutUsLinkText": {
+    "message": "الموقع الالكترونى",
+    "description": "نص الرابط"
+  },
+  "dataEntryMessage": {
+    "message": "إيقاف التشغيل إذا تداخل القارئ المبتكر مع إدخال البيانات",
+    "description": "نص"
+  },
+  "googlePlayLinkSecondaryText": {
+    "message": "القراءة المدعومة",
+    "description": "نص"
+  },
+  "urlPromptText": {
+    "message": "قد لا تعمل علامات التبويب التي لا تحتوي على عنوان URL بشكل صحيح",
+    "description": "نص"
+  },
+  "reloadPromptText": {
+    "message": "أعد تحميل علامة التبويب بعنوان URL صالح وحاول مرة أخرى",
+    "description": "نص"
+  },
+  "translationHelpLinkText": {
+    "message": "ساعدنا في التنقلات. انقر لمعرفة المزيد",
+    "description": "نص"
+  },
+  "reloadText": {
+    "message": "تحديث",
+    "description": "نص"
+  },
+  "openPermissionPageBtnText": {
+    "message": "انقر هنا لفتح صفحة الأذونات",
+    "description": "نص الزر"
+  },
+  "missingPermissionHeaderText": {
+    "message": "إذن عنوان URL للملف مفقود",
+    "description": "نص الرأس"
+  },
+  "missingPermissionHeaderSubText": {
+    "message": "أكمل الخطوات أدناه",
+    "description": "نص فرعي"
+  },
+  "grantPermissionInstructionText": {
+    "message": "منح إذن عنوان URL للملف",
+    "description": "نص"
+  },
+  "reloadPageAndExtensionInstructionText": {
+    "message": "ارجع وحاول فتح الإضافة مرة أخرى",
+    "description": "نص"
+  },
+  "pageNotSupportedHeaderText": {
+    "message": "هذه الصفحة غير مدعومة",
+    "description": "نص"
+  },
+  "pageNotDetectedText": {
+    "message": "لم يتم اكتشاف الصفحة",
+    "description": "نص"
+  },
+  "surveyPromptText": {
+    "message": "إجراء مسح قصير لمساعدتنا على تحسين JR",
+    "description": "نص"
+  }
+}

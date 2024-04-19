@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"使用設定","description":"ラベル for (グローバルまたはサイト設定ボタンの切り替え"},"tipsPopupTriggerLabel":{"message":"ヒント","description":"ラベル for (グローバルまたはサイト設定ボタンの切り替え"},"globalPreferenceToggleBtnText":{"message":"グローバル","description":"グローバル環境設定のトグルボタンのメインテキスト"},"globalPreferenceToggleBtnSubText":{"message":"デフォルト","description":"グローバル設定ボタンのサブテキスト"},"sitePreferenceToggleBtnText":{"message":"敷地","description":"サイト設定のトグルボタンのメインテキスト"},"sitePreferenceToggleBtnSubText":{"message":"このサイトの場合","description":"グローバル設定ボタンのサブテキスト"},"onOffToggleBtnTextDisable":{"message":"無効にする","description":"onOffToggleBtnTextDisable button text"},"onOffToggleBtnTextEnable":{"message":"エネーブル","description":"onOffToggleBtnTextEnable ボタンのテキスト"},"onOffToggleBtnSubText":{"message":"読み取りモード","description":"onOffToggleBtnSubText のテキスト"},"shortcutLabelText":{"message":"デフォルトのショートカット","description":"onOffToggleBtnShortCutText のテキスト"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"クロムのデフォルトのショートカット"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"Firefox のデフォルトのショートカット"},"saccadesIntervalLabel":{"message":"サッケード間隔","description":"サッケード間隔スライダーのラベル"},"fixationsStrengthLabel":{"message":"固定強度","description":"固定強度スライダーのラベル"},"fixationsEdgeOpacityLabel":{"message":"固定エッジの不透明度","description":"固定エッジの不透明度スライダーのラベル"},"saccadesColorLabel":{"message":"サッケードの色","description":"サッケードカラードロップダウンのラベル"},"saccadesStyleLabel":{"message":"サッケードスタイル","description":"サッケードスタイルのドロップダウンのラベル"},"lineHeightTogglesLabel":{"message":"行の高さ","description":"行の高さボタンの小ささと大きいボタンのラベル"},"smallerLineHeightBtnText":{"message":"aa-","description":"ボタンのテキスト"},"smallerLineHeightBtnSubText":{"message":"小さい","description":"ボタンのサブテキスト"},"largerLineHeightBtnText":{"message":"AA+","description":"ボタンのテキスト"},"largerLineHeightBtnSubText":{"message":"大きい","description":"ボタンのサブテキスト"},"defaultBionicModeToggleBtnOffText":{"message":"常にオフにする","description":"ボタンのテキスト"},"defaultBionicModeToggleBtnOnText":{"message":"常にオンにする","description":"ボタンのテキスト"},"defaultBionicModeToggleBtnSubText":{"message":"デフォルトのトグル設定","description":"ボタンのサブテキスト"},"resetBtnText":{"message":"最適な設定にリセット","description":"ボタンのテキスト"},"faqLinkText":{"message":"FAQ","description":"リンクテキスト"},"reportIssueLinkText":{"message":"レポートの問題","description":"リンクテキスト"},"aboutUsLinkText":{"message":"ウェブサイト","description":"リンクテキスト"},"dataEntryMessage":{"message":"jiffy リーダーがデータ入力に干渉する場合はオフにする","description":"テキスト"},"googlePlayLinkSecondaryText":{"message":"サポートされている読み取り","description":"テキスト"},"urlPromptText":{"message":"URLのないタブが正しく動作しない可能性があります","description":"テキスト"},"reloadPromptText":{"message":"有効なURLでタブをリロードして、もう一度やり直してください","description":"テキスト"},"translationHelpLinkText":{"message":"トランスレーションで私たちを助けてください。クリックして詳細をご覧ください","description":"テキスト"},"reloadText":{"message":"積み直す","description":"テキスト"},"openPermissionPageBtnText":{"message":"ここをクリックして権限ページを開きます","description":"ボタンのテキスト"},"missingPermissionHeaderText":{"message":"ファイル URL のアクセス許可がありません","description":"ヘッダーテキスト"},"missingPermissionHeaderSubText":{"message":"以下の手順を完了します","description":"サブテキスト"},"grantPermissionInstructionText":{"message":"ファイル URL のアクセス許可を付与する","description":"テキスト"},"reloadPageAndExtensionInstructionText":{"message":"戻り、拡張機能をもう一度開いてみてください","description":"テキスト"},"pageNotSupportedHeaderText":{"message":"このページはサポートされていません","description":"テキスト"},"pageNotDetectedText":{"message":"ページが検出されない","description":"テキスト"},"surveyPromptText":{"message":"JRの改善に役立つ短い調査を受ける","description":"テキスト"}}
+{
+    "appDesc": {
+        "message": "ハーフボールドChromeエクステンション：強化されたバイオニックリーディングへの鍵"
+    },
+    "appName": {
+        "message": "ハーフボールドChromeエクステンション | Half Bold Reader"
+    },
+    "storeDesc": {
+        "message": "ハーフボールドChromeエクステンションであなたのオンラインリーディング体験を向上させましょう。このハーフボールドエクステンションはデジタルテキストを洗練させ、アクセス可能で読みやすくします。ハーフボールドフォントとハーフボールドテキストは、ディスレクシアやADHDを持つ人々のニーズに対応する包括的なリーディング環境を提供します。\n\n\uD83D\uDD21 ハーフボールドの魅力を発見\n➤ ハーフボールドフォントでウェブページを楽に読む\n➤ ハーフボールドテキストで読書体験をカスタマイズ\n➤ ハーフボールドを使用して複雑なテキストを読む際のガイドを受ける\n\n\uD83D\uDCBB ハーフボールドエクステンションChromeで障壁を破る\n1\uFE0F⃣ スムーズなアクセシビリティのためのインタラクティブデザイン\n2\uFE0F⃣ ハーフボールドエクステンションで読解精度を向上\n3\uFE0F⃣ ハーフボールドChromeエクステンションの機能で読解力を強化\n\n\uD83D\uDCDA ハーフボールドエクステンションを体験\n- ユニークなハーフボールドフォントで読書を楽しむ\n- ハーフボールドエクステンションで包括的なデジタル空間を探索\n- ハーフボールドの機能でディスレクシアに優しい読書体験を確保\n\n\uD83D\uDD0D ディスレクシアフォントで読書を強化\n▸ ディスレクシアフォントで読書効率を向上\n▸ ディスレクシックフォントで読書の流暢さを向上\n▸ ディスレクシックフレンドリーフォントで読書の苦労にさよなら\n\n\uD83C\uDF08 Open Dyslexic font Chromeの魔法を解き放つ\n• Open Dyslexic font Chromeで包括的な読書体験を楽しむ\n• ADHDフォントで読解精度を向上\n• ADHD読書フォントで読書の喜びを発見\n\n\uD83D\uDCA1 バイオニックリーディングで読書を啓発\nバイオニックリーディングの利点を活用することで、理解を妨げることなくより速い読書ペースを実現できます。この革新的な機能は複雑なテキストを分解し、より多くの情報を保持し、速く読むことができるようにします。これにより、生産性が向上します。論文のための研究をしている学生、最新のニュースに追いつこうとしているプロフェッショナル、またはディスレクシアのある人であっても、この機能はあなたが容易に任意の読書チャレンジを克服することを可能にします。\n\n\uD83D\uDC41\uFE0F ADHDフォントエクステンションで読書を強化\n➤ ADHDフォントエクステンションで読書の流暢さを向上\n➤ ADHD読書ボールドレターの力を体験\n➤ ADHD読書エクステンションで読書体験を変革\n\n\uD83D\uDCD6 ADHDリーダーを受け入れる\n1. ADHDリーダーで新しい読書体験を解放\n2. ADHD読書アプリでデジタル世界を探索\n3. ボールドファーストレターの各単語ADHDでディスレクシアに優しい読書環境を体験\n\n\uD83D\uDCBB あなたの読書をコントロール\n- ADHDボールドレター読書で読解精度を向上\n- ADHD読書ボールドレターで読書の流暢さを向上\n- Chromeエクステンションハーフボールドで快適な読書体験を確保\n\n\uD83D\uDDC2\uFE0F 全てが一つになった読書ソリューション\n➤ ハーフボールド機能を体験\n➤ ハーフボールドフォントで読書を楽しむ\n➤ ハーフボールドテキストでスムーズな読書体験を楽しむ\n\n\uD83D\uDD0D 読書に深く潜る\nこのツールのユニークな機能は、個々の人々が読書タスクに集中し続けるだけでなく、コンテンツをより読みやすくすることができます。ディスレクシアやADHDの人々にとって、これはゲームチェンジャーとなる可能性があります。それはただのツールではなく、無尽蔵の情報と物語の世界への橋、エンゲージメントとコミュニケーションの手段、包含され、価値ある存在として感じるための方法です。ハーフボールドChromeエクステンションは、ますますデジタル化される世界で誰もが置き去りにされないことを保証します。\n\n\uD83D\uDD0E あなたの読書体験を再定義\n1. ハーフボールドエクステンションChromeで包括的なデジタル空間を探索\n2. ハーフボールドエクステンションでユニークな読書環境に浸る\n3. ディスレクシアフォントで読書の喜びを体験\n\n\uD83D\uDD04 スムーズな読書を楽しむ\n➤ ディスレクシックフレンドリーフォントで読書効率を向上\n➤ Open Dyslexic font Chromeで快適な読書環境を発見\n➤ ADHDフォントの力を体験\n\n\uD83D\uDC96 包括的な読書旅を始める\n私たちのコミュニティに参加し、デジタル読書体験を向上させましょう。ハーフボールドChromeエクステンションを使用すると、ブラウザにツールを追加するだけでなく、より包括的でアクセシブルなデジタル読書環境を採用します。変革的な読書体験のために今すぐダウンロードしましょう！\n\n\uD83E\uDD14 私たちのChromeエクステンションについてのよくある質問\n✨ ハーフボールドの設定をカスタマイズできますか？\n\uD83D\uDD39 絶対に可能です！あなたの読書の好みに基づいてハーフボールドの設定を調整することができます。\n\n\uD83D\uDCDA このエクステンションはどのようにディスレクシアに優しい読書をサポートしますか？\n\uD83D\uDD39 私たちのエクステンションは、ディスレクシアの読者を支援するために設計されたOpen Dyslexic fontとハーフボールド機能を備えています。\n\n\uD83C\uDF10 このエクステンションはどのウェブサイトでも使用できますか？\n\uD83D\uDD39 はい！私たちのエクステンションは、すべてのウェブサイトで動作するように設計されており、スムーズな読書体験を提供します。"
+    },
+    "preferenceLabel": {
+        "message": "使用設定",
+        "description": "ラベル for (グローバルまたはサイト設定ボタンの切り替え"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "ヒント",
+        "description": "ラベル for (グローバルまたはサイト設定ボタンの切り替え"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "グローバル",
+        "description": "グローバル環境設定のトグルボタンのメインテキスト"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "デフォルト",
+        "description": "グローバル設定ボタンのサブテキスト"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "敷地",
+        "description": "サイト設定のトグルボタンのメインテキスト"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "このサイトの場合",
+        "description": "グローバル設定ボタンのサブテキスト"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "無効にする",
+        "description": "onOffToggleBtnTextDisable button text"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "エネーブル",
+        "description": "onOffToggleBtnTextEnable ボタンのテキスト"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "読み取りモード",
+        "description": "onOffToggleBtnSubText のテキスト"
+    },
+    "shortcutLabelText": {
+        "message": "デフォルトのショートカット",
+        "description": "onOffToggleBtnShortCutText のテキスト"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "クロムのデフォルトのショートカット"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "Firefox のデフォルトのショートカット"
+    },
+    "saccadesIntervalLabel": {
+        "message": "サッケード間隔",
+        "description": "サッケード間隔スライダーのラベル"
+    },
+    "fixationsStrengthLabel": {
+        "message": "固定強度",
+        "description": "固定強度スライダーのラベル"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "固定エッジの不透明度",
+        "description": "固定エッジの不透明度スライダーのラベル"
+    },
+    "saccadesColorLabel": {
+        "message": "サッケードの色",
+        "description": "サッケードカラードロップダウンのラベル"
+    },
+    "saccadesStyleLabel": {
+        "message": "サッケードスタイル",
+        "description": "サッケードスタイルのドロップダウンのラベル"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "行の高さ",
+        "description": "行の高さボタンの小ささと大きいボタンのラベル"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "ボタンのテキスト"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "小さい",
+        "description": "ボタンのサブテキスト"
+    },
+    "largerLineHeightBtnText": {
+        "message": "AA+",
+        "description": "ボタンのテキスト"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "大きい",
+        "description": "ボタンのサブテキスト"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "常にオフにする",
+        "description": "ボタンのテキスト"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "常にオンにする",
+        "description": "ボタンのテキスト"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "デフォルトのトグル設定",
+        "description": "ボタンのサブテキスト"
+    },
+    "resetBtnText": {
+        "message": "最適な設定にリセット",
+        "description": "ボタンのテキスト"
+    },
+    "faqLinkText": {
+        "message": "FAQ",
+        "description": "リンクテキスト"
+    },
+    "reportIssueLinkText": {
+        "message": "レポートの問題",
+        "description": "リンクテキスト"
+    },
+    "aboutUsLinkText": {
+        "message": "ウェブサイト",
+        "description": "リンクテキスト"
+    },
+    "dataEntryMessage": {
+        "message": "HalfBold リーダーがデータ入力に干渉する場合はオフにする",
+        "description": "テキスト"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "サポートされている読み取り",
+        "description": "テキスト"
+    },
+    "urlPromptText": {
+        "message": "URLのないタブが正しく動作しない可能性があります",
+        "description": "テキスト"
+    },
+    "reloadPromptText": {
+        "message": "有効なURLでタブをリロードして、もう一度やり直してください",
+        "description": "テキスト"
+    },
+    "translationHelpLinkText": {
+        "message": "トランスレーションで私たちを助けてください。クリックして詳細をご覧ください",
+        "description": "テキスト"
+    },
+    "reloadText": {
+        "message": "積み直す",
+        "description": "テキスト"
+    },
+    "openPermissionPageBtnText": {
+        "message": "ここをクリックして権限ページを開きます",
+        "description": "ボタンのテキスト"
+    },
+    "missingPermissionHeaderText": {
+        "message": "ファイル URL のアクセス許可がありません",
+        "description": "ヘッダーテキスト"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "以下の手順を完了します",
+        "description": "サブテキスト"
+    },
+    "grantPermissionInstructionText": {
+        "message": "ファイル URL のアクセス許可を付与する",
+        "description": "テキスト"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "戻り、拡張機能をもう一度開いてみてください",
+        "description": "テキスト"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "このページはサポートされていません",
+        "description": "テキスト"
+    },
+    "pageNotDetectedText": {
+        "message": "ページが検出されない",
+        "description": "テキスト"
+    },
+    "surveyPromptText": {
+        "message": "JRの改善に役立つ短い調査を受ける",
+        "description": "テキスト"
+    }
+}

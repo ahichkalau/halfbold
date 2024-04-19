@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"dewis defnyddio","description":"label ar gyfer (togls botwm dewis byd-eang neu safle"},"tipsPopupTriggerLabel":{"message":"Awgrymiadau","description":"label ar gyfer (togls botwm dewis byd-eang neu safle"},"globalPreferenceToggleBtnText":{"message":"Fyd - eang","description":"prif destun ar gyfer botwm toggle dewis byd-eang"},"globalPreferenceToggleBtnSubText":{"message":"rhagosodiad","description":"is-destun botwm dewis byd-eang"},"sitePreferenceToggleBtnText":{"message":"safle","description":"prif destun ar gyfer botwm toglo dewis safle"},"sitePreferenceToggleBtnSubText":{"message":"ar gyfer y safle hwn","description":"is-destun botwm dewis byd-eang"},"onOffToggleBtnTextDisable":{"message":"analluogi","description":"onOffToggleBtnTextDisable testun botwm"},"onOffToggleBtnTextEnable":{"message":"galluogi","description":"onOffToggleBtnTextEnable testun botwm"},"onOffToggleBtnSubText":{"message":"modd darllen","description":"testun ar gyfer onOffToggleBtnSubText"},"shortcutLabelText":{"message":"llwybr byr diofyn","description":"testun ar gyfer onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"shortcut diofyn ar gyfer chrome"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"llwybr byr diofyn ar gyfer firefox"},"saccadesIntervalLabel":{"message":"egwyl saccades","description":"label ar gyfer sleidiau cyfwng saccades"},"fixationsStrengthLabel":{"message":"trwsio cryfder","description":"label ar gyfer fixations strength slider"},"fixationsEdgeOpacityLabel":{"message":"fixations edge opacity","description":"label ar gyfer fixations edge opacity slider"},"saccadesColorLabel":{"message":"lliw saccades","description":"label ar gyfer dropdown lliw saccade"},"saccadesStyleLabel":{"message":"arddulliau saccades","description":"label ar gyfer steil saccade dropdown"},"lineHeightTogglesLabel":{"message":"uchder llinell","description":"label ar gyfer botymau uchder llinell llai a mwy"},"smallerLineHeightBtnText":{"message":"aa-","description":"testun ar gyfer y botwm"},"smallerLineHeightBtnSubText":{"message":"llai","description":"is-destun ar gyfer y botwm"},"largerLineHeightBtnText":{"message":"aa+","description":"testun ar gyfer y botwm"},"largerLineHeightBtnSubText":{"message":"Mwy","description":"is-destun ar gyfer y botwm"},"defaultBionicModeToggleBtnOffText":{"message":"diffodd bob amser","description":"testun ar gyfer y botwm"},"defaultBionicModeToggleBtnOnText":{"message":"troi ymlaen bob amser","description":"testun ar gyfer y botwm"},"defaultBionicModeToggleBtnSubText":{"message":"dewis toglo diofyn","description":"is-destun ar gyfer y botwm"},"resetBtnText":{"message":"ailosod i osodiadau gorau posibl","description":"testun ar gyfer y botwm"},"faqLinkText":{"message":"CAOYA","description":"testun cyswllt"},"reportIssueLinkText":{"message":"rhifyn adroddiad","description":"testun cyswllt"},"aboutUsLinkText":{"message":"gwefan","description":"testun cyswllt"},"dataEntryMessage":{"message":"Diffodd os yw darllenydd jiffy yn ymyrryd â mynediad data","description":"Testun"},"googlePlayLinkSecondaryText":{"message":"darllen wedi'i gefnogi","description":"Testun"},"urlPromptText":{"message":"Efallai na fydd tabiau heb url yn gweithio'n iawn","description":"Testun"},"reloadPromptText":{"message":"Ail-lwytho'r tab gyda url dilys a cheisiwch eto","description":"Testun"},"translationHelpLinkText":{"message":"helpa ni gyda thranlations. cliciwch i ddysgu mwy","description":"Testun"},"reloadText":{"message":"ail-lwytho","description":"Testun"},"openPermissionPageBtnText":{"message":"cliciwch yma i agor tudalen caniatâd","description":"testun botwm"},"missingPermissionHeaderText":{"message":"Caniatâd Url Ffeil ar goll","description":"testun pennill"},"missingPermissionHeaderSubText":{"message":"camau cyflawn isod","description":"is-destun"},"grantPermissionInstructionText":{"message":"Caniatâd url Ffeil Grant","description":"Testun"},"reloadPageAndExtensionInstructionText":{"message":"Dychwelyd a rhoi cynnig ar agor yr estyniad eto","description":"Testun"},"pageNotSupportedHeaderText":{"message":"Nid yw'r dudalen hon yn cael ei chefnogi","description":"Testun"},"pageNotDetectedText":{"message":"Tudalen heb ei chanfod","description":"Testun"},"surveyPromptText":{"message":"cymryd arolwg byr i'n helpu i wella JR","description":"Testun"}}
+{
+    "appDesc": {
+        "message": "Հայաստանի Առցանց Կայքերի Համար Կիրառավորեք Հաջորդական Ակտիվության Հայփոխանք"
+    },
+    "appName": {
+        "message": "Half Bold Chrome Extension"
+    },
+    "storeDesc" : {
+        "message": "Ապակերտական ձևաչափով ձայնային կայքերի կարեւորությունը բարեհաջող եւ լավագույնը բացեք Half Bold Chrome Extension-ով - Ձեր ապակերտական համարով՝ անվտանգ և երեխային ընթացակարգերի համար! Այս ակտիվ ձևաչափով ծրագիրը շուտ առաջադրանք է դիտարկելու, դարձնելու ապակերտական վիճակը:\n\n\uD83D\uDD21 Գտեք Հայաստանի Առցանց Կայքերում Առանձնահատելիությունը Հայպոլդի հետ\n➤ Անվտանգավոր կամացեք վեբ էջեր մեր հայպոլդի տառով\n➤ Անհատականացրեք ձեր կարդալու համար հայպոլդի տեքստի հետ\n➤ Ստացեք լավագույն ուղին՝ կարդալու հետ սահմանափակված վեբ էջերում հայպոլդիով:\n\n\uD83D\uDCBB Բարերարները Մազեք Առանձիր Ակտիվությանը Հայպոլդի Հետ\n1\uFE0F⃣ Ինտերակտիվ դիզայնի հետեւեք տեսաձևում\n2\uFE0F⃣ Լավագույնը կարդալու ճշտությունը Հայպոլդի ակտիվացության հետ\n3\uFE0F⃣ Ավելացրեք կարդալու արհամարհանդակությունը Հայպոլդի կորուստով էջանիշներով\n\n\uD83D\uDCDA Առաքեցրեք Հա\n\nյպոլդի Ակտիվացությունը\n- Դիտեք հայպոլդի տառերով\n- Հայպոլդի ընկալեք անվտանգ թափոններով թվարկման ամենակարճ ուղիներից մեկը\n- Հայպոլդի հայտնի հանրահավաքագրում թվարկման անվտանգ թափոններով\n\n\uD83D\uDD0D Բարերարեք Կարդալությունը Դիտարկության Մեջ\nՍակայն այս գործիքը դառնում է անհատական կարդալու արտաքին աշխարահամալիր՝ չարտոնում ունենալով բոլորին, որոնք հարմարում են իրենց կարդալու առավելությանը: Հավանականություն է, որ սա հայտնի չէ մի գործիքի, այլ ամբողջ հասարակականություն՝ անվանակարգություն եւ պարզապես բացառությամբ աշխարահամալիր:\n\n\uD83D\uDD0E Վերաստուգեք Իմանաք Կարդալու մակարդակը\n1. Ինչպես կարող եմ տեղադրել հայպոլդի պարամետրերը?\n\uD83D\uDD39 Համավերջում՝ Դուք կարող եք կարգավորել հայպոլդի պարամետրերը ձեր կարդալու հանգամանքների հիման վրա:\n\n\uD83D\uDCDA Ինչպես աջակցելու է այս ընթացակարգը դիտարկամանը?\n\uD83D\uDD39 Մեր ընդունակությունը ներառում է հայպոլդի տառը, իսկ հայպոլդի հատկանիշը, ո\n\nրպեսզի աջակցեն դիտարկաման ժամանակ։\n\n\uD83C\uDF10 Անսահմանափակվող կայքերում կարող եմ ես օգտագործել այս ընթացակարգը?\n\uD83D\uDD39 Այո! Մեր ընդունակությունը դիզայնիկայի կամացված է բոլոր կայքերի վրա, ապահովում համարվում է անվանակարգությունը։"
+    },
+    "preferenceLabel": {
+        "message": "dewis defnyddio",
+        "description": "label ar gyfer (togls botwm dewis byd-eang neu safle"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "Awgrymiadau",
+        "description": "label ar gyfer (togls botwm dewis byd-eang neu safle"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "Fyd - eang",
+        "description": "prif destun ar gyfer botwm toggle dewis byd-eang"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "rhagosodiad",
+        "description": "is-destun botwm dewis byd-eang"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "safle",
+        "description": "prif destun ar gyfer botwm toglo dewis safle"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "ar gyfer y safle hwn",
+        "description": "is-destun botwm dewis byd-eang"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "analluogi",
+        "description": "onOffToggleBtnTextDisable testun botwm"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "galluogi",
+        "description": "onOffToggleBtnTextEnable testun botwm"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "modd darllen",
+        "description": "testun ar gyfer onOffToggleBtnSubText"
+    },
+    "shortcutLabelText": {
+        "message": "llwybr byr diofyn",
+        "description": "testun ar gyfer onOffToggleBtnShortCutText"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "shortcut diofyn ar gyfer chrome"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "alt+w",
+        "description": "llwybr byr diofyn ar gyfer firefox"
+    },
+    "saccadesIntervalLabel": {
+        "message": "egwyl saccades",
+        "description": "label ar gyfer sleidiau cyfwng saccades"
+    },
+    "fixationsStrengthLabel": {
+        "message": "trwsio cryfder",
+        "description": "label ar gyfer fixations strength slider"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "fixations edge opacity",
+        "description": "label ar gyfer fixations edge opacity slider"
+    },
+    "saccadesColorLabel": {
+        "message": "lliw saccades",
+        "description": "label ar gyfer dropdown lliw saccade"
+    },
+    "saccadesStyleLabel": {
+        "message": "arddulliau saccades",
+        "description": "label ar gyfer steil saccade dropdown"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "uchder llinell",
+        "description": "label ar gyfer botymau uchder llinell llai a mwy"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "aa-",
+        "description": "testun ar gyfer y botwm"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "llai",
+        "description": "is-destun ar gyfer y botwm"
+    },
+    "largerLineHeightBtnText": {
+        "message": "aa+",
+        "description": "testun ar gyfer y botwm"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "Mwy",
+        "description": "is-destun ar gyfer y botwm"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "diffodd bob amser",
+        "description": "testun ar gyfer y botwm"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "troi ymlaen bob amser",
+        "description": "testun ar gyfer y botwm"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "dewis toglo diofyn",
+        "description": "is-destun ar gyfer y botwm"
+    },
+    "resetBtnText": {
+        "message": "ailosod i osodiadau gorau posibl",
+        "description": "testun ar gyfer y botwm"
+    },
+    "faqLinkText": {
+        "message": "CAOYA",
+        "description": "testun cyswllt"
+    },
+    "reportIssueLinkText": {
+        "message": "rhifyn adroddiad",
+        "description": "testun cyswllt"
+    },
+    "aboutUsLinkText": {
+        "message": "gwefan",
+        "description": "testun cyswllt"
+    },
+    "dataEntryMessage": {
+        "message": "Diffodd os yw darllenydd HalfBold yn ymyrryd â mynediad data",
+        "description": "Testun"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "darllen wedi'i gefnogi",
+        "description": "Testun"
+    },
+    "urlPromptText": {
+        "message": "Efallai na fydd tabiau heb url yn gweithio'n iawn",
+        "description": "Testun"
+    },
+    "reloadPromptText": {
+        "message": "Ail-lwytho'r tab gyda url dilys a cheisiwch eto",
+        "description": "Testun"
+    },
+    "translationHelpLinkText": {
+        "message": "helpa ni gyda thranlations. cliciwch i ddysgu mwy",
+        "description": "Testun"
+    },
+    "reloadText": {
+        "message": "ail-lwytho",
+        "description": "Testun"
+    },
+    "openPermissionPageBtnText": {
+        "message": "cliciwch yma i agor tudalen caniatâd",
+        "description": "testun botwm"
+    },
+    "missingPermissionHeaderText": {
+        "message": "Caniatâd Url Ffeil ar goll",
+        "description": "testun pennill"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "camau cyflawn isod",
+        "description": "is-destun"
+    },
+    "grantPermissionInstructionText": {
+        "message": "Caniatâd url Ffeil Grant",
+        "description": "Testun"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "Dychwelyd a rhoi cynnig ar agor yr estyniad eto",
+        "description": "Testun"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "Nid yw'r dudalen hon yn cael ei chefnogi",
+        "description": "Testun"
+    },
+    "pageNotDetectedText": {
+        "message": "Tudalen heb ei chanfod",
+        "description": "Testun"
+    },
+    "surveyPromptText": {
+        "message": "cymryd arolwg byr i'n helpu i wella JR",
+        "description": "Testun"
+    }
+}

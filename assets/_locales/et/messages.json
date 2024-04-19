@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"kasutamise eelistus","description":"silt (globaalse või saidieelistuse nupu tumblernupud) jaoks"},"tipsPopupTriggerLabel":{"message":"Nõuanded","description":"silt (globaalse või saidieelistuse nupu tumblernupud) jaoks"},"globalPreferenceToggleBtnText":{"message":"ülemaailmne","description":"põhitekst globaalse eelistuse tumblernupu jaoks"},"globalPreferenceToggleBtnSubText":{"message":"Vaikimisi","description":"globaalse eelistuse nupu alamtekst"},"sitePreferenceToggleBtnText":{"message":"sait","description":"saidieelistuste tumblernupu põhitekst"},"sitePreferenceToggleBtnSubText":{"message":"selle saidi jaoks","description":"globaalse eelistuse nupu alamtekst"},"onOffToggleBtnTextDisable":{"message":"Keelata","description":"onOffToggleBtnTextDisable nupu tekst"},"onOffToggleBtnTextEnable":{"message":"Luba","description":"onOffToggleBtnTextnNupu tekst"},"onOffToggleBtnSubText":{"message":"lugemisrežiim","description":"text for onOffToggleBtnSubText"},"shortcutLabelText":{"message":"vaikimisi otsetee","description":"text for onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"vaikimisi otsetee kroomile"},"defaultShortcutValueTextFirefox":{"message":"alt+w","description":"firefoxi vaikimisi otsetee"},"saccadesIntervalLabel":{"message":"sakaadide intervall","description":"silt sakaadide intervalli liugurile"},"fixationsStrengthLabel":{"message":"fikseerimise tugevus","description":"silt fikseerimiseks tugevuse liugur"},"fixationsEdgeOpacityLabel":{"message":"fikseerib serva läbipaistmatuse","description":"silt fikseerimiseks serva läbipaistmatuse liugur"},"saccadesColorLabel":{"message":"sakaadide värv","description":"silt sakaadi värvi rippmenüü jaoks"},"saccadesStyleLabel":{"message":"saccades stiilid","description":"silt saccade stiilis rippmenüü jaoks"},"lineHeightTogglesLabel":{"message":"joone kõrgus","description":"silt väiksemate ja suuremate joonekõrguse nuppude jaoks"},"smallerLineHeightBtnText":{"message":"aa-","description":"nupu tekst"},"smallerLineHeightBtnSubText":{"message":"Väiksem","description":"nupu alamtekst"},"largerLineHeightBtnText":{"message":"aa+","description":"nupu tekst"},"largerLineHeightBtnSubText":{"message":"Suurem","description":"nupu alamtekst"},"defaultBionicModeToggleBtnOffText":{"message":"lülitage alati välja","description":"nupu tekst"},"defaultBionicModeToggleBtnOnText":{"message":"lülitage alati sisse","description":"nupu tekst"},"defaultBionicModeToggleBtnSubText":{"message":"vaikimisi tumblereelistus","description":"nupu alamtekst"},"resetBtnText":{"message":"lähtestage optimaalsetele seadetele","description":"nupu tekst"},"faqLinkText":{"message":"KKK","description":"lingi tekst"},"reportIssueLinkText":{"message":"teatage probleemist","description":"lingi tekst"},"aboutUsLinkText":{"message":"koduleht","description":"lingi tekst"},"dataEntryMessage":{"message":"Lülitage välja, kui jiffy lugeja häirib andmesisestust","description":"Tekst"},"googlePlayLinkSecondaryText":{"message":"lugemine toetatud","description":"Tekst"},"urlPromptText":{"message":"Ilma URL-ita vahekaardid ei pruugi korralikult töötada","description":"Tekst"},"reloadPromptText":{"message":"Laadige vahekaart kehtiva URL-iga uuesti ja proovige uuesti","description":"Tekst"},"translationHelpLinkText":{"message":"aidake meid rahunemistega. klõpsake lisateabe saamiseks","description":"Tekst"},"reloadText":{"message":"Reload","description":"Tekst"},"openPermissionPageBtnText":{"message":"klõpsake siin, et avada õiguste leht","description":"nupu tekst"},"missingPermissionHeaderText":{"message":"Faili URL-i luba puudub","description":"päise tekst"},"missingPermissionHeaderSubText":{"message":"täitke allpool toodud sammud","description":"alamtekst"},"grantPermissionInstructionText":{"message":"Faili URL-i õiguse andmine","description":"Tekst"},"reloadPageAndExtensionInstructionText":{"message":"Tagastage ja proovige laiendust uuesti avada","description":"Tekst"},"pageNotSupportedHeaderText":{"message":"Seda lehte ei toetata","description":"Tekst"},"pageNotDetectedText":{"message":"Lehekülge ei tuvastatud","description":"Tekst"},"surveyPromptText":{"message":"tehke lühike küsitlus, et aidata meil JR-i parandada","description":"Tekst"}}
+{
+  "appDesc": {
+    "message": "Extension Chrome Half Bold: Votre clé pour une lecture bionique améliorée"
+  },
+  "appName": {
+    "message": "Extension Chrome Half Bold"
+  },
+  "storeDesc": {
+    "message": "Améliorez votre expérience de lecture en ligne avec l'extension Chrome Half Bold - votre aide ultime pour une expérience fluide et adaptée aux dyslexiques! Cette extension demi-gras affine le texte numérique, le rendant accessible et lisible. La police demi-gras et le texte demi-gras assurent un environnement de lecture inclusif, répondant aux besoins des personnes atteintes de dyslexie et de TDAH.\n\n\uD83D\uDD21 Découvrez la brillance du Half Bold\n➤ Lisez facilement les pages web avec notre police demi-gras\n➤ Personnalisez votre expérience de lecture avec du texte demi-gras\n➤ Recevez une guidance douce lors de la lecture de textes complexes avec du demi-gras\n\n\uD83D\uDCBB Brisez les barrières avec l'extension Chrome Half Bold\n1\uFE0F⃣ Design interactif pour une accessibilité fluide\n2\uFE0F⃣ Améliorez la précision de lecture avec l'extension demi-gras\n3\uFE0F⃣ Améliorez la compréhension de lecture avec les fonctionnalités de l'extension Chrome demi-gras\n\n\uD83D\uDCDA Expérimentez l'extension Halfbold\n- Profitez de la lecture avec la police unique halfbold\n- Explorez un espace numérique inclusif avec l'extension halfbold\n- Assurez une expérience de lecture adaptée aux dyslexiques avec les fonctionnalités halfbold\n\n\uD83D\uDD0D Améliorez la lecture avec la police Dislexia\n▸ Boostez votre efficacité de lecture avec la police Dislexia\n▸ Améliorez la fluidité de lecture avec notre police pour dyslexiques\n▸ Dites adieu aux difficultés de lecture avec des polices adaptées aux dyslexiques\n\n\uD83C\uDF08 Dévoilez la magie de la police Open Dyslexic Chrome\n• Profitez d'une expérience de lecture inclusive avec la police Open Dyslexic Chrome\n• Expérimentez une précision de lecture améliorée avec la police pour TDAH\n• Découvrez le plaisir de lire avec la police de lecture pour TDAH\n\n\uD83D\uDCA1 Éclairez votre lecture avec Bionic Reading Vous pouvez tirer parti des avantages de la lecture bionique, un mode qui facilite une lecture plus rapide sans compromettre la compréhension. Cette fonctionnalité innovante décompose les textes complexes, vous permettant de retenir plus d'informations et de lire plus rapidement, augmentant ainsi votre productivité. Que vous soyez un étudiant faisant des recherches pour un document, un professionnel se mettant à jour sur les dernières nouvelles, ou une personne atteinte de dyslexie, cette fonctionnalité vous permet de surmonter facilement tout défi de lecture.\n\n\uD83D\uDC41\uFE0F Renforcez votre lecture avec l'extension de police pour TDAH\n➤ Améliorez la fluidité de lecture avec l'extension de police pour TDAH\n➤ Expérimentez la puissance des lettres en gras pour la lecture TDAH\n➤ Transformez votre parcours de lecture avec l'extension de lecture pour TDAH\n\n\uD83D\uDCD6 Adoptez le lecteur TDAH\n1. Découvrez une nouvelle expérience de lecture avec le lecteur TDAH\n2. Explorez le monde numérique avec l'application de lecture TDAH\n3. Expérimentez un environnement de lecture adapté aux dyslexiques avec la première lettre en gras de chaque mot TDAH\n\n\uD83D\uDCBB Prenez en main votre lecture\n- Améliorez la précision de lecture avec la lecture de lettres en gras TDAH\n- Boostez la fluidité de lecture avec la lecture de lettres en gras TDAH\n- Assurez une expérience de lecture confortable avec l'extension Chrome demi-gras\n\n\uD83D\uDDC2\uFE0F Solution de lecture tout-en-un\n➤ Expérimentez la fonctionnalité halfbold\n➤ Profitez de la lecture avec la police demi-gras\n➤ Engagez-vous dans un parcours de lecture fluide avec le texte demi-gras\n\n\uD83D\uDD0D Plongez plus profondément dans la lecture La fonctionnalité unique de cet outil permet non seulement aux individus de rester concentrés sur leurs tâches de lecture, mais rend également le contenu plus facile à lire. Pour les personnes atteintes de dyslexie ou de TDAH, cela peut être un véritable tournant. Ce n'est pas seulement un outil; c'est un pont vers un monde d'informations et d'histoires sans fin, un moyen de s'engager et de communiquer, de se sentir inclus et valorisé. L'extension Chrome Half Bold s'assure que personne n'est laissé pour compte dans notre monde de plus en plus numérique.\n\n\uD83D\uDD0E Redéfinissez votre expérience de lecture\n1. Explorez un espace numérique inclusif avec l'extension Chrome demi-gras\n2. Immergez-vous dans un environnement de lecture unique avec l'extension halfbold\n3. Expérimentez le plaisir de lire avec la police Dislexia\n\n\uD83D\uDD04 Profitez d'une lecture fluide\n➤ Boostez votre efficacité de lecture avec des polices adaptées aux dyslexiques\n➤ Découvrez un environnement de lecture confortable avec la police Open Dyslexic Chrome\n➤ Expérimentez la puissance de la police pour TDAH\n\n\uD83D\uDC96 Commencez votre parcours de lecture inclusif\nRejoignez notre communauté et améliorez votre parcours de lecture numérique. Avec l'extension Chrome Half Bold, vous n'ajoutez pas seulement un outil à votre navigateur; vous adoptez un environnement de lecture numérique plus inclusif et accessible. Téléchargez maintenant pour une expérience de lecture transformative!\n\n\uD83E\uDD14 FAQ sur notre extension Chrome\n✨ Puis-je personnaliser les paramètres demi-gras?\n\uD83D\uDD39 Absolument! Vous pouvez ajuster les paramètres demi-gras en fonction de vos préférences de lecture.\n\n\uD83D\uDCDA Comment cette extension soutient-elle une lecture adaptée aux dyslexiques?\n\uD83D\uDD39 Notre extension propose la police Open Dyslexic, ainsi que la fonctionnalité demi-gras, conçue pour aider les lecteurs dyslexiques.\n\n\uD83C\uDF10 Puis-je utiliser cette extension sur n'importe quel site web?\n\uD83D\uDD39 Oui! Notre extension est conçue pour fonctionner sur tous les sites web, offrant une expérience de lecture fluide."
+  },
+  "preferenceLabel": {
+    "message": "kasutamise eelistus",
+    "description": "silt (globaalse või saidieelistuse nupu tumblernupud) jaoks"
+  },
+  "tipsPopupTriggerLabel": {
+    "message": "Nõuanded",
+    "description": "silt (globaalse või saidieelistuse nupu tumblernupud) jaoks"
+  },
+  "globalPreferenceToggleBtnText": {
+    "message": "ülemaailmne",
+    "description": "põhitekst globaalse eelistuse tumblernupu jaoks"
+  },
+  "globalPreferenceToggleBtnSubText": {
+    "message": "Vaikimisi",
+    "description": "globaalse eelistuse nupu alamtekst"
+  },
+  "sitePreferenceToggleBtnText": {
+    "message": "sait",
+    "description": "saidieelistuste tumblernupu põhitekst"
+  },
+  "sitePreferenceToggleBtnSubText": {
+    "message": "selle saidi jaoks",
+    "description": "globaalse eelistuse nupu alamtekst"
+  },
+  "onOffToggleBtnTextDisable": {
+    "message": "Keelata",
+    "description": "onOffToggleBtnTextDisable nupu tekst"
+  },
+  "onOffToggleBtnTextEnable": {
+    "message": "Luba",
+    "description": "onOffToggleBtnTextnNupu tekst"
+  },
+  "onOffToggleBtnSubText": {
+    "message": "lugemisrežiim",
+    "description": "text for onOffToggleBtnSubText"
+  },
+  "shortcutLabelText": {
+    "message": "vaikimisi otsetee",
+    "description": "text for onOffToggleBtnShortCutText"
+  },
+  "defaultShortcutValueTextChrome": {
+    "message": "alt+b",
+    "description": "vaikimisi otsetee kroomile"
+  },
+  "defaultShortcutValueTextFirefox": {
+    "message": "alt+w",
+    "description": "firefoxi vaikimisi otsetee"
+  },
+  "saccadesIntervalLabel": {
+    "message": "sakaadide intervall",
+    "description": "silt sakaadide intervalli liugurile"
+  },
+  "fixationsStrengthLabel": {
+    "message": "fikseerimise tugevus",
+    "description": "silt fikseerimiseks tugevuse liugur"
+  },
+  "fixationsEdgeOpacityLabel": {
+    "message": "fikseerib serva läbipaistmatuse",
+    "description": "silt fikseerimiseks serva läbipaistmatuse liugur"
+  },
+  "saccadesColorLabel": {
+    "message": "sakaadide värv",
+    "description": "silt sakaadi värvi rippmenüü jaoks"
+  },
+  "saccadesStyleLabel": {
+    "message": "saccades stiilid",
+    "description": "silt saccade stiilis rippmenüü jaoks"
+  },
+  "lineHeightTogglesLabel": {
+    "message": "joone kõrgus",
+    "description": "silt väiksemate ja suuremate joonekõrguse nuppude jaoks"
+  },
+  "smallerLineHeightBtnText": {
+    "message": "aa-",
+    "description": "nupu tekst"
+  },
+  "smallerLineHeightBtnSubText": {
+    "message": "Väiksem",
+    "description": "nupu alamtekst"
+  },
+  "largerLineHeightBtnText": {
+    "message": "aa+",
+    "description": "nupu tekst"
+  },
+  "largerLineHeightBtnSubText": {
+    "message": "Suurem",
+    "description": "nupu alamtekst"
+  },
+  "defaultBionicModeToggleBtnOffText": {
+    "message": "lülitage alati välja",
+    "description": "nupu tekst"
+  },
+  "defaultBionicModeToggleBtnOnText": {
+    "message": "lülitage alati sisse",
+    "description": "nupu tekst"
+  },
+  "defaultBionicModeToggleBtnSubText": {
+    "message": "vaikimisi tumblereelistus",
+    "description": "nupu alamtekst"
+  },
+  "resetBtnText": {
+    "message": "lähtestage optimaalsetele seadetele",
+    "description": "nupu tekst"
+  },
+  "faqLinkText": {
+    "message": "KKK",
+    "description": "lingi tekst"
+  },
+  "reportIssueLinkText": {
+    "message": "teatage probleemist",
+    "description": "lingi tekst"
+  },
+  "aboutUsLinkText": {
+    "message": "koduleht",
+    "description": "lingi tekst"
+  },
+  "dataEntryMessage": {
+    "message": "Lülitage välja, kui HalfBold lugeja häirib andmesisestust",
+    "description": "Tekst"
+  },
+  "googlePlayLinkSecondaryText": {
+    "message": "lugemine toetatud",
+    "description": "Tekst"
+  },
+  "urlPromptText": {
+    "message": "Ilma URL-ita vahekaardid ei pruugi korralikult töötada",
+    "description": "Tekst"
+  },
+  "reloadPromptText": {
+    "message": "Laadige vahekaart kehtiva URL-iga uuesti ja proovige uuesti",
+    "description": "Tekst"
+  },
+  "translationHelpLinkText": {
+    "message": "aidake meid rahunemistega. klõpsake lisateabe saamiseks",
+    "description": "Tekst"
+  },
+  "reloadText": {
+    "message": "Reload",
+    "description": "Tekst"
+  },
+  "openPermissionPageBtnText": {
+    "message": "klõpsake siin, et avada õiguste leht",
+    "description": "nupu tekst"
+  },
+  "missingPermissionHeaderText": {
+    "message": "Faili URL-i luba puudub",
+    "description": "päise tekst"
+  },
+  "missingPermissionHeaderSubText": {
+    "message": "täitke allpool toodud sammud",
+    "description": "alamtekst"
+  },
+  "grantPermissionInstructionText": {
+    "message": "Faili URL-i õiguse andmine",
+    "description": "Tekst"
+  },
+  "reloadPageAndExtensionInstructionText": {
+    "message": "Tagastage ja proovige laiendust uuesti avada",
+    "description": "Tekst"
+  },
+  "pageNotSupportedHeaderText": {
+    "message": "Seda lehte ei toetata",
+    "description": "Tekst"
+  },
+  "pageNotDetectedText": {
+    "message": "Lehekülge ei tuvastatud",
+    "description": "Tekst"
+  },
+  "surveyPromptText": {
+    "message": "tehke lühike küsitlus, et aidata meil JR-i parandada",
+    "description": "Tekst"
+  }
+}

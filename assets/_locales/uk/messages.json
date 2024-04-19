@@ -1,1 +1,183 @@
-{"preferenceLabel":{"message":"переваги використання","description":"позначка для (глобальна кнопка параметрів або параметрів сайту) перемикається"},"tipsPopupTriggerLabel":{"message":"Поради","description":"позначка для (глобальна кнопка параметрів або параметрів сайту) перемикається"},"globalPreferenceToggleBtnText":{"message":"Глобального","description":"основний текст для кнопки перемикання глобальних уподобань"},"globalPreferenceToggleBtnSubText":{"message":"За промовчанням","description":"підтекст кнопки глобальних уподобань"},"sitePreferenceToggleBtnText":{"message":"Сайт","description":"основний текст для кнопки перемикання параметрів сайту"},"sitePreferenceToggleBtnSubText":{"message":"для цього сайту","description":"підтекст кнопки глобальних уподобань"},"onOffToggleBtnTextDisable":{"message":"вимкнути","description":"onOffToggleBtnTextНедабельний текст кнопки"},"onOffToggleBtnTextEnable":{"message":"вмикати","description":"onOffToggleBtnTextВиключний текст кнопки"},"onOffToggleBtnSubText":{"message":"режим читання,","description":"текст для onOffToggleBtnSubText"},"shortcutLabelText":{"message":"ярлик за замовчуванням","description":"текст для onOffToggleBtnShortCutText"},"defaultShortcutValueTextChrome":{"message":"alt+b","description":"ярлик за замовчуванням для хрому"},"defaultShortcutValueTextFirefox":{"message":"Alt+ш","description":"ярлик за замовчуванням для firefox"},"saccadesIntervalLabel":{"message":"інтервал сакад","description":"мітка для повзунка інтервалів saccades"},"fixationsStrengthLabel":{"message":"міцність фіксацій","description":"мітка для фіксації силового бігунця"},"fixationsEdgeOpacityLabel":{"message":"фіксація непрозорості країв","description":"мітка для повзунка непрозорості країв фіксації"},"saccadesColorLabel":{"message":"колір сакад,","description":"мітка для випадаючого кольору сакади"},"saccadesStyleLabel":{"message":"стилі сакад","description":"мітка для спадного меню стилю saccade"},"lineHeightTogglesLabel":{"message":"висота лінії","description":"мітка для менших і більших кнопок висоти ліній"},"smallerLineHeightBtnText":{"message":"аа-","description":"текст для кнопки"},"smallerLineHeightBtnSubText":{"message":"Менше","description":"вкладений текст кнопки"},"largerLineHeightBtnText":{"message":"аа+","description":"текст для кнопки"},"largerLineHeightBtnSubText":{"message":"Більше","description":"вкладений текст кнопки"},"defaultBionicModeToggleBtnOffText":{"message":"завжди вимикати","description":"текст для кнопки"},"defaultBionicModeToggleBtnOnText":{"message":"вмикатися завжди,","description":"текст для кнопки"},"defaultBionicModeToggleBtnSubText":{"message":"параметр перемикача за замовчуванням","description":"вкладений текст кнопки"},"resetBtnText":{"message":"скидання до оптимальних налаштувань","description":"текст для кнопки"},"faqLinkText":{"message":"питання-відповіді","description":"текст посилання"},"reportIssueLinkText":{"message":"питання звіту","description":"текст посилання"},"aboutUsLinkText":{"message":"веб-сайт","description":"текст посилання"},"dataEntryMessage":{"message":"Вимкніть, якщо jiffy reader заважає введенню даних","description":"Текст"},"googlePlayLinkSecondaryText":{"message":"підтримка читання","description":"Текст"},"urlPromptText":{"message":"Вкладки без URL-адреси можуть не працювати належним чином","description":"Текст"},"reloadPromptText":{"message":"Перезавантажте вкладку з припустимою URL-адресою та повторіть спробу","description":"Текст"},"translationHelpLinkText":{"message":"допоможіть нам з трансляціями. натисніть, щоб дізнатися більше","description":"Текст"},"reloadText":{"message":"Перезавантажити","description":"Текст"},"openPermissionPageBtnText":{"message":"клацніть тут, щоб відкрити сторінку дозволів","description":"текст кнопки"},"missingPermissionHeaderText":{"message":"Дозвіл на url-адресу файлу відсутній","description":"Текст верхнього колонтитула"},"missingPermissionHeaderSubText":{"message":"виконайте наведені нижче дії","description":"підтекст"},"grantPermissionInstructionText":{"message":"Надання дозволу на URL-адресу файлу","description":"Текст"},"reloadPageAndExtensionInstructionText":{"message":"Поверніться та спробуйте відкрити розширення ще раз","description":"Текст"},"pageNotSupportedHeaderText":{"message":"Ця сторінка не підтримується","description":"Текст"},"pageNotDetectedText":{"message":"Сторінку не виявлено","description":"Текст"},"surveyPromptText":{"message":"пройдіть коротке опитування, щоб допомогти нам покращити JR","description":"Текст"}}
+{
+    "appDesc": {
+        "message": "Розширення Half Bold Chrome: Ваш ключ до покращеного Bionic Reading"
+    },
+    "appName": {
+        "message": "Half Bold Chrome Reader"
+    },
+    "storeDesc": {
+        "message": "Підніміть свій онлайн-читацький досвід з розширенням Half Bold Chrome - вашим найкращим помічником для гладкого та дружнього до дислексії досвіду! Це розширення полу-жирного шрифту удосконалює цифровий текст, роблячи його доступним та читабельним. Полу-жирний шрифт та полу-жирний текст забезпечують інклюзивне середовище читання, враховуючи потреби тих, хто має дислексію та ADHD.\n\n\uD83D\uDD21 Відкрийте блиск полу-жирного\n➤ Легко читайте веб-сторінки з нашим полу-жирним шрифтом\n➤ Налаштуйте свій досвід читання з полу-жирним текстом\n➤ Отримайте ніжне керівництво під час читання складного тексту з полу-жирним шрифтом\n\n\uD83D\uDCBB Зламайте бар'єри з розширенням Half Bold Chrome\n1\uFE0F⃣ Інтерактивний дизайн для плавної доступності\n2\uFE0F⃣ Покращуйте точність читання з розширенням полу-жирного\n3\uFE0F⃣ Покращуйте розуміння читання з функціями розширення полу-жирного Chrome\n\n\uD83D\uDCDA Спробуйте розширення Halfbold\n- Насолоджуйтесь читанням з унікальним шрифтом halfbold\n- Досліджуйте інклюзивний цифровий простір з розширенням halfbold\n- Забезпечуйте дружнє до дислексії середовище читання з функціями halfbold\n\n\uD83D\uDD0D Покращуйте читання з шрифтом Dislexia\n▸ Підвищуйте ефективність читання з шрифтом dislexia\n▸ Покращуйте плавність читання з нашим шрифтом для дислексиків\n▸ Прощавайте з проблемами читання з шрифтами, дружніми до дислексиків\n\n\uD83C\uDF08 Розкривайте магію шрифту Open Dyslexic Chrome\n• Насолоджуйтесь інклюзивним досвідом читання з шрифтом open dyslexic chrome\n• Відчуйте покращену точність читання з шрифтом adhd\n• Відкрийте радість читання з шрифтом adhd reading\n\n\uD83D\uDCA1 Просвітліть своє читання з Bionic Reading Ви можете використовувати переваги bionic reading, режиму, який сприяє швидшому темпу читання без шкоди для розуміння. Ця інноваційна функція розбиває складні тексти, дозволяючи вам зберігати більше інформації та читати швидше, тим самим підвищуючи вашу продуктивність. Незалежно від того, чи ви студент, який проводить дослідження для роботи, професіонал, який слідкує за останніми новинами, чи людина з дислексією, ця функція дозволяє вам легко подолати будь-які труднощі з читанням.\n\n\uD83D\uDC41\uFE0F Посилюйте своє читання з розширенням шрифту ADHD\n➤ Покращуйте плавність читання з розширенням шрифту adhd\n➤ Відчуйте силу читання жирних букв adhd\n➤ Трансформуйте свій читацький досвід з розширенням читання adhd\n\n\uD83D\uDCD6 Обійміть читача ADHD\n1. Відкрийте новий досвід читання з читачем adhd\n2. Досліджуйте цифровий світ з додатком для читання adhd\n3. Відчуйте дружнє до дислексії середовище читання з жирною першою буквою кожного слова adhd\n\n\uD83D\uDCBB Візьміть своє читання під контроль\n- Покращуйте точність читання з жирним читанням літер adhd\n- Підвищуйте плавність читання з жирними буквами adhd\n- Забезпечуйте комфортне читання з розширенням chrome half bold\n\n\uD83D\uDDC2\uFE0F Все в одному рішенні для читання\n➤ Відчуйте функцію halfbold\n➤ Насолоджуйтесь читанням з полу-жирним шрифтом\n➤ Залучайтесь в гладкий читацький досвід з полу-жирним текстом\n\n\uD83D\uDD0D Занурюйтесь глибше в читання Унікальна функціональність цього інструменту не тільки дозволяє особам залишатися сфокусованими на своїх читацьких завданнях, але також робить контент легшим для читання. Для людей з дислексією або ADHD це може бути гра змінювачем. Це не просто інструмент; це міст до світу безмежної інформації та історій, спосіб залучатися та спілкуватися, відчувати себе включеними та цінними. Розширення Half Bold Chrome гарантує, що ніхто не залишиться за бортом в нашому все більш цифровому світі.\n\n\uD83D\uDD0E Перевизначте свій досвід читання\n1. Досліджуйте інклюзивний цифровий простір з розширенням chrome half bold\n2. Занурте себе в унікальне середовище читання з розширенням halfbold\n3. Відчуйте радість читання з шрифтом dislexia\n\n\uD83D\uDD04 Насолоджуйтесь безшовним читанням\n➤ Підвищуйте ефективність свого читання з дружніми до дислексії шрифтами\n➤ Відкрийте комфортне середовище читання з шрифтом open dyslexic chrome\n➤ Відчуйте силу шрифту adhd\n\n\uD83D\uDC96 Почніть свій інклюзивний читацький шлях\nПриєднуйтесь до нашої спільноти та покращуйте свій цифровий читацький шлях. З розширенням Half Bold Chrome ви не просто додаєте інструмент до свого браузера; ви приймаєте більш інклюзивне та доступне цифрове середовище читання. Завантажте зараз для трансформуючого досвіду читання!\n\n\uD83E\uDD14 Часті питання про наше розширення Chrome\n✨ Чи можу я налаштувати налаштування полу-жирного?\n\uD83D\uDD39 Абсолютно! Ви можете налаштувати налаштування полу-жирного відповідно до своїх читацьких уподобань.\n\n\uD83D\uDCDA Як це розширення підтримує дружнє до дислексії читання?\n\uD83D\uDD39 Наше розширення включає шрифт open dyslexic, разом з функцією полу-жирного, розробленою для допомоги читачам з дислексією.\n\n\uD83C\uDF10 Чи можу я використовувати це розширення на будь-якому веб-сайті?\n\uD83D\uDD39 Так! Наше розширення розроблене для роботи на всіх веб-сайтах, забезпечуючи безшовний досвід читання.\n\""
+    },
+    "preferenceLabel": {
+        "message": "переваги використання",
+        "description": "позначка для (глобальна кнопка параметрів або параметрів сайту) перемикається"
+    },
+    "tipsPopupTriggerLabel": {
+        "message": "Поради",
+        "description": "позначка для (глобальна кнопка параметрів або параметрів сайту) перемикається"
+    },
+    "globalPreferenceToggleBtnText": {
+        "message": "Глобального",
+        "description": "основний текст для кнопки перемикання глобальних уподобань"
+    },
+    "globalPreferenceToggleBtnSubText": {
+        "message": "За промовчанням",
+        "description": "підтекст кнопки глобальних уподобань"
+    },
+    "sitePreferenceToggleBtnText": {
+        "message": "Сайт",
+        "description": "основний текст для кнопки перемикання параметрів сайту"
+    },
+    "sitePreferenceToggleBtnSubText": {
+        "message": "для цього сайту",
+        "description": "підтекст кнопки глобальних уподобань"
+    },
+    "onOffToggleBtnTextDisable": {
+        "message": "вимкнути",
+        "description": "onOffToggleBtnTextНедабельний текст кнопки"
+    },
+    "onOffToggleBtnTextEnable": {
+        "message": "вмикати",
+        "description": "onOffToggleBtnTextВиключний текст кнопки"
+    },
+    "onOffToggleBtnSubText": {
+        "message": "режим читання,",
+        "description": "текст для onOffToggleBtnSubText"
+    },
+    "shortcutLabelText": {
+        "message": "ярлик за замовчуванням",
+        "description": "текст для onOffToggleBtnShortCutText"
+    },
+    "defaultShortcutValueTextChrome": {
+        "message": "alt+b",
+        "description": "ярлик за замовчуванням для хрому"
+    },
+    "defaultShortcutValueTextFirefox": {
+        "message": "Alt+ш",
+        "description": "ярлик за замовчуванням для firefox"
+    },
+    "saccadesIntervalLabel": {
+        "message": "інтервал сакад",
+        "description": "мітка для повзунка інтервалів saccades"
+    },
+    "fixationsStrengthLabel": {
+        "message": "міцність фіксацій",
+        "description": "мітка для фіксації силового бігунця"
+    },
+    "fixationsEdgeOpacityLabel": {
+        "message": "фіксація непрозорості країв",
+        "description": "мітка для повзунка непрозорості країв фіксації"
+    },
+    "saccadesColorLabel": {
+        "message": "колір сакад,",
+        "description": "мітка для випадаючого кольору сакади"
+    },
+    "saccadesStyleLabel": {
+        "message": "стилі сакад",
+        "description": "мітка для спадного меню стилю saccade"
+    },
+    "lineHeightTogglesLabel": {
+        "message": "висота лінії",
+        "description": "мітка для менших і більших кнопок висоти ліній"
+    },
+    "smallerLineHeightBtnText": {
+        "message": "аа-",
+        "description": "текст для кнопки"
+    },
+    "smallerLineHeightBtnSubText": {
+        "message": "Менше",
+        "description": "вкладений текст кнопки"
+    },
+    "largerLineHeightBtnText": {
+        "message": "аа+",
+        "description": "текст для кнопки"
+    },
+    "largerLineHeightBtnSubText": {
+        "message": "Більше",
+        "description": "вкладений текст кнопки"
+    },
+    "defaultBionicModeToggleBtnOffText": {
+        "message": "завжди вимикати",
+        "description": "текст для кнопки"
+    },
+    "defaultBionicModeToggleBtnOnText": {
+        "message": "вмикатися завжди,",
+        "description": "текст для кнопки"
+    },
+    "defaultBionicModeToggleBtnSubText": {
+        "message": "параметр перемикача за замовчуванням",
+        "description": "вкладений текст кнопки"
+    },
+    "resetBtnText": {
+        "message": "скидання до оптимальних налаштувань",
+        "description": "текст для кнопки"
+    },
+    "faqLinkText": {
+        "message": "питання-відповіді",
+        "description": "текст посилання"
+    },
+    "reportIssueLinkText": {
+        "message": "питання звіту",
+        "description": "текст посилання"
+    },
+    "aboutUsLinkText": {
+        "message": "веб-сайт",
+        "description": "текст посилання"
+    },
+    "dataEntryMessage": {
+        "message": "Вимкніть, якщо HalfBold Reader заважає введенню даних",
+        "description": "Текст"
+    },
+    "googlePlayLinkSecondaryText": {
+        "message": "підтримка читання",
+        "description": "Текст"
+    },
+    "urlPromptText": {
+        "message": "Вкладки без URL-адреси можуть не працювати належним чином",
+        "description": "Текст"
+    },
+    "reloadPromptText": {
+        "message": "Перезавантажте вкладку з припустимою URL-адресою та повторіть спробу",
+        "description": "Текст"
+    },
+    "translationHelpLinkText": {
+        "message": "допоможіть нам з трансляціями. натисніть, щоб дізнатися більше",
+        "description": "Текст"
+    },
+    "reloadText": {
+        "message": "Перезавантажити",
+        "description": "Текст"
+    },
+    "openPermissionPageBtnText": {
+        "message": "клацніть тут, щоб відкрити сторінку дозволів",
+        "description": "текст кнопки"
+    },
+    "missingPermissionHeaderText": {
+        "message": "Дозвіл на url-адресу файлу відсутній",
+        "description": "Текст верхнього колонтитула"
+    },
+    "missingPermissionHeaderSubText": {
+        "message": "виконайте наведені нижче дії",
+        "description": "підтекст"
+    },
+    "grantPermissionInstructionText": {
+        "message": "Надання дозволу на URL-адресу файлу",
+        "description": "Текст"
+    },
+    "reloadPageAndExtensionInstructionText": {
+        "message": "Поверніться та спробуйте відкрити розширення ще раз",
+        "description": "Текст"
+    },
+    "pageNotSupportedHeaderText": {
+        "message": "Ця сторінка не підтримується",
+        "description": "Текст"
+    },
+    "pageNotDetectedText": {
+        "message": "Сторінку не виявлено",
+        "description": "Текст"
+    },
+    "surveyPromptText": {
+        "message": "пройдіть коротке опитування, щоб допомогти нам покращити JR",
+        "description": "Текст"
+    }
+}
