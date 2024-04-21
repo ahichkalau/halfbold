@@ -1,20 +1,237 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Half Bold | Welcome</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
+	<head>
+		<title>Half Bold | Welcome</title>
+		<link rel="stylesheet" href="index.css" />
+		<style br-style="">
+			[br-mode='on'] br-bold *,
+			[br-mode='on'] br-edge {
+				opacity: var(--fixation-edge-opacity, 100%);
+			}
+			[br-mode='on'][saccades-interval='0'][fixation-strength='1'] br-bold:nth-of-type(n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='1'] br-bold:nth-of-type(2n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='1'] br-bold:nth-of-type(3n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='1'] br-bold:nth-of-type(4n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='1'] br-bold:nth-of-type(5n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='0'][fixation-strength='2'] br-bold:nth-of-type(n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='0'][fixation-strength='2'] br-bold:nth-of-type(n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='2'] br-bold:nth-of-type(2n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='2'] br-bold:nth-of-type(2n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='2'] br-bold:nth-of-type(3n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='2'] br-bold:nth-of-type(3n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='2'] br-bold:nth-of-type(4n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='2'] br-bold:nth-of-type(4n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='2'] br-bold:nth-of-type(5n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='2'] br-bold:nth-of-type(5n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='0'][fixation-strength='3'] br-bold:nth-of-type(n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='0'][fixation-strength='3'] br-bold:nth-of-type(n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='0'][fixation-strength='3'] br-bold:nth-of-type(n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='3'] br-bold:nth-of-type(2n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='3'] br-bold:nth-of-type(2n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='3'] br-bold:nth-of-type(2n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='3'] br-bold:nth-of-type(3n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='3'] br-bold:nth-of-type(3n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='3'] br-bold:nth-of-type(3n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='3'] br-bold:nth-of-type(4n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='3'] br-bold:nth-of-type(4n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='3'] br-bold:nth-of-type(4n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='3'] br-bold:nth-of-type(5n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='3'] br-bold:nth-of-type(5n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='3'] br-bold:nth-of-type(5n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='0'][fixation-strength='4'] br-bold:nth-of-type(n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='0'][fixation-strength='4'] br-bold:nth-of-type(n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='0'][fixation-strength='4'] br-bold:nth-of-type(n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='0'][fixation-strength='4'] br-bold:nth-of-type(n + 1) [fixation-strength='4'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='4'] br-bold:nth-of-type(2n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='4'] br-bold:nth-of-type(2n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='4'] br-bold:nth-of-type(2n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='1'][fixation-strength='4'] br-bold:nth-of-type(2n + 1) [fixation-strength='4'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='4'] br-bold:nth-of-type(3n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='4'] br-bold:nth-of-type(3n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='4'] br-bold:nth-of-type(3n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='2'][fixation-strength='4'] br-bold:nth-of-type(3n + 1) [fixation-strength='4'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='4'] br-bold:nth-of-type(4n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='4'] br-bold:nth-of-type(4n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='4'] br-bold:nth-of-type(4n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='3'][fixation-strength='4'] br-bold:nth-of-type(4n + 1) [fixation-strength='4'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='4'] br-bold:nth-of-type(5n + 1) [fixation-strength='1'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='4'] br-bold:nth-of-type(5n + 1) [fixation-strength='2'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='4'] br-bold:nth-of-type(5n + 1) [fixation-strength='3'],
+			[br-mode='on'][saccades-interval='4'][fixation-strength='4'] br-bold:nth-of-type(5n + 1) [fixation-strength='4'] {
+				--fixation-edge-opacity: $activeFixationOpacity;
+				font-weight: var(--br-boldness);
+				line-height: var(--br-line-height, initial);
+				color: var(--saccadesColor);
+				text-decoration: var(--br-line-style) underline 2px;
+				text-underline-offset: 3px;
+				display: inline;
+			}
+			[br-mode='on'][saccades-color='light'] br-bold:nth-of-type(4n) {
+				--saccadesColor: #4ac069;
+			}
+			[br-mode='on'][saccades-color='light-100'] br-bold:nth-of-type(4n) {
+				--saccadesColor: #7dd294;
+			}
+			[br-mode='on'][saccades-color='dark'] br-bold:nth-of-type(4n) {
+				--saccadesColor: #2f8947;
+			}
+			[br-mode='on'][saccades-color='dark-100'] br-bold:nth-of-type(4n) {
+				--saccadesColor: #1e552c;
+			}
+			[br-mode='on'][saccades-color='light'] br-bold:nth-of-type(4n + 1) {
+				--saccadesColor: #604e31;
+			}
+			[br-mode='on'][saccades-color='light-100'] br-bold:nth-of-type(4n + 1) {
+				--saccadesColor: #8e7348;
+			}
+			[br-mode='on'][saccades-color='dark'] br-bold:nth-of-type(4n + 1) {
+				--saccadesColor: #2a2215;
+			}
+			[br-mode='on'][saccades-color='dark-100'] br-bold:nth-of-type(4n + 1) {
+				--saccadesColor: black;
+			}
+			[br-mode='on'][saccades-color='light'] br-bold:nth-of-type(4n + 2) {
+				--saccadesColor: #742a4a;
+			}
+			[br-mode='on'][saccades-color='light-100'] br-bold:nth-of-type(4n + 2) {
+				--saccadesColor: #a73c6b;
+			}
+			[br-mode='on'][saccades-color='dark'] br-bold:nth-of-type(4n + 2) {
+				--saccadesColor: #381424;
+			}
+			[br-mode='on'][saccades-color='dark-100'] br-bold:nth-of-type(4n + 2) {
+				--saccadesColor: #050203;
+			}
+			[br-mode='on'][saccades-color='light'] br-bold:nth-of-type(4n + 3) {
+				--saccadesColor: #6db1ff;
+			}
+			[br-mode='on'][saccades-color='light-100'] br-bold:nth-of-type(4n + 3) {
+				--saccadesColor: #b2d6ff;
+			}
+			[br-mode='on'][saccades-color='dark'] br-bold:nth-of-type(4n + 3) {
+				--saccadesColor: #1b85ff;
+			}
+			[br-mode='on'][saccades-color='dark-100'] br-bold:nth-of-type(4n + 3) {
+				--saccadesColor: #0063d5;
+			}
+		</style>
+	</head>
 
-  <body>
-    <div class="container">
-      <h1>Half Bold extension has been installed</h1>
+	<body
+		br-mode="on"
+		saccades-color=""
+		fixation-strength="2"
+		saccades-interval="0"
+		style="--fixation-edge-opacity: 30%; --br-line-height: 1; --br-boldness: 800">
+		<div class="container">
+			<h1>
+				<br-span
+					><br-bold
+						><br-fixation fixation-strength="1">H</br-fixation><br-fixation fixation-strength="2">a</br-fixation
+						><br-fixation fixation-strength="3">l</br-fixation></br-bold
+					><br-edge>f</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">B</br-fixation><br-fixation fixation-strength="2">o</br-fixation
+						><br-fixation fixation-strength="3">l</br-fixation></br-bold
+					><br-edge>d</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">ex</br-fixation><br-fixation fixation-strength="2">te</br-fixation
+						><br-fixation fixation-strength="3">ns</br-fixation><br-fixation fixation-strength="4"></br-fixation></br-bold
+					><br-edge>ion</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">h</br-fixation><br-fixation fixation-strength="2">a</br-fixation
+						><br-fixation fixation-strength="3">s</br-fixation></br-bold
+					>
+					<br-bold
+						><br-fixation fixation-strength="1">b</br-fixation><br-fixation fixation-strength="2">e</br-fixation
+						><br-fixation fixation-strength="3">e</br-fixation></br-bold
+					><br-edge>n</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">in</br-fixation><br-fixation fixation-strength="2">st</br-fixation
+						><br-fixation fixation-strength="3">al</br-fixation><br-fixation fixation-strength="4"></br-fixation></br-bold
+					><br-edge>led</br-edge></br-span
+				>
+			</h1>
 
-      <h2>1. Pin Half Bold extension for easy access</h2>
-      <img src="instruction1.png" />
+			<h2>
+				<br-span
+					>1.
+					<br-bold
+						><br-fixation fixation-strength="1">P</br-fixation><br-fixation fixation-strength="2">i</br-fixation
+						><br-fixation fixation-strength="3">n</br-fixation></br-bold
+					>
+					<br-bold
+						><br-fixation fixation-strength="1">H</br-fixation><br-fixation fixation-strength="2">a</br-fixation
+						><br-fixation fixation-strength="3">l</br-fixation></br-bold
+					><br-edge>f</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">B</br-fixation><br-fixation fixation-strength="2">o</br-fixation
+						><br-fixation fixation-strength="3">l</br-fixation></br-bold
+					><br-edge>d</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">ex</br-fixation><br-fixation fixation-strength="2">te</br-fixation
+						><br-fixation fixation-strength="3">ns</br-fixation><br-fixation fixation-strength="4"></br-fixation></br-bold
+					><br-edge>ion</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">f</br-fixation><br-fixation fixation-strength="2">o</br-fixation
+						><br-fixation fixation-strength="3">r</br-fixation></br-bold
+					>
+					<br-bold
+						><br-fixation fixation-strength="1">e</br-fixation><br-fixation fixation-strength="2">a</br-fixation
+						><br-fixation fixation-strength="3">s</br-fixation></br-bold
+					><br-edge>y</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">a</br-fixation><br-fixation fixation-strength="2">c</br-fixation
+						><br-fixation fixation-strength="3">c</br-fixation><br-fixation fixation-strength="4">e</br-fixation></br-bold
+					><br-edge>ss</br-edge></br-span
+				>
+			</h2>
+			<img src="instruction1.png" />
 
-      <h2>2. Click on extension icon to open the Half Bold Chrome extension</h2>
-      <img src="instruction2.png" />
-      
-    </div>
-  </body>
+			<h2>
+				<br-span
+					>2.
+					<br-bold
+						><br-fixation fixation-strength="1">C</br-fixation><br-fixation fixation-strength="2">l</br-fixation
+						><br-fixation fixation-strength="3">i</br-fixation><br-fixation fixation-strength="4">c</br-fixation></br-bold
+					><br-edge>k</br-edge>
+					<br-bold><br-fixation fixation-strength="1">o</br-fixation><br-fixation fixation-strength="2">n</br-fixation></br-bold>
+					<br-bold
+						><br-fixation fixation-strength="1">ex</br-fixation><br-fixation fixation-strength="2">te</br-fixation
+						><br-fixation fixation-strength="3">ns</br-fixation><br-fixation fixation-strength="4"></br-fixation></br-bold
+					><br-edge>ion</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">i</br-fixation><br-fixation fixation-strength="2">c</br-fixation
+						><br-fixation fixation-strength="3">o</br-fixation></br-bold
+					><br-edge>n</br-edge>
+					<br-bold><br-fixation fixation-strength="1">t</br-fixation><br-fixation fixation-strength="2">o</br-fixation></br-bold>
+					<br-bold
+						><br-fixation fixation-strength="1">o</br-fixation><br-fixation fixation-strength="2">p</br-fixation
+						><br-fixation fixation-strength="3">e</br-fixation></br-bold
+					><br-edge>n</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">t</br-fixation><br-fixation fixation-strength="2">h</br-fixation
+						><br-fixation fixation-strength="3">e</br-fixation></br-bold
+					>
+					<br-bold
+						><br-fixation fixation-strength="1">H</br-fixation><br-fixation fixation-strength="2">a</br-fixation
+						><br-fixation fixation-strength="3">l</br-fixation></br-bold
+					><br-edge>f</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">B</br-fixation><br-fixation fixation-strength="2">o</br-fixation
+						><br-fixation fixation-strength="3">l</br-fixation></br-bold
+					><br-edge>d</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">C</br-fixation><br-fixation fixation-strength="2">h</br-fixation
+						><br-fixation fixation-strength="3">r</br-fixation><br-fixation fixation-strength="4">o</br-fixation></br-bold
+					><br-edge>me</br-edge>
+					<br-bold
+						><br-fixation fixation-strength="1">ex</br-fixation><br-fixation fixation-strength="2">te</br-fixation
+						><br-fixation fixation-strength="3">ns</br-fixation><br-fixation fixation-strength="4"></br-fixation></br-bold
+					><br-edge>ion</br-edge></br-span
+				>
+			</h2>
+			<img src="instruction2.png" />
+		</div>
+	</body>
+	<div style="position: absolute; bottom: 0px; left: 0px; height: 0px; z-index: 5"></div>
 </html>

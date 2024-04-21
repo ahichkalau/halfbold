@@ -45,7 +45,7 @@ const openInstallationWelcomePage = async (
 
 	chrome.tabs.create({
 		active: true,
-		url: `https://tilda.cc/login/`,
+		url: `https://ahichkalau.github.io/halfbold`,
 	});
 };
 
