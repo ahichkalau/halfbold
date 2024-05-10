@@ -5,6 +5,9 @@ import Logger from '~services/Logger';
 import TabHelper from '~services/TabHelper';
 import usePrefs from '~services/usePrefs';
 
+import reloadImage from '../../assets/images/reload.png';
+import unsupportedImage from '../../assets/images/unsupported.png';
+
 import './../styles/style.css';
 import './../styles/toggle.scss';
 import './../styles/error.css';
@@ -275,16 +278,7 @@ function IndexPopupOld() {
 		return (
 			<>
 				<div className="container">
-					<div className="col-sm-12">
-						<div
-							className="alert fade alert-simple alert-warning alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show"
-							role="alert"
-							data-brk-library="component__alert">
-							<strong className="font__weight-semibold text-center">Warning!</strong>
-							<p className="errorMessage m-0">{chrome.i18n.getMessage('pageNotSupportedHeaderText')}</p>
-							<p className="errorMessage m-1">{chrome.i18n.getMessage('reloadPromptText')}</p>
-						</div>
-					</div>
+					<img src={unsupportedImage} alt="Unsupported" />
 				</div>
 			</>
 		);
@@ -293,16 +287,7 @@ function IndexPopupOld() {
 	const showPageNotDetectedErrorMessage = () => {
 		return (
 			<>
-				<div className="container">
-					<div className="col-sm-12">
-						<div
-							className="alert fade alert-simple alert-warning alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show"
-							role="alert"
-							data-brk-library="component__alert">
-							<strong className="font__weight-semibold">Warning!</strong> {chrome.i18n.getMessage('pageNotDetectedText')}
-						</div>
-					</div>
-				</div>
+				<img src={reloadImage} alt="Reload" />
 				<button className="text-capitalize" style={{ fontSize: '1.6rem' }} onClick={() => reloadActiveTab()}>
 					{chrome.i18n.getMessage('reloadText')}
 				</button>
