@@ -1,7 +1,7 @@
 {
   "name": "halfbold-reader",
   "displayName": "HalfBold reader",
-  "version": "0.9",
+  "version": "1.0.4",
   "description": "HalfBold reader",
   "packageManager": "yarn@1.22.19",
   "scripts": {
@@ -88,12 +88,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ansh/jiffyreader.com"
+    "url": "https://github.com/ahichkalau/halfbold"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ansh/jiffyreader.com/issues"
+    "url": "https://github.com/ahichkalau/halfbold/issues"
   },
-  "homepage": "https://github.com/ansh/jiffyreader.com#readme"
+  "homepage": "https://github.com/ahichkalau/halfbold"
 }

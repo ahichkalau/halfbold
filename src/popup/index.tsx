@@ -6,10 +6,8 @@ import usePrefs from '~services/usePrefs';
 
 import './../styles/style.css';
 
-
 import { useStorage } from '@plasmohq/storage';
 
-import TrackEventService, { EventCategory } from '~services/TrackEventService';
 import { APP_PREFS_STORE_KEY, COLOR_MODE_STATE_TRANSITIONS, DisplayColorMode, STORAGE_AREA } from '~services/config';
 import documentParser from '~services/documentParser';
 import runTimeHandler from '~services/runTimeHandler';
@@ -53,8 +51,6 @@ function IndexPopup() {
 	}, [tabSession]);
 
 	useEffect(() => {
-		TrackEventService.trackEvent({ eventCategory: EventCategory.USER_EVENT, eventName: 'open-popup', eventType: 'click' });
-
 		(async () => {
 			const _activeTab = await TabHelper.getActiveTab(true);
 			setActiveTab(_activeTab);

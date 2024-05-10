@@ -4,6 +4,7 @@ const siteElementExclusions = {
 	'play.google.com': ['.mat-icon-button', 'mat-icon-button', '.scrubber-container', 'header>nav>a'],
 	'app.grammarly.com': ['.editor-editorContainer'],
 	'notion.so': ['.notion-frame'],
+	'reddit.com':['#reddit-logo'],
 	'.': ['[contenteditable]', '[role=textbox]', 'input', 'textarea'], //disable input containers for all domains
 };
 

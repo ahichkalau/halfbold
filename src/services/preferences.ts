@@ -5,7 +5,7 @@
 // added here
 
 const defaultPrefs = {
-	onPageLoad: false,
+	onPageLoad: true,
 	scope: 'global',
 	lineHeight: 1,
 	edgeOpacity: 70,
@@ -20,7 +20,7 @@ const defaultPrefs = {
 	displayColorMode: 'light',
 	showBeta: true,
 	transformControlPanelText: false,
-	autoOnDelay: 5_000
+	autoOnDelay: 500
 };
 
 export default defaultPrefs;

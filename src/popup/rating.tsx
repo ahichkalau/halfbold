@@ -18,15 +18,14 @@ function RatingPrompt({ onClose }) {
 		localStorage.setItem('userRating', rate);
 		setHasRated(true);
 		const urls = [
-			'https://forms.gle/52iahYwopDuiAHQC7',
-			'https://forms.gle/52iahYwopDuiAHQC7',
-			'https://forms.gle/52iahYwopDuiAHQC7',
-			'https://chromewebstore.google.com/detail/multiple-url-opener/jfanmjbbnmijbkhgnkpbaclkfeliinob/reviews',
-			'https://chromewebstore.google.com/detail/multiple-url-opener/jfanmjbbnmijbkhgnkpbaclkfeliinob/reviews',
+			'https://forms.gle/DxmnAzXgRXn5U2ys8',
+			'https://forms.gle/DxmnAzXgRXn5U2ys8',
+			'https://forms.gle/DxmnAzXgRXn5U2ys8',
+			'https://chromewebstore.google.com/detail/ndgbjebkdbfehipdojkdldkddgggbdoj/reviews',
+			'https://chromewebstore.google.com/detail/ndgbjebkdbfehipdojkdldkddgggbdoj/reviews',
 		];
 		window.open(urls[rate - 1], '_blank');
-		onClose(); // Закрываем компонент RatingPrompt
-		// Ваша логика для отправки рейтинга или что-то еще
+		onClose();
 	};
 
 	return (

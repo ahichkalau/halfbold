@@ -130,7 +130,7 @@ const IndexContent = () => {
 					Logger.logInfo('%cInitializeTabsession', contentLogStyle, { prevTabSession, newValue });
 					return newValue;
 				});
-			}, delay);
+			}, 0);
 		}
 
 		if (!prefs || !tabSession) return;

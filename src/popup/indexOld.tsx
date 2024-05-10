@@ -46,7 +46,7 @@ function IndexPopupOld() {
 	const [counter, setCounter] = useState(0);
 	const handleIncrementCounter = () => {
 		setCounter((prevCounter) => prevCounter + 1);
-		if (counter >= 2) {
+		if (counter >= 4) {
 			setShowRating(true);
 		}
 	};
@@ -160,10 +160,6 @@ function IndexPopupOld() {
 		if ((value ?? prefs?.[key]) == defaultPrefs?.[key]) return <span className="ml-auto text-sm">Optimal</span>;
 	};
 
-	const animateFooterMessageVisibility = (index, _footerMessageIndex = footerMessageIndex) => {
-		return 'animated-footer-link ' + (index === footerMessageIndex && ' animated-footer-link-show');
-	};
-
 	const handleDisplayColorModeChange = async (currentDisplayColorMode) => {
 		console.log('handleDisplayColorModeChange', currentDisplayColorMode);
 
@@ -247,7 +243,7 @@ function IndexPopupOld() {
 
 	const openPermissionPage = () => {
 		chrome.tabs.create({
-			url: 'chrome://extensions/?id=jjjipoongdlfeenlicdoeadmabalokca',
+			url: 'chrome://extensions/?id=ndgbjebkdbfehipdojkdldkddgggbdoj',
 		});
 	};
 
@@ -285,8 +281,8 @@ function IndexPopupOld() {
 							role="alert"
 							data-brk-library="component__alert">
 							<strong className="font__weight-semibold text-center">Warning!</strong>
-							<p className='errorMessage m-0'>{chrome.i18n.getMessage('pageNotSupportedHeaderText')}</p>
-							<p className='errorMessage m-1'>{chrome.i18n.getMessage('reloadPromptText')}</p>
+							<p className="errorMessage m-0">{chrome.i18n.getMessage('pageNotSupportedHeaderText')}</p>
+							<p className="errorMessage m-1">{chrome.i18n.getMessage('reloadPromptText')}</p>
 						</div>
 					</div>
 				</div>
@@ -503,16 +499,6 @@ function IndexPopupOld() {
 				</div>
 
 				<button
-					id="onPageLoadBtn"
-					className={`|| flex flex-column || w-100 align-items-center text-capitalize ${prefs.onPageLoad ? 'selected' : ''}`}
-					onClick={() => updateConfig('onPageLoad', !prefs.onPageLoad)}>
-					<span className="text-bold">
-						{chrome.i18n.getMessage(prefs.onPageLoad ? 'defaultBionicModeToggleBtnOffText' : 'defaultBionicModeToggleBtnOnText')}
-					</span>
-					<span className="text-sm pt-sm">{chrome.i18n.getMessage('defaultBionicModeToggleBtnSubText')}</span>
-				</button>
-
-				<button
 					id="resetDefaultsBtn"
 					className="|| flex flex-column || w-100 align-items-center text-capitalize"
 					style={{ marginBottom: '25px' }}
@@ -535,7 +521,7 @@ function IndexPopupOld() {
 			{errorOccured ? (
 				showErrorMessage()
 			) : (
-				<div className="popup-container || flex flex-column  | gap-2" br-mode={tabSession.brMode ? 'On' : 'Off'}>
+				<div className="popup-container || flex flex-column  | gap-1" br-mode={tabSession.brMode ? 'On' : 'Off'}>
 					<button
 						id="readingModeToggleBtn"
 						className={`|| flex flex-column || w-100 align-items-center text-capitalize ${tabSession?.brMode ? 'selected' : ''}`}
@@ -546,8 +532,18 @@ function IndexPopupOld() {
 					</button>
 
 					<button
+						id="onPageLoadBtn"
+						className={`|| flex flex-column || w-100 align-items-center text-capitalize ${prefs.onPageLoad ? 'selected' : ''}`}
+						onClick={() => updateConfig('onPageLoad', !prefs.onPageLoad)}>
+						<span className="text-bold">
+							{chrome.i18n.getMessage(prefs.onPageLoad ? 'defaultBionicModeToggleBtnOffText' : 'defaultBionicModeToggleBtnOnText')}
+						</span>
+						<span className="text-sm pt-sm">{chrome.i18n.getMessage('defaultBionicModeToggleBtnSubText')}</span>
+					</button>
+
+					<button
 						className="|| flex flex-column || w-100 align-items-center text-capitalize"
-						style={{ marginBottom: '25px' }}
+						style={{ marginBottom: '10px' }}
 						onClick={toggleAdvancedSettings}>
 						{chrome.i18n.getMessage('advancedSettings')}
 					</button>

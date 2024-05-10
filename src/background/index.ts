@@ -1,18 +1,11 @@
 import { Storage } from '@plasmohq/storage';
 import type { PrefStore } from 'index';
 
-
-
 import Logger from '~services/Logger';
 import TabHelper from '~services/TabHelper';
-import TrackEventService, { EventCategory } from '~services/TrackEventService';
 import { APP_PREFS_STORE_KEY, DisplayColorMode, STORAGE_AREA, USER_PREF_STORE_KEY } from '~services/config';
 import defaultPrefs from '~services/preferences';
 import runTimeHandler from '~services/runTimeHandler';
-
-
-
-
 
 export {};
 
@@ -100,6 +93,7 @@ const messageListener = (request, sender: chrome.runtime.MessageSender, sendResp
 				});
 			})();
 			sendResponse({ data: true });
+			return true;
 			break;
 		}
 
@@ -158,21 +152,13 @@ function onInstallHandler(event: chrome.runtime.InstalledDetails) {
 		Logger.logInfo('background set time');
 		Logger.logError();
 	});
-	chrome.runtime.setUninstallURL('https://forms.gle/Lwa5D6RqXFrhGEUz6');
+	chrome.runtime.setUninstallURL('https://forms.gle/DxmnAzXgRXn5U2ys8');
 	const eventReason = event.reason;
 
 	const newVersion = process.env.VERSION;
 	const { previousVersion } = event;
 	const isNewVersion = previousVersion !== newVersion;
 	Logger.logInfo({ newVersion, previousVersion, isNewVersion });
-
-	TrackEventService.trackEvent({
-		eventCategory: EventCategory.APP_EVENT,
-		eventName: 'install',
-		eventType: eventReason,
-		newVersion,
-		previousVersion,
-	});
 
 	if (isNewVersion && /install/i.test(eventReason) && process.env.NODE_ENV === 'production') {
 		openInstallationWelcomePage(eventReason);
