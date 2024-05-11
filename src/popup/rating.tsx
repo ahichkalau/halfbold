@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 
 import './../styles/rating.css';
 
+import ratingImage from '../../assets/images/rating.png';
+
 function RatingPrompt({ onClose }) {
 	const [hasRated, setHasRated] = useState(false);
 	const [hovered, setHovered] = useState(null);
@@ -41,7 +43,8 @@ function RatingPrompt({ onClose }) {
 								onClick={() => handleStarClick(index + 1)}
 								onMouseEnter={() => setHovered(index + 1)}
 								onMouseLeave={() => setHovered(null)}>
-								★
+								<img src={ratingImage} alt="Rating" />
+
 							</span>
 						))}
 					</div>

@@ -9,20 +9,24 @@
 	margin-top: -50px;
 	font-size: 60px;
 	cursor: pointer;
-	color: #a89716;
+	filter: brightness(80%);
+	transition: filter 0.3s;
 }
 
 .star.highlighted {
-	color: #fcba05;
-	box-shadow: 0 0 0px orange;
+	filter: brightness(120%) drop-shadow(0 0 10px #ffbb00);
+}
+
+.star:hover {
+	filter: brightness(120%) drop-shadow(0 0 10px #ffbb00);
 }
 
 .rate_us {
 	font-size: 30px;
-	color: #f39c12;
+	color: #ffbb00;
 	font-weight: bold;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-	margin-top: -30px;
+	margin-top: -20px;
 	text-transform: uppercase;
 	animation: pulse 1s infinite alternate;
 }
@@ -33,7 +37,7 @@
 		opacity: 1;
 	}
 	to {
-		transform: scale(1.05);
+		transform: scale(1.02);
 		opacity: 0.85;
 	}
 }
