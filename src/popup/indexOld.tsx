@@ -273,7 +273,7 @@ function IndexPopupOld() {
 	};
 
 	const showUnsupportedPageErrorMessage = (_activeTab = activeTab) => {
-		if (!/^chrome(:\/\/|[-]extension)/i.test(_activeTab?.url)) return null;
+		if (!/^chrome(:\/\/|[-]extension)|chrome\.google\.com\/webstore|chromewebstore\.google\.com/i.test(_activeTab?.url)) return null;
 
 		return (
 			<>
