@@ -40,6 +40,7 @@ const FIXATION_OPACITY_STOP_UNIT_SCALE = Math.floor(100 / FIXATION_OPACITY_STOPS
 const SHOW_FOOTER_MESSAGE_DURATION = 12_000;
 const FOOT_MESSAGAES_ANIMATION_DELAY = 300;
 const FIRST_FOOTER_MESSAGE_INDEX = 1;
+const SHOW_RATING_AFTER_INTERVAL = 3 * 24 * 60 * 60 * 1000;
 
 function IndexPopupOld() {
 	const [activeTab, setActiveTab] = useState({} as chrome.tabs.Tab);
@@ -47,6 +48,24 @@ function IndexPopupOld() {
 	const [isDebugDataVisible, setIsDebugDataVisible] = useShowDebugSwitch();
 	const [showRating, setShowRating] = useState(false);
 	const [counter, setCounter] = useState(0);
+
+	useEffect(() => {
+		if (!localStorage.getItem('installDate')) {
+			localStorage.setItem('installDate', new Date().toISOString());
+		}
+
+		const installDate = localStorage.getItem('installDate');
+		if (installDate) {
+			const installTime = new Date(installDate).getTime();
+			const currentTime = new Date().getTime();
+			const threeDaysInMs = SHOW_RATING_AFTER_INTERVAL;
+
+			if (currentTime - installTime > threeDaysInMs) {
+				setShowRating(true);
+			}
+		}
+	}, []);
+
 	const handleIncrementCounter = () => {
 		setCounter((prevCounter) => prevCounter + 1);
 		if (counter >= 4) {
@@ -199,7 +218,7 @@ function IndexPopupOld() {
 							className="toggle_input"
 							type="checkbox"
 							value={`${Object.fromEntries(COLOR_MODE_STATE_TRANSITIONS)[appConfigPrefs?.displayColorMode]} mode toggle`}
-							onClick={() => handleDisplayColorModeChange(appConfigPrefs.displayColorMode)}
+							onChange={() => handleDisplayColorModeChange(appConfigPrefs.displayColorMode)}
 							aria-description="light mode dark mode toggle"
 							id="display_mode_switch"
 							checked={appConfigPrefs?.displayColorMode === 'light'}
@@ -273,7 +292,7 @@ function IndexPopupOld() {
 	};
 
 	const showUnsupportedPageErrorMessage = (_activeTab = activeTab) => {
-		if (!/^chrome(:\/\/|[-]extension)|chrome\.google\.com\/webstore|chromewebstore\.google\.com/i.test(_activeTab?.url)) return null;
+		if (!/^chrome|edge(:\/\/|[-]extension)|chrome\.google\.com\/webstore|chromewebstore\.google\.com/i.test(_activeTab?.url)) return null;
 
 		return (
 			<>

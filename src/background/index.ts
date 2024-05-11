@@ -79,6 +79,7 @@ const messageListener = (request, sender: chrome.runtime.MessageSender, sendResp
 	switch (request.message) {
 		case 'setIconBadgeText': {
 			(async () => {
+				try {
 				const tabID = request?.tabID ?? (await TabHelper.getActiveTab(true)).id;
 				Logger.logInfo('setIconBadgeText', { tabID });
 
@@ -91,10 +92,14 @@ const messageListener = (request, sender: chrome.runtime.MessageSender, sendResp
 					color: request.data ? '#ff0000' : '#42b883',
 					tabId: tabID,
 				});
+
+					sendResponse({ data: true });
+				} catch (err) {
+					Logger.logError('Error in setIconBadgeText:', err);
+					sendResponse({ error: 'Failed to set icon badge text due to an error.' });
+				}
 			})();
-			sendResponse({ data: true });
 			return true;
-			break;
 		}
 
 		case 'getActiveTab': {
@@ -109,7 +114,6 @@ const messageListener = (request, sender: chrome.runtime.MessageSender, sendResp
 			}
 
 			return true;
-			break;
 		}
 		case 'getShortcut': {
 			runTimeHandler.commands
@@ -122,7 +126,6 @@ const messageListener = (request, sender: chrome.runtime.MessageSender, sendResp
 				})
 				.catch(Logger.logError);
 			return true;
-			break;
 		}
 		default:
 			sendResponse(false);

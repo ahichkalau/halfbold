@@ -33,22 +33,45 @@ const getActiveTab = (isBgScript): Promise<chrome.tabs.Tab> =>
 	});
 
 /**
- * @params {chrome.tabs.Tab} [tab = getActiveTab()]
- * the origin of the tab provided or the origin of the active tab if tab is null
+ * Gets the origin of the provided tab, or the active tab if the provided tab is null.
+ * @param {chrome.tabs.Tab | null} tab - The tab whose origin is to be fetched, or null to fetch the active tab's origin.
+ * @returns {Promise<string>} A promise that resolves to the origin of the tab.
  */
-const getTabOrigin = async (/** @type {chrome.tabs.Tab} */ tab): Promise<string> =>
-	new Promise((res, rej) => {
+const getTabOrigin = async (tab = null) => {
+	return new Promise(async (resolve, reject) => {
 		try {
-			chrome.tabs.sendMessage(tab.id, { type: 'getOrigin' }, (/** @type {{data: string}} */ { data }) => {
-				const originError = chrome.runtime?.lastError;
-				if (originError) throw originError;
+			// If tab is null, fetch the active tab
+			if (!tab) {
+				const [activeTab] = await chrome.tabs.query({ active: true, currentWindow: true });
+				tab = activeTab;
+			}
 
-				res(data);
+			// Send message to the content script to get the origin
+			chrome.tabs.sendMessage(tab.id, { type: 'getOrigin' }, (response) => {
+				// Check for errors after message passing
+				if (chrome.runtime.lastError) {
+					Logger.logError(chrome.runtime.lastError.message);
+
+					if (tab.url.startsWith('chrome://')) {
+						Logger.logError('Cannot receive access to chrome://');
+					} else {
+						Logger.logError('Cannot receive access to ${tab.url}');
+					}
+					return;
+				}
+
+				// Check if response is defined and has data
+				if (response && response.data) {
+					resolve(response.data);
+				} else {
+					reject(new Error('No data received from the content script'));
+				}
 			});
 		} catch (err) {
 			Logger.LogLastError(err);
-			rej(err);
+			reject(err);
 		}
 	});
+};
 
 export default { getActiveTab, getTabOrigin, isBackgroundScript };
