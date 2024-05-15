@@ -80,10 +80,22 @@
     "message": "altura de línea",
     "description": "para botones de altura de línea más pequeños y más grandes"
   },
-  "smallerLineHeightBtnText": { "message": "aa-", "description": "texto para el botón" },
-  "smallerLineHeightBtnSubText": { "message": "menor", "description": "subtexto para el botón" },
-  "largerLineHeightBtnText": { "message": "Gam", "description": "texto para el botón" },
-  "largerLineHeightBtnSubText": { "message": "Mayor", "description": "subtexto para el botón" },
+  "smallerLineHeightBtnText": {
+    "message": "aa-",
+    "description": "texto para el botón"
+  },
+  "smallerLineHeightBtnSubText": {
+    "message": "menor",
+    "description": "subtexto para el botón"
+  },
+  "largerLineHeightBtnText": {
+    "message": "Gam",
+    "description": "texto para el botón"
+  },
+  "largerLineHeightBtnSubText": {
+    "message": "Mayor",
+    "description": "subtexto para el botón"
+  },
   "defaultBionicModeToggleBtnOffText": {
     "message": "apagar siempre",
     "description": "texto para el botón"
@@ -100,9 +112,18 @@
     "message": "restablecer a la configuración óptima",
     "description": "texto para el botón"
   },
-  "faqLinkText": { "message": "Preguntas más frecuentes", "description": "texto del enlace" },
-  "reportIssueLinkText": { "message": "problema del informe", "description": "texto del enlace" },
-  "aboutUsLinkText": { "message": "sitio web", "description": "texto del enlace" },
+  "faqLinkText": {
+    "message": "Preguntas más frecuentes",
+    "description": "texto del enlace"
+  },
+  "reportIssueLinkText": {
+    "message": "problema del informe",
+    "description": "texto del enlace"
+  },
+  "aboutUsLinkText": {
+    "message": "sitio web",
+    "description": "texto del enlace"
+  },
   "dataEntryMessage": {
     "message": "Apague si el lector de santiamén interfiere con la entrada de datos",
     "description": "Mensaje de texto"
@@ -123,7 +144,10 @@
     "message": "ayúdanos con las tranlaciones. haga clic para obtener más información",
     "description": "Mensaje de texto"
   },
-  "reloadText": { "message": "recargar", "description": "Mensaje de texto" },
+  "reloadText": {
+    "message": "recargar",
+    "description": "Mensaje de texto"
+  },
   "openPermissionPageBtnText": {
     "message": "haga clic aquí para abrir la página de permisos",
     "description": "texto del botón"
@@ -148,9 +172,36 @@
     "message": "Esta página no es compatible",
     "description": "Mensaje de texto"
   },
-  "pageNotDetectedText": { "message": "Página no detectada", "description": "Mensaje de texto" },
+  "pageNotDetectedText": {
+    "message": "Página no detectada",
+    "description": "Mensaje de texto"
+  },
   "surveyPromptText": {
     "message": "realizar una breve encuesta para ayudarnos a mejorar JR",
     "description": "Mensaje de texto"
+  },
+  "advancedSettings": {
+    "message": "Configuraciones avanzadas",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "Recargar para el modo de lectura",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "Modo local desactivado. Desactivar globalmente",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "Aplicar efectos a toda la página",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "Aplicar efectos solo al texto visible",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "Elija cómo se aplican los efectos",
+    "description": "sub text for the button"
   }
 }

@@ -131,5 +131,29 @@
   "surveyPromptText": {
     "message": "نگاهی به بررسی کوتاه برای کمک به ما بهبود JR",
     "description": "پیامک"
+  },
+  "advancedSettings": {
+    "message": "تنظیمات پیشرفته",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "بارگذاری مجدد برای حالت خواندن",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "حالت محلی خاموش است. برای غیرفعال کردن سراسری",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "اعمال افکت‌ها به کل صفحه",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "اعمال افکت‌ها فقط به متن قابل مشاهده",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "انتخاب نحوه اعمال افکت‌ها",
+    "description": "sub text for the button"
   }
 }

@@ -69,7 +69,7 @@ const usePrefs = (
 		(async () => {
 			Logger.logInfo('watching orign', getOrigin, !getOrigin);
 			if (!getOrigin) {
-				// Logger.logError('Error: getOrigin invalid', getOrigin);
+				//Logger.logError('Error: getOrigin invalid', getOrigin);
 				return;
 			}
 

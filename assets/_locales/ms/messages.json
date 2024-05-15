@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "mengambil tinjauan ringkas untuk membantu kami memperbaiki JR",
         "description": "Teks"
+    },
+    "advancedSettings": {
+        "message": "Tetapan Lanjutan",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "Muat semula untuk Mod Baca",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "Mod tempatan dimatikan. Nyahaktifkan secara global",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "Guna kesan ke seluruh halaman",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "Guna kesan hanya kepada teks yang kelihatan",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "Pilih bagaimana kesan dikenakan",
+        "description": "sub text for the button"
     }
 }

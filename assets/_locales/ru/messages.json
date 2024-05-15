@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "пройдите короткий опрос, чтобы помочь нам улучшить JR",
         "description": "текстовка"
+    },
+    "advancedSettings": {
+        "message": "Расширенные настройки",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "Перезагрузите для режима чтения",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "Локальный режим выключен. Отключить глобально",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "Применить ко всей странице",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "Применить к видимому тексту",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "Выберите, как применять эффекты",
+        "description": "sub text for the button"
     }
 }

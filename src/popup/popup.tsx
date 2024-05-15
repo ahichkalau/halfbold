@@ -5,6 +5,7 @@ import Logger from '~services/Logger';
 import TabHelper from '~services/TabHelper';
 import usePrefs from '~services/usePrefs';
 
+import arrowDownImage from '../../assets/images/arrow_down.png';
 import reloadImage from '../../assets/images/reload.png';
 import unsupportedImage from '../../assets/images/unsupported.png';
 
@@ -37,15 +38,10 @@ const { setAttribute, setProperty, getProperty, getAttribute, setSaccadesStyle }
 const FIXATION_OPACITY_STOPS = 5;
 const FIXATION_OPACITY_STOP_UNIT_SCALE = Math.floor(100 / FIXATION_OPACITY_STOPS);
 
-const SHOW_FOOTER_MESSAGE_DURATION = 12_000;
-const FOOT_MESSAGAES_ANIMATION_DELAY = 300;
-const FIRST_FOOTER_MESSAGE_INDEX = 1;
 const SHOW_RATING_AFTER_INTERVAL = 3 * 24 * 60 * 60 * 1000;
 
-function IndexPopupOld() {
+function PopupPage() {
 	const [activeTab, setActiveTab] = useState({} as chrome.tabs.Tab);
-	const [footerMessageIndex, setFooterMeessageIndex] = useState(null);
-	const [isDebugDataVisible, setIsDebugDataVisible] = useShowDebugSwitch();
 	const [showRating, setShowRating] = useState(false);
 	const [counter, setCounter] = useState(0);
 
@@ -76,6 +72,7 @@ function IndexPopupOld() {
 	const handleCloseRatingPrompt = () => {
 		setShowRating(false);
 	};
+
 	const [prefs, setPrefs] = usePrefs(async () => await TabHelper.getTabOrigin(await TabHelper.getActiveTab(true)), true, process.env.TARGET);
 
 	const [tabSession, setTabSession] = useState<TabSession>(null);
@@ -84,10 +81,6 @@ function IndexPopupOld() {
 		key: APP_PREFS_STORE_KEY,
 		area: STORAGE_AREA,
 	});
-
-	const footerMessagesLength = 3;
-	const nextMessageIndex = (oldFooterMessageIndex) =>
-		typeof oldFooterMessageIndex !== 'number' ? FIRST_FOOTER_MESSAGE_INDEX : (oldFooterMessageIndex + 1) % footerMessagesLength;
 
 	useEffect(() => {
 		if (!tabSession) return;
@@ -121,7 +114,7 @@ function IndexPopupOld() {
 		})();
 
 		runTimeHandler.runtime.onMessage.addListener((request, sender, sendResponse) => {
-			Logger.logInfo('PopupMessageListenerFired');
+			Logger.logInfo('PopupMessageListenerFired PopupPage');
 
 			switch (request.message) {
 				case 'setIconBadgeText': {
@@ -136,20 +129,6 @@ function IndexPopupOld() {
 				}
 			}
 		});
-
-		let footerInterval;
-
-		setTimeout(() => {
-			setFooterMeessageIndex(nextMessageIndex);
-
-			footerInterval = setInterval(() => {
-				setFooterMeessageIndex(nextMessageIndex);
-			}, SHOW_FOOTER_MESSAGE_DURATION);
-		}, FOOT_MESSAGAES_ANIMATION_DELAY);
-
-		return () => {
-			clearInterval(footerInterval);
-		};
 	}, []);
 
 	const makeUpdateChangeEventHandler =
@@ -164,16 +143,23 @@ function IndexPopupOld() {
 	};
 
 	const handleToggle = (newBrMode: boolean) => {
-		const payload = {
+		const payloadTab = {
 			type: 'setReadingMode',
-			message: 'setIconBadgeText',
 			data: newBrMode,
 		};
+
+		const payloadBadge = {
+			message: 'setIconBadgeText',
+			data: newBrMode,
+			tabID: tabSession.tabID,
+		};
+
+		Logger.logInfo('!!! handle toggle');
 		handleIncrementCounter();
 		setTabSession({ ...tabSession, brMode: newBrMode });
-		(runTimeHandler as typeof chrome).runtime.sendMessage(payload, () => Logger.LogLastError());
+		(runTimeHandler as typeof chrome).runtime.sendMessage(payloadBadge, () => Logger.LogLastError());
 
-		TabHelper.getActiveTab(true).then((tab) => chrome.tabs.sendMessage(tab.id, payload, () => Logger.LogLastError()));
+		TabHelper.getActiveTab(true).then((tab) => chrome.tabs.sendMessage(tab.id, payloadTab, () => Logger.LogLastError()));
 	};
 
 	const showOptimal = (key: string, value = null) => {
@@ -229,35 +215,6 @@ function IndexPopupOld() {
 			</div>
 		</>
 	);
-
-	const showDebugInline = (environment = 'production') => {
-		if (/production/i.test(environment)) return;
-
-		const debugData = (
-			<>
-				<span className="w-full">tabSession {JSON.stringify(tabSession)}</span>
-				<span className="w-full">prefs: {JSON.stringify(prefs)}</span>
-				<span className="w-full">appConfigPrefs: {JSON.stringify(appConfigPrefs)}</span>
-				<span className="w-full">footerMessageIndex: {footerMessageIndex}</span>
-			</>
-		);
-
-		return (
-			<div className=" || flex flex-column || w-full text-wrap p-1">
-				<label htmlFor="isDebugDataVisibleInput">
-					show
-					<input
-						type="checkbox"
-						name="isDebugDataVisibleInput"
-						id="isDebugDataVisibleInput"
-						onChange={(event) => setIsDebugDataVisible(event.currentTarget.checked)}
-						checked={isDebugDataVisible}
-					/>
-				</label>
-				{isDebugDataVisible && debugData}
-			</div>
-		);
-	};
 
 	const reloadActiveTab = async (_activeTab = activeTab) => {
 		await chrome.tabs.reload(_activeTab.id);
@@ -332,6 +289,18 @@ function IndexPopupOld() {
 	const showAdvancedSettings = () => {
 		return (
 			<>
+				<div className="w-100 pr-mr">
+					<button
+						id="betaMode"
+						className={`|| flex flex-column || w-100 align-items-center text-capitalize ${prefs.renderModeBeta ? 'selected' : ''}`}
+						onClick={() => updateConfig('renderModeBeta', !prefs.renderModeBeta)}>
+						<span className="text-bold">
+							{chrome.i18n.getMessage(prefs.renderModeBeta ? 'defaultBetaModeToggleBtnOnText' : 'defaultBetaModeToggleBtnOffText')}
+						</span>
+						<span className="text-sm pt-sm">{chrome.i18n.getMessage('defaultBetaModeToggleBtnSubText')}</span>
+					</button>
+				</div>
+
 				<div className="flex flex-column">
 					<div className="flex w-100 justify-between">
 						<div className="w-100 pr-mr">
@@ -519,47 +488,98 @@ function IndexPopupOld() {
 		setShowAdvancedSettingsButton(!showAdvancedSettingsButton);
 	};
 
+	const [showMessage, setShowMessage] = useState(false);
+	const [showTurnOffMessage, setTurnOffMessage] = useState(false);
+	useEffect(() => {
+		let timer;
+		if (showMessage) {
+			timer = setTimeout(() => {
+				setShowMessage(false);
+			}, 15000);
+		}
+		return () => clearTimeout(timer);
+	}, [showMessage]);
+
+	useEffect(() => {
+		let timer;
+		if (showTurnOffMessage) {
+			timer = setTimeout(() => {
+				setTurnOffMessage(false);
+			}, 5000);
+		}
+		return () => clearTimeout(timer);
+	}, [showTurnOffMessage]);
+
 	return (
-		<>
-			{showDebugInline(process.env.NODE_ENV)}
-			{errorOccured ? (
-				showErrorMessage()
-			) : (
-				<div className="popup-container || flex flex-column  | gap-1" br-mode={tabSession.brMode ? 'On' : 'Off'}>
-					<button
-						id="readingModeToggleBtn"
-						className={`|| flex flex-column || w-100 align-items-center text-capitalize ${tabSession?.brMode ? 'selected' : ''}`}
-						onClick={() => handleToggle(!tabSession.brMode)}>
-						<span>{chrome.i18n.getMessage(tabSession?.brMode ? 'onOffToggleBtnTextDisable' : 'onOffToggleBtnTextEnable')}</span>
-						<span>{chrome.i18n.getMessage('onOffToggleBtnSubText')}</span>
-						<Shortcut />
-					</button>
+		<div className={`jr_wrapper_container ${appConfigPrefs?.displayColorMode}-mode text-capitalize`}>
+			<div className="popup-body || flex flex-column || text-alternate">
+				{errorOccured ? (
+					showErrorMessage()
+				) : (
+					<div className={`popup-container || flex flex-column ${appConfigPrefs?.displayColorMode}-mode | gap-1`}>
+						<button
+							id="readingModeToggleBtn"
+							className={`|| flex flex-column || w-100 align-items-center text-capitalize ${tabSession?.brMode ? 'selected' : ''}`}
+							onClick={() => {
+								setTurnOffMessage(prefs.onPageLoad && tabSession?.brMode);
+								handleToggle(!tabSession.brMode);
+							}}>
+							<span>{chrome.i18n.getMessage(tabSession?.brMode ? 'onOffToggleBtnTextDisable' : 'onOffToggleBtnTextEnable')}</span>
+							<span>{chrome.i18n.getMessage('onOffToggleBtnSubText')}</span>
+							<Shortcut />
+						</button>
+						{showTurnOffMessage && (
+							<>
+								<label style={{ fontSize: '6vw' }} className="w-30 mb-sm responsive-label">
+									{chrome.i18n.getMessage('localModeTip')}
+								</label>
+								<img src={arrowDownImage} alt="arrowDown" width="80px" height="80px" style={{ display: 'block', margin: 'auto' }} />
+							</>
+						)}
 
-					<button
-						id="onPageLoadBtn"
-						className={`|| flex flex-column || w-100 align-items-center text-capitalize ${prefs.onPageLoad ? 'selected' : ''}`}
-						onClick={() => updateConfig('onPageLoad', !prefs.onPageLoad)}>
-						<span className="text-bold">
-							{chrome.i18n.getMessage(prefs.onPageLoad ? 'defaultBionicModeToggleBtnOffText' : 'defaultBionicModeToggleBtnOnText')}
-						</span>
-						<span className="text-sm pt-sm">{chrome.i18n.getMessage('defaultBionicModeToggleBtnSubText')}</span>
-					</button>
+						<button
+							id="onPageLoadBtn"
+							className={`|| flex flex-column || w-100 align-items-center text-capitalize ${prefs.onPageLoad ? 'selected' : ''}`}
+							onClick={() => {
+								setShowMessage(!prefs.onPageLoad && !tabSession?.brMode);
+								updateConfig('onPageLoad', !prefs.onPageLoad);
+							}}>
+							<span className="text-bold">
+								{chrome.i18n.getMessage(prefs.onPageLoad ? 'defaultBionicModeToggleBtnOffText' : 'defaultBionicModeToggleBtnOnText')}
+							</span>
+							<span>{chrome.i18n.getMessage('defaultBionicModeToggleBtnSubText')}</span>
+						</button>
+						{showMessage && (
+							<>
+								<label className="info_label mb-sm">{chrome.i18n.getMessage('reloadForReadingMode')}</label>
+								<button
+									className="text-capitalize"
+									style={{ fontSize: '1.6rem' }}
+									onClick={() => {
+										reloadActiveTab();
+										setShowMessage(false);
+									}}>
+									{chrome.i18n.getMessage('reloadText')}
+								</button>
+							</>
+						)}
 
-					<button
-						className="|| flex flex-column || w-100 align-items-center text-capitalize"
-						style={{ marginBottom: '10px' }}
-						onClick={toggleAdvancedSettings}>
-						{chrome.i18n.getMessage('advancedSettings')}
-					</button>
+						<button
+							className="|| flex flex-column || w-100 align-items-center text-capitalize"
+							style={{ marginBottom: '10px' }}
+							onClick={toggleAdvancedSettings}>
+							<span className="text-bold">{chrome.i18n.getMessage('advancedSettings')}</span>
+						</button>
 
-					{showAdvancedSettingsButton && showAdvancedSettings()}
+						{showAdvancedSettingsButton && showAdvancedSettings()}
 
-					{showRating && <RatingPrompt onClose={handleCloseRatingPrompt} />}
-				</div>
-			)}
-			{!errorOccured && <footer className="popup_footer || flex flex-column || gap-1">{getFooterLinks()}</footer>}
-		</>
+						{showRating && <RatingPrompt onClose={handleCloseRatingPrompt} />}
+					</div>
+				)}
+				{!errorOccured && <footer className="popup_footer || flex flex-column || gap-1">{getFooterLinks()}</footer>}
+			</div>
+		</div>
 	);
 }
 
-export default IndexPopupOld;
+export default PopupPage;

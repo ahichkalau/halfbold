@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "пройдіть коротке опитування, щоб допомогти нам покращити JR",
         "description": "Текст"
+    },
+    "advancedSettings": {
+        "message": "Розширені налаштування",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "Перезавантажте для режиму читання",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "Локальний режим вимкнено. Вимкніть глобально",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "Застосувати до всієї сторінки",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "Застосувати лише до видимого тексту",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "Оберіть як застосовувати ефекти",
+        "description": "sub text for the button"
     }
 }

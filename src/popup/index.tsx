@@ -13,12 +13,12 @@ import documentParser from '~services/documentParser';
 import runTimeHandler from '~services/runTimeHandler';
 
 import PopupContextProvider from './context';
-import IndexPopupOld from './indexOld';
+import PopupPage from './popup';
 import { useShowDebugSwitch } from './shorcut';
 
 const badCapScroll = /safari/i.test(process.env.TARGET) ? { overflowY: 'scroll', height: '600px' } : {};
 
-const DisplayVersion = IndexPopupOld;
+const DisplayVersion = PopupPage;
 
 const popupLogStyle = 'background:cyan;color:brown';
 

@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "készítsen rövid felmérést, hogy segítsen nekünk a JR fejlesztésében",
         "description": "SMS"
+    },
+    "advancedSettings": {
+        "message": "Haladó beállítások",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "Újratöltés olvasó módba",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "Helyi mód ki van kapcsolva. Globális letiltás",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "Effektusok alkalmazása az egész oldalon",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "Effektusok alkalmazása csak a látható szövegre",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "Válassza ki, hogyan alkalmazzák az effektusokat",
+        "description": "sub text for the button"
     }
 }

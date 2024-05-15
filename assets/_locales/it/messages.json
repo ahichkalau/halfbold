@@ -179,5 +179,29 @@
   "surveyPromptText": {
     "message": "fai un breve sondaggio per aiutarci a migliorare JR",
     "description": "Testo"
+  },
+  "advancedSettings": {
+    "message": "Impostazioni avanzate",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "Ricarica per la modalità di lettura",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "Modalità locale disattivata. Disattiva globalmente",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "Applica effetti a tutta la pagina",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "Applica effetti solo al testo visibile",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "Scegli come applicare gli effetti",
+    "description": "sub text for the button"
   }
 }

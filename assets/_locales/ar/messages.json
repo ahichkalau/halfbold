@@ -179,5 +179,29 @@
   "surveyPromptText": {
     "message": "إجراء مسح قصير لمساعدتنا على تحسين JR",
     "description": "نص"
+  },
+  "advancedSettings": {
+    "message": "الإعدادات المتقدمة",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "أعد التحميل لتفعيل وضع القراءة",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "تم إيقاف الوضع المحلي. للتعطيل على مستوى العالم",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "تطبيق التأثيرات على الصفحة بأكملها",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "تطبيق التأثيرات على النص المرئي فقط",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "اختر كيفية تطبيق التأثيرات",
+    "description": "sub text for the button"
   }
 }

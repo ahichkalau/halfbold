@@ -80,18 +80,18 @@ const messageListener = (request, sender: chrome.runtime.MessageSender, sendResp
 		case 'setIconBadgeText': {
 			(async () => {
 				try {
-				const tabID = request?.tabID ?? (await TabHelper.getActiveTab(true)).id;
-				Logger.logInfo('setIconBadgeText', { tabID });
+					const tabID = request?.tabID ?? (await TabHelper.getActiveTab(true)).id;
+					Logger.logInfo('setIconBadgeText', { tabID });
 
-				setBadgeText({
-					text: request.data ? '❚❚' : '▶',
-					tabId: tabID,
-				});
+					setBadgeText({
+						text: request.data ? '❚❚' : '▶',
+						tabId: tabID,
+					});
 
-				setBadgeBackgroundColor({
-					color: request.data ? '#ff0000' : '#42b883',
-					tabId: tabID,
-				});
+					setBadgeBackgroundColor({
+						color: request.data ? '#ff0000' : '#42b883',
+						tabId: tabID,
+					});
 
 					sendResponse({ data: true });
 				} catch (err) {

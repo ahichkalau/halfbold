@@ -2,7 +2,7 @@ import { useStorage } from '@plasmohq/storage';
 import contentStyle from 'data-text:./../styles/contentStyle.scss';
 import type { TabSession } from 'index';
 import type { PlasmoContentScript } from 'plasmo';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import Logger from '~services/Logger';
 import documentParser from '~services/documentParser';
@@ -73,8 +73,10 @@ const isTopmostWindowContext = () => window.self === window.top;
 
 const IndexContent = () => {
 	const [prefs] = usePrefs(async () => window.location.origin, false);
+	const prevPrefs = useRef(prefs);
 
 	const [tabSession, setTabSession] = useState<TabSession | null>(null);
+	const prevTabSession = useRef(tabSession);
 
 	const [isExpanded, setExpanded] = useStorage({ area: 'local', key: 'show_debug_overlay' }, async (previous) =>
 		typeof previous !== 'boolean' ? false : previous,
@@ -89,7 +91,7 @@ const IndexContent = () => {
 		Logger.logInfo('%cchromeRuntimMessageHandler.fired', contentLogStyle);
 		switch (message.type) {
 			case 'getOrigin': {
-				Logger.logInfo('reply to origin request');
+				Logger.logInfo('reply to origin request windows', window.location.origin);
 				sendResponse({ data: window.location.origin });
 				break;
 			}
@@ -113,13 +115,6 @@ const IndexContent = () => {
 	};
 
 	useEffect(() => {
-		Logger.logInfo(
-			'%cTabSession same: %s   prefs same:%s',
-			contentLogStyle,
-			document.body.dataset.tabsession === JSON.stringify(tabSession),
-			document.body.dataset.prefs === JSON.stringify(prefs),
-		);
-
 		if (prefs && !tabSession) {
 			const hasLatex = prefs.onPageLoad && documentParser.hasLatex(document.body.textContent);
 			const delay = hasLatex ? prefs.autoOnDelay : 0;
@@ -135,24 +130,46 @@ const IndexContent = () => {
 
 		if (!prefs || !tabSession) return;
 
-		Logger.logInfo('content.tsx.useEffect', { prefs, tabSession });
+		Logger.logInfo('Prefs Old %s New %s', JSON.stringify(prevPrefs), JSON.stringify(prefs));
 
-		runTimeHandler.runtime.sendMessage(
-			{
-				message: 'setIconBadgeText',
-				data: tabSession.brMode,
-				tabID: tabSession.tabID,
-			},
-			() => Logger.LogLastError(),
-		);
+		Logger.logInfo('Tabs Old %s New %s', JSON.stringify(prevTabSession), JSON.stringify(tabSession));
+		const isChanged = () => {
+			// Ensure both current and previous prefs are defined before checking their properties.
+			if (!prevPrefs.current || !prevTabSession.current) return true;
 
-		documentParser.setReadingMode(tabSession.brMode, document, contentStyle);
-		setProperty('--fixation-edge-opacity', prefs.fixationEdgeOpacity + '%');
-		setProperty('--br-line-height', prefs.lineHeight);
-		setSaccadesStyle(prefs.saccadesStyle);
-		setAttribute('saccades-color', prefs.saccadesColor);
-		setAttribute('fixation-strength', prefs.fixationStrength);
-		setAttribute('saccades-interval', prefs.saccadesInterval);
+			return (
+				prevPrefs.current.fixationEdgeOpacity !== prefs.fixationEdgeOpacity ||
+				prevPrefs.current.lineHeight !== prefs.lineHeight ||
+				prevPrefs.current.saccadesStyle !== prefs.saccadesStyle ||
+				prevPrefs.current.saccadesColor !== prefs.saccadesColor ||
+				prevPrefs.current.fixationStrength !== prefs.fixationStrength ||
+				prevPrefs.current.saccadesInterval !== prefs.saccadesInterval ||
+				prevTabSession.current.brMode !== tabSession.brMode
+			);
+		};
+
+		if (!prevPrefs.current || prevTabSession.current?.brMode !== tabSession.brMode || prevTabSession.current.origin !== tabSession.origin) {
+			chrome.runtime.sendMessage(
+				{
+					message: 'setIconBadgeText',
+					data: tabSession.brMode,
+				},
+				() => Logger.LogLastError(),
+			);
+		}
+
+		Logger.logInfo('Is changed ', isChanged());
+		if (isChanged()) {
+			documentParser.setReadingMode(tabSession.brMode, document, contentStyle);
+			setProperty('--fixation-edge-opacity', prefs.fixationEdgeOpacity + '%');
+			setProperty('--br-line-height', prefs.lineHeight);
+			setSaccadesStyle(prefs.saccadesStyle);
+			setAttribute('saccades-color', prefs.saccadesColor);
+			setAttribute('fixation-strength', prefs.fixationStrength);
+			setAttribute('saccades-interval', prefs.saccadesInterval);
+		}
+		prevPrefs.current = prefs;
+		prevTabSession.current = tabSession;
 	}, [prefs, tabSession]);
 
 	useEffect(() => {
@@ -174,7 +191,7 @@ const IndexContent = () => {
 					{getCollapseExpandBtn()}
 				</span>
 				<div className="flex flex-column">
-					<span>{!prefs || !tabSession ? 'Loading... or broken but probably loading' : 'JiffyReady to the moon'}</span>
+					<span>{!prefs || !tabSession ? 'Loading... or broken but probably loading' : 'Ready'}</span>
 				</div>
 				<span>{JSON.stringify(tabSession)}</span>
 				<span>

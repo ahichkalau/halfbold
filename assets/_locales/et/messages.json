@@ -179,5 +179,29 @@
   "surveyPromptText": {
     "message": "tehke lühike küsitlus, et aidata meil JR-i parandada",
     "description": "Tekst"
+  },
+  "advancedSettings": {
+    "message": "Täpsemad seaded",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "Laadi uuesti lugemisrežiimi jaoks",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "Kohalik režiim välja lülitatud. Keela globaalselt",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "Rakenda efektid kogu lehele",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "Rakenda efektid ainult nähtavale tekstile",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "Vali, kuidas efekte rakendatakse",
+    "description": "sub text for the button"
   }
 }

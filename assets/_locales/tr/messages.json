@@ -179,5 +179,29 @@
   "surveyPromptText": {
     "message": "Kısa Bir Ankete Katılarak JR'ın Gelişmesine Yardımcı Olabilirsiniz",
     "description": "metin"
+  },
+  "advancedSettings": {
+    "message": "Gelişmiş Ayarlar",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "Okuma Modu için Yeniden Yükle",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "Yerel mod kapalı. Küresel olarak devre dışı bırakın",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "Etkileri tüm sayfaya uygula",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "Etkileri sadece görünen metne uygula",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "Etkilerin nasıl uygulanacağını seçin",
+    "description": "sub text for the button"
   }
 }

@@ -1,4 +1,5 @@
 import Logger from '~services/Logger';
+import { USER_PREF_STORE_KEY } from '~services/config';
 import defaultPrefs from '~services/preferences';
 
 import NodeObserver from './observer';
@@ -6,13 +7,11 @@ import { makeExcluder } from './siteElementExclusions';
 import siteOverrides from './siteOverrides';
 
 const { MAX_FIXATION_PARTS, FIXATION_LOWER_BOUND, BR_WORD_STEM_PERCENTAGE } = defaultPrefs;
-
 // which tag's content should be ignored from bolded
 const IGNORE_NODE_TAGS = ['STYLE', 'SCRIPT', 'BR-SPAN', 'BR-FIXATION', 'BR-BOLD', 'BR-EDGE', 'SVG', 'INPUT', 'TEXTAREA'];
 const MUTATION_TYPES = ['childList', 'characterData'];
 
 const IGNORE_MUTATIONS_ATTRIBUTES = ['br-ignore-on-mutation'];
-
 /** @type {NodeObserver} */
 let observer;
 
@@ -60,14 +59,13 @@ function makeFixations(textContent: string) {
 	return fixationsSplits.join('');
 }
 
-function isTextNodeWithLatex(node: Node) {
+function isTextNodeWithLatex(node) {
 	const result = node.nodeType === Node.TEXT_NODE && hasLatex(node.textContent);
 	// Logger.logInfo('found text_node with latex', result);
 	return result;
 }
 
-function parseNode(node: Node) {
-	// some websites add <style>, <script> tags in the <body>, ignore these tags
+function parseNode(node) {
 	if (!node?.parentElement?.tagName || IGNORE_NODE_TAGS.includes(node.parentElement.tagName)) {
 		return;
 	}
@@ -83,49 +81,74 @@ function parseNode(node: Node) {
 		return;
 	}
 
-	if (node.nodeType === Node.TEXT_NODE && node.nodeValue.length) {
+	if (node.nodeType === Node.TEXT_NODE && node.nodeValue.trim().length > 2) {
+		Logger.logInfo(node.nodeValue);
 		try {
 			const brSpan = document.createElement('br-span');
-
 			brSpan.innerHTML = highlightText(node.nodeValue);
 
-			if (brSpan.childElementCount === 0) return;
-
-			// to avoid duplicates of brSpan, check it if
-			// this current textNode has a left sibling of br span
-			// we know that is possible because
-			// we will specifically insert the br-span
-			// on the left of a text node, and keep
-			// the text node alive later. so if we get to
-			// this text node again. that means that the
-			// text node was updated and the br span is now stale
-			// so remove that if exist
 			if (node.previousSibling?.tagName === 'BR-SPAN') {
-				node.parentElement.removeChild(node.previousSibling);
+				node.previousSibling.remove();
 			}
 
-			// dont replace for now, cause we're keeping it alive
-			// below
-			// node.parentElement.replaceChild(brSpan, node);
-
-			// keep the textNode alive in the dom, but
-			// empty it's contents
-			// and insert the brSpan just before it
-			// we need the text node alive because
-			// youtube has some reference for it internally
-			// and we want to listen to it when it changes
 			node.parentElement.insertBefore(brSpan, node);
 			node.textContent = '';
-		} catch (error) {
-			Logger.logError(error);
-		}
-		return;
-	}
 
-	if (node.hasChildNodes()) [...node.childNodes].forEach(parseNode);
+			//parent.replaceChild(brSpan, node);
+		} catch (err) {
+			Logger.logError(err);
+		}
+	} else if (node.hasChildNodes()) {
+		Array.from(node.childNodes).forEach((child) => parseNode(child));
+	}
 }
 
-const setReadingMode = (enableReading, /** @type {Document} */ document, contentStyle) => {
+const setReadingMode = (enableReading, document, contentStyle) => {
+	if (true) {
+		return setReadingModeBeta(enableReading, document, contentStyle);
+	} else {
+		return setReadingModeStandard(enableReading, document, contentStyle);
+	}
+};
+
+const setReadingModeBeta = (enableReading, document, contentStyle) => {
+	Logger.logInfo('reading mode beta');
+	const endTimer = Logger.logTime('ToggleReading-Time');
+	origin = document?.URL ?? '';
+	excludeByOrigin = makeExcluder(origin);
+
+	try {
+		if (enableReading) {
+			const containsBoldElements = document.querySelector('br-bold') !== null;
+
+			if (!containsBoldElements) {
+				addStyles(contentStyle, document);
+			}
+
+			document.body.setAttribute('br-mode', 'on');
+			observeVisibleNodes();
+
+			if (!observer) {
+				observer = new NodeObserver(document.body, null, mutationCallback);
+				observer.observe();
+			}
+		} else {
+			document.body.setAttribute('br-mode', 'off');
+			unobserveNodes();
+			if (observer) {
+				observer.destroy();
+				observer = null;
+			}
+		}
+	} catch (error) {
+		Logger.logError(error);
+	} finally {
+		endTimer();
+	}
+};
+
+const setReadingModeStandard = (enableReading, /** @type {Document} */ document, contentStyle) => {
+	Logger.logInfo('reading mode standart');
 	const endTimer = Logger.logTime('ToggleReading-Time');
 	origin = document?.URL ?? '';
 	excludeByOrigin = makeExcluder(origin);
@@ -184,9 +207,54 @@ function mutationCallback(mutationRecords: MutationRecord[]) {
 		// To account for that,
 		// recursively parse the target node as well
 		// parseNode(target);
-		[...addedNodes, target]?.filter((node) => !ignoreOnMutation(node))?.forEach(parseNode);
+
+		[...addedNodes, target].forEach((node) => {
+			if (!ignoreOnMutation(node)) {
+				parseNode(node);
+			}
+		});
 	});
 }
+
+const observedNodes = new Set();
+
+function observeVisibleNodes() {
+	const nodes = document.body.querySelectorAll('div, span, p, li, a');
+	nodes.forEach((node) => {
+		observerInteraction.observe(node);
+		observedNodes.add(node);
+	});
+}
+
+function unobserveNodes() {
+	Logger.logInfo('Unobserve noddes', observedNodes);
+	observedNodes.forEach((node: Node) => {
+		if (node instanceof Element) {
+			observerInteraction.unobserve(node);
+		} else {
+			console.error('Attempted to unobserve a non-element node');
+		}
+		observedNodes.delete(node);
+	});
+	observerInteraction.disconnect();
+}
+
+const screenHeight = window.innerHeight;
+const observerInteraction = new IntersectionObserver(
+	(entries, observer) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				parseNode(entry.target);
+				observer.unobserve(entry.target);
+			}
+		});
+	},
+	{
+		root: null,
+		threshold: 0.1,
+		rootMargin: `${screenHeight}px 0px ${screenHeight}px 0px`,
+	},
+);
 
 function addStyles(styleText, document) {
 	const style = document.createElement('style');
@@ -222,6 +290,22 @@ const setSaccadesStyle = (documentRef) => (style) => {
 		setProperty(documentRef)('--br-boldness', '');
 	}
 };
+
+// function getConfigFromStorage() {
+// 	const storedConfig = localStorage.getItem(USER_PREF_STORE_KEY);
+// 	return storedConfig ? JSON.parse(storedConfig) : null;
+// }
+
+// function getShowBetaValue() {
+// 	const config = getConfigFromStorage();
+// 	if (!config || !config.global) {
+// 		console.log('No global configuration found.');
+// 		return null;
+// 	}
+
+// 	const showBeta = config.global.renderModeBeta;
+// 	return showBeta;
+// }
 
 export default {
 	setReadingMode,

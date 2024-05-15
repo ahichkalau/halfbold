@@ -179,5 +179,29 @@
   "surveyPromptText": {
     "message": "neem kort opname om ons te help om JR te verbeter",
     "description": "Teks"
+  },
+  "advancedSettings": {
+    "message": "Gevorderde instellings",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "Herlaai vir leesmodus",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "Plaaslike modus af. Skakel globaal af",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "Pas effekte op die hele bladsy toe",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "Pas effekte net op sigbare teks toe",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "Kies hoe effekte toegepas word",
+    "description": "sub text for the button"
   }
 }

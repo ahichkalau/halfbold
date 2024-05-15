@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "JRの改善に役立つ短い調査を受ける",
         "description": "テキスト"
+    },
+    "advancedSettings": {
+        "message": "詳細設定",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "読書モードのために再読み込み",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "ローカルモードはオフです。全体を無効にする",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "ページ全体に効果を適用",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "表示されているテキストにのみ効果を適用",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "効果の適用方法を選択",
+        "description": "sub text for the button"
     }
 }

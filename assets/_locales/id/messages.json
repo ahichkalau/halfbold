@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "ikuti survei singkat untuk membantu kami meningkatkan JR",
         "description": "Teks"
+    },
+    "advancedSettings": {
+        "message": "Pengaturan Lanjutan",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "Muat ulang untuk mode baca",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "Mode lokal nonaktif. Nonaktifkan secara global",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "Terapkan efek ke seluruh halaman",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "Terapkan efek hanya ke teks yang terlihat",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "Pilih bagaimana efek diterapkan",
+        "description": "sub text for the button"
     }
 }

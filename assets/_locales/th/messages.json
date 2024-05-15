@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "ทําแบบสํารวจสั้น ๆ เพื่อช่วยเราปรับปรุง JR",
         "description": "ข้อความ"
+    },
+    "advancedSettings": {
+        "message": "การตั้งค่าขั้นสูง",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "โหลดใหม่เพื่อโหมดการอ่าน",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "โหมดท้องถิ่นปิดอยู่ ปิดใช้งานทั่วโลก",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "ใช้งานเอฟเฟกต์ทั้งหน้า",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "ใช้งานเอฟเฟกต์เฉพาะข้อความที่แสดง",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "เลือกวิธีการใช้งานเอฟเฟกต์",
+        "description": "sub text for the button"
     }
 }

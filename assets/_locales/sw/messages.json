@@ -80,12 +80,18 @@
     "message": "urefu wa mstari",
     "description": "lebo ya vifungo vidogo na vikubwa vya urefu wa mstari"
   },
-  "smallerLineHeightBtnText": { "message": "aa-", "description": "maandishi kwa kitufe" },
+  "smallerLineHeightBtnText": {
+    "message": "aa-",
+    "description": "maandishi kwa kitufe"
+  },
   "smallerLineHeightBtnSubText": {
     "message": "Ndogo",
     "description": "maandishi madogo kwa kitufe"
   },
-  "largerLineHeightBtnText": { "message": "aa+", "description": "maandishi kwa kitufe" },
+  "largerLineHeightBtnText": {
+    "message": "aa+",
+    "description": "maandishi kwa kitufe"
+  },
   "largerLineHeightBtnSubText": {
     "message": "Kubwa",
     "description": "maandishi madogo kwa kitufe"
@@ -106,14 +112,26 @@
     "message": "weka upya kwa mipangilio bora",
     "description": "maandishi kwa kitufe"
   },
-  "faqLinkText": { "message": "Maswali", "description": "maandishi ya kiungo" },
-  "reportIssueLinkText": { "message": "Suala la ripoti", "description": "maandishi ya kiungo" },
-  "aboutUsLinkText": { "message": "Tovuti", "description": "maandishi ya kiungo" },
+  "faqLinkText": {
+    "message": "Maswali",
+    "description": "maandishi ya kiungo"
+  },
+  "reportIssueLinkText": {
+    "message": "Suala la ripoti",
+    "description": "maandishi ya kiungo"
+  },
+  "aboutUsLinkText": {
+    "message": "Tovuti",
+    "description": "maandishi ya kiungo"
+  },
   "dataEntryMessage": {
     "message": "Zima ikiwa msomaji wa HalfBold anaingilia kuingia kwa data",
     "description": "Ujumbe"
   },
-  "googlePlayLinkSecondaryText": { "message": "kusoma kuungwa mkono", "description": "Ujumbe" },
+  "googlePlayLinkSecondaryText": {
+    "message": "kusoma kuungwa mkono",
+    "description": "Ujumbe"
+  },
   "urlPromptText": {
     "message": "Tabo bila url haziwezi kufanya kazi vizuri",
     "description": "Ujumbe"
@@ -126,7 +144,10 @@
     "message": "tusaidieni na tranlations. bonyeza kujifunza zaidi",
     "description": "Ujumbe"
   },
-  "reloadText": { "message": "Upya", "description": "Ujumbe" },
+  "reloadText": {
+    "message": "Upya",
+    "description": "Ujumbe"
+  },
   "openPermissionPageBtnText": {
     "message": "bonyeza hapa kufungua ukurasa wa ruhusa",
     "description": "maandishi ya kitufe"
@@ -151,9 +172,36 @@
     "message": "Ukurasa huu hauungwi mkono",
     "description": "Ujumbe"
   },
-  "pageNotDetectedText": { "message": "Ukurasa haujagunduliwa", "description": "Ujumbe" },
+  "pageNotDetectedText": {
+    "message": "Ukurasa haujagunduliwa",
+    "description": "Ujumbe"
+  },
   "surveyPromptText": {
     "message": "chukua utafiti mfupi kutusaidia kuboresha JR",
     "description": "Ujumbe"
+  },
+  "advancedSettings": {
+    "message": "Mipangilio ya Juu",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "Pakia tena kwa hali ya kusoma",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "Hali ya ndani imezimwa. Lemaza kote",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "Tumia athari kwa ukurasa mzima",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "Tumia athari kwa maandishi yanaonekana tu",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "Chagua jinsi athari zinavyotumika",
+    "description": "sub text for the button"
   }
 }

@@ -4,9 +4,8 @@ const siteElementExclusions = {
 	'play.google.com': ['.mat-icon-button', 'mat-icon-button', '.scrubber-container', 'header>nav>a'],
 	'app.grammarly.com': ['.editor-editorContainer'],
 	'notion.so': ['.notion-frame'],
-	'reddit.com':['#reddit-logo'],
-	'analytics.google.com':['.mat-icon'],
-	'.': ['[contenteditable]', '[role=textbox]', 'input', 'textarea'], //disable input containers for all domains
+	'youtube.com': ['#tooltip'],
+	'.': ['[contenteditable]', '[role=textbox]', 'input', 'textarea', 'svg', 'img', 'ktx-icon', '.mat-icon'], //disable input and images containers for all domains
 };
 
 export const makeExcluder = (/** @type string */ origin) => {

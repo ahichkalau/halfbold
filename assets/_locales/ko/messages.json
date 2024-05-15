@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "JR을 개선하는 데 도움이되는 간단한 설문 조사를하십시오.",
         "description": "문자 메시지"
+    },
+    "advancedSettings": {
+        "message": "고급 설정",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "읽기 모드를 위해 다시 로드",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "로컬 모드가 꺼져 있습니다. 전역적으로 비활성화하려면",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "전체 페이지에 효과 적용",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "보이는 텍스트에만 효과 적용",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "효과 적용 방법 선택",
+        "description": "sub text for the button"
     }
 }

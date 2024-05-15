@@ -179,5 +179,29 @@
   "surveyPromptText": {
     "message": "جے آر کو بہتر بنانے میں ہماری مدد کے لئے مختصر سروے کریں",
     "description": "متن"
+  },
+  "advancedSettings": {
+    "message": "اعلیٰ ترتیبات",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "پڑھنے کے موڈ کے لئے دوبارہ لوڈ کریں",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "مقامی موڈ بند ہے۔ عالمگیری طور پر غیر فعال کریں",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "پورے صفحے پر اثرات لاگو کریں",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "صرف نظر آنے والے متن پر اثرات لاگو کریں",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "اثرات کو کیسے لاگو کیا جائے انتخاب کریں",
+    "description": "sub text for the button"
   }
 }

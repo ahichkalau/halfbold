@@ -41,7 +41,7 @@
     "description": "onOffToggleBtnTextEnable button text"
   },
   "onOffToggleBtnSubText": {
-    "message": "reading mode",
+    "message": "Reading mode for current page",
     "description": "text for onOffToggleBtnSubText"
   },
   "shortcutLabelText": {
@@ -105,7 +105,7 @@
     "description": "text for the button"
   },
   "defaultBionicModeToggleBtnSubText": {
-    "message": "default toggle preference",
+    "message": "Reading mode for ALL pages",
     "description": "sub text for the button"
   },
   "resetBtnText": {
@@ -183,5 +183,25 @@
   "advancedSettings": {
     "message": "Advanced settings",
     "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "Reload for reading mode",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "Local mode off. To disable globally",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "Apply effects to the entire page",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "Apply effects to visible text",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "Choose how the effects are applied",
+    "description": "sub text for the button"
   }
 }

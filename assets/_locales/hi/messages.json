@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "जेआर को बेहतर बनाने में हमारी मदद करने के लिए लघु सर्वेक्षण करें",
         "description": "टेक्स्ट"
+    },
+    "advancedSettings": {
+        "message": "उन्नत सेटिंग्स",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "पठन मोड के लिए पुनः लोड करें",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "स्थानीय मोड बंद है। सार्वभौमिक रूप से निष्क्रिय करें",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "सभी पृष्ठों पर प्रभाव लागू करें",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "केवल दृश्यमान पाठ पर प्रभाव लागू करें",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "चुनें कि प्रभाव कैसे लागू किए जाएं",
+        "description": "sub text for the button"
     }
 }

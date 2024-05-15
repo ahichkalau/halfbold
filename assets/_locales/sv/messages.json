@@ -179,5 +179,29 @@
     "surveyPromptText": {
         "message": "ta en kort undersökning för att hjälpa oss att förbättra JR",
         "description": "SMS"
+    },
+    "advancedSettings": {
+        "message": "Avancerade inställningar",
+        "description": "text"
+    },
+    "reloadForReadingMode": {
+        "message": "Ladda om för läsläge",
+        "description": "text"
+    },
+    "localModeTip": {
+        "message": "Lokalt läge är av. Inaktivera globalt",
+        "description": "text"
+    },
+    "defaultBetaModeToggleBtnOffText": {
+        "message": "Tillämpa effekter på hela sidan",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnOnText": {
+        "message": "Tillämpa effekter endast på synlig text",
+        "description": "text for the button"
+    },
+    "defaultBetaModeToggleBtnSubText": {
+        "message": "Välj hur effekterna tillämpas",
+        "description": "sub text for the button"
     }
 }

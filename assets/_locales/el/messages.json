@@ -179,5 +179,29 @@
   "surveyPromptText": {
     "message": "κάντε μια σύντομη έρευνα για να μας βοηθήσετε να βελτιώσουμε το JR",
     "description": "Κείμενο"
+  },
+  "advancedSettings": {
+    "message": "Προχωρημένες ρυθμίσεις",
+    "description": "text"
+  },
+  "reloadForReadingMode": {
+    "message": "Επαναφόρτωση για τη λειτουργία ανάγνωσης",
+    "description": "text"
+  },
+  "localModeTip": {
+    "message": "Τοπική λειτουργία απενεργοποιημένη. Απενεργοποίηση παγκοσμίως",
+    "description": "text"
+  },
+  "defaultBetaModeToggleBtnOffText": {
+    "message": "Εφαρμογή εφέ σε ολόκληρη τη σελίδα",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnOnText": {
+    "message": "Εφαρμογή εφέ μόνο στο ορατό κείμενο",
+    "description": "text for the button"
+  },
+  "defaultBetaModeToggleBtnSubText": {
+    "message": "Επιλέξτε πώς εφαρμόζονται τα εφέ",
+    "description": "sub text for the button"
   }
 }
