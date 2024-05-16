@@ -33,22 +33,23 @@ const getActiveTab = (isBgScript): Promise<chrome.tabs.Tab> =>
 	});
 
 /**
- * @params {chrome.tabs.Tab} [tab = getActiveTab()]
- * the origin of the tab provided or the origin of the active tab if tab is null
+ * Function to get the origin URL of the provided tab or the active tab if the tab is null.
+ * @param {chrome.tabs.Tab} [tab] - The tab object.
+ * @returns {Promise<string>} - A promise that resolves to the origin URL of the tab.
  */
-const getTabOrigin = async (/** @type {chrome.tabs.Tab} */ tab): Promise<string> =>
-	new Promise((res, rej) => {
-		try {
-			chrome.tabs.sendMessage(tab.id, { type: 'getOrigin' }, (/** @type {{data: string}} */ { data }) => {
-				const originError = chrome.runtime?.lastError;
-				if (originError) throw originError;
-
-				res(data);
-			});
-		} catch (err) {
-			Logger.LogLastError(err);
-			rej(err);
+const getTabOrigin = async (tab) => {
+	try {
+		// If tab is not provided, get the active tab.
+		const activeTab = tab || (await getActiveTab(true)); // Assuming this is called from a background script
+		if (!activeTab.url) {
+			throw new Error('Active tab does not have a URL.');
 		}
-	});
+		const url = new URL(activeTab.url);
+		return url.origin;
+	} catch (err) {
+		Logger.LogLastError(err);
+		throw err;
+	}
+};
 
 export default { getActiveTab, getTabOrigin, isBackgroundScript };
