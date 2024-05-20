@@ -1,5 +1,4 @@
 import Logger from '~services/Logger';
-import { USER_PREF_STORE_KEY } from '~services/config';
 import defaultPrefs from '~services/preferences';
 
 import NodeObserver from './observer';
@@ -8,10 +7,7 @@ import siteOverrides from './siteOverrides';
 
 const { MAX_FIXATION_PARTS, FIXATION_LOWER_BOUND, BR_WORD_STEM_PERCENTAGE } = defaultPrefs;
 // which tag's content should be ignored from bolded
-const IGNORE_NODE_TAGS = ['STYLE', 'SCRIPT', 'BR-SPAN', 'BR-FIXATION', 'BR-BOLD', 'BR-EDGE', 'SVG', 'INPUT', 'TEXTAREA'];
-const MUTATION_TYPES = ['childList', 'characterData'];
-
-const IGNORE_MUTATIONS_ATTRIBUTES = ['br-ignore-on-mutation'];
+const IGNORE_NODE_TAGS = new Set(['STYLE', 'SCRIPT', 'BR-SPAN', 'BR-FIXATION', 'BR-BOLD', 'BR-EDGE', 'SVG', 'INPUT', 'TEXTAREA', '<!--']);
 /** @type {NodeObserver} */
 let observer;
 
@@ -34,12 +30,6 @@ function highlightText(sentenceText) {
 	});
 }
 
-function hasLatex(sentence: string) {
-	const result = /((\\)([\(\[]|begin))+/.test(sentence);
-	// Logger.logInfo({ node: sentence, result });
-	return result;
-}
-
 function makeFixations(textContent: string) {
 	const COMPUTED_MAX_FIXATION_PARTS = textContent.length >= MAX_FIXATION_PARTS ? MAX_FIXATION_PARTS : textContent.length;
 
@@ -59,61 +49,9 @@ function makeFixations(textContent: string) {
 	return fixationsSplits.join('');
 }
 
-function isTextNodeWithLatex(node) {
-	const result = node.nodeType === Node.TEXT_NODE && hasLatex(node.textContent);
-	// Logger.logInfo('found text_node with latex', result);
-	return result;
-}
-
-function parseNode(node) {
-	if (!node?.parentElement?.tagName || IGNORE_NODE_TAGS.includes(node.parentElement.tagName)) {
-		return;
-	}
-
-	if (node?.parentElement?.closest('body') && excludeByOrigin(node?.parentElement)) {
-		node.parentElement.setAttribute('br-ignore-on-mutation', 'true');
-		Logger.logInfo('found node to exclude', node, node.parentElement);
-		return;
-	}
-
-	if (ignoreOnMutation(node)) {
-		Logger.logInfo('found br-ignore-on-mutation', 'skipping');
-		return;
-	}
-
-	if (node.nodeType === Node.TEXT_NODE && node.nodeValue.trim().length > 2) {
-		Logger.logInfo(node.nodeValue);
-		try {
-			const brSpan = document.createElement('br-span');
-			brSpan.innerHTML = highlightText(node.nodeValue);
-
-			if (node.previousSibling?.tagName === 'BR-SPAN') {
-				node.previousSibling.remove();
-			}
-
-			node.parentElement.insertBefore(brSpan, node);
-			node.textContent = '';
-
-			//parent.replaceChild(brSpan, node);
-		} catch (err) {
-			Logger.logError(err);
-		}
-	} else if (node.hasChildNodes()) {
-		Array.from(node.childNodes).forEach((child) => parseNode(child));
-	}
-}
-
 const setReadingMode = (enableReading, document, contentStyle) => {
-	if (true) {
-		return setReadingModeBeta(enableReading, document, contentStyle);
-	} else {
-		return setReadingModeStandard(enableReading, document, contentStyle);
-	}
-};
-
-const setReadingModeBeta = (enableReading, document, contentStyle) => {
-	Logger.logInfo('reading mode beta');
 	const endTimer = Logger.logTime('ToggleReading-Time');
+
 	origin = document?.URL ?? '';
 	excludeByOrigin = makeExcluder(origin);
 
@@ -147,97 +85,189 @@ const setReadingModeBeta = (enableReading, document, contentStyle) => {
 	}
 };
 
-const setReadingModeStandard = (enableReading, /** @type {Document} */ document, contentStyle) => {
-	Logger.logInfo('reading mode standart');
-	const endTimer = Logger.logTime('ToggleReading-Time');
-	origin = document?.URL ?? '';
-	excludeByOrigin = makeExcluder(origin);
+function hasLatex(sentence: string) {
+	const result = /((\\)([\(\[]|begin))+/.test(sentence);
+	return result;
+}
+
+let changedNodes = new Set<Node>();
+
+function processChangedNodes() {
+	function processBatch() {
+		const nodesToProcess = Array.from(changedNodes).slice(0, 20);
+
+		nodesToProcess.forEach((modifiedNode) => {
+			if (!modifiedNode?.parentElement) {
+				changedNodes.delete(modifiedNode);
+				return;
+			}
+
+			const brSpan = document.createElement('br-span');
+			brSpan.innerHTML = highlightText(modifiedNode.nodeValue);
+			if (modifiedNode.previousSibling instanceof Element && modifiedNode.previousSibling.tagName === 'BR-SPAN') {
+				if (modifiedNode.previousSibling?.innerHTML === brSpan.innerHTML) {
+					changedNodes.delete(modifiedNode);
+					modifiedNode.textContent = '';
+
+					return;
+				}
+				modifiedNode.previousSibling.remove();
+			}
+
+			modifiedNode.parentElement.insertBefore(brSpan, modifiedNode);
+			modifiedNode.textContent = '';
+			changedNodes.delete(modifiedNode);
+		});
+
+		if (changedNodes.size > 0) {
+			requestAnimationFrame(processBatch);
+		}
+	}
 
 	try {
-		if (enableReading) {
-			const boldedElements = document.getElementsByTagName('br-bold');
-
-			// makes sure to only run once regadless of how many times
-			// setReadingMode(true) is called, consecutively
-			if (boldedElements.length < 1) {
-				addStyles(contentStyle, document);
-			}
-
-			document.body.setAttribute('br-mode', 'on');
-			[...document.body.childNodes].forEach(parseNode);
-
-			/** make an observer if one does not exist and body[br-mode=on] */
-			if (!observer) {
-				observer = new NodeObserver(document.body, null, mutationCallback);
-				observer.observe();
-			}
-		} else {
-			document.body.setAttribute('br-mode', 'off');
-			if (observer) {
-				observer.destroy();
-				observer = null;
-			}
-		}
-	} catch (error) {
-		Logger.logError(error);
-	} finally {
-		endTimer();
+		processBatch();
+	} catch (err) {
+		Logger.logError('Unable to parse');
 	}
-};
+}
+
+function parseNode(node) {
+	if (!node?.parentElement?.tagName || IGNORE_NODE_TAGS.has(node.parentElement.tagName)) {
+		return;
+	}
+
+	if (ignoreOnMutation(node)) {
+		//Logger.logInfo('found br-ignore-on-mutation', 'skipping');
+		return;
+	}
+
+	if (node?.parentElement?.closest('body') && excludeByOrigin(node?.parentElement)) {
+		node.parentElement.setAttribute('br-ignore-on-mutation', 'true');
+		return;
+	}
+
+	if (node.nodeType === Node.TEXT_NODE && node.nodeValue.trim().length > 2) {
+		changedNodes.add(node);
+		if (changedNodes.size > 10) {
+			processChangedNodes();
+		}
+	}
+
+	if (node.hasChildNodes()) {
+		Array.from(node.childNodes).forEach((child) => {
+			parseNode(child);
+		});
+	}
+}
+
+// function parseSeveralNodes(node) {
+// 	if (!node?.parentElement?.tagName || IGNORE_NODE_TAGS.has(node.parentElement.tagName)) {
+// 		return;
+// 	}
+
+// 	if (ignoreOnMutation(node)) {
+// 		//Logger.logInfo('found br-ignore-on-mutation', 'skipping');
+// 		return;
+// 	}
+
+// 	if (node?.parentElement?.closest('body') && excludeByOrigin(node?.parentElement)) {
+// 		node.parentElement.setAttribute('br-ignore-on-mutation', 'true');
+// 		return;
+// 	}
+
+// 	if (node.nodeType === Node.TEXT_NODE && node.nodeValue.trim().length > 2) {
+// 		try {
+// 			const brSpan = document.createElement('br-span');
+// 			brSpan.innerHTML = highlightText(node.nodeValue);
+// 			if (node.previousSibling instanceof Element && node.previousSibling.tagName === 'BR-SPAN') {
+// 				if (node.previousSibling?.innerHTML === brSpan.innerHTML) {
+// 					Logger.logInfo('Same node, skip', node);
+// 					node.textContent = '';
+
+// 					return;
+// 				}
+// 				node.previousSibling.remove();
+// 			}
+
+// 			node.parentElement.insertBefore(brSpan, node);
+// 			node.textContent = '';
+// 		} catch (err) {
+// 			Logger.logError('Unable to parse');
+// 		}
+// 	} else if (node.hasChildNodes()) {
+// 		Array.from(node.childNodes).forEach((child) => {
+// 			parseSeveralNodes(child);
+// 		});
+// 	}
+// }
 
 function ignoreOnMutation(node) {
 	return node?.parentElement?.closest('[br-ignore-on-mutation]');
 }
 
-function mutationCallback(mutationRecords: MutationRecord[]) {
-	const body = mutationRecords[0]?.target?.parentElement?.closest('body');
-	if (body && ['textarea:focus', 'input:focus'].filter((query) => body?.querySelector(query)).length) {
-		Logger.logInfo('focused or active input found, exiting mutationCallback');
+let queuedMutations = [];
+let mutationFrameRequested = false;
+
+function mutationCallback(mutationRecords) {
+	//Logger.logInfo('Mutations callback', mutationRecords);
+
+	queuedMutations.push(...mutationRecords);
+	if (!mutationFrameRequested) {
+		mutationFrameRequested = true;
+		requestAnimationFrame(processMutations);
+	}
+}
+
+function processMutations() {
+	const body = queuedMutations[0]?.target?.parentElement?.closest('body');
+	if (body && ['textarea:focus', 'input:focus'].some((query) => body.querySelector(query))) {
+		Logger.logInfo('Focused or active input found, exiting mutationCallback');
 		return;
 	}
 
-	Logger.logInfo('mutationCallback fired ', mutationRecords.length, mutationRecords);
-	mutationRecords.forEach(({ type, addedNodes, target }) => {
-		if (!MUTATION_TYPES.includes(type)) {
-			return;
+	const mutationsToProcess = queuedMutations.splice(0, 80);
+
+	//if (mutationsToProcess.length < 10) {
+	mutationsToProcess.forEach((mutation) => {
+		if (mutation.type == 'childList') {
+			[...mutation.addedNodes].forEach((node) => {
+				if (!IGNORE_NODE_TAGS.has(node.tagName)) {
+					parseNode(node);
+				}
+			});
 		}
-
-		// Some changes don't add nodes
-		// but values are changed
-		// To account for that,
-		// recursively parse the target node as well
-		// parseNode(target);
-
-		[...addedNodes, target].forEach((node) => {
-			if (!ignoreOnMutation(node)) {
-				parseNode(node);
+		if (mutation.type == 'characterData') {
+			if (!IGNORE_NODE_TAGS.has(mutation.target?.parentNode)) {
+				parseNode(mutation.target?.parentNode);
 			}
-		});
-	});
-}
-
-const observedNodes = new Set();
-
-function observeVisibleNodes() {
-	const nodes = document.body.querySelectorAll('div, span, p, li, a');
-	nodes.forEach((node) => {
-		observerInteraction.observe(node);
-		observedNodes.add(node);
-	});
-}
-
-function unobserveNodes() {
-	Logger.logInfo('Unobserve noddes', observedNodes);
-	observedNodes.forEach((node: Node) => {
-		if (node instanceof Element) {
-			observerInteraction.unobserve(node);
-		} else {
-			console.error('Attempted to unobserve a non-element node');
 		}
-		observedNodes.delete(node);
 	});
-	observerInteraction.disconnect();
+	// } else {
+	// 	mutationsToProcess.forEach((mutation) => {
+	// 		if (mutation.type == 'childList') {
+	// 			[...mutation.addedNodes].forEach((node) => {
+	// 				if (!IGNORE_NODE_TAGS.has(node.tagName)) {
+	// 					parseNode(node);
+	// 				}
+	// 			});
+	// 		}
+	// 		if (mutation.type == 'characterData') {
+	// 			if (!IGNORE_NODE_TAGS.has(mutation.target?.parentNode)) {
+	// 				parseSeveralNodes(mutation.target?.parentNode);
+	// 			}
+	// 		}
+	// 	});
+	// }
+
+	if (queuedMutations.length > 0) {
+		requestAnimationFrame(processMutations);
+	} else {
+		mutationFrameRequested = false;
+	}
+	processChangedNodes();
 }
+
+const observedNodes = [];
 
 const screenHeight = window.innerHeight;
 const observerInteraction = new IntersectionObserver(
@@ -255,6 +285,25 @@ const observerInteraction = new IntersectionObserver(
 		rootMargin: `${screenHeight}px 0px ${screenHeight}px 0px`,
 	},
 );
+
+function observeVisibleNodes() {
+	const nodes = document.body.querySelectorAll('div, span, p, li, a');
+	nodes.forEach((node) => {
+		observerInteraction.observe(node);
+		observedNodes.push(node);
+	});
+}
+
+function unobserveNodes() {
+	Logger.logInfo('Unobserve noddes', observedNodes);
+	observedNodes.forEach((node: Node) => {
+		if (node instanceof Element) {
+			observerInteraction.unobserve(node);
+		}
+	});
+	observedNodes.length = 0;
+	observerInteraction.disconnect();
+}
 
 function addStyles(styleText, document) {
 	const style = document.createElement('style');
@@ -290,22 +339,6 @@ const setSaccadesStyle = (documentRef) => (style) => {
 		setProperty(documentRef)('--br-boldness', '');
 	}
 };
-
-// function getConfigFromStorage() {
-// 	const storedConfig = localStorage.getItem(USER_PREF_STORE_KEY);
-// 	return storedConfig ? JSON.parse(storedConfig) : null;
-// }
-
-// function getShowBetaValue() {
-// 	const config = getConfigFromStorage();
-// 	if (!config || !config.global) {
-// 		console.log('No global configuration found.');
-// 		return null;
-// 	}
-
-// 	const showBeta = config.global.renderModeBeta;
-// 	return showBeta;
-// }
 
 export default {
 	setReadingMode,

@@ -289,18 +289,6 @@ function PopupPage() {
 	const showAdvancedSettings = () => {
 		return (
 			<>
-				<div className="w-100 pr-mr">
-					<button
-						id="betaMode"
-						className={`|| flex flex-column || w-100 align-items-center text-capitalize ${prefs.renderModeBeta ? 'selected' : ''}`}
-						onClick={() => updateConfig('renderModeBeta', !prefs.renderModeBeta)}>
-						<span className="text-bold">
-							{chrome.i18n.getMessage(prefs.renderModeBeta ? 'defaultBetaModeToggleBtnOnText' : 'defaultBetaModeToggleBtnOffText')}
-						</span>
-						<span className="text-sm pt-sm">{chrome.i18n.getMessage('defaultBetaModeToggleBtnSubText')}</span>
-					</button>
-				</div>
-
 				<div className="flex flex-column">
 					<div className="flex w-100 justify-between">
 						<div className="w-100 pr-mr">

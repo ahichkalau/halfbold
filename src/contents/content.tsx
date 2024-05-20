@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from 'react';
 
 import Logger from '~services/Logger';
 import documentParser from '~services/documentParser';
-import overrides from '~services/siteOverrides';
 import usePrefs from '~services/usePrefs';
 
 export const config: PlasmoContentScript = {
@@ -34,35 +33,6 @@ const contentLogStyle = 'background-color: pink';
 
 const runTimeHandler = typeof browser === 'undefined' ? chrome : browser;
 
-const OVERLAY_STYLE = {
-	position: 'fixed' as 'fixed',
-	bottom: '40px',
-	left: '40px',
-	display: 'flex',
-	background: 'white',
-	padding: '15px',
-	flexDirection: 'column' as 'row',
-};
-
-const injectPassiveStyleOverides = (document: Document) => {
-	try {
-		setTimeout(() => {
-			//inject passiveOverride styles
-			const overrideStyle = overrides.getPassiveOverride(window.location.href);
-			let style = document.querySelector('style');
-			if (!style) {
-				style = document.createElement('style');
-				document.body.append(style);
-			}
-
-			style.textContent += ' ' + overrideStyle;
-			Logger.logInfo('div:has( + body ) ammended');
-		}, 500);
-	} catch (error) {
-		Logger.logError(error);
-	}
-};
-
 window.addEventListener('load', () => {
 	Logger.logInfo('content script loaded');
 
@@ -78,9 +48,9 @@ const IndexContent = () => {
 	const [tabSession, setTabSession] = useState<TabSession | null>(null);
 	const prevTabSession = useRef(tabSession);
 
-	const [isExpanded, setExpanded] = useStorage({ area: 'local', key: 'show_debug_overlay' }, async (previous) =>
-		typeof previous !== 'boolean' ? false : previous,
-	);
+	// const [isExpanded, setExpanded] = useStorage({ area: 'local', key: 'show_debug_overlay' }, async (previous) =>
+	// 	typeof previous !== 'boolean' ? false : previous,
+	// );
 
 	const chromeRuntimeMessageHandler = (message, sender, _sendResponse) => {
 		const sendResponse = (response) => {
@@ -125,7 +95,7 @@ const IndexContent = () => {
 					Logger.logInfo('%cInitializeTabsession', contentLogStyle, { prevTabSession, newValue });
 					return newValue;
 				});
-			}, 0);
+			}, delay);
 		}
 
 		if (!prefs || !tabSession) return;
@@ -177,7 +147,7 @@ const IndexContent = () => {
 		runTimeHandler.runtime.onMessage.addListener(chromeRuntimeMessageHandler);
 	}, []);
 
-	const toggleExpandeHandler = () => setExpanded(!isExpanded);
+	/*	const toggleExpandeHandler = () => setExpanded(!isExpanded);
 
 	const getCollapseExpandBtn = () => <button onClick={toggleExpandeHandler}> {isExpanded ? 'Collapse' : 'Expand'}</button>;
 
@@ -209,7 +179,8 @@ const IndexContent = () => {
 		);
 	};
 
-	return showDebugOverLay(process.env.NODE_ENV !== 'production');
+	return showDebugOverLay(process.env.NODE_ENV !== 'production'); 
+	*/
 };
 
 export default IndexContent;

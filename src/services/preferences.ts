@@ -5,7 +5,7 @@
 // added here
 
 const defaultPrefs = {
-	onPageLoad: true,
+	onPageLoad: false,
 	scope: 'global',
 	lineHeight: 1,
 	edgeOpacity: 70,

@@ -15,7 +15,7 @@ const siteOverrides = {
  */
 const sitePassiveOverrides = {
 	'twitter.com': 'div:has(+ body) { position: absolute; z-index: -1; } iframe + div + body{ position: absolute: z-index: 1 }',
-	'youtube.com/embed': 'div:has( + body) { position: absolute; z-index: -1; }',
+	'youtube.com/embed': 'div:has( + body) { position: absolute; z-index: -1; }'
 };
 
 const getSiteOverride = (url: string, defs: Record<string, string> = siteOverrides) => {

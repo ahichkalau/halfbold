@@ -33,9 +33,8 @@ const getActiveTab = (isBgScript): Promise<chrome.tabs.Tab> =>
 	});
 
 /**
- * Function to get the origin URL of the provided tab or the active tab if the tab is null.
- * @param {chrome.tabs.Tab} [tab] - The tab object.
- * @returns {Promise<string>} - A promise that resolves to the origin URL of the tab.
+ * @params {chrome.tabs.Tab} [tab = getActiveTab()]
+ * the origin of the tab provided or the origin of the active tab if tab is null
  */
 const getTabOrigin = async (tab) => {
 	try {
