@@ -137,7 +137,6 @@ function parseNode(node) {
 	}
 
 	if (ignoreOnMutation(node)) {
-		//Logger.logInfo('found br-ignore-on-mutation', 'skipping');
 		return;
 	}
 
@@ -160,47 +159,6 @@ function parseNode(node) {
 	}
 }
 
-// function parseSeveralNodes(node) {
-// 	if (!node?.parentElement?.tagName || IGNORE_NODE_TAGS.has(node.parentElement.tagName)) {
-// 		return;
-// 	}
-
-// 	if (ignoreOnMutation(node)) {
-// 		//Logger.logInfo('found br-ignore-on-mutation', 'skipping');
-// 		return;
-// 	}
-
-// 	if (node?.parentElement?.closest('body') && excludeByOrigin(node?.parentElement)) {
-// 		node.parentElement.setAttribute('br-ignore-on-mutation', 'true');
-// 		return;
-// 	}
-
-// 	if (node.nodeType === Node.TEXT_NODE && node.nodeValue.trim().length > 2) {
-// 		try {
-// 			const brSpan = document.createElement('br-span');
-// 			brSpan.innerHTML = highlightText(node.nodeValue);
-// 			if (node.previousSibling instanceof Element && node.previousSibling.tagName === 'BR-SPAN') {
-// 				if (node.previousSibling?.innerHTML === brSpan.innerHTML) {
-// 					Logger.logInfo('Same node, skip', node);
-// 					node.textContent = '';
-
-// 					return;
-// 				}
-// 				node.previousSibling.remove();
-// 			}
-
-// 			node.parentElement.insertBefore(brSpan, node);
-// 			node.textContent = '';
-// 		} catch (err) {
-// 			Logger.logError('Unable to parse');
-// 		}
-// 	} else if (node.hasChildNodes()) {
-// 		Array.from(node.childNodes).forEach((child) => {
-// 			parseSeveralNodes(child);
-// 		});
-// 	}
-// }
-
 function ignoreOnMutation(node) {
 	return node?.parentElement?.closest('[br-ignore-on-mutation]');
 }
@@ -209,8 +167,6 @@ let queuedMutations = [];
 let mutationFrameRequested = false;
 
 function mutationCallback(mutationRecords) {
-	//Logger.logInfo('Mutations callback', mutationRecords);
-
 	queuedMutations.push(...mutationRecords);
 	if (!mutationFrameRequested) {
 		mutationFrameRequested = true;

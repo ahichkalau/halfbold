@@ -44,7 +44,6 @@ function RatingPrompt({ onClose }) {
 								onMouseEnter={() => setHovered(index + 1)}
 								onMouseLeave={() => setHovered(null)}>
 								<img src={ratingImage} alt="Rating" />
-
 							</span>
 						))}
 					</div>
