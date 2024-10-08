@@ -38,7 +38,7 @@ const { setAttribute, setProperty, getProperty, getAttribute, setSaccadesStyle }
 const FIXATION_OPACITY_STOPS = 5;
 const FIXATION_OPACITY_STOP_UNIT_SCALE = Math.floor(100 / FIXATION_OPACITY_STOPS);
 //1 day
-const SHOW_RATING_AFTER_INTERVAL = 24;
+const SHOW_RATING_AFTER_INTERVAL = 24 * 60 * 60 * 1000;
 
 function PopupPage() {
 	const [activeTab, setActiveTab] = useState({} as chrome.tabs.Tab);
