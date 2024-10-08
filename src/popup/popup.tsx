@@ -1,46 +1,35 @@
 import { useEffect, useState } from 'react';
 
-
-
 import RatingPrompt from '~popup/rating';
 import Logger from '~services/Logger';
 import TabHelper from '~services/TabHelper';
 import usePrefs from '~services/usePrefs';
 
-
-
 import arrowDownImage from '../../assets/images/arrow_down.png';
 import reloadImage from '../../assets/images/reload.png';
 import unsupportedImage from '../../assets/images/unsupported.png';
-
-
-
-
-
 
 import './../styles/style.css';
 import './../styles/toggle.scss';
 import './../styles/error.css';
 
-
-
 import { useStorage } from '@plasmohq/storage';
 import type { Prefs, TabSession } from 'index';
 
-
-
-import { APP_PREFS_STORE_KEY, COLOR_MODE_STATE_TRANSITIONS, DisplayColorMode, MaxSaccadesInterval, SACCADE_COLORS, SACCADE_STYLES, STORAGE_AREA } from '~services/config';
+import {
+	APP_PREFS_STORE_KEY,
+	COLOR_MODE_STATE_TRANSITIONS,
+	DisplayColorMode,
+	MaxSaccadesInterval,
+	SACCADE_COLORS,
+	SACCADE_STYLES,
+	STORAGE_AREA,
+} from '~services/config';
 import documentParser from '~services/documentParser';
 import defaultPrefs from '~services/preferences';
 import runTimeHandler from '~services/runTimeHandler';
 
-
-
 import Shortcut, { useShowDebugSwitch } from './shorcut';
-
-
-
-
 
 const popupLogStyle = 'background:cyan;color:brown';
 
@@ -49,19 +38,37 @@ const { setAttribute, setProperty, getProperty, getAttribute, setSaccadesStyle }
 const FIXATION_OPACITY_STOPS = 5;
 const FIXATION_OPACITY_STOP_UNIT_SCALE = Math.floor(100 / FIXATION_OPACITY_STOPS);
 //1 day
-const SHOW_RATING_AFTER_INTERVAL = 24 * 60 * 60 * 1000;
+const SHOW_RATING_AFTER_INTERVAL = 24;
 
 function PopupPage() {
 	const [activeTab, setActiveTab] = useState({} as chrome.tabs.Tab);
 	const [showRating, setShowRating] = useState(false);
-	const [counter, setCounter] = useState(0);
 
+	//rating prompt
 	useEffect(() => {
-		if (!localStorage.getItem('installDate')) {
-			localStorage.setItem('installDate', new Date().toISOString());
+		handleIncrementCounter();
+		handleIntervalCounter();
+	}, []);
+
+	const handleIncrementCounter = () => {
+		const ratingKey = 'ratingCounter';
+		if (!localStorage.getItem(ratingKey)) {
+			localStorage.setItem(ratingKey, String(1));
+		}
+		var ratingCounter: number = Number(localStorage.getItem(ratingKey));
+		localStorage.setItem(ratingKey, String(ratingCounter + 1));
+		if (ratingCounter >= 4) {
+			setShowRating(true);
+		}
+	};
+
+	const handleIntervalCounter = () => {
+		const installDateKey = 'installDate';
+		if (!localStorage.getItem(installDateKey)) {
+			localStorage.setItem(installDateKey, new Date().toISOString());
 		}
 
-		const installDate = localStorage.getItem('installDate');
+		const installDate = localStorage.getItem(installDateKey);
 		if (installDate) {
 			const installTime = new Date(installDate).getTime();
 			const currentTime = new Date().getTime();
@@ -70,17 +77,6 @@ function PopupPage() {
 			if (currentTime - installTime > threeDaysInMs) {
 				setShowRating(true);
 			}
-		}
-	}, []);
-
-	const handleIncrementCounter = () => {
-		if (!localStorage.getItem('ratingCounter')) {
-			localStorage.setItem('ratingCounter', String(1));
-		}
-		var ratingCounter: number = Number(localStorage.getItem('ratingCounter'));
-		localStorage.setItem('ratingCounter', String(ratingCounter + 1));
-		if (ratingCounter >= 4) {
-			setShowRating(true);
 		}
 	};
 
@@ -170,7 +166,6 @@ function PopupPage() {
 		};
 
 		Logger.logInfo('!!! handle toggle');
-		handleIncrementCounter();
 		setTabSession({ ...tabSession, brMode: newBrMode });
 		(runTimeHandler as typeof chrome).runtime.sendMessage(payloadBadge, () => Logger.LogLastError());
 
