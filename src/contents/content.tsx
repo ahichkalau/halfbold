@@ -1,4 +1,3 @@
-import { useStorage } from '@plasmohq/storage';
 import contentStyle from 'data-text:./../styles/contentStyle.scss';
 import type { TabSession } from 'index';
 import type { PlasmoContentScript } from 'plasmo';

@@ -1,5 +1,6 @@
-import { Storage, useStorage } from '@plasmohq/storage';
-import type { PrefStore } from 'index';
+import { Storage } from '@plasmohq/storage';
+import { useStorage } from '@plasmohq/storage/hook';
+import type {Prefs, PrefStore, SetPrefsExternal} from 'index';
 import { useEffect, useState } from 'react';
 
 import Logger from './Logger';
@@ -21,7 +22,6 @@ const usePrefs = (
 
 	const getActivePrefs = (originStr = privateOrigin, _prefStore = prefStore) => {
 		if (!originStr || !_prefStore) return;
-
 		return prefStore?.['local']?.[originStr] || prefStore['global'];
 	};
 
@@ -32,7 +32,6 @@ const usePrefs = (
 		}
 
 		const finalInitialPrefs = initialPrefs;
-
 		Logger.logInfo('%cinitializePrefs', PREF_LOG_STYLE, {
 			privateOrigin,
 			initialPrefs,
@@ -42,7 +41,7 @@ const usePrefs = (
 		return finalInitialPrefs;
 	};
 
-	const [prefStore, setPrefStore] = useStorage({ key: 'prefStore', area }, initializePrefs as any as PrefStore);
+	const [prefStore, setPrefStore] = useStorage("prefStore", { area: initializePrefs as any as PrefStore});
 
 	const setPrefsExternal = async (getOrigin: () => Promise<string>, scope: string, newPrefs: Prefs, deleteOldLocal: boolean = true) => {
 		if (!PREF_STORE_SCOPES.includes(scope)) throw Error(`Error: invalid scope value: ${scope}`);

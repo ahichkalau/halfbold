@@ -1,16 +1,16 @@
 {
   "name": "halfbold-reader",
   "displayName": "HalfBold reader",
-  "version": "1.0.5.22",
+  "version": "1.1",
   "description": "HalfBold reader",
-  "packageManager": "yarn@1.22.19",
+  "packageManager": "pnpm@10.2.1",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
-    "dev:chrome": "cross-env VERSION=0.0.0.1 VERSION_NAME=\"jiffy-reader-chrome-dev\" NAME=\"jiffy-reader-chrome-dev\" TARGET=chrome SHORTCUT=\"Alt+B\" DEBUG=TRUE plasmo dev --target=chrome-mv3",
+    "dev:chrome": "cross-env VERSION=1.0.6 VERSION_NAME=\"half-bold-reader-chrome-dev\" NAME=\"jiffy-reader-chrome-dev\" TARGET=chrome SHORTCUT=\"Alt+B\" DEBUG=TRUE plasmo dev --target=chrome-mv3",
     "dev:firefox": "cross-env VERSION=0.0.0.1 VERSION_NAME=\"jiffy-reader-firefox-dev\" NAME=\"jiffy-reader-firefox-dev\" TARGET=firefox SHORTCUT=\"Alt+W\" DEBUG=TRUE plasmo dev --target=firefox-mv2",
     "dev:safari": "cross-env VERSION=0.0.0.1 VERSION_NAME=\"jiffy-reader-safari-dev\" NAME=\"jiffy-reader-safari-dev\" TARGET=safari SHORTCUT=\"Alt+W\" DEBUG=TRUE plasmo dev --target=safari-mv2",
-    "build:chrome": "cross-env VERSION=0.0.0.1 VERSION_NAME=\"0.0.0.1-jiffy-reader-chrome-dev-build\" NAME=\"jiffy-reader-chrome-dev\" TARGET=chrome SHORTCUT=\"Alt+B\" DEBUG=FALSE plasmo build --target=chrome-mv3",
+    "build:chrome": "cross-env VERSION=1.1 VERSION_NAME=\"1.1\" NAME=\"half-bold-reader-chrome\" TARGET=chrome SHORTCUT=\"Alt+B\" DEBUG=FALSE plasmo build --target=chrome-mv3",
     "build:firefox": "cross-env VERSION=0.0.0.1 VERSION_NAME=\"0.0.0.1-jiffy-reader-firefox-dev-build\" NAME=\"jiffy-reader-firefox-dev\" TARGET=firefox SHORTCUT=\"Alt+W\" DEBUG=FALSE plasmo build --target=firefox-mv2",
     "build:safari": "cross-env VERSION=0.0.0.1 VERSION_NAME=\"0.0.0.1-jiffy-reader-safari-dev-build\" NAME=\"jiffy-reader-safari-dev\" TARGET=safari SHORTCUT=\"Alt+W\" DEBUG=FALSE plasmo build --target=safari-mv2",
     "gh:build:chrome": "cross-env NAME=\"Jiffy Reader\" DEBUG=FALSE TARGET=chrome SHORTCUT=\"Alt+B\" plasmo build --target=chrome-mv3 && npm run bundle:chrome-opera",
@@ -25,28 +25,37 @@
     "dev:xcode": "xcrun safari-web-extension-converter --swift --no-open --force  --bundle-identifier com.jiffyreader build/safari-mv2-dev"
   },
   "dependencies": {
-    "@plasmohq/prettier-plugin-sort-imports": "^1.1.1",
-    "@plasmohq/storage": "^0.8.1",
-    "axios": "^1.6.8",
+    "@plasmohq/prettier-plugin-sort-imports": "^4.0.1",
+    "@plasmohq/storage": "^1.15.0",
+    "axios": "1.7.8",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.20.2",
-    "esbuild-sass-plugin": "^3.2.0",
-    "plasmo": "0.50.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "docxtemplater": "^3.59.0",
+    "esbuild": "^0.25.0",
+    "esbuild-sass-plugin": "^3.3.1",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.2",
+    "install": "^0.13.0",
+    "jspdf": "^2.5.2",
+    "npm": "^11.1.0",
+    "pdfmake": "^0.2.18",
+    "pizzip": "^3.1.8",
+    "plasmo": "0.90.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "2.6.2",
-    "@types/chrome": "0.0.193",
+    "@parcel/transformer-sass": "2.13.3",
+    "@types/chrome": "0.0.304",
     "@types/firefox-webext-browser": "^111.0.1",
-    "@types/node": "18.6.1",
-    "@types/react": "18.0.15",
-    "@types/react-dom": "18.0.6",
+    "@types/node": "22.13.1",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
     "console-browserify": "^1.2.0",
     "eslint-config-airbnb-base-typescript-prettier": "^5.1.0",
-    "prettier": "2.7.1",
+    "prettier": "3.5.0",
     "process": "^0.11.10",
-    "typescript": "5.4.5"
+    "typescript": "5.7.3"
   },
   "manifest": {
     "version_name": "$VERSION_NAME",
@@ -68,23 +77,13 @@
     "web_accessible_resources": [
       {
         "resources": [
-          "assets/icons/icon_128.png",
-          "assets/icons/icon_48.png",
-          "assets/icons/icon_32.png",
-          "assets/icons/icon_16.png",
-          "assets/icon512.png"
+          "assets/icons/icon*.png"
         ],
         "matches": [
           "<all_urls>"
         ]
       }
-    ],
-    "icons": {
-      "128": "assets/icons/icon_128.png",
-      "48": "assets/icons/icon_48.png",
-      "32": "assets/icons/icon_32.png",
-      "16": "assets/icons/icon_16.png"
-    }
+    ]
   },
   "repository": {
     "type": "git",

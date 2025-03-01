@@ -6,6 +6,7 @@ import TabHelper from '~services/TabHelper';
 import { APP_PREFS_STORE_KEY, DisplayColorMode, STORAGE_AREA, USER_PREF_STORE_KEY } from '~services/config';
 import defaultPrefs from '~services/preferences';
 import runTimeHandler from '~services/runTimeHandler';
+import {useStorage} from "@plasmohq/storage/hook";
 
 export {};
 
@@ -28,14 +29,7 @@ const setBadgeBackgroundColor = (BadgeBackgroundColorDetails: chrome.action.Badg
 	);
 };
 
-const openInstallationWelcomePage = async (
-	eventReason: chrome.runtime.OnInstalledReason,
-	browserTargetName: string = process.env.TARGET,
-) => {
-	// if (await storage.get(USER_PREF_STORE_KEY)) {
-	// 	return;
-	// }
-
+const openInstallationWelcomePage = async (eventReason: any) => {
 	chrome.tabs.create({
 		active: true,
 		url: `https://ahichkalau.github.io/halfbold`,
@@ -169,8 +163,6 @@ function onInstallHandler(event: chrome.runtime.InstalledDetails) {
 
 	initializeAppPref();
 }
-
-// register and call functions below
 
 chrome.runtime.onInstalled.addListener(onInstallHandler);
 

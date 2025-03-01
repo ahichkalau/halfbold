@@ -50,6 +50,7 @@ export default function PopupContextProvider({ children }) {
 			}
 
 			for (const [key, val] of Object.entries(savedStore)) {
+				// @ts-ignore
 				dispatch([key as keyof typeof store, val]);
 			}
 		})();
